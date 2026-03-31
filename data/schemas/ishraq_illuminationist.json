@@ -1,0 +1,232 @@
+{
+  "tradition": "ishraq_illuminationist",
+  "primary_source": "Suhrawardi, Hikmat al-Ishraq (The Philosophy of Illumination), trans. John Walbridge & Hossein Ziai (Brigham Young University Press, 1999)",
+  "treatises_used": ["Hikmat al-Ishraq, Part II (Metaphysics/Cosmology)"],
+  "scholarly_anchors": [
+    "John Walbridge & Hossein Ziai, Suhrawardi: The Philosophy of Illumination (BYU Press, 1999)",
+    "Hossein Ziai, Knowledge and Illumination: A Study of Suhrawardi's Hikmat al-Ishraq (Brown University Press, 1990)",
+    "Henry Corbin, En Islam iranien: Aspects spirituels et philosophiques, 4 vols (Gallimard, 1971-72)",
+    "John Walbridge, The Leaven of the Ancients: Suhrawardi and the Heritage of the Greeks (SUNY Press, 2000)",
+    "Mehdi Aminrazavi, Suhrawardi and the School of Illumination (Curzon, 1997)",
+    "Jari Kaukua, Suhrawardi: Philosophy, Illumination and the Role of the Ishraq (Brill, 2022)"
+  ],
+  "encoding_date": "2026-03-29",
+  "encoder": "Erydir-Ceisiwr",
+  "version": "1.1",
+  "version_notes": "v1.1 (2026-03-29): Section numbers corrected following Perplexity cross-validation. Added 'alam_al_mithal alternative encoding. Added Kaukua (2022) to scholarly anchors. Branching flag elevated to HIGH for primary encoding note.",
+  "encoding_notes": "Encoding follows the scholarly consensus reconstruction of Suhrawardi's light hierarchy from Part II of Hikmat al-Ishraq (Walbridge & Ziai 1999, Ziai 1990, Corbin 1971). The hierarchy descends from pure incorporeal light (Nur al-Anwar) through orders of self-subsistent and dependent lights down to opaque matter (barzakhs). Independence: MODERATE — derived emanationist framework (via Arabic Neoplatonists, Avicenna) but with genuine topological novelties: light/darkness ontology replaces substance/accident categories; latitudinal order (Lords of Species) has no Neoplatonic equivalent; Zoroastrian integration (Ahura Mazda, Xvarnah). STRUCTURAL FLAG: The longitudinal (vertical) and latitudinal (horizontal) orders constitute genuinely separate axes — Suhrawardi's full system is a branching DAG, not a strict linear chain. Primary encoding collapses the latitudinal order to a single collective node (Granularity Rule), producing a linear chain. The HIGH-PRIORITY branching alternative (see alternative_encodings) would reclassify this schema as a branching tree and dissolve the Ishraq-Samkhya GED=0 isomorphism. This encoding decision is the single most consequential interpretive choice in WP 1.2. Section numbers verified against Walbridge & Ziai (1999) by Perplexity cross-validation, 2026-03-29.",
+
+  "nodes": [
+    {
+      "id": "nur_al_anwar",
+      "name": "Nur al-Anwar (Light of Lights)",
+      "aliases": ["God", "The Necessary Existent", "Ahura Mazda (in Zoroastrian reading)"],
+      "tradition": "ishraq_illuminationist",
+      "functional_role": "source",
+      "level": 0,
+      "description": "The absolute source. Pure self-subsistent light without any admixture of darkness. Not a being among beings but the ground of all being. Self-luminous, uncaused, unique. Suhrawardi argues via infinite-regress that there must be a single uncaused light from which all others derive. The Light of Lights has no quiddity (mahiyya) distinct from its existence (wujud) — a key anti-Avicennan move.",
+      "source_reference": "Hikmat al-Ishraq, Part II, sect. 128-134 (On the Light of Lights)"
+    },
+    {
+      "id": "nearest_light",
+      "name": "al-Nur al-Aqrab (The Nearest Light)",
+      "aliases": ["The First Light", "The Proximate Light", "Bahman (in Zoroastrian reading)"],
+      "tradition": "ishraq_illuminationist",
+      "functional_role": "first_emanation",
+      "level": 1,
+      "description": "The first emanated incorporeal light. Most perfect of all created lights. Pure incorporeal light — self-subsistent, not dependent on a substrate. Produced by the Light of Lights' self-illumination following the Avicennan principle: from the simple, only one thing can proceed. Aware of itself and of its source. The proximate cause of the next order.",
+      "source_reference": "Hikmat al-Ishraq, Part II, sect. 135-152 (The First Incorporeal Light)"
+    },
+    {
+      "id": "victorial_lights",
+      "name": "al-Anwar al-Qahira (The Victorial/Dominant Lights)",
+      "aliases": ["The Longitudinal Order (al-tartib al-tuli)", "The Abstract Lights", "Celestial Intellects"],
+      "tradition": "ishraq_illuminationist",
+      "functional_role": "intellect",
+      "level": 2,
+      "description": "A cascade of pure incorporeal lights forming the 'longitudinal order' — a vertical chain where each light emanates from the one above through self-illumination and contemplation. Each light stands in a dominance (qahr) and love (mahabba) relationship with its source. The number is not fixed by Suhrawardi; it generalises Avicenna's ten celestial intellects to an indeterminate chain. This is where Suhrawardi most clearly extends the Neoplatonic framework: rather than Plotinus's simple One > Nous, he posits an extended intellectual cascade.",
+      "source_reference": "Hikmat al-Ishraq, Part II, sect. 144-151 (The Longitudinal Order)",
+      "encoding_note": "Encoded as one collective node per Granularity Rule. The entire longitudinal order functions as a single structural tier characterised by its mode of production (vertical cascade). Suhrawardi does not enumerate specific intermediate members. See alternative_encodings for expanded versions."
+    },
+    {
+      "id": "lords_of_species",
+      "name": "Arbab al-Anwa (Lords of the Species)",
+      "aliases": ["Anwar al-Ispahbad (Regent/Managing Lights)", "The Latitudinal Order (al-tartib al-ardi)", "Platonic Forms as active lights"],
+      "tradition": "ishraq_illuminationist",
+      "functional_role": "intermediary",
+      "level": 3,
+      "description": "Suhrawardi's most distinctive contribution. The latitudinal order consists of incorporeal lights existing side-by-side rather than in a vertical chain. Each is the archetype and governor (rabb al-naw, 'lord of the species') of a particular species in the material world — the Lord of Humanity, the Lord of Horses, etc. These are Platonic Forms reimagined as active, governing lights. Each receives illumination from the longitudinal lights above and directly governs its corresponding species. The military-governor metaphor (ispahbad) is characteristically Persian. No Neoplatonic equivalent for this side-by-side archetype tier exists in the corpus.",
+      "source_reference": "Hikmat al-Ishraq, Fifth Discourse, sect. 246-248 (Lords of Species, arbab al-anwa'); brief mention at sect. 155"
+    },
+    {
+      "id": "accidental_lights",
+      "name": "al-Anwar al-'Arida (Accidental Lights)",
+      "aliases": ["Dependent Lights", "Substrate-bound Lights", "Animal/Vegetative Souls"],
+      "tradition": "ishraq_illuminationist",
+      "functional_role": "soul",
+      "level": 4,
+      "description": "Lights that are NOT self-subsistent — they depend on a substrate (barzakh) for their existence. Includes the light of stars and celestial bodies, animal souls, vegetative souls, and any luminosity in the material world. Ontologically inferior to incorporeal lights because they cannot exist independently. They are the luminous aspect of corporeal things — the Ishraqi equivalent of souls. They vivify and animate, connecting the governing species-lords above to the material substrates below.",
+      "source_reference": "Hikmat al-Ishraq, Part II, sect. 107-115 (On Light and Darkness — foundational discussion)",
+      "encoding_note": "The 'soul' mapping is approximate: not all accidental lights are souls (starlight is not a soul), but the animating accidental lights are functionally equivalent. See alternative encoding 'merged_accidental' for a 6-node version without this level."
+    },
+    {
+      "id": "celestial_barzakhs",
+      "name": "al-Barazikh al-'Ulwiyya (Celestial Barzakhs)",
+      "aliases": ["Heavenly Spheres", "Celestial Barriers", "Noble Dark Substrates"],
+      "tradition": "ishraq_illuminationist",
+      "functional_role": "intermediary",
+      "level": 5,
+      "description": "Barzakh (pl. barazikh) means 'barrier' or 'isthmus'. In Suhrawardi's system, barzakhs are dark substances — not morally dark but ontologically dark: they are NOT self-luminous. They can only be illuminated from without by a light. The celestial barzakhs are the heavenly spheres of the Ptolemaic cosmos — the highest-ranking dark substances: eternal, noble, and directly governed by their corresponding regent lights. They are the cosmic structure within which the material world exists.",
+      "source_reference": "Hikmat al-Ishraq, Part II, sect. 163-171 (On the Heavenly Spheres)",
+      "encoding_note": "Double 'intermediary' role (also used at level 3). This is precedented — the Samkhya schema uses 'intermediary' at levels 3 and 5."
+    },
+    {
+      "id": "elemental_matter",
+      "name": "al-Barazikh al-Sufla (Sublunary Barzakhs / Elemental Matter)",
+      "aliases": ["al-Hayula (Prime Matter)", "The Four Elements", "Sublunary World"],
+      "tradition": "ishraq_illuminationist",
+      "functional_role": "matter",
+      "level": 6,
+      "description": "The lowest level of reality. Elemental matter — the four elements in their gross, sublunary form. Maximum ontological distance from the Light of Lights. Closest to pure darkness. Characterised by opacity, change, generation and corruption, and total dependence on the luminous orders above for any form or organisation. The terminus of the emanation hierarchy.",
+      "source_reference": "Hikmat al-Ishraq, Fourth Discourse, sect. 184-214 (On the Elemental World)"
+    }
+  ],
+
+  "edges": [
+    {
+      "source": "nur_al_anwar",
+      "target": "nearest_light",
+      "relationship": "emanation",
+      "description": "Direct illumination from the absolute source. The Light of Lights radiates the Nearest Light through its self-illumination. Mapped from Suhrawardi's 'ishraq' (illumination/irradiation) — structurally equivalent to Plotinian emanation (top-down, non-diminishing production)."
+    },
+    {
+      "source": "nearest_light",
+      "target": "victorial_lights",
+      "relationship": "emanation",
+      "description": "The longitudinal cascade begins. Each Victorial Light is produced by the one above through self-illumination and contemplation of its source. The dominance (qahr) and love (mahabba) dynamic drives the cascade downward."
+    },
+    {
+      "source": "victorial_lights",
+      "target": "lords_of_species",
+      "relationship": "emanation",
+      "description": "The longitudinal order generates the latitudinal order through cross-illumination. The Victorial Lights collectively illuminate the archetypal Lords of Species, which then govern their respective material domains."
+    },
+    {
+      "source": "lords_of_species",
+      "target": "accidental_lights",
+      "relationship": "emanation",
+      "description": "Species-lords illuminate their corresponding material domains, producing the accidental lights (souls) within them. Each Lord of a Species activates the luminous aspect of the beings it governs."
+    },
+    {
+      "source": "accidental_lights",
+      "target": "celestial_barzakhs",
+      "relationship": "reflection",
+      "description": "Accidental lights do not produce barzakhs — barzakhs are dark substrates that RECEIVE illumination. The relationship is passive reception, not active production. 'Reflection' captures this asymmetry: the luminous encounters the opaque and is received by it."
+    },
+    {
+      "source": "celestial_barzakhs",
+      "target": "elemental_matter",
+      "relationship": "creation",
+      "description": "The transition from celestial to sublunary is a qualitative shift: from eternal, unchanging dark substrates to generated-and-corrupted elemental matter. 'Creation' marks this transformation — the production of the mutable from the immutable."
+    }
+  ],
+
+  "alternative_encodings": {
+    "branching_primary": {
+      "description": "HIGHEST PRIORITY ALTERNATIVE. Full branching DAG encoding: the victorial_lights (longitudinal order) generates BOTH the lords_of_species (latitudinal order, out-degree many) AND continues down to accidental_lights directly. The two axes are genuinely parallel and co-equal. This changes shape from linear chain to branching tree and would reclassify this schema from the linear-chain family to the branching-tree family. The Ishraq-Samkhya GED=0 isomorphism would not hold under this encoding.",
+      "scholarly_support": "Perplexity cross-validation (2026-03-29) confirms: the longitudinal and latitudinal orders are structurally distinct axes. Section §155 introduces the latitudinal order as branching from the longitudinal chain, with full treatment at §§246-248. The two axes are co-equal, not stacked. Kaukua (2022, Brill) reconstructs the hierarchy from philosophical axioms and does not treat the latitudinal order as a single linear step.",
+      "edges_modified": [
+        {
+          "source": "victorial_lights",
+          "target": "lords_of_species",
+          "relationship": "emanation",
+          "description": "First output branch: the longitudinal chain generates the latitudinal order of archetypal Lords."
+        },
+        {
+          "source": "victorial_lights",
+          "target": "accidental_lights",
+          "relationship": "emanation",
+          "description": "Second output branch: the longitudinal chain also directly generates accidental (dependent) lights."
+        }
+      ],
+      "encoding_note": "Under this encoding, victorial_lights has out-degree 2. The schema is no longer a linear chain. This is the most structurally faithful encoding but requires departing from the Granularity Rule's preference for single collective nodes."
+    },
+    "with_imaginal_world": {
+      "description": "8-node encoding adding the 'alam al-mithal (World of Imagination / Imaginal World) as an interstitial level between the Lords of Species and the Accidental Lights. The imaginal world is a Suhrawardian innovation: a realm of immaterial images, intermediate between the purely intelligible and the purely sensible, which has no equivalent in Plotinus. Identified by Perplexity cross-validation as a missing level in the primary encoding.",
+      "scholarly_support": "Corbin (1971-72) emphasises the 'alam al-mithal as central to Suhrawardi's mystical epistemology. Kaukua (2022) discusses it as a structural level between the governing lights and the material barzakhs. Walbridge & Ziai (1999) treat it in Part II.",
+      "nodes_added": [
+        {
+          "id": "alam_al_mithal",
+          "name": "'Alam al-Mithal (World of Imagination / Imaginal World)",
+          "functional_role": "intermediary",
+          "level": 4,
+          "description": "The interstitial world of immaterial images (mithals). Not purely intelligible (not incorporeal lights) and not purely material (not barzakhs). The realm where visions, mystical experiences, and archetypes exist as real objects. Corbin's 'mundus imaginalis'. Mediates between the archetypal Lords (level 3) and the accidental lights that vivify material beings.",
+          "source_reference": "Hikmat al-Ishraq, scattered references; Corbin (1971-72) analysis"
+        }
+      ],
+      "encoding_note": "MEDIUM priority. Including this level increases depth to 7 and adds a node with no clear WP 1.1 precedent. The 'alam al-mithal may resist the functional-role vocabulary — it is neither intellect nor soul nor intermediary in the standard sense. Flag for future work."
+    },
+    "merged_accidental": {
+      "description": "6-node encoding: removes accidental_lights. Lords of Species connect directly to celestial barzakhs via 'reflection'. This treats accidental lights as an attribute of the barzakh levels rather than a separate ontological tier.",
+      "scholarly_support": "Some readings of Suhrawardi treat accidental lights as the luminous aspect of barzakhs rather than an independent ontological level. A more parsimonious encoding.",
+      "nodes_removed": ["accidental_lights"],
+      "edges_modified": [
+        {
+          "source": "lords_of_species",
+          "target": "celestial_barzakhs",
+          "relationship": "reflection",
+          "description": "Lords of Species directly illuminate the celestial barzakhs without an intermediate accidental-light tier."
+        }
+      ]
+    },
+    "branching_at_lords": {
+      "description": "7-node encoding with branching: lords_of_species has out-degree 2, connecting to both accidental_lights (via emanation) and celestial_barzakhs (via reflection). This is the most structurally accurate representation — the Lords illuminate both the souls within things and the substrates of things simultaneously.",
+      "scholarly_support": "Ziai (1990) and Walbridge (2000) both describe the Lords as simultaneously governing both the luminous and dark aspects of their domains. The dual output is faithful to the ontology.",
+      "edges_modified": [
+        {
+          "source": "lords_of_species",
+          "target": "accidental_lights",
+          "relationship": "emanation"
+        },
+        {
+          "source": "lords_of_species",
+          "target": "celestial_barzakhs",
+          "relationship": "reflection"
+        }
+      ],
+      "encoding_note": "HIGH PRIORITY sensitivity alternative. Changes shape from linear chain to branching tree. Would affect GED calculations and topology family assignment."
+    },
+    "expanded_longitudinal": {
+      "description": "9-node encoding: splits victorial_lights into three nodes — First Light (already nearest_light at level 1), Middle Victorial Lights (new node at level 2), Last Victorial Light (new node at level 3). Adds one level of depth.",
+      "scholarly_support": "Option B from scouting report. Walbridge & Ziai (1999) note that Suhrawardi generalises Avicenna's ten intellects but does not specify the exact number.",
+      "nodes_added": [
+        {
+          "id": "middle_victorial",
+          "name": "Middle Victorial Lights",
+          "functional_role": "intellect",
+          "level": 2
+        },
+        {
+          "id": "last_victorial",
+          "name": "Last Victorial Light",
+          "functional_role": "intellect",
+          "level": 3
+        }
+      ],
+      "encoding_note": "LOW priority. The internal differentiation of the longitudinal order is not well-attested in the primary text."
+    }
+  },
+
+  "validation": {
+    "is_dag": true,
+    "single_root": true,
+    "root_node": "nur_al_anwar",
+    "all_connected": true,
+    "node_count": 7,
+    "edge_count": 6,
+    "depth": 6,
+    "within_bounds": true,
+    "all_attributes_present": true,
+    "all_edges_labeled": true
+  }
+}

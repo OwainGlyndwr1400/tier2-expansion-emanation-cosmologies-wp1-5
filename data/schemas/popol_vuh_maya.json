@@ -1,0 +1,181 @@
+{
+  "tradition": "popol_vuh_maya",
+  "primary_source": "Popol Vuh (K'iche' Maya creation epic)",
+  "treatises_used": ["Popol Vuh (Christenson 2007 translation)", "Popol Vuh (Tedlock 1985 translation)"],
+  "scholarly_anchors": [
+    "Christenson, A. J. (2007). Popol Vuh: Sacred Book of the Ancient K'iche' Maya. University of Oklahoma Press.",
+    "Tedlock, D. (1985). Popol Vuh: The Definitive Edition of the Maya Book of the Dawn of Life and the Glories of Gods and Kings. Simon & Schuster.",
+    "Carmack, R. M. & Mondloch, J. L. (1983). El Titulo de Totonicapan. UNAM."
+  ],
+  "encoding_date": "2026-03-30",
+  "encoder": "Claude (Kairoz) + Erydir-Ceisiwr",
+  "version": "1.0",
+  "encoding_notes": "The Popol Vuh presents a unique creation-by-trial cosmogony: three sequential attempts to create humanity, two of which fail catastrophically. The Divine Triad (Heart of Sky, Heart of Earth, Sovereign Plumed Serpent) is encoded as a single source node because they act as a co-present creative unity, not a sequential emanation. The Hero Twins' descent into Xibalba and resurrection is encoded as a fragmentation-contraction side-branch from the Wooden People destruction, representing the mythic mechanism by which failed creation is redeemed. This is the first Mesoamerican tradition in the corpus and has zero known contact with Mediterranean, Near Eastern, Indian, or Chinese cosmological traditions.",
+
+  "nodes": [
+    {
+      "id": "divine_triad",
+      "name": "Divine Triad (Uk'ux Kaj / Uk'ux Ulew / Q'ukumatz)",
+      "aliases": ["Heart of Sky", "Heart of Earth", "Sovereign Plumed Serpent", "Maker-Modeler", "Tepeu-Gucumatz"],
+      "tradition": "popol_vuh_maya",
+      "functional_role": "source",
+      "level": 0,
+      "description": "The co-present creative trinity: Heart of Sky (Huracan), Heart of Earth, and Sovereign Plumed Serpent (Q'ukumatz/Kukulkan). They exist together in the primordial sea-sky before creation, thinking and speaking the world into being.",
+      "source_reference": "Popol Vuh, Preamble and Part 1 (Christenson 2007, pp. 59-73)"
+    },
+    {
+      "id": "creative_speech",
+      "name": "Creative Speech / Breath-Word",
+      "aliases": ["Tzij", "the Word", "divine utterance"],
+      "tradition": "popol_vuh_maya",
+      "functional_role": "process",
+      "level": 1,
+      "description": "The mechanism of creation: the gods speak and the earth emerges. This is the operative process node — creation happens through spoken word, not emanation or manual craft.",
+      "source_reference": "Popol Vuh, Part 1 (Christenson 2007, pp. 73-78)"
+    },
+    {
+      "id": "earth_animals",
+      "name": "Earth and Animals",
+      "aliases": ["mountains", "rivers", "deer", "birds", "jaguars", "serpents"],
+      "tradition": "popol_vuh_maya",
+      "functional_role": "matter",
+      "level": 2,
+      "description": "The first products of Creative Speech: the physical earth (mountains, plains, rivers) and all animal life. The animals are created first but cannot speak, cannot name the gods, and thus cannot fulfill the purpose of creation (worship/remembrance).",
+      "source_reference": "Popol Vuh, Part 1 (Christenson 2007, pp. 78-85)"
+    },
+    {
+      "id": "mud_people",
+      "name": "Mud People (1st Attempt)",
+      "aliases": ["people of earth", "mud beings"],
+      "tradition": "popol_vuh_maya",
+      "functional_role": "matter",
+      "level": 3,
+      "description": "First attempt at creating humans from wet earth/mud. They dissolve in water, cannot turn their heads, cannot speak coherently, and are destroyed. A failed creation — matter without structural integrity.",
+      "source_reference": "Popol Vuh, Part 1 (Christenson 2007, pp. 85-88)",
+      "encoding_note": "Collapse node — immediately dissolved/destroyed by the gods"
+    },
+    {
+      "id": "wooden_people",
+      "name": "Wooden People (2nd Attempt)",
+      "aliases": ["manikins", "wooden effigies", "people of wood"],
+      "tradition": "popol_vuh_maya",
+      "functional_role": "matter",
+      "level": 3,
+      "description": "Second attempt: carved from wood. They can speak and multiply but have no blood, no sweat, no memory, no heart — they cannot remember their creators. Destroyed by a great flood, attacked by their own tools and animals. The monkeys are their descendants.",
+      "source_reference": "Popol Vuh, Part 1 (Christenson 2007, pp. 88-97)",
+      "encoding_note": "Destruction triggers the Xibalba narrative"
+    },
+    {
+      "id": "xibalba_descent",
+      "name": "Xibalba / Underworld Trial",
+      "aliases": ["Place of Fright", "Death Lords", "One Death", "Seven Death"],
+      "tradition": "popol_vuh_maya",
+      "functional_role": "fallen",
+      "level": 4,
+      "description": "The underworld realm of the Death Lords. After the Wooden People are destroyed, the narrative shifts to the Hero Twins' father and uncle (Hun Hunahpu and Vucub Hunahpu) who are summoned to Xibalba and killed. This sets up the redemptive cycle.",
+      "source_reference": "Popol Vuh, Part 2-3 (Christenson 2007, pp. 97-155)"
+    },
+    {
+      "id": "hero_twins",
+      "name": "Hero Twins (Hunahpu and Xbalanque)",
+      "aliases": ["Hunahpu", "Xbalanque", "the Twins"],
+      "tradition": "popol_vuh_maya",
+      "functional_role": "process",
+      "level": 4,
+      "description": "The sons of Hun Hunahpu, miraculously conceived. They descend to Xibalba, defeat the Death Lords through cunning (allowing themselves to be killed and resurrecting), and rise as the Sun and Moon. Their triumph redeems the failed creations and prepares the cosmos for the final attempt.",
+      "source_reference": "Popol Vuh, Part 3 (Christenson 2007, pp. 155-195)",
+      "encoding_note": "Death-resurrection creates near-cycle but is encoded as contraction (return from fallen state)"
+    },
+    {
+      "id": "sun_moon",
+      "name": "Sun and Moon",
+      "aliases": ["risen Twins", "celestial order"],
+      "tradition": "popol_vuh_maya",
+      "functional_role": "intermediary",
+      "level": 5,
+      "description": "The Hero Twins ascend to become the Sun and Moon, establishing celestial order. This creates the cosmic framework within which the final creation can succeed.",
+      "source_reference": "Popol Vuh, Part 3 (Christenson 2007, pp. 192-195)"
+    },
+    {
+      "id": "maize_discovery",
+      "name": "Maize Discovery (Fox, Coyote, Parrot, Crow)",
+      "aliases": ["Paxil", "Cayala", "Split Place", "Bitter Water Place"],
+      "tradition": "popol_vuh_maya",
+      "functional_role": "process",
+      "level": 5,
+      "description": "Four animals (Fox, Coyote, Parrot, Crow) discover the mountain Paxil/Cayala containing maize — the substance from which true humans will be made. Grandmother Xmucane grinds the maize nine times.",
+      "source_reference": "Popol Vuh, Part 4 (Christenson 2007, pp. 196-200)"
+    },
+    {
+      "id": "maize_people",
+      "name": "Maize People (3rd Attempt — Successful)",
+      "aliases": ["first four men", "Balam Quitze", "Balam Acab", "Mahucutah", "Iqui Balam"],
+      "tradition": "popol_vuh_maya",
+      "functional_role": "matter",
+      "level": 6,
+      "description": "Third and final attempt: four men formed from white and yellow maize dough, mixed with water from the grinding. They can see everything, understand everything, and give thanks to their creators. Their vision is then clouded by the gods (so they are not equal to the creators). Stable humanity.",
+      "source_reference": "Popol Vuh, Part 4 (Christenson 2007, pp. 200-212)"
+    },
+    {
+      "id": "maize_women",
+      "name": "Maize Women / Humanity Established",
+      "aliases": ["first four women", "Cahapaluna", "Chomiha", "Tzununiha", "Caquixaha"],
+      "tradition": "popol_vuh_maya",
+      "functional_role": "matter",
+      "level": 6,
+      "description": "Four women appear (origin unspecified — they simply 'came to be' while the men slept). With them, the K'iche' lineages are established. Humanity is now complete and stable, capable of memory, speech, worship, and reproduction.",
+      "source_reference": "Popol Vuh, Part 4 (Christenson 2007, pp. 212-218)"
+    }
+  ],
+
+  "edges": [
+    {"source": "divine_triad", "target": "creative_speech", "relationship": "creation", "description": "The gods speak the world into being — creation through divine utterance"},
+    {"source": "creative_speech", "target": "earth_animals", "relationship": "creation", "description": "Speech produces the physical earth and animal life"},
+    {"source": "creative_speech", "target": "mud_people", "relationship": "creation", "description": "First attempt at human creation from mud — fails (dissolves)"},
+    {"source": "creative_speech", "target": "wooden_people", "relationship": "creation", "description": "Second attempt from wood — fails (no heart/memory, destroyed by flood)"},
+    {"source": "wooden_people", "target": "xibalba_descent", "relationship": "fragmentation", "description": "Destruction of Wooden People opens the Xibalba narrative — cosmic order fragments"},
+    {"source": "xibalba_descent", "target": "hero_twins", "relationship": "contraction", "description": "Hero Twins descend into death, defeat Death Lords, resurrect — contraction from fallen state"},
+    {"source": "hero_twins", "target": "sun_moon", "relationship": "creation", "description": "Twins ascend to become Sun and Moon, establishing celestial order"},
+    {"source": "creative_speech", "target": "maize_discovery", "relationship": "creation", "description": "Animals guided by divine intent discover the maize at Paxil/Cayala"},
+    {"source": "maize_discovery", "target": "maize_people", "relationship": "creation", "description": "Maize ground nine times by Xmucane, shaped into first four men"},
+    {"source": "maize_discovery", "target": "maize_women", "relationship": "creation", "description": "Four women appear to complete human creation — lineages established"}
+  ],
+
+  "alternative_encodings": {
+    "without_xibalba": {
+      "description": "Omit the Hero Twin / Xibalba cycle entirely, encoding only the three creation attempts as a linear sequence: Divine Triad -> Speech -> Mud -> Wood -> Maize. This reduces the schema to 7 nodes and a linear chain.",
+      "scholarly_support": "Some Mayanists treat the Hero Twin narrative as a separate mythic cycle inserted into the Popol Vuh, not part of the creation cosmogony proper (cf. Christenson 2007 introduction).",
+      "nodes_added": [],
+      "edges_modified": [
+        {"source": "wooden_people", "target": "maize_discovery", "relationship": "creation", "description": "Direct progression from failed Wood to successful Maize (skipping Xibalba)"}
+      ],
+      "encoding_note": "MEDIUM — reduces structural novelty but defensible if treating Xibalba as separate myth"
+    },
+    "expanded_triad": {
+      "description": "Split the Divine Triad into three separate source nodes (Heart of Sky, Heart of Earth, Sovereign Plumed Serpent) with a convergence edge into Creative Speech. This would make the schema 13 nodes with a wider branching factor at the top.",
+      "scholarly_support": "Tedlock (1985) emphasizes the distinct roles of each deity in the triad. Heart of Sky (Huracan) provides the generative force, Q'ukumatz the form-giving capacity.",
+      "nodes_added": [
+        {"id": "heart_of_sky", "name": "Heart of Sky (Huracan)", "functional_role": "source", "level": 0},
+        {"id": "heart_of_earth", "name": "Heart of Earth", "functional_role": "source", "level": 0},
+        {"id": "plumed_serpent", "name": "Sovereign Plumed Serpent (Q'ukumatz)", "functional_role": "source", "level": 0}
+      ],
+      "edges_modified": [],
+      "encoding_note": "LOW — violates single-root DAG contract unless a meta-source is added"
+    }
+  },
+
+  "validation": {
+    "is_dag": true,
+    "single_root": true,
+    "root_node": "divine_triad",
+    "all_connected": true,
+    "node_count": 11,
+    "edge_count": 10,
+    "depth": 6,
+    "max_branching_factor": 4,
+    "within_bounds": true,
+    "all_attributes_present": true,
+    "all_edges_labeled": true,
+    "shape": "branching_tree"
+  }
+}

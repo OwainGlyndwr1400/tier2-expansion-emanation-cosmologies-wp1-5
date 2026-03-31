@@ -1,0 +1,217 @@
+{
+  "tradition": "proclan_neoplatonic",
+  "primary_source": "Proclus, Elements of Theology, trans. E.R. Dodds (Oxford, 1933; rev. 1963)",
+  "treatises_used": ["Elements of Theology, Props. 1-211"],
+  "scholarly_anchors": [
+    "E.R. Dodds, Proclus: The Elements of Theology (Oxford, 1933; rev. 1963)",
+    "Radek Chlup, Proclus: An Introduction (Cambridge, 2012)",
+    "L.P. Gerson, 'From Plotinus to Proclus' in The New Cambridge Companion to Plotinus (2022)",
+    "Carlos Steel & Christoph Helmig, 'Proclus' in Stanford Encyclopedia of Philosophy (2021)",
+    "Edward Butler, various publications on Proclan polycentrism and Henad seirai"
+  ],
+  "encoding_date": "2026-03-29",
+  "encoder": "Erydir-Ceisiwr",
+  "version": "1.1",
+  "version_notes": "v1.1 (2026-03-29): Added Butler polycentric branching alternative encoding. Added Steel & Helmig SEP to anchors. Proposition numbers verified against Perplexity cross-validation. Nature flagged as marginal in ET (only Props. 109, 111).",
+  "encoding_notes": "Primary encoding follows Dodds (1963) commentary and Chlup (2012) systematic reconstruction. Key structural difference from the Plotinian schema: the Henads (Props. 113-165) and the Being-Life-Intellect triad (Props. 101-112, 166-183) expand the two-step One > Nous into a four-level descent (One > Henads > Being > Life > Intellect). Nature and Matter retain their Plotinian positions. STRUCTURAL FLAG: Butler argues the full Proclan system is polycentric — each Henad generates its own vertical chain (seira), making the complete ontology a branching DAG, not a linear chain. Primary encoding follows the Granularity Rule (Henads = one collective node) which produces a linear chain. The Butler branching alternative is documented below and is the highest-priority sensitivity test for this schema. Proposition numbers verified against Perplexity cross-validation, 2026-03-29.",
+
+  "nodes": [
+    {
+      "id": "one",
+      "name": "The One (to Hen)",
+      "aliases": ["The Good (to Agathon)", "The First Cause", "The Unparticipated One"],
+      "tradition": "proclan_neoplatonic",
+      "functional_role": "source",
+      "level": 0,
+      "description": "Absolutely transcendent first principle. Beyond being, beyond thought, beyond participation. Produces all things but is itself produced by nothing. Proclus follows Plotinus here but adds the crucial distinction between the unparticipated One and the participated unities (Henads).",
+      "source_reference": "Elements of Theology, Props. 1-6 (esp. Prop. 5: 'Every manifold is posterior to the One'), Props. 11-12, 20-21"
+    },
+    {
+      "id": "henads",
+      "name": "Henads (participated unities)",
+      "aliases": ["The Gods", "Divine Unities", "Self-complete Henads"],
+      "tradition": "proclan_neoplatonic",
+      "functional_role": "first_emanation",
+      "level": 1,
+      "description": "Proclus's most distinctive innovation. The Henads are participated unities that mediate between the absolutely transcendent One and the intelligible realm. Each Henad is a 'god' — a self-complete unity that communicates the One's unity to a particular chain of being. They are not thoughts or forms but pure unities. The Henads solve the participation problem: how can the utterly simple One be participated by the many?",
+      "source_reference": "Elements of Theology, Props. 113-165 (esp. Props. 113-115, 118-120, 162-165)",
+      "encoding_note": "DISPUTED: The number and identity of individual Henads is debated (Dodds 1963 comm. on Prop. 113; Chlup 2012 ch. 4). Encoded as a single collective node per Granularity Rule. Alternative encoding with multiple Henads (e.g., Good-Henad, Power-Henad, Being-Henad) documented below."
+    },
+    {
+      "id": "being",
+      "name": "Being (to On)",
+      "aliases": ["The Intelligible (to Noeton)", "First Member of the Intelligible Triad"],
+      "tradition": "proclan_neoplatonic",
+      "functional_role": "intellect",
+      "level": 2,
+      "description": "First moment of the intelligible triad. Being is the initial determination of the Henads' unity into intelligible content. In Proclus's system, Being precedes Life and Intellect as the most universal determination: everything that is, participates in Being. This is the first moment of the triadic structure Limit-Unlimited-Mixed that pervades every level.",
+      "source_reference": "Elements of Theology, Props. 101-103, 138, 166-169 (Dodds comm.: the intelligible triad)",
+      "encoding_note": "In Plotinus, Being and Intellect are identified (Nous = Being that thinks). Proclus separates them. This is the key structural difference tested by WP 1.2."
+    },
+    {
+      "id": "life",
+      "name": "Life (Zoe)",
+      "aliases": ["The Intelligible-Intellectual (to Noeron)", "Vitality", "Second Member of the Triad"],
+      "tradition": "proclan_neoplatonic",
+      "functional_role": "intermediary",
+      "level": 3,
+      "description": "Second moment of the intelligible triad. Life is the dynamic, self-moving principle that mediates between static Being and active Intellect. It is the power of self-generation and self-return. Everything that lives participates in Life. Proclus's Life is not biological life but ontological vitality — the capacity for self-motion and internal activity.",
+      "source_reference": "Elements of Theology, Props. 101-103, 170-174 (esp. Prop. 101: 'Every being that is capable of reverting upon itself is incorporeal'; Prop. 103: life as self-mover)"
+    },
+    {
+      "id": "nous",
+      "name": "Intellect (Nous)",
+      "aliases": ["The Intellectual (to Noetikon)", "Demiurgic Intellect", "Third Member of the Triad"],
+      "tradition": "proclan_neoplatonic",
+      "functional_role": "intellect",
+      "level": 4,
+      "description": "Third moment of the intelligible triad. Intellect is the level at which the Forms are fully articulated and self-thinking thought is achieved. This corresponds to the Plotinian Nous but is positioned lower in the hierarchy — beneath Being and Life rather than immediately below the One. Intellect thinks the Forms that Being provides and that Life vivifies.",
+      "source_reference": "Elements of Theology, Props. 101-103, 166-183 (esp. Props. 175-177, 180-183)",
+      "encoding_note": "Double 'intellect' role: Being (level 2) and Nous (level 4) both receive the 'intellect' functional role. This is protocol-compliant — the existing Samkhya schema uses 'intermediary' at two levels. The distinction between them is captured in the node descriptions."
+    },
+    {
+      "id": "psyche",
+      "name": "Soul (Psyche)",
+      "aliases": ["The All-Soul", "World Soul", "Self-moved Mover"],
+      "tradition": "proclan_neoplatonic",
+      "functional_role": "soul",
+      "level": 5,
+      "description": "The principle of animation and cosmic governance. Soul receives the Forms from Intellect and projects them into the material world through temporal succession. Proclus distinguishes divine souls, daemonic souls, and human souls, but at the Granularity Rule level these are collapsed into a single Soul node. Soul differs from Intellect in that its thinking is discursive (sequential) rather than intuitive (simultaneous).",
+      "source_reference": "Elements of Theology, Props. 184-211 (esp. Props. 184-185, 190, 195-197, 201, 206-211)"
+    },
+    {
+      "id": "nature",
+      "name": "Nature (Physis)",
+      "aliases": ["The Nature-Principle", "Soul's lowest productive power"],
+      "tradition": "proclan_neoplatonic",
+      "functional_role": "intermediary",
+      "level": 6,
+      "description": "Soul's outward-facing productive power. Nature is the lowest level of ensouled activity, operating unconsciously to shape the material world. Proclus follows Plotinus here (Enneads III.8). Nature is the bridge between the self-moving soul and the externally-moved body.",
+      "source_reference": "Elements of Theology, Props. 109, 111 (only marginally treated); Proclus, Commentary on Timaeus I.10-11; cf. Plotinus Enneads III.8.1-4",
+      "encoding_note": "Nature is marginal in the Elements of Theology — only Props. 109 and 111 reference it directly (Perplexity cross-validation, 2026-03-29). Included for structural comparability with the Plotinian schema and per Chlup (2012, ch. 6) reconstruction of the full system. Without this node the schema would be 7 nodes, depth 6 — see 'without_nature' alternative."
+    },
+    {
+      "id": "matter",
+      "name": "Body/Matter (Hyle/Soma)",
+      "aliases": ["Corporeal Nature", "The Sensible World", "Material Substrate"],
+      "tradition": "proclan_neoplatonic",
+      "functional_role": "matter",
+      "level": 7,
+      "description": "The lowest level of reality. The material substrate that receives forms from Nature/Soul. Body is externally moved (not self-moved like Soul). Proclus, following Plato's Timaeus, treats matter as a receptacle rather than a positive principle.",
+      "source_reference": "Elements of Theology, Props. 80-82 (on bodies as composites), Prop. 209 (soul and body); Proclus, Commentary on Timaeus I.372-386"
+    }
+  ],
+
+  "edges": [
+    {
+      "source": "one",
+      "target": "henads",
+      "relationship": "emanation",
+      "description": "The Henads proceed from the One as participated unities. The One itself is unparticipated; the Henads make the One's unity available to the rest of the hierarchy. Each Henad is a determinate mode of the One's goodness."
+    },
+    {
+      "source": "henads",
+      "target": "being",
+      "relationship": "emanation",
+      "description": "Being proceeds from the Henads as the first intelligible determination. The Henads' unity is specified into the most universal category: Being (existence). This is the transition from supra-intelligible unity to intelligible content."
+    },
+    {
+      "source": "being",
+      "target": "life",
+      "relationship": "emanation",
+      "description": "Life proceeds from Being as its dynamic, self-moving aspect. Being provides the what; Life provides the how — the internal motion and self-return that characterises living intelligibles."
+    },
+    {
+      "source": "life",
+      "target": "nous",
+      "relationship": "emanation",
+      "description": "Intellect proceeds from Life as the fully articulated, self-thinking aspect of the intelligible realm. Life's self-motion becomes Intellect's self-thinking. The Forms are now fully differentiated and knowable."
+    },
+    {
+      "source": "nous",
+      "target": "psyche",
+      "relationship": "emanation",
+      "description": "Soul proceeds from Intellect. Where Intellect thinks all things simultaneously, Soul thinks them sequentially (in time). Soul introduces temporal succession into the cosmos."
+    },
+    {
+      "source": "psyche",
+      "target": "nature",
+      "relationship": "emanation",
+      "description": "Nature is Soul's lowest outgoing productive power — unconscious contemplation that shapes the material world. Parallel to the Plotinian schema's psyche > nature edge."
+    },
+    {
+      "source": "nature",
+      "target": "matter",
+      "relationship": "reflection",
+      "description": "Matter receives the impress of forms from Nature. As in the Plotinian schema, the relationship is reception/reflection rather than active emanation — matter is passive substrate that mirrors the forms projected upon it."
+    }
+  ],
+
+  "alternative_encodings": {
+    "butler_polycentric_branching": {
+      "description": "HIGHEST PRIORITY ALTERNATIVE. Edward Butler's polycentric interpretation: each Henad generates its own vertical chain (seira) descending through Being, Life, Intellect, Soul, and Nature within that Henad's domain. This makes the full Proclan system a branching DAG — not a linear chain — where the Henads are branching nodes with out-degree equal to the number of Henad-chains. Under this encoding Proclus would reclassify from the linear-chain family to the branching-tree family, reversing the primary encoding's topology-family assignment.",
+      "scholarly_support": "Edward Butler (various publications) argues for the essentially polycentric character of Proclus's theology, where each Henad is a self-complete ontological universe generating its own vertical order. This reading is contested: Dodds (1963) and Chlup (2012) treat the Henads as a single collective tier in a linear descent. The Granularity Rule (primary encoding) follows Dodds/Chlup.",
+      "structural_consequence": "Under Butler's reading, henads has out-degree > 1. The schema is no longer a linear chain. The Proclus-Sethian GED=0 isomorphism (primary encoding result) would likely dissolve. The Plotinus-Proclus GED=6 would increase further.",
+      "encoding_note": "HIGH PRIORITY sensitivity test. Requires a decision: follow Dodds/Chlup (linear, Granularity Rule) or Butler (branching, maximally faithful to polycentric theology). The primary encoding's justification is scholarly consensus, not Butler's minority reading. Both must be reported in the paper."
+    },
+    "without_henads": {
+      "description": "7-node encoding: One > Being > Life > Intellect > Soul > Nature > Matter. Removes the Henad layer. Tests whether the Henads are structurally significant or merely a theological elaboration that doesn't change the topology.",
+      "scholarly_support": "Some scholars treat Henads as internal to the One's self-determination rather than a separate ontological level (see Dodds 1963, commentary on Prop. 113 for the debate).",
+      "nodes_removed": ["henads"],
+      "edges_modified": [
+        {
+          "source": "one",
+          "target": "being",
+          "relationship": "emanation",
+          "description": "Being proceeds directly from the One without the Henad intermediary."
+        }
+      ]
+    },
+    "collapsed_triad": {
+      "description": "6-node encoding: One > Henads > Nous (Being+Life+Intellect collapsed) > Soul > Nature > Matter. Treats the Being-Life-Intellect triad as a single Nous level, making the schema directly comparable to Plotinus.",
+      "scholarly_support": "The Being-Life-Intellect triad can be read as three 'moments' of a single Nous rather than three separate hypostases (cf. Gerson 2022 on structural vs. functional readings of the triad).",
+      "nodes_removed": ["being", "life"],
+      "nodes_modified": [
+        {
+          "id": "nous",
+          "name": "Nous (Intellect / Being-Life-Intellect Triad)",
+          "functional_role": "intellect",
+          "level": 2,
+          "description": "The entire intelligible triad collapsed into a single Nous level, as in the Plotinian schema but with the Henad layer above it."
+        }
+      ],
+      "edges_modified": [
+        {
+          "source": "henads",
+          "target": "nous",
+          "relationship": "emanation"
+        }
+      ]
+    },
+    "without_nature": {
+      "description": "7-node encoding without Nature: One > Henads > Being > Life > Intellect > Soul > Matter. Same dispute as the Plotinian schema — is Nature a separate level or a function of Soul?",
+      "scholarly_support": "Parallel to the Plotinian schema's 'without_nature' alternative.",
+      "nodes_removed": ["nature"],
+      "edges_modified": [
+        {
+          "source": "psyche",
+          "target": "matter",
+          "relationship": "emanation"
+        }
+      ]
+    }
+  },
+
+  "validation": {
+    "is_dag": true,
+    "single_root": true,
+    "root_node": "one",
+    "all_connected": true,
+    "node_count": 8,
+    "edge_count": 7,
+    "depth": 7,
+    "within_bounds": true,
+    "all_attributes_present": true,
+    "all_edges_labeled": true
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "tradition": "gospel_of_mary",
+  "node_count": 9,
+  "edge_count": 8,
+  "depth": 8,
+  "diameter": 8,
+  "width": 1,
+  "leaf_count": 1,
+  "branching_node_count": 0,
+  "max_branching_factor": 1,
+  "mean_branching_factor": 1.0,
+  "root": "silence_rest",
+  "leaves": [
+    "material_body"
+  ],
+  "branching_nodes": [],
+  "in_degree_sequence": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "out_degree_sequence": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "edge_type_counts": {
+    "emanation": 8
+  },
+  "functional_role_counts": {
+    "matter": 1,
+    "source": 1,
+    "intermediary": 7
+  },
+  "depth_profile": {
+    "0": [
+      "silence_rest"
+    ],
+    "1": [
+      "wrathful_wisdom"
+    ],
+    "2": [
+      "foolish_wisdom"
+    ],
+    "3": [
+      "kingdom_flesh"
+    ],
+    "4": [
+      "zeal_death"
+    ],
+    "5": [
+      "ignorance"
+    ],
+    "6": [
+      "desire"
+    ],
+    "7": [
+      "darkness"
+    ],
+    "8": [
+      "material_body"
+    ]
+  },
+  "role_sequence_by_level": {
+    "0": [
+      "source"
+    ],
+    "1": [
+      "intermediary"
+    ],
+    "2": [
+      "intermediary"
+    ],
+    "3": [
+      "intermediary"
+    ],
+    "4": [
+      "intermediary"
+    ],
+    "5": [
+      "intermediary"
+    ],
+    "6": [
+      "intermediary"
+    ],
+    "7": [
+      "intermediary"
+    ],
+    "8": [
+      "matter"
+    ]
+  },
+  "betweenness_centrality": {
+    "silence_rest": 0.0,
+    "wrathful_wisdom": 0.125,
+    "foolish_wisdom": 0.2143,
+    "kingdom_flesh": 0.2679,
+    "zeal_death": 0.2857,
+    "ignorance": 0.2679,
+    "desire": 0.2143,
+    "darkness": 0.125,
+    "material_body": 0.0
+  },
+  "closeness_centrality": {
+    "silence_rest": 0.0,
+    "wrathful_wisdom": 0.125,
+    "foolish_wisdom": 0.1667,
+    "kingdom_flesh": 0.1875,
+    "zeal_death": 0.2,
+    "ignorance": 0.2083,
+    "desire": 0.2143,
+    "darkness": 0.2188,
+    "material_body": 0.2222
+  },
+  "topological_sort": [
+    "silence_rest",
+    "wrathful_wisdom",
+    "foolish_wisdom",
+    "kingdom_flesh",
+    "zeal_death",
+    "ignorance",
+    "desire",
+    "darkness",
+    "material_body"
+  ],
+  "wl_hash_structure": "6b02e9dc32853fd0570ae977a40665b2",
+  "wl_hash_with_roles": "dd916bf518b7736a749220879951b10b",
+  "is_linear_chain": true,
+  "has_fallen_node": false,
+  "has_process_nodes": false,
+  "has_fragmentation_edge": false,
+  "has_contraction_edge": false,
+  "has_reflection_edge": false
+}

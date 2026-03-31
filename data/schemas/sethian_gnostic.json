@@ -1,0 +1,181 @@
+{
+  "tradition": "sethian_gnostic",
+  "tradition_full": "Sethian Gnostic (Trimorphic Protennoia)",
+  "source": "Trimorphic Protennoia (NHC XIII,1), trans. John D. Turner, in The Nag Hammadi Library in English, ed. James M. Robinson (HarperCollins, 1990). File: Research/the nag hammadi library.pdf — pages 527-538.",
+  "cross_references": [
+    "Turner, J.D. (2001). Sethian Gnosticism and the Platonic Tradition. Peeters/Laval.",
+    "Turner, J.D. (2007). 'The Sethian School of Gnostic Thought' in The Nag Hammadi Scriptures, ed. Marvin Meyer (HarperOne).",
+    "Logan, A.H.B. (1996). Gnostic Truth and Christian Heresy. T&T Clark.",
+    "King, K.L. (2006). The Secret Revelation of John. Harvard University Press."
+  ],
+  "encoding_version": "1.0",
+  "encoding_date": "2026-03-28",
+  "nodes": [
+    {
+      "id": "invisible_spirit",
+      "name": "The Invisible Spirit (Father)",
+      "aliases": ["Invisible Spirit", "Father", "The Hidden One", "The Immeasurable"],
+      "functional_role": "source",
+      "level": 0,
+      "source_reference": "NHC XIII 35,1-12 (PDF p. 531)",
+      "notes": "Protennoia identifies herself as 'the Image of the Invisible Spirit' — the Invisible Spirit is above her, the absolute transcendent Father. 'The [immeasurable] Invisible One who is hidden.' Structurally identical to the Apocryphon's Invisible Spirit/Monad. This confirms the shared Sethian cosmological framework."
+    },
+    {
+      "id": "protennoia",
+      "name": "Protennoia (Barbelo / First Thought)",
+      "aliases": ["Protennoia", "Barbelo", "First Thought", "Mother", "Voice", "Speech", "Word", "Logos", "Meirothea", "Epinoia of the Light"],
+      "functional_role": "first_emanation",
+      "level": 1,
+      "triadic_nature": "Voice (light-giver) / Speech (spirit-giver) / Word-Logos (savior)",
+      "source_reference": "NHC XIII 35,1-16; 42,4; 45,2 (PDF pp. 531-535)",
+      "notes": "The most distinctive node in the Sethian corpus. In the Apocryphon of John, Barbelo is a straightforward first emanation. Here, Protennoia IS Barbelo and is explicitly described as triadic: 'I am the Voice... I am the Speech... I am the Word.' The three modes are not separate nodes (they are one entity) but encode three modes of cosmic activity: giving form, giving life, and giving salvation. COMPARE: Poimandres' Logos is a separate emanation from the divine; Trimorphic Protennoia's Logos/Word is the third mode of the FIRST emanation itself. See encoding_decisions Entry 18."
+    },
+    {
+      "id": "autogenes",
+      "name": "Autogenes (Perfect Son / Christ)",
+      "aliases": ["Autogenes", "Christ", "Perfect Son", "Only-begotten God", "Self-Generated"],
+      "functional_role": "intellect",
+      "level": 2,
+      "source_reference": "NHC XIII 35,18-35 (PDF p. 531)",
+      "notes": "'The Perfect Son revealed himself to his Aeons who originated through him.' Identical structural position to the Apocryphon's Autogenes. He establishes the Four Luminaries and their aeons. Called 'the only-begotten God' — directly created by the Father through Protennoia."
+    },
+    {
+      "id": "four_luminaries",
+      "name": "Four Luminaries (Armozel, Oroiael, Daveithai, Eleleth)",
+      "aliases": ["Four Luminaries", "Four Great Lights", "Four Aeons", "Armozel", "Oroiael", "Daveithai", "Eleleth"],
+      "functional_role": "intermediary",
+      "sub_count": 4,
+      "level": 3,
+      "source_reference": "NHC XIII 35,35-36,14 (PDF p. 531)",
+      "notes": "The four great aeons, each with three sub-aeons (12 total). Established by Autogenes. CRITICAL DIFFERENCE FROM APOCRYPHON: In the Trimorphic Protennoia, Yaltabaoth arises when Eleleth (the fourth luminary) speaks — not directly from Sophia's fall. 'Then there came forth a word from the great Light Eleleth and said, I am King! ...there appeared the great Demon.' Sophia/Epinoia is already present in the scene — Yaltabaoth snatches power FROM her rather than being born FROM her. See encoding_decisions Entry 19."
+    },
+    {
+      "id": "sophia_epinoia",
+      "name": "Sophia / Epinoia (Fallen Light)",
+      "aliases": ["Sophia", "Epinoia", "Epinoia of the Light", "The Innocent One", "The Light's Epinoia"],
+      "functional_role": "fallen",
+      "level": 4,
+      "source_reference": "NHC XIII 36,15-40 (PDF pp. 531-532)",
+      "notes": "Called 'Epinoia' (inner reflection/afterthought) in TP rather than Sophia (wisdom) as in the Apocryphon. She is 'the innocent one' from whom Yaltabaoth 'snatched power' — she is the victim of the Demiurge's usurpation rather than the mother of his birth. After Yaltabaoth appears, she appeals for 'another order so that you may become for me a dwelling place' — she accepts a diminished position. The `fallen` functional role is preserved: she is the aeon who exists in the transitional space between ordered Pleroma (above) and disordered creation (below). Edge from Four Luminaries to Sophia typed `fragmentation` — she descends from her Pleromatic station."
+    },
+    {
+      "id": "yaltabaoth",
+      "name": "Yaltabaoth (Saklas / Samael)",
+      "aliases": ["Yaltabaoth", "Saklas", "Samael", "The great Demon", "Archigenetor", "The Ignorant One"],
+      "functional_role": "demiurge",
+      "level": 5,
+      "source_reference": "NHC XIII 36,22-37,7 (PDF pp. 531-532)",
+      "notes": "Same character as in the Apocryphon — ignorant, arrogant, malicious. 'He has neither form nor perfection.' He 'produced aeons in the likeness of the real Aeons, except that he produced them out of his own power.' He 'produced a man in my [Protennoia's] likeness' — material humanity. The triple name (Yaltabaoth/Saklas/Samael) is identical to the Apocryphon. Edge from Sophia to Yaltabaoth is typed `fragmentation` — in TP he arises through Eleleth's word but derives his existence from usurping Sophia's power."
+    },
+    {
+      "id": "archons",
+      "name": "Archons (Powers of the Underworld)",
+      "aliases": ["Archons", "Powers", "Authorities", "Aeons of ignorance", "The Powers of the Powers"],
+      "functional_role": "intermediary",
+      "sub_count": 12,
+      "level": 6,
+      "source_reference": "NHC XIII 37,4-22 (PDF p. 532)",
+      "notes": "'The great Demon began to produce aeons in the likeness of the real Aeons.' The Archons govern the material cosmos. Identical structural role to the Apocryphon's Archons."
+    },
+    {
+      "id": "material_world",
+      "name": "Material World (Chaos / Underworld)",
+      "aliases": ["Material World", "Chaos", "Underworld", "Matter", "Material Humanity"],
+      "functional_role": "matter",
+      "level": 7,
+      "source_reference": "NHC XIII 37,22-30 (PDF p. 532)",
+      "notes": "'The Archigenetor of ignorance reigned over Chaos and the underworld and produced a man in my likeness.' The material cosmos and material humanity. Same structural position as Apocryphon's Material World."
+    }
+  ],
+  "edges": [
+    {
+      "source": "invisible_spirit",
+      "target": "protennoia",
+      "relationship": "emanation",
+      "notes": "The Invisible Spirit's own thought becomes Protennoia/Barbelo. 'I am the Image of the Invisible Spirit and it is through me that the All took shape.' Natural self-knowing overflow of the transcendent."
+    },
+    {
+      "source": "protennoia",
+      "target": "autogenes",
+      "relationship": "emanation",
+      "notes": "'The Perfect Son revealed himself to his Aeons who originated through him.' Autogenes emerges through and from Protennoia."
+    },
+    {
+      "source": "autogenes",
+      "target": "four_luminaries",
+      "relationship": "emanation",
+      "notes": "'The first Aeon, he established over the first: Armozel...' Autogenes establishes the Four Luminaries and their constituent aeons."
+    },
+    {
+      "source": "four_luminaries",
+      "target": "sophia_epinoia",
+      "relationship": "fragmentation",
+      "notes": "Sophia/Epinoia descends from her Pleromatic station. In TP, this is catalyzed by Eleleth's proclamation ('I am King!') which creates a rupture at the boundary of the Pleroma. The 'innocent one' descends into the lower region."
+    },
+    {
+      "source": "sophia_epinoia",
+      "target": "yaltabaoth",
+      "relationship": "fragmentation",
+      "notes": "Yaltabaoth arises by 'snatching power from the innocent one (Sophia) who had descended.' The mechanism differs from the Apocryphon (where Sophia gives birth to him) but the structural relationship (Sophia → Yaltabaoth via fragmentation) is the same. Sophia is the source of his power even if not his literal birth-mother."
+    },
+    {
+      "source": "yaltabaoth",
+      "target": "archons",
+      "relationship": "creation",
+      "notes": "'The great Demon began to produce aeons in the likeness of the real Aeons, except that he produced them out of his own power.' Deliberate imitative creation."
+    },
+    {
+      "source": "archons",
+      "target": "material_world",
+      "relationship": "creation",
+      "notes": "The Archons govern Chaos and the Underworld; Yaltabaoth (Archigenetor) produces material humanity. The material world is the endpoint of the cosmic descent."
+    }
+  ],
+  "topology": {
+    "node_count": 8,
+    "edge_count": 7,
+    "depth": 7,
+    "max_branching_factor": 1,
+    "shape": "linear_chain_deep",
+    "distinctive_feature": "Triadic first emanation (Protennoia as Voice/Speech/Word) and Sophia as victim/usurped rather than unauthorized actor"
+  },
+  "comparison_with_apocryphon": {
+    "shared_features": [
+      "Same Invisible Spirit at source",
+      "Same Barbelo/first thought at level 1",
+      "Same Autogenes/Christ at level 2",
+      "Same Four Luminaries (Armozel, Oroiael, Daveithai, Eleleth) at level 3",
+      "Same Sophia-as-fallen-aeon at level 4",
+      "Same Yaltabaoth (Saklas/Samael) as demiurge at level 5",
+      "Same Archons as intermediary at level 6",
+      "Same Material World at level 7",
+      "Same edge-type pattern: emanation (0-3) → fragmentation (3-5) → creation (5-7)"
+    ],
+    "key_differences": [
+      "Protennoia = Barbelo explicitly (unified, not separate layers)",
+      "Protennoia is triadic (Voice/Speech/Word) — no equivalent in Apocryphon",
+      "Adamas (Perfect Man) is absent as a separate structural node",
+      "Sophia is 'usurped' by Yaltabaoth rather than giving birth to him — different etiology, same structure",
+      "Node count: 8 (vs. Apocryphon's 9) — Adamas omission accounts for the difference",
+      "Depth: 7 (same as Apocryphon)"
+    ]
+  },
+  "alternative_encodings": {
+    "with_adamas": {
+      "description": "9-node encoding adding Adamas (Perfect Man) between Luminaries and Sophia",
+      "rationale": "The Apocryphon has Adamas as a separate structural level; TP doesn't explicitly include him but the Sethian framework implies his presence.",
+      "effect": "Would make the schema structurally identical to the Apocryphon — analytically less interesting."
+    }
+  },
+  "validation": {
+    "is_dag": true,
+    "single_root": true,
+    "all_connected": true,
+    "node_count": 8,
+    "within_bounds_4_20": true,
+    "all_required_attributes_present": true,
+    "all_edges_labeled": true,
+    "scholarly_verified": true
+  },
+  "encoding_notes": "The Trimorphic Protennoia and the Apocryphon of John share the same Sethian cosmological framework. The topological difference is minimal (8 vs. 9 nodes, Adamas omitted). The meaningful difference is semantic: Protennoia's triadic identity and the different causation of Sophia's situation. The cross-traditional paper should note the high similarity between these two traditions (same topology family, same edge-type pattern) as evidence of shared cosmological structure within the Sethian school."
+}

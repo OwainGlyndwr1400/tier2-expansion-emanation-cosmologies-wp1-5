@@ -1,0 +1,1388 @@
+{
+  "book_of_revelation vs bundahishn_zoroastrian": {
+    "structural_ged": 0.0,
+    "role_ged": 3.0,
+    "normalized_structural_ged": 0.0,
+    "normalized_role_ged": 0.2727
+  },
+  "book_of_revelation vs chaldean": {
+    "structural_ged": 0.0,
+    "role_ged": 4.0,
+    "normalized_structural_ged": 0.0,
+    "normalized_role_ged": 0.3636
+  },
+  "book_of_revelation vs derveni_orphic": {
+    "structural_ged": 2.0,
+    "role_ged": 6.0,
+    "normalized_structural_ged": 0.2,
+    "normalized_role_ged": 0.6
+  },
+  "book_of_revelation vs enochian_watchers": {
+    "structural_ged": 0.0,
+    "role_ged": 3.0,
+    "normalized_structural_ged": 0.0,
+    "normalized_role_ged": 0.2727
+  },
+  "book_of_revelation vs genesis_creationist": {
+    "structural_ged": 10.0,
+    "role_ged": 12.0,
+    "normalized_structural_ged": 0.7692,
+    "normalized_role_ged": 0.9231
+  },
+  "book_of_revelation vs gospel_of_mary": {
+    "structural_ged": 6.0,
+    "role_ged": 10.0,
+    "normalized_structural_ged": 0.4286,
+    "normalized_role_ged": 0.7143
+  },
+  "book_of_revelation vs hermetic": {
+    "structural_ged": 6.0,
+    "role_ged": 8.0,
+    "normalized_structural_ged": 0.4615,
+    "normalized_role_ged": 0.6154
+  },
+  "book_of_revelation vs ishraq_illuminationist": {
+    "structural_ged": 2.0,
+    "role_ged": 5.0,
+    "normalized_structural_ged": 0.1667,
+    "normalized_role_ged": 0.4167
+  },
+  "book_of_revelation vs lurianic_kabbalistic": {
+    "structural_ged": 2.0,
+    "role_ged": 6.0,
+    "normalized_structural_ged": 0.1667,
+    "normalized_role_ged": 0.5
+  },
+  "book_of_revelation vs manichaean": {
+    "structural_ged": 10.0,
+    "role_ged": 13.0,
+    "normalized_structural_ged": 0.625,
+    "normalized_role_ged": 0.8125
+  },
+  "book_of_revelation vs plotinian_neoplatonic": {
+    "structural_ged": 2.0,
+    "role_ged": 5.0,
+    "normalized_structural_ged": 0.2,
+    "normalized_role_ged": 0.5
+  },
+  "book_of_revelation vs popol_vuh_maya": {
+    "structural_ged": 10.0,
+    "role_ged": 18.0,
+    "normalized_structural_ged": 0.625,
+    "normalized_role_ged": 1.125
+  },
+  "book_of_revelation vs proclan_neoplatonic": {
+    "structural_ged": 4.0,
+    "role_ged": 8.0,
+    "normalized_structural_ged": 0.3077,
+    "normalized_role_ged": 0.6154
+  },
+  "book_of_revelation vs quranic_miraj": {
+    "structural_ged": 8.0,
+    "role_ged": 11.0,
+    "normalized_structural_ged": 0.5333,
+    "normalized_role_ged": 0.7333
+  },
+  "book_of_revelation vs samkhya": {
+    "structural_ged": 2.0,
+    "role_ged": 5.0,
+    "normalized_structural_ged": 0.1667,
+    "normalized_role_ged": 0.4167
+  },
+  "book_of_revelation vs sethian_gnostic": {
+    "structural_ged": 4.0,
+    "role_ged": 7.0,
+    "normalized_structural_ged": 0.3077,
+    "normalized_role_ged": 0.5385
+  },
+  "book_of_revelation vs taoist_ddj": {
+    "structural_ged": 2.0,
+    "role_ged": 3.0,
+    "normalized_structural_ged": 0.2,
+    "normalized_role_ged": 0.3
+  },
+  "book_of_revelation vs trimorphic_protennoia": {
+    "structural_ged": 4.0,
+    "role_ged": 7.0,
+    "normalized_structural_ged": 0.3333,
+    "normalized_role_ged": 0.5833
+  },
+  "book_of_revelation vs valentinian_gnostic": {
+    "structural_ged": 6.0,
+    "role_ged": 9.0,
+    "normalized_structural_ged": 0.4286,
+    "normalized_role_ged": 0.6429
+  },
+  "book_of_revelation vs vedic_nasadiya": {
+    "structural_ged": 2.0,
+    "role_ged": 4.0,
+    "normalized_structural_ged": 0.2,
+    "normalized_role_ged": 0.4
+  },
+  "book_of_revelation vs vedic_purusha": {
+    "structural_ged": 6.0,
+    "role_ged": 11.0,
+    "normalized_structural_ged": 0.5,
+    "normalized_role_ged": 0.9167
+  },
+  "bundahishn_zoroastrian vs chaldean": {
+    "structural_ged": 0.0,
+    "role_ged": 6.0,
+    "normalized_structural_ged": 0.0,
+    "normalized_role_ged": 0.5455
+  },
+  "bundahishn_zoroastrian vs derveni_orphic": {
+    "structural_ged": 2.0,
+    "role_ged": 6.0,
+    "normalized_structural_ged": 0.2,
+    "normalized_role_ged": 0.6
+  },
+  "bundahishn_zoroastrian vs enochian_watchers": {
+    "structural_ged": 0.0,
+    "role_ged": 4.0,
+    "normalized_structural_ged": 0.0,
+    "normalized_role_ged": 0.3636
+  },
+  "bundahishn_zoroastrian vs genesis_creationist": {
+    "structural_ged": 10.0,
+    "role_ged": 12.0,
+    "normalized_structural_ged": 0.7692,
+    "normalized_role_ged": 0.9231
+  },
+  "bundahishn_zoroastrian vs gospel_of_mary": {
+    "structural_ged": 6.0,
+    "role_ged": 13.0,
+    "normalized_structural_ged": 0.4286,
+    "normalized_role_ged": 0.9286
+  },
+  "bundahishn_zoroastrian vs hermetic": {
+    "structural_ged": 6.0,
+    "role_ged": 9.0,
+    "normalized_structural_ged": 0.4615,
+    "normalized_role_ged": 0.6923
+  },
+  "bundahishn_zoroastrian vs ishraq_illuminationist": {
+    "structural_ged": 2.0,
+    "role_ged": 7.0,
+    "normalized_structural_ged": 0.1667,
+    "normalized_role_ged": 0.5833
+  },
+  "bundahishn_zoroastrian vs lurianic_kabbalistic": {
+    "structural_ged": 2.0,
+    "role_ged": 7.0,
+    "normalized_structural_ged": 0.1667,
+    "normalized_role_ged": 0.5833
+  },
+  "bundahishn_zoroastrian vs manichaean": {
+    "structural_ged": 10.0,
+    "role_ged": 16.0,
+    "normalized_structural_ged": 0.625,
+    "normalized_role_ged": 1.0
+  },
+  "bundahishn_zoroastrian vs plotinian_neoplatonic": {
+    "structural_ged": 2.0,
+    "role_ged": 6.0,
+    "normalized_structural_ged": 0.2,
+    "normalized_role_ged": 0.6
+  },
+  "bundahishn_zoroastrian vs popol_vuh_maya": {
+    "structural_ged": 10.0,
+    "role_ged": 18.0,
+    "normalized_structural_ged": 0.625,
+    "normalized_role_ged": 1.125
+  },
+  "bundahishn_zoroastrian vs proclan_neoplatonic": {
+    "structural_ged": 4.0,
+    "role_ged": 10.0,
+    "normalized_structural_ged": 0.3077,
+    "normalized_role_ged": 0.7692
+  },
+  "bundahishn_zoroastrian vs quranic_miraj": {
+    "structural_ged": 8.0,
+    "role_ged": 14.0,
+    "normalized_structural_ged": 0.5333,
+    "normalized_role_ged": 0.9333
+  },
+  "bundahishn_zoroastrian vs samkhya": {
+    "structural_ged": 2.0,
+    "role_ged": 7.0,
+    "normalized_structural_ged": 0.1667,
+    "normalized_role_ged": 0.5833
+  },
+  "bundahishn_zoroastrian vs sethian_gnostic": {
+    "structural_ged": 4.0,
+    "role_ged": 9.0,
+    "normalized_structural_ged": 0.3077,
+    "normalized_role_ged": 0.6923
+  },
+  "bundahishn_zoroastrian vs taoist_ddj": {
+    "structural_ged": 2.0,
+    "role_ged": 5.0,
+    "normalized_structural_ged": 0.2,
+    "normalized_role_ged": 0.5
+  },
+  "bundahishn_zoroastrian vs trimorphic_protennoia": {
+    "structural_ged": 4.0,
+    "role_ged": 9.0,
+    "normalized_structural_ged": 0.3333,
+    "normalized_role_ged": 0.75
+  },
+  "bundahishn_zoroastrian vs valentinian_gnostic": {
+    "structural_ged": 6.0,
+    "role_ged": 11.0,
+    "normalized_structural_ged": 0.4286,
+    "normalized_role_ged": 0.7857
+  },
+  "bundahishn_zoroastrian vs vedic_nasadiya": {
+    "structural_ged": 2.0,
+    "role_ged": 4.0,
+    "normalized_structural_ged": 0.2,
+    "normalized_role_ged": 0.4
+  },
+  "bundahishn_zoroastrian vs vedic_purusha": {
+    "structural_ged": 6.0,
+    "role_ged": 10.0,
+    "normalized_structural_ged": 0.5,
+    "normalized_role_ged": 0.8333
+  },
+  "chaldean vs derveni_orphic": {
+    "structural_ged": 2.0,
+    "role_ged": 6.0,
+    "normalized_structural_ged": 0.2,
+    "normalized_role_ged": 0.6
+  },
+  "chaldean vs enochian_watchers": {
+    "structural_ged": 0.0,
+    "role_ged": 5.0,
+    "normalized_structural_ged": 0.0,
+    "normalized_role_ged": 0.4545
+  },
+  "chaldean vs genesis_creationist": {
+    "structural_ged": 10.0,
+    "role_ged": 15.0,
+    "normalized_structural_ged": 0.7692,
+    "normalized_role_ged": 1.1538
+  },
+  "chaldean vs gospel_of_mary": {
+    "structural_ged": 6.0,
+    "role_ged": 11.0,
+    "normalized_structural_ged": 0.4286,
+    "normalized_role_ged": 0.7857
+  },
+  "chaldean vs hermetic": {
+    "structural_ged": 6.0,
+    "role_ged": 12.0,
+    "normalized_structural_ged": 0.4615,
+    "normalized_role_ged": 0.9231
+  },
+  "chaldean vs ishraq_illuminationist": {
+    "structural_ged": 2.0,
+    "role_ged": 6.0,
+    "normalized_structural_ged": 0.1667,
+    "normalized_role_ged": 0.5
+  },
+  "chaldean vs lurianic_kabbalistic": {
+    "structural_ged": 2.0,
+    "role_ged": 8.0,
+    "normalized_structural_ged": 0.1667,
+    "normalized_role_ged": 0.6667
+  },
+  "chaldean vs manichaean": {
+    "structural_ged": 10.0,
+    "role_ged": 14.0,
+    "normalized_structural_ged": 0.625,
+    "normalized_role_ged": 0.875
+  },
+  "chaldean vs plotinian_neoplatonic": {
+    "structural_ged": 2.0,
+    "role_ged": 6.0,
+    "normalized_structural_ged": 0.2,
+    "normalized_role_ged": 0.6
+  },
+  "chaldean vs popol_vuh_maya": {
+    "structural_ged": 10.0,
+    "role_ged": 19.0,
+    "normalized_structural_ged": 0.625,
+    "normalized_role_ged": 1.1875
+  },
+  "chaldean vs proclan_neoplatonic": {
+    "structural_ged": 4.0,
+    "role_ged": 8.0,
+    "normalized_structural_ged": 0.3077,
+    "normalized_role_ged": 0.6154
+  },
+  "chaldean vs quranic_miraj": {
+    "structural_ged": 8.0,
+    "role_ged": 12.0,
+    "normalized_structural_ged": 0.5333,
+    "normalized_role_ged": 0.8
+  },
+  "chaldean vs samkhya": {
+    "structural_ged": 2.0,
+    "role_ged": 6.0,
+    "normalized_structural_ged": 0.1667,
+    "normalized_role_ged": 0.5
+  },
+  "chaldean vs sethian_gnostic": {
+    "structural_ged": 4.0,
+    "role_ged": 8.0,
+    "normalized_structural_ged": 0.3077,
+    "normalized_role_ged": 0.6154
+  },
+  "chaldean vs taoist_ddj": {
+    "structural_ged": 2.0,
+    "role_ged": 5.0,
+    "normalized_structural_ged": 0.2,
+    "normalized_role_ged": 0.5
+  },
+  "chaldean vs trimorphic_protennoia": {
+    "structural_ged": 4.0,
+    "role_ged": 10.0,
+    "normalized_structural_ged": 0.3333,
+    "normalized_role_ged": 0.8333
+  },
+  "chaldean vs valentinian_gnostic": {
+    "structural_ged": 6.0,
+    "role_ged": 10.0,
+    "normalized_structural_ged": 0.4286,
+    "normalized_role_ged": 0.7143
+  },
+  "chaldean vs vedic_nasadiya": {
+    "structural_ged": 2.0,
+    "role_ged": 6.0,
+    "normalized_structural_ged": 0.2,
+    "normalized_role_ged": 0.6
+  },
+  "chaldean vs vedic_purusha": {
+    "structural_ged": 6.0,
+    "role_ged": 12.0,
+    "normalized_structural_ged": 0.5,
+    "normalized_role_ged": 1.0
+  },
+  "derveni_orphic vs enochian_watchers": {
+    "structural_ged": 2.0,
+    "role_ged": 6.0,
+    "normalized_structural_ged": 0.2,
+    "normalized_role_ged": 0.6
+  },
+  "derveni_orphic vs genesis_creationist": {
+    "structural_ged": 10.0,
+    "role_ged": 13.0,
+    "normalized_structural_ged": 0.8333,
+    "normalized_role_ged": 1.0833
+  },
+  "derveni_orphic vs gospel_of_mary": {
+    "structural_ged": 8.0,
+    "role_ged": 14.0,
+    "normalized_structural_ged": 0.6154,
+    "normalized_role_ged": 1.0769
+  },
+  "derveni_orphic vs hermetic": {
+    "structural_ged": 8.0,
+    "role_ged": 10.0,
+    "normalized_structural_ged": 0.6667,
+    "normalized_role_ged": 0.8333
+  },
+  "derveni_orphic vs ishraq_illuminationist": {
+    "structural_ged": 4.0,
+    "role_ged": 9.0,
+    "normalized_structural_ged": 0.3636,
+    "normalized_role_ged": 0.8182
+  },
+  "derveni_orphic vs lurianic_kabbalistic": {
+    "structural_ged": 4.0,
+    "role_ged": 10.0,
+    "normalized_structural_ged": 0.3636,
+    "normalized_role_ged": 0.9091
+  },
+  "derveni_orphic vs manichaean": {
+    "structural_ged": 12.0,
+    "role_ged": 16.0,
+    "normalized_structural_ged": 0.8,
+    "normalized_role_ged": 1.0667
+  },
+  "derveni_orphic vs plotinian_neoplatonic": {
+    "structural_ged": 0.0,
+    "role_ged": 5.0,
+    "normalized_structural_ged": 0.0,
+    "normalized_role_ged": 0.5556
+  },
+  "derveni_orphic vs popol_vuh_maya": {
+    "structural_ged": 12.0,
+    "role_ged": 19.0,
+    "normalized_structural_ged": 0.8,
+    "normalized_role_ged": 1.2667
+  },
+  "derveni_orphic vs proclan_neoplatonic": {
+    "structural_ged": 6.0,
+    "role_ged": 12.0,
+    "normalized_structural_ged": 0.5,
+    "normalized_role_ged": 1.0
+  },
+  "derveni_orphic vs quranic_miraj": {
+    "structural_ged": 10.0,
+    "role_ged": 15.0,
+    "normalized_structural_ged": 0.7143,
+    "normalized_role_ged": 1.0714
+  },
+  "derveni_orphic vs samkhya": {
+    "structural_ged": 4.0,
+    "role_ged": 9.0,
+    "normalized_structural_ged": 0.3636,
+    "normalized_role_ged": 0.8182
+  },
+  "derveni_orphic vs sethian_gnostic": {
+    "structural_ged": 6.0,
+    "role_ged": 11.0,
+    "normalized_structural_ged": 0.5,
+    "normalized_role_ged": 0.9167
+  },
+  "derveni_orphic vs taoist_ddj": {
+    "structural_ged": 0.0,
+    "role_ged": 3.0,
+    "normalized_structural_ged": 0.0,
+    "normalized_role_ged": 0.3333
+  },
+  "derveni_orphic vs trimorphic_protennoia": {
+    "structural_ged": 4.0,
+    "role_ged": 9.0,
+    "normalized_structural_ged": 0.3636,
+    "normalized_role_ged": 0.8182
+  },
+  "derveni_orphic vs valentinian_gnostic": {
+    "structural_ged": 8.0,
+    "role_ged": 13.0,
+    "normalized_structural_ged": 0.6154,
+    "normalized_role_ged": 1.0
+  },
+  "derveni_orphic vs vedic_nasadiya": {
+    "structural_ged": 0.0,
+    "role_ged": 3.0,
+    "normalized_structural_ged": 0.0,
+    "normalized_role_ged": 0.3333
+  },
+  "derveni_orphic vs vedic_purusha": {
+    "structural_ged": 6.0,
+    "role_ged": 10.0,
+    "normalized_structural_ged": 0.5455,
+    "normalized_role_ged": 0.9091
+  },
+  "enochian_watchers vs genesis_creationist": {
+    "structural_ged": 10.0,
+    "role_ged": 13.0,
+    "normalized_structural_ged": 0.7692,
+    "normalized_role_ged": 1.0
+  },
+  "enochian_watchers vs gospel_of_mary": {
+    "structural_ged": 6.0,
+    "role_ged": 12.0,
+    "normalized_structural_ged": 0.4286,
+    "normalized_role_ged": 0.8571
+  },
+  "enochian_watchers vs hermetic": {
+    "structural_ged": 6.0,
+    "role_ged": 10.0,
+    "normalized_structural_ged": 0.4615,
+    "normalized_role_ged": 0.7692
+  },
+  "enochian_watchers vs ishraq_illuminationist": {
+    "structural_ged": 2.0,
+    "role_ged": 7.0,
+    "normalized_structural_ged": 0.1667,
+    "normalized_role_ged": 0.5833
+  },
+  "enochian_watchers vs lurianic_kabbalistic": {
+    "structural_ged": 2.0,
+    "role_ged": 8.0,
+    "normalized_structural_ged": 0.1667,
+    "normalized_role_ged": 0.6667
+  },
+  "enochian_watchers vs manichaean": {
+    "structural_ged": 10.0,
+    "role_ged": 15.0,
+    "normalized_structural_ged": 0.625,
+    "normalized_role_ged": 0.9375
+  },
+  "enochian_watchers vs plotinian_neoplatonic": {
+    "structural_ged": 2.0,
+    "role_ged": 6.0,
+    "normalized_structural_ged": 0.2,
+    "normalized_role_ged": 0.6
+  },
+  "enochian_watchers vs popol_vuh_maya": {
+    "structural_ged": 10.0,
+    "role_ged": 18.0,
+    "normalized_structural_ged": 0.625,
+    "normalized_role_ged": 1.125
+  },
+  "enochian_watchers vs proclan_neoplatonic": {
+    "structural_ged": 4.0,
+    "role_ged": 10.0,
+    "normalized_structural_ged": 0.3077,
+    "normalized_role_ged": 0.7692
+  },
+  "enochian_watchers vs quranic_miraj": {
+    "structural_ged": 8.0,
+    "role_ged": 13.0,
+    "normalized_structural_ged": 0.5333,
+    "normalized_role_ged": 0.8667
+  },
+  "enochian_watchers vs samkhya": {
+    "structural_ged": 2.0,
+    "role_ged": 7.0,
+    "normalized_structural_ged": 0.1667,
+    "normalized_role_ged": 0.5833
+  },
+  "enochian_watchers vs sethian_gnostic": {
+    "structural_ged": 4.0,
+    "role_ged": 8.0,
+    "normalized_structural_ged": 0.3077,
+    "normalized_role_ged": 0.6154
+  },
+  "enochian_watchers vs taoist_ddj": {
+    "structural_ged": 2.0,
+    "role_ged": 5.0,
+    "normalized_structural_ged": 0.2,
+    "normalized_role_ged": 0.5
+  },
+  "enochian_watchers vs trimorphic_protennoia": {
+    "structural_ged": 4.0,
+    "role_ged": 8.0,
+    "normalized_structural_ged": 0.3333,
+    "normalized_role_ged": 0.6667
+  },
+  "enochian_watchers vs valentinian_gnostic": {
+    "structural_ged": 6.0,
+    "role_ged": 10.0,
+    "normalized_structural_ged": 0.4286,
+    "normalized_role_ged": 0.7143
+  },
+  "enochian_watchers vs vedic_nasadiya": {
+    "structural_ged": 2.0,
+    "role_ged": 4.0,
+    "normalized_structural_ged": 0.2,
+    "normalized_role_ged": 0.4
+  },
+  "enochian_watchers vs vedic_purusha": {
+    "structural_ged": 6.0,
+    "role_ged": 10.0,
+    "normalized_structural_ged": 0.5,
+    "normalized_role_ged": 0.8333
+  },
+  "genesis_creationist vs gospel_of_mary": {
+    "structural_ged": 12.0,
+    "role_ged": 16.0,
+    "normalized_structural_ged": 0.75,
+    "normalized_role_ged": 1.0
+  },
+  "genesis_creationist vs hermetic": {
+    "structural_ged": 8.0,
+    "role_ged": 12.0,
+    "normalized_structural_ged": 0.5333,
+    "normalized_role_ged": 0.8
+  },
+  "genesis_creationist vs ishraq_illuminationist": {
+    "structural_ged": 10.0,
+    "role_ged": 14.0,
+    "normalized_structural_ged": 0.7143,
+    "normalized_role_ged": 1.0
+  },
+  "genesis_creationist vs lurianic_kabbalistic": {
+    "structural_ged": 10.0,
+    "role_ged": 16.0,
+    "normalized_structural_ged": 0.7143,
+    "normalized_role_ged": 1.1429
+  },
+  "genesis_creationist vs manichaean": {
+    "structural_ged": 16.0,
+    "role_ged": 19.0,
+    "normalized_structural_ged": 0.8889,
+    "normalized_role_ged": 1.0556
+  },
+  "genesis_creationist vs plotinian_neoplatonic": {
+    "structural_ged": 10.0,
+    "role_ged": 13.0,
+    "normalized_structural_ged": 0.8333,
+    "normalized_role_ged": 1.0833
+  },
+  "genesis_creationist vs popol_vuh_maya": {
+    "structural_ged": 10.0,
+    "role_ged": 14.0,
+    "normalized_structural_ged": 0.5556,
+    "normalized_role_ged": 0.7778
+  },
+  "genesis_creationist vs proclan_neoplatonic": {
+    "structural_ged": 10.0,
+    "role_ged": 15.0,
+    "normalized_structural_ged": 0.6667,
+    "normalized_role_ged": 1.0
+  },
+  "genesis_creationist vs quranic_miraj": {
+    "structural_ged": 14.0,
+    "role_ged": 18.0,
+    "normalized_structural_ged": 0.8235,
+    "normalized_role_ged": 1.0588
+  },
+  "genesis_creationist vs samkhya": {
+    "structural_ged": 10.0,
+    "role_ged": 14.0,
+    "normalized_structural_ged": 0.7143,
+    "normalized_role_ged": 1.0
+  },
+  "genesis_creationist vs sethian_gnostic": {
+    "structural_ged": 10.0,
+    "role_ged": 15.0,
+    "normalized_structural_ged": 0.6667,
+    "normalized_role_ged": 1.0
+  },
+  "genesis_creationist vs taoist_ddj": {
+    "structural_ged": 10.0,
+    "role_ged": 12.0,
+    "normalized_structural_ged": 0.8333,
+    "normalized_role_ged": 1.0
+  },
+  "genesis_creationist vs trimorphic_protennoia": {
+    "structural_ged": 6.0,
+    "role_ged": 12.0,
+    "normalized_structural_ged": 0.4286,
+    "normalized_role_ged": 0.8571
+  },
+  "genesis_creationist vs valentinian_gnostic": {
+    "structural_ged": 12.0,
+    "role_ged": 16.0,
+    "normalized_structural_ged": 0.75,
+    "normalized_role_ged": 1.0
+  },
+  "genesis_creationist vs vedic_nasadiya": {
+    "structural_ged": 10.0,
+    "role_ged": 12.0,
+    "normalized_structural_ged": 0.8333,
+    "normalized_role_ged": 1.0
+  },
+  "genesis_creationist vs vedic_purusha": {
+    "structural_ged": 4.0,
+    "role_ged": 10.0,
+    "normalized_structural_ged": 0.2857,
+    "normalized_role_ged": 0.7143
+  },
+  "gospel_of_mary vs hermetic": {
+    "structural_ged": 6.0,
+    "role_ged": 13.0,
+    "normalized_structural_ged": 0.375,
+    "normalized_role_ged": 0.8125
+  },
+  "gospel_of_mary vs ishraq_illuminationist": {
+    "structural_ged": 4.0,
+    "role_ged": 10.0,
+    "normalized_structural_ged": 0.2667,
+    "normalized_role_ged": 0.6667
+  },
+  "gospel_of_mary vs lurianic_kabbalistic": {
+    "structural_ged": 4.0,
+    "role_ged": 13.0,
+    "normalized_structural_ged": 0.2667,
+    "normalized_role_ged": 0.8667
+  },
+  "gospel_of_mary vs manichaean": {
+    "structural_ged": 6.0,
+    "role_ged": 10.0,
+    "normalized_structural_ged": 0.3158,
+    "normalized_role_ged": 0.5263
+  },
+  "gospel_of_mary vs plotinian_neoplatonic": {
+    "structural_ged": 8.0,
+    "role_ged": 12.0,
+    "normalized_structural_ged": 0.6154,
+    "normalized_role_ged": 0.9231
+  },
+  "gospel_of_mary vs popol_vuh_maya": {
+    "structural_ged": 8.0,
+    "role_ged": 21.0,
+    "normalized_structural_ged": 0.4211,
+    "normalized_role_ged": 1.1053
+  },
+  "gospel_of_mary vs proclan_neoplatonic": {
+    "structural_ged": 2.0,
+    "role_ged": 8.0,
+    "normalized_structural_ged": 0.125,
+    "normalized_role_ged": 0.5
+  },
+  "gospel_of_mary vs quranic_miraj": {
+    "structural_ged": 2.0,
+    "role_ged": 3.0,
+    "normalized_structural_ged": 0.1111,
+    "normalized_role_ged": 0.1667
+  },
+  "gospel_of_mary vs samkhya": {
+    "structural_ged": 4.0,
+    "role_ged": 9.0,
+    "normalized_structural_ged": 0.2667,
+    "normalized_role_ged": 0.6
+  },
+  "gospel_of_mary vs sethian_gnostic": {
+    "structural_ged": 2.0,
+    "role_ged": 11.0,
+    "normalized_structural_ged": 0.125,
+    "normalized_role_ged": 0.6875
+  },
+  "gospel_of_mary vs taoist_ddj": {
+    "structural_ged": 8.0,
+    "role_ged": 11.0,
+    "normalized_structural_ged": 0.6154,
+    "normalized_role_ged": 0.8462
+  },
+  "gospel_of_mary vs trimorphic_protennoia": {
+    "structural_ged": 8.0,
+    "role_ged": 13.0,
+    "normalized_structural_ged": 0.5333,
+    "normalized_role_ged": 0.8667
+  },
+  "gospel_of_mary vs valentinian_gnostic": {
+    "structural_ged": 2.0,
+    "role_ged": 10.0,
+    "normalized_structural_ged": 0.1176,
+    "normalized_role_ged": 0.5882
+  },
+  "gospel_of_mary vs vedic_nasadiya": {
+    "structural_ged": 8.0,
+    "role_ged": 12.0,
+    "normalized_structural_ged": 0.6154,
+    "normalized_role_ged": 0.9231
+  },
+  "gospel_of_mary vs vedic_purusha": {
+    "structural_ged": 10.0,
+    "role_ged": 17.0,
+    "normalized_structural_ged": 0.6667,
+    "normalized_role_ged": 1.1333
+  },
+  "hermetic vs ishraq_illuminationist": {
+    "structural_ged": 6.0,
+    "role_ged": 10.0,
+    "normalized_structural_ged": 0.4286,
+    "normalized_role_ged": 0.7143
+  },
+  "hermetic vs lurianic_kabbalistic": {
+    "structural_ged": 6.0,
+    "role_ged": 11.0,
+    "normalized_structural_ged": 0.4286,
+    "normalized_role_ged": 0.7857
+  },
+  "hermetic vs manichaean": {
+    "structural_ged": 6.0,
+    "role_ged": 12.0,
+    "normalized_structural_ged": 0.3333,
+    "normalized_role_ged": 0.6667
+  },
+  "hermetic vs plotinian_neoplatonic": {
+    "structural_ged": 8.0,
+    "role_ged": 11.0,
+    "normalized_structural_ged": 0.6667,
+    "normalized_role_ged": 0.9167
+  },
+  "hermetic vs popol_vuh_maya": {
+    "structural_ged": 8.0,
+    "role_ged": 16.0,
+    "normalized_structural_ged": 0.4444,
+    "normalized_role_ged": 0.8889
+  },
+  "hermetic vs proclan_neoplatonic": {
+    "structural_ged": 4.0,
+    "role_ged": 11.0,
+    "normalized_structural_ged": 0.2667,
+    "normalized_role_ged": 0.7333
+  },
+  "hermetic vs quranic_miraj": {
+    "structural_ged": 8.0,
+    "role_ged": 14.0,
+    "normalized_structural_ged": 0.4706,
+    "normalized_role_ged": 0.8235
+  },
+  "hermetic vs samkhya": {
+    "structural_ged": 6.0,
+    "role_ged": 10.0,
+    "normalized_structural_ged": 0.4286,
+    "normalized_role_ged": 0.7143
+  },
+  "hermetic vs sethian_gnostic": {
+    "structural_ged": 4.0,
+    "role_ged": 7.0,
+    "normalized_structural_ged": 0.2667,
+    "normalized_role_ged": 0.4667
+  },
+  "hermetic vs taoist_ddj": {
+    "structural_ged": 8.0,
+    "role_ged": 9.0,
+    "normalized_structural_ged": 0.6667,
+    "normalized_role_ged": 0.75
+  },
+  "hermetic vs trimorphic_protennoia": {
+    "structural_ged": 4.0,
+    "role_ged": 11.0,
+    "normalized_structural_ged": 0.2857,
+    "normalized_role_ged": 0.7857
+  },
+  "hermetic vs valentinian_gnostic": {
+    "structural_ged": 6.0,
+    "role_ged": 9.0,
+    "normalized_structural_ged": 0.375,
+    "normalized_role_ged": 0.5625
+  },
+  "hermetic vs vedic_nasadiya": {
+    "structural_ged": 8.0,
+    "role_ged": 9.0,
+    "normalized_structural_ged": 0.6667,
+    "normalized_role_ged": 0.75
+  },
+  "hermetic vs vedic_purusha": {
+    "structural_ged": 6.0,
+    "role_ged": 13.0,
+    "normalized_structural_ged": 0.4286,
+    "normalized_role_ged": 0.9286
+  },
+  "ishraq_illuminationist vs lurianic_kabbalistic": {
+    "structural_ged": 0.0,
+    "role_ged": 7.0,
+    "normalized_structural_ged": 0.0,
+    "normalized_role_ged": 0.5385
+  },
+  "ishraq_illuminationist vs manichaean": {
+    "structural_ged": 10.0,
+    "role_ged": 13.0,
+    "normalized_structural_ged": 0.5882,
+    "normalized_role_ged": 0.7647
+  },
+  "ishraq_illuminationist vs plotinian_neoplatonic": {
+    "structural_ged": 4.0,
+    "role_ged": 7.0,
+    "normalized_structural_ged": 0.3636,
+    "normalized_role_ged": 0.6364
+  },
+  "ishraq_illuminationist vs popol_vuh_maya": {
+    "structural_ged": 10.0,
+    "role_ged": 19.0,
+    "normalized_structural_ged": 0.5882,
+    "normalized_role_ged": 1.1176
+  },
+  "ishraq_illuminationist vs proclan_neoplatonic": {
+    "structural_ged": 2.0,
+    "role_ged": 6.0,
+    "normalized_structural_ged": 0.1429,
+    "normalized_role_ged": 0.4286
+  },
+  "ishraq_illuminationist vs quranic_miraj": {
+    "structural_ged": 6.0,
+    "role_ged": 11.0,
+    "normalized_structural_ged": 0.375,
+    "normalized_role_ged": 0.6875
+  },
+  "ishraq_illuminationist vs samkhya": {
+    "structural_ged": 0.0,
+    "role_ged": 1.0,
+    "normalized_structural_ged": 0.0,
+    "normalized_role_ged": 0.0769
+  },
+  "ishraq_illuminationist vs sethian_gnostic": {
+    "structural_ged": 2.0,
+    "role_ged": 6.0,
+    "normalized_structural_ged": 0.1429,
+    "normalized_role_ged": 0.4286
+  },
+  "ishraq_illuminationist vs taoist_ddj": {
+    "structural_ged": 4.0,
+    "role_ged": 7.0,
+    "normalized_structural_ged": 0.3636,
+    "normalized_role_ged": 0.6364
+  },
+  "ishraq_illuminationist vs trimorphic_protennoia": {
+    "structural_ged": 4.0,
+    "role_ged": 8.0,
+    "normalized_structural_ged": 0.3077,
+    "normalized_role_ged": 0.6154
+  },
+  "ishraq_illuminationist vs valentinian_gnostic": {
+    "structural_ged": 4.0,
+    "role_ged": 8.0,
+    "normalized_structural_ged": 0.2667,
+    "normalized_role_ged": 0.5333
+  },
+  "ishraq_illuminationist vs vedic_nasadiya": {
+    "structural_ged": 4.0,
+    "role_ged": 7.0,
+    "normalized_structural_ged": 0.3636,
+    "normalized_role_ged": 0.6364
+  },
+  "ishraq_illuminationist vs vedic_purusha": {
+    "structural_ged": 6.0,
+    "role_ged": 12.0,
+    "normalized_structural_ged": 0.4615,
+    "normalized_role_ged": 0.9231
+  },
+  "lurianic_kabbalistic vs manichaean": {
+    "structural_ged": 10.0,
+    "role_ged": 16.0,
+    "normalized_structural_ged": 0.5882,
+    "normalized_role_ged": 0.9412
+  },
+  "lurianic_kabbalistic vs plotinian_neoplatonic": {
+    "structural_ged": 4.0,
+    "role_ged": 9.0,
+    "normalized_structural_ged": 0.3636,
+    "normalized_role_ged": 0.8182
+  },
+  "lurianic_kabbalistic vs popol_vuh_maya": {
+    "structural_ged": 10.0,
+    "role_ged": 16.0,
+    "normalized_structural_ged": 0.5882,
+    "normalized_role_ged": 0.9412
+  },
+  "lurianic_kabbalistic vs proclan_neoplatonic": {
+    "structural_ged": 2.0,
+    "role_ged": 10.0,
+    "normalized_structural_ged": 0.1429,
+    "normalized_role_ged": 0.7143
+  },
+  "lurianic_kabbalistic vs quranic_miraj": {
+    "structural_ged": 6.0,
+    "role_ged": 14.0,
+    "normalized_structural_ged": 0.375,
+    "normalized_role_ged": 0.875
+  },
+  "lurianic_kabbalistic vs samkhya": {
+    "structural_ged": 0.0,
+    "role_ged": 7.0,
+    "normalized_structural_ged": 0.0,
+    "normalized_role_ged": 0.5385
+  },
+  "lurianic_kabbalistic vs sethian_gnostic": {
+    "structural_ged": 2.0,
+    "role_ged": 9.0,
+    "normalized_structural_ged": 0.1429,
+    "normalized_role_ged": 0.6429
+  },
+  "lurianic_kabbalistic vs taoist_ddj": {
+    "structural_ged": 4.0,
+    "role_ged": 8.0,
+    "normalized_structural_ged": 0.3636,
+    "normalized_role_ged": 0.7273
+  },
+  "lurianic_kabbalistic vs trimorphic_protennoia": {
+    "structural_ged": 4.0,
+    "role_ged": 11.0,
+    "normalized_structural_ged": 0.3077,
+    "normalized_role_ged": 0.8462
+  },
+  "lurianic_kabbalistic vs valentinian_gnostic": {
+    "structural_ged": 4.0,
+    "role_ged": 11.0,
+    "normalized_structural_ged": 0.2667,
+    "normalized_role_ged": 0.7333
+  },
+  "lurianic_kabbalistic vs vedic_nasadiya": {
+    "structural_ged": 4.0,
+    "role_ged": 8.0,
+    "normalized_structural_ged": 0.3636,
+    "normalized_role_ged": 0.7273
+  },
+  "lurianic_kabbalistic vs vedic_purusha": {
+    "structural_ged": 6.0,
+    "role_ged": 11.0,
+    "normalized_structural_ged": 0.4615,
+    "normalized_role_ged": 0.8462
+  },
+  "manichaean vs plotinian_neoplatonic": {
+    "structural_ged": 12.0,
+    "role_ged": 16.0,
+    "normalized_structural_ged": 0.8,
+    "normalized_role_ged": 1.0667
+  },
+  "manichaean vs popol_vuh_maya": {
+    "structural_ged": 8.0,
+    "role_ged": 22.0,
+    "normalized_structural_ged": 0.381,
+    "normalized_role_ged": 1.0476
+  },
+  "manichaean vs proclan_neoplatonic": {
+    "structural_ged": 8.0,
+    "role_ged": 12.0,
+    "normalized_structural_ged": 0.4444,
+    "normalized_role_ged": 0.6667
+  },
+  "manichaean vs quranic_miraj": {
+    "structural_ged": 6.0,
+    "role_ged": 8.0,
+    "normalized_structural_ged": 0.3,
+    "normalized_role_ged": 0.4
+  },
+  "manichaean vs samkhya": {
+    "structural_ged": 10.0,
+    "role_ged": 12.0,
+    "normalized_structural_ged": 0.5882,
+    "normalized_role_ged": 0.7059
+  },
+  "manichaean vs sethian_gnostic": {
+    "structural_ged": 8.0,
+    "role_ged": 13.0,
+    "normalized_structural_ged": 0.4444,
+    "normalized_role_ged": 0.7222
+  },
+  "manichaean vs taoist_ddj": {
+    "structural_ged": 12.0,
+    "role_ged": 14.0,
+    "normalized_structural_ged": 0.8,
+    "normalized_role_ged": 0.9333
+  },
+  "manichaean vs trimorphic_protennoia": {
+    "structural_ged": 10.0,
+    "role_ged": 15.0,
+    "normalized_structural_ged": 0.5882,
+    "normalized_role_ged": 0.8824
+  },
+  "manichaean vs valentinian_gnostic": {
+    "structural_ged": 6.0,
+    "role_ged": 12.0,
+    "normalized_structural_ged": 0.3158,
+    "normalized_role_ged": 0.6316
+  },
+  "manichaean vs vedic_nasadiya": {
+    "structural_ged": 12.0,
+    "role_ged": 14.0,
+    "normalized_structural_ged": 0.8,
+    "normalized_role_ged": 0.9333
+  },
+  "manichaean vs vedic_purusha": {
+    "structural_ged": 16.0,
+    "role_ged": 20.0,
+    "normalized_structural_ged": 0.9412,
+    "normalized_role_ged": 1.1765
+  },
+  "plotinian_neoplatonic vs popol_vuh_maya": {
+    "structural_ged": 12.0,
+    "role_ged": 20.0,
+    "normalized_structural_ged": 0.8,
+    "normalized_role_ged": 1.3333
+  },
+  "plotinian_neoplatonic vs proclan_neoplatonic": {
+    "structural_ged": 6.0,
+    "role_ged": 8.0,
+    "normalized_structural_ged": 0.5,
+    "normalized_role_ged": 0.6667
+  },
+  "plotinian_neoplatonic vs quranic_miraj": {
+    "structural_ged": 10.0,
+    "role_ged": 14.0,
+    "normalized_structural_ged": 0.7143,
+    "normalized_role_ged": 1.0
+  },
+  "plotinian_neoplatonic vs samkhya": {
+    "structural_ged": 4.0,
+    "role_ged": 7.0,
+    "normalized_structural_ged": 0.3636,
+    "normalized_role_ged": 0.6364
+  },
+  "plotinian_neoplatonic vs sethian_gnostic": {
+    "structural_ged": 6.0,
+    "role_ged": 9.0,
+    "normalized_structural_ged": 0.5,
+    "normalized_role_ged": 0.75
+  },
+  "plotinian_neoplatonic vs taoist_ddj": {
+    "structural_ged": 0.0,
+    "role_ged": 2.0,
+    "normalized_structural_ged": 0.0,
+    "normalized_role_ged": 0.2222
+  },
+  "plotinian_neoplatonic vs trimorphic_protennoia": {
+    "structural_ged": 4.0,
+    "role_ged": 9.0,
+    "normalized_structural_ged": 0.3636,
+    "normalized_role_ged": 0.8182
+  },
+  "plotinian_neoplatonic vs valentinian_gnostic": {
+    "structural_ged": 8.0,
+    "role_ged": 11.0,
+    "normalized_structural_ged": 0.6154,
+    "normalized_role_ged": 0.8462
+  },
+  "plotinian_neoplatonic vs vedic_nasadiya": {
+    "structural_ged": 0.0,
+    "role_ged": 3.0,
+    "normalized_structural_ged": 0.0,
+    "normalized_role_ged": 0.3333
+  },
+  "plotinian_neoplatonic vs vedic_purusha": {
+    "structural_ged": 6.0,
+    "role_ged": 10.0,
+    "normalized_structural_ged": 0.5455,
+    "normalized_role_ged": 0.9091
+  },
+  "popol_vuh_maya vs proclan_neoplatonic": {
+    "structural_ged": 8.0,
+    "role_ged": 20.0,
+    "normalized_structural_ged": 0.4444,
+    "normalized_role_ged": 1.1111
+  },
+  "popol_vuh_maya vs quranic_miraj": {
+    "structural_ged": 10.0,
+    "role_ged": 20.0,
+    "normalized_structural_ged": 0.5,
+    "normalized_role_ged": 1.0
+  },
+  "popol_vuh_maya vs samkhya": {
+    "structural_ged": 10.0,
+    "role_ged": 19.0,
+    "normalized_structural_ged": 0.5882,
+    "normalized_role_ged": 1.1176
+  },
+  "popol_vuh_maya vs sethian_gnostic": {
+    "structural_ged": 8.0,
+    "role_ged": 17.0,
+    "normalized_structural_ged": 0.4444,
+    "normalized_role_ged": 0.9444
+  },
+  "popol_vuh_maya vs taoist_ddj": {
+    "structural_ged": 12.0,
+    "role_ged": 19.0,
+    "normalized_structural_ged": 0.8,
+    "normalized_role_ged": 1.2667
+  },
+  "popol_vuh_maya vs trimorphic_protennoia": {
+    "structural_ged": 8.0,
+    "role_ged": 19.0,
+    "normalized_structural_ged": 0.4706,
+    "normalized_role_ged": 1.1176
+  },
+  "popol_vuh_maya vs valentinian_gnostic": {
+    "structural_ged": 6.0,
+    "role_ged": 17.0,
+    "normalized_structural_ged": 0.3158,
+    "normalized_role_ged": 0.8947
+  },
+  "popol_vuh_maya vs vedic_nasadiya": {
+    "structural_ged": 12.0,
+    "role_ged": 19.0,
+    "normalized_structural_ged": 0.8,
+    "normalized_role_ged": 1.2667
+  },
+  "popol_vuh_maya vs vedic_purusha": {
+    "structural_ged": 10.0,
+    "role_ged": 14.0,
+    "normalized_structural_ged": 0.5882,
+    "normalized_role_ged": 0.8235
+  },
+  "proclan_neoplatonic vs quranic_miraj": {
+    "structural_ged": 4.0,
+    "role_ged": 10.0,
+    "normalized_structural_ged": 0.2353,
+    "normalized_role_ged": 0.5882
+  },
+  "proclan_neoplatonic vs samkhya": {
+    "structural_ged": 2.0,
+    "role_ged": 5.0,
+    "normalized_structural_ged": 0.1429,
+    "normalized_role_ged": 0.3571
+  },
+  "proclan_neoplatonic vs sethian_gnostic": {
+    "structural_ged": 0.0,
+    "role_ged": 6.0,
+    "normalized_structural_ged": 0.0,
+    "normalized_role_ged": 0.4
+  },
+  "proclan_neoplatonic vs taoist_ddj": {
+    "structural_ged": 6.0,
+    "role_ged": 9.0,
+    "normalized_structural_ged": 0.5,
+    "normalized_role_ged": 0.75
+  },
+  "proclan_neoplatonic vs trimorphic_protennoia": {
+    "structural_ged": 6.0,
+    "role_ged": 10.0,
+    "normalized_structural_ged": 0.4286,
+    "normalized_role_ged": 0.7143
+  },
+  "proclan_neoplatonic vs valentinian_gnostic": {
+    "structural_ged": 2.0,
+    "role_ged": 8.0,
+    "normalized_structural_ged": 0.125,
+    "normalized_role_ged": 0.5
+  },
+  "proclan_neoplatonic vs vedic_nasadiya": {
+    "structural_ged": 6.0,
+    "role_ged": 10.0,
+    "normalized_structural_ged": 0.5,
+    "normalized_role_ged": 0.8333
+  },
+  "proclan_neoplatonic vs vedic_purusha": {
+    "structural_ged": 8.0,
+    "role_ged": 14.0,
+    "normalized_structural_ged": 0.5714,
+    "normalized_role_ged": 1.0
+  },
+  "quranic_miraj vs samkhya": {
+    "structural_ged": 6.0,
+    "role_ged": 10.0,
+    "normalized_structural_ged": 0.375,
+    "normalized_role_ged": 0.625
+  },
+  "quranic_miraj vs sethian_gnostic": {
+    "structural_ged": 4.0,
+    "role_ged": 12.0,
+    "normalized_structural_ged": 0.2353,
+    "normalized_role_ged": 0.7059
+  },
+  "quranic_miraj vs taoist_ddj": {
+    "structural_ged": 10.0,
+    "role_ged": 12.0,
+    "normalized_structural_ged": 0.7143,
+    "normalized_role_ged": 0.8571
+  },
+  "quranic_miraj vs trimorphic_protennoia": {
+    "structural_ged": 10.0,
+    "role_ged": 15.0,
+    "normalized_structural_ged": 0.625,
+    "normalized_role_ged": 0.9375
+  },
+  "quranic_miraj vs valentinian_gnostic": {
+    "structural_ged": 4.0,
+    "role_ged": 11.0,
+    "normalized_structural_ged": 0.2222,
+    "normalized_role_ged": 0.6111
+  },
+  "quranic_miraj vs vedic_nasadiya": {
+    "structural_ged": 10.0,
+    "role_ged": 13.0,
+    "normalized_structural_ged": 0.7143,
+    "normalized_role_ged": 0.9286
+  },
+  "quranic_miraj vs vedic_purusha": {
+    "structural_ged": 12.0,
+    "role_ged": 19.0,
+    "normalized_structural_ged": 0.75,
+    "normalized_role_ged": 1.1875
+  },
+  "samkhya vs sethian_gnostic": {
+    "structural_ged": 2.0,
+    "role_ged": 6.0,
+    "normalized_structural_ged": 0.1429,
+    "normalized_role_ged": 0.4286
+  },
+  "samkhya vs taoist_ddj": {
+    "structural_ged": 4.0,
+    "role_ged": 7.0,
+    "normalized_structural_ged": 0.3636,
+    "normalized_role_ged": 0.6364
+  },
+  "samkhya vs trimorphic_protennoia": {
+    "structural_ged": 4.0,
+    "role_ged": 8.0,
+    "normalized_structural_ged": 0.3077,
+    "normalized_role_ged": 0.6154
+  },
+  "samkhya vs valentinian_gnostic": {
+    "structural_ged": 4.0,
+    "role_ged": 8.0,
+    "normalized_structural_ged": 0.2667,
+    "normalized_role_ged": 0.5333
+  },
+  "samkhya vs vedic_nasadiya": {
+    "structural_ged": 4.0,
+    "role_ged": 7.0,
+    "normalized_structural_ged": 0.3636,
+    "normalized_role_ged": 0.6364
+  },
+  "samkhya vs vedic_purusha": {
+    "structural_ged": 6.0,
+    "role_ged": 12.0,
+    "normalized_structural_ged": 0.4615,
+    "normalized_role_ged": 0.9231
+  },
+  "sethian_gnostic vs taoist_ddj": {
+    "structural_ged": 6.0,
+    "role_ged": 9.0,
+    "normalized_structural_ged": 0.5,
+    "normalized_role_ged": 0.75
+  },
+  "sethian_gnostic vs trimorphic_protennoia": {
+    "structural_ged": 6.0,
+    "role_ged": 11.0,
+    "normalized_structural_ged": 0.4286,
+    "normalized_role_ged": 0.7857
+  },
+  "sethian_gnostic vs valentinian_gnostic": {
+    "structural_ged": 2.0,
+    "role_ged": 2.0,
+    "normalized_structural_ged": 0.125,
+    "normalized_role_ged": 0.125
+  },
+  "sethian_gnostic vs vedic_nasadiya": {
+    "structural_ged": 6.0,
+    "role_ged": 9.0,
+    "normalized_structural_ged": 0.5,
+    "normalized_role_ged": 0.75
+  },
+  "sethian_gnostic vs vedic_purusha": {
+    "structural_ged": 8.0,
+    "role_ged": 14.0,
+    "normalized_structural_ged": 0.5714,
+    "normalized_role_ged": 1.0
+  },
+  "taoist_ddj vs trimorphic_protennoia": {
+    "structural_ged": 4.0,
+    "role_ged": 7.0,
+    "normalized_structural_ged": 0.3636,
+    "normalized_role_ged": 0.6364
+  },
+  "taoist_ddj vs valentinian_gnostic": {
+    "structural_ged": 8.0,
+    "role_ged": 11.0,
+    "normalized_structural_ged": 0.6154,
+    "normalized_role_ged": 0.8462
+  },
+  "taoist_ddj vs vedic_nasadiya": {
+    "structural_ged": 0.0,
+    "role_ged": 1.0,
+    "normalized_structural_ged": 0.0,
+    "normalized_role_ged": 0.1111
+  },
+  "taoist_ddj vs vedic_purusha": {
+    "structural_ged": 6.0,
+    "role_ged": 10.0,
+    "normalized_structural_ged": 0.5455,
+    "normalized_role_ged": 0.9091
+  },
+  "trimorphic_protennoia vs valentinian_gnostic": {
+    "structural_ged": 6.0,
+    "role_ged": 12.0,
+    "normalized_structural_ged": 0.4,
+    "normalized_role_ged": 0.8
+  },
+  "trimorphic_protennoia vs vedic_nasadiya": {
+    "structural_ged": 4.0,
+    "role_ged": 7.0,
+    "normalized_structural_ged": 0.3636,
+    "normalized_role_ged": 0.6364
+  },
+  "trimorphic_protennoia vs vedic_purusha": {
+    "structural_ged": 4.0,
+    "role_ged": 12.0,
+    "normalized_structural_ged": 0.3077,
+    "normalized_role_ged": 0.9231
+  },
+  "valentinian_gnostic vs vedic_nasadiya": {
+    "structural_ged": 8.0,
+    "role_ged": 11.0,
+    "normalized_structural_ged": 0.6154,
+    "normalized_role_ged": 0.8462
+  },
+  "valentinian_gnostic vs vedic_purusha": {
+    "structural_ged": 8.0,
+    "role_ged": 15.0,
+    "normalized_structural_ged": 0.5333,
+    "normalized_role_ged": 1.0
+  },
+  "vedic_nasadiya vs vedic_purusha": {
+    "structural_ged": 6.0,
+    "role_ged": 9.0,
+    "normalized_structural_ged": 0.5455,
+    "normalized_role_ged": 0.8182
+  }
+}

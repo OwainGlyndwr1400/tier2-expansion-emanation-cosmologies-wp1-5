@@ -1,0 +1,120 @@
+{
+  "tradition": "vedic_purusha",
+  "node_count": 7,
+  "edge_count": 6,
+  "depth": 3,
+  "diameter": 3,
+  "width": 4,
+  "leaf_count": 4,
+  "branching_node_count": 1,
+  "max_branching_factor": 4,
+  "mean_branching_factor": 2.0,
+  "root": "purusha",
+  "leaves": [
+    "four_varnas",
+    "cosmic_elements",
+    "ritual_elements",
+    "animals"
+  ],
+  "branching_nodes": [
+    "yajna"
+  ],
+  "in_degree_sequence": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "out_degree_sequence": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    4
+  ],
+  "edge_type_counts": {
+    "creation": 4,
+    "fragmentation": 1,
+    "emanation": 1
+  },
+  "functional_role_counts": {
+    "process": 1,
+    "matter": 4,
+    "source": 1,
+    "first_emanation": 1
+  },
+  "depth_profile": {
+    "0": [
+      "purusha"
+    ],
+    "1": [
+      "viraj"
+    ],
+    "2": [
+      "yajna"
+    ],
+    "3": [
+      "four_varnas",
+      "cosmic_elements",
+      "ritual_elements",
+      "animals"
+    ]
+  },
+  "role_sequence_by_level": {
+    "0": [
+      "source"
+    ],
+    "1": [
+      "first_emanation"
+    ],
+    "2": [
+      "process"
+    ],
+    "3": [
+      "matter",
+      "matter",
+      "matter",
+      "matter"
+    ]
+  },
+  "betweenness_centrality": {
+    "purusha": 0.0,
+    "viraj": 0.1667,
+    "yajna": 0.2667,
+    "four_varnas": 0.0,
+    "cosmic_elements": 0.0,
+    "ritual_elements": 0.0,
+    "animals": 0.0
+  },
+  "closeness_centrality": {
+    "purusha": 0.0,
+    "viraj": 0.1667,
+    "yajna": 0.2222,
+    "four_varnas": 0.25,
+    "cosmic_elements": 0.25,
+    "ritual_elements": 0.25,
+    "animals": 0.25
+  },
+  "topological_sort": [
+    "purusha",
+    "viraj",
+    "yajna",
+    "four_varnas",
+    "cosmic_elements",
+    "ritual_elements",
+    "animals"
+  ],
+  "wl_hash_structure": "fa7bca11cb6c5a6e06c101aeecd19720",
+  "wl_hash_with_roles": "afad5da51e2e34f8d8183dec4a4ffbe2",
+  "is_linear_chain": false,
+  "has_fallen_node": false,
+  "has_process_nodes": true,
+  "has_fragmentation_edge": true,
+  "has_contraction_edge": false,
+  "has_reflection_edge": false
+}

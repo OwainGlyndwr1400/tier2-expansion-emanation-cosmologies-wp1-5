@@ -1,0 +1,117 @@
+{
+  "tradition": "chaldean",
+  "node_count": 6,
+  "edge_count": 5,
+  "depth": 5,
+  "diameter": 5,
+  "width": 1,
+  "leaf_count": 1,
+  "branching_node_count": 0,
+  "max_branching_factor": 1,
+  "mean_branching_factor": 1.0,
+  "root": "father",
+  "leaves": [
+    "earth_matter"
+  ],
+  "branching_nodes": [],
+  "in_degree_sequence": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "out_degree_sequence": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "edge_type_counts": {
+    "creation": 1,
+    "emanation": 4
+  },
+  "functional_role_counts": {
+    "demiurge": 1,
+    "soul": 1,
+    "matter": 1,
+    "source": 1,
+    "intellect": 1,
+    "intermediary": 1
+  },
+  "depth_profile": {
+    "0": [
+      "father"
+    ],
+    "1": [
+      "hecate"
+    ],
+    "2": [
+      "second_mind"
+    ],
+    "3": [
+      "iynges"
+    ],
+    "4": [
+      "hypezokos"
+    ],
+    "5": [
+      "earth_matter"
+    ]
+  },
+  "role_sequence_by_level": {
+    "0": [
+      "source"
+    ],
+    "1": [
+      "soul"
+    ],
+    "2": [
+      "intellect"
+    ],
+    "3": [
+      "intermediary"
+    ],
+    "4": [
+      "demiurge"
+    ],
+    "5": [
+      "matter"
+    ]
+  },
+  "betweenness_centrality": {
+    "father": 0.0,
+    "hecate": 0.2,
+    "second_mind": 0.3,
+    "iynges": 0.3,
+    "hypezokos": 0.2,
+    "earth_matter": 0.0
+  },
+  "closeness_centrality": {
+    "father": 0.0,
+    "hecate": 0.2,
+    "second_mind": 0.2667,
+    "iynges": 0.3,
+    "hypezokos": 0.32,
+    "earth_matter": 0.3333
+  },
+  "topological_sort": [
+    "father",
+    "hecate",
+    "second_mind",
+    "iynges",
+    "hypezokos",
+    "earth_matter"
+  ],
+  "wl_hash_structure": "00cebda468b19313e4e9c98aee07c4df",
+  "wl_hash_with_roles": "e1cd9da6b9d79e3732bbdf3d3ab7ed50",
+  "is_linear_chain": true,
+  "has_fallen_node": false,
+  "has_process_nodes": false,
+  "has_fragmentation_edge": false,
+  "has_contraction_edge": false,
+  "has_reflection_edge": false
+}

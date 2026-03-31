@@ -1,0 +1,159 @@
+{
+  "tradition": "popol_vuh_maya",
+  "node_count": 11,
+  "edge_count": 10,
+  "depth": 5,
+  "diameter": 6,
+  "width": 4,
+  "leaf_count": 5,
+  "branching_node_count": 2,
+  "max_branching_factor": 4,
+  "mean_branching_factor": 1.6667,
+  "root": "divine_triad",
+  "leaves": [
+    "earth_animals",
+    "mud_people",
+    "sun_moon",
+    "maize_people",
+    "maize_women"
+  ],
+  "branching_nodes": [
+    "creative_speech",
+    "maize_discovery"
+  ],
+  "in_degree_sequence": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "out_degree_sequence": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    2,
+    4
+  ],
+  "edge_type_counts": {
+    "contraction": 1,
+    "creation": 8,
+    "fragmentation": 1
+  },
+  "functional_role_counts": {
+    "fallen": 1,
+    "process": 3,
+    "matter": 5,
+    "source": 1,
+    "intermediary": 1
+  },
+  "depth_profile": {
+    "0": [
+      "divine_triad"
+    ],
+    "1": [
+      "creative_speech"
+    ],
+    "2": [
+      "earth_animals",
+      "mud_people",
+      "wooden_people",
+      "maize_discovery"
+    ],
+    "3": [
+      "xibalba_descent",
+      "maize_people",
+      "maize_women"
+    ],
+    "4": [
+      "hero_twins"
+    ],
+    "5": [
+      "sun_moon"
+    ]
+  },
+  "role_sequence_by_level": {
+    "0": [
+      "source"
+    ],
+    "1": [
+      "process"
+    ],
+    "2": [
+      "matter",
+      "matter",
+      "matter",
+      "process"
+    ],
+    "3": [
+      "fallen",
+      "matter",
+      "matter"
+    ],
+    "4": [
+      "process"
+    ],
+    "5": [
+      "intermediary"
+    ]
+  },
+  "betweenness_centrality": {
+    "divine_triad": 0.0,
+    "creative_speech": 0.1,
+    "earth_animals": 0.0,
+    "mud_people": 0.0,
+    "wooden_people": 0.0667,
+    "xibalba_descent": 0.0667,
+    "hero_twins": 0.0444,
+    "sun_moon": 0.0,
+    "maize_discovery": 0.0444,
+    "maize_people": 0.0,
+    "maize_women": 0.0
+  },
+  "closeness_centrality": {
+    "divine_triad": 0.0,
+    "creative_speech": 0.1,
+    "earth_animals": 0.1333,
+    "mud_people": 0.1333,
+    "wooden_people": 0.1333,
+    "xibalba_descent": 0.15,
+    "hero_twins": 0.16,
+    "sun_moon": 0.1667,
+    "maize_discovery": 0.1333,
+    "maize_people": 0.15,
+    "maize_women": 0.15
+  },
+  "topological_sort": [
+    "divine_triad",
+    "creative_speech",
+    "earth_animals",
+    "mud_people",
+    "wooden_people",
+    "maize_discovery",
+    "xibalba_descent",
+    "maize_people",
+    "maize_women",
+    "hero_twins",
+    "sun_moon"
+  ],
+  "wl_hash_structure": "15885d3dd1eb2bac1601fd28550c3639",
+  "wl_hash_with_roles": "769fc8ba79199c59ad61a3193b385042",
+  "is_linear_chain": false,
+  "has_fallen_node": true,
+  "has_process_nodes": true,
+  "has_fragmentation_edge": true,
+  "has_contraction_edge": true,
+  "has_reflection_edge": false
+}

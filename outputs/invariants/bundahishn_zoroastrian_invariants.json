@@ -1,0 +1,116 @@
+{
+  "tradition": "bundahishn_zoroastrian",
+  "node_count": 6,
+  "edge_count": 5,
+  "depth": 5,
+  "diameter": 5,
+  "width": 1,
+  "leaf_count": 1,
+  "branching_node_count": 0,
+  "max_branching_factor": 1,
+  "mean_branching_factor": 1.0,
+  "root": "ohrmazd",
+  "leaves": [
+    "material_world"
+  ],
+  "branching_nodes": [],
+  "in_degree_sequence": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "out_degree_sequence": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "edge_type_counts": {
+    "creation": 4,
+    "emanation": 1
+  },
+  "functional_role_counts": {
+    "soul": 1,
+    "matter": 1,
+    "source": 1,
+    "first_emanation": 1,
+    "intermediary": 2
+  },
+  "depth_profile": {
+    "0": [
+      "ohrmazd"
+    ],
+    "1": [
+      "amesha_spentas"
+    ],
+    "2": [
+      "fravashis"
+    ],
+    "3": [
+      "yazatas"
+    ],
+    "4": [
+      "getik_creations"
+    ],
+    "5": [
+      "material_world"
+    ]
+  },
+  "role_sequence_by_level": {
+    "0": [
+      "source"
+    ],
+    "1": [
+      "first_emanation"
+    ],
+    "2": [
+      "soul"
+    ],
+    "3": [
+      "intermediary"
+    ],
+    "4": [
+      "intermediary"
+    ],
+    "5": [
+      "matter"
+    ]
+  },
+  "betweenness_centrality": {
+    "ohrmazd": 0.0,
+    "amesha_spentas": 0.2,
+    "fravashis": 0.3,
+    "yazatas": 0.3,
+    "getik_creations": 0.2,
+    "material_world": 0.0
+  },
+  "closeness_centrality": {
+    "ohrmazd": 0.0,
+    "amesha_spentas": 0.2,
+    "fravashis": 0.2667,
+    "yazatas": 0.3,
+    "getik_creations": 0.32,
+    "material_world": 0.3333
+  },
+  "topological_sort": [
+    "ohrmazd",
+    "amesha_spentas",
+    "fravashis",
+    "yazatas",
+    "getik_creations",
+    "material_world"
+  ],
+  "wl_hash_structure": "00cebda468b19313e4e9c98aee07c4df",
+  "wl_hash_with_roles": "2c29719c0c26bda1516429f0fa778dec",
+  "is_linear_chain": true,
+  "has_fallen_node": false,
+  "has_process_nodes": false,
+  "has_fragmentation_edge": false,
+  "has_contraction_edge": false,
+  "has_reflection_edge": false
+}

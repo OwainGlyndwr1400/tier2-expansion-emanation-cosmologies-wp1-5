@@ -1,0 +1,129 @@
+{
+  "tradition": "ishraq_illuminationist",
+  "node_count": 7,
+  "edge_count": 6,
+  "depth": 6,
+  "diameter": 6,
+  "width": 1,
+  "leaf_count": 1,
+  "branching_node_count": 0,
+  "max_branching_factor": 1,
+  "mean_branching_factor": 1.0,
+  "root": "nur_al_anwar",
+  "leaves": [
+    "elemental_matter"
+  ],
+  "branching_nodes": [],
+  "in_degree_sequence": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "out_degree_sequence": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "edge_type_counts": {
+    "creation": 1,
+    "reflection": 1,
+    "emanation": 4
+  },
+  "functional_role_counts": {
+    "soul": 1,
+    "matter": 1,
+    "source": 1,
+    "first_emanation": 1,
+    "intellect": 1,
+    "intermediary": 2
+  },
+  "depth_profile": {
+    "0": [
+      "nur_al_anwar"
+    ],
+    "1": [
+      "nearest_light"
+    ],
+    "2": [
+      "victorial_lights"
+    ],
+    "3": [
+      "lords_of_species"
+    ],
+    "4": [
+      "accidental_lights"
+    ],
+    "5": [
+      "celestial_barzakhs"
+    ],
+    "6": [
+      "elemental_matter"
+    ]
+  },
+  "role_sequence_by_level": {
+    "0": [
+      "source"
+    ],
+    "1": [
+      "first_emanation"
+    ],
+    "2": [
+      "intellect"
+    ],
+    "3": [
+      "intermediary"
+    ],
+    "4": [
+      "soul"
+    ],
+    "5": [
+      "intermediary"
+    ],
+    "6": [
+      "matter"
+    ]
+  },
+  "betweenness_centrality": {
+    "nur_al_anwar": 0.0,
+    "nearest_light": 0.1667,
+    "victorial_lights": 0.2667,
+    "lords_of_species": 0.3,
+    "accidental_lights": 0.2667,
+    "celestial_barzakhs": 0.1667,
+    "elemental_matter": 0.0
+  },
+  "closeness_centrality": {
+    "nur_al_anwar": 0.0,
+    "nearest_light": 0.1667,
+    "victorial_lights": 0.2222,
+    "lords_of_species": 0.25,
+    "accidental_lights": 0.2667,
+    "celestial_barzakhs": 0.2778,
+    "elemental_matter": 0.2857
+  },
+  "topological_sort": [
+    "nur_al_anwar",
+    "nearest_light",
+    "victorial_lights",
+    "lords_of_species",
+    "accidental_lights",
+    "celestial_barzakhs",
+    "elemental_matter"
+  ],
+  "wl_hash_structure": "3a735cec9383f8b7cf157c22ba291dd4",
+  "wl_hash_with_roles": "819eb7ac9fa10d26f6d959b9cb7b0383",
+  "is_linear_chain": true,
+  "has_fallen_node": false,
+  "has_process_nodes": false,
+  "has_fragmentation_edge": false,
+  "has_contraction_edge": false,
+  "has_reflection_edge": true
+}

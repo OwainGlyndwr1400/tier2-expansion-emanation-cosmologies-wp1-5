@@ -1,0 +1,128 @@
+{
+  "tradition": "hermetic",
+  "node_count": 8,
+  "edge_count": 7,
+  "depth": 3,
+  "diameter": 5,
+  "width": 3,
+  "leaf_count": 3,
+  "branching_node_count": 1,
+  "max_branching_factor": 3,
+  "mean_branching_factor": 1.4,
+  "root": "god_mind",
+  "leaves": [
+    "nature",
+    "sensible_cosmos",
+    "mortal_humanity"
+  ],
+  "branching_nodes": [
+    "god_mind"
+  ],
+  "in_degree_sequence": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "out_degree_sequence": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    3
+  ],
+  "edge_type_counts": {
+    "creation": 3,
+    "fragmentation": 1,
+    "reflection": 1,
+    "emanation": 2
+  },
+  "functional_role_counts": {
+    "demiurge": 1,
+    "matter": 2,
+    "source": 1,
+    "first_emanation": 1,
+    "intermediary": 3
+  },
+  "depth_profile": {
+    "0": [
+      "god_mind"
+    ],
+    "1": [
+      "logos",
+      "demiurgos",
+      "anthropos"
+    ],
+    "2": [
+      "nature",
+      "seven_governors",
+      "mortal_humanity"
+    ],
+    "3": [
+      "sensible_cosmos"
+    ]
+  },
+  "role_sequence_by_level": {
+    "0": [
+      "source"
+    ],
+    "1": [
+      "demiurge",
+      "first_emanation",
+      "intermediary"
+    ],
+    "2": [
+      "intermediary",
+      "intermediary",
+      "matter"
+    ],
+    "3": [
+      "matter"
+    ]
+  },
+  "betweenness_centrality": {
+    "god_mind": 0.0,
+    "logos": 0.0238,
+    "demiurgos": 0.0476,
+    "anthropos": 0.0238,
+    "seven_governors": 0.0476,
+    "nature": 0.0,
+    "sensible_cosmos": 0.0,
+    "mortal_humanity": 0.0
+  },
+  "closeness_centrality": {
+    "god_mind": 0.0,
+    "logos": 0.1429,
+    "demiurgos": 0.1429,
+    "anthropos": 0.1429,
+    "seven_governors": 0.1905,
+    "nature": 0.1905,
+    "sensible_cosmos": 0.2143,
+    "mortal_humanity": 0.1905
+  },
+  "topological_sort": [
+    "god_mind",
+    "logos",
+    "demiurgos",
+    "anthropos",
+    "nature",
+    "seven_governors",
+    "mortal_humanity",
+    "sensible_cosmos"
+  ],
+  "wl_hash_structure": "1f00c7b5cfb72fc68d219ce7a795a5da",
+  "wl_hash_with_roles": "cbf37aed379596a25131bc65296ca159",
+  "is_linear_chain": false,
+  "has_fallen_node": false,
+  "has_process_nodes": false,
+  "has_fragmentation_edge": true,
+  "has_contraction_edge": false,
+  "has_reflection_edge": true
+}

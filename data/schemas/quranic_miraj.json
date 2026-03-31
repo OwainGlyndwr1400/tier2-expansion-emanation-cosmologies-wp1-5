@@ -1,0 +1,207 @@
+{
+  "tradition": "quranic_miraj",
+  "tradition_full": "Islamic (Quranic Mi'raj — Muhammad's Night Journey and Ascension through the Seven Heavens)",
+  "source": "Quran 17:1 (Isra), 53:1-18 (Najm). Elaborated in hadith: Sahih al-Bukhari, Book 63, Hadith 3674 (Kitab al-Manaqib). Sahih Muslim, Book 1, Hadith 309. Extended narrative: Ibn Ishaq, Sirat Rasul Allah (Guillaume trans. 1955).",
+  "scholarly_anchors": [
+    "Sells, M.A. (ed. & trans.) (1996). Early Islamic Mysticism: Sufi, Qur'an, Mi'raj, Poetic and Theological Writings. Paulist Press.",
+    "Guillaume, A. (trans.) (1955). The Life of Muhammad: A Translation of Ishaq's Sirat Rasul Allah. Oxford University Press.",
+    "Colby, F.S. (2008). Narrating Muhammad's Night Journey: Tracing the Development of the Ibn Abbas Ascension Discourse. SUNY Press.",
+    "Vuckovic, B.O. (2005). Heavenly Journeys, Earthly Concerns: The Legacy of the Mi'raj in the Formation of Islam. Routledge.",
+    "Amir-Moezzi, M.A. (2011). The Spirituality of Shi'i Islam. I.B. Tauris.",
+    "Schimmel, A. (1985). And Muhammad Is His Messenger: The Veneration of the Prophet in Islamic Piety. University of North Carolina Press."
+  ],
+  "encoding_version": "1.0",
+  "encoding_date": "2026-03-31",
+  "source_note": "The Mi'raj (Ascension) narrative describes Muhammad's journey from Earth through seven heavens to the divine presence. The Quran itself gives only brief references (17:1 for the Night Journey to Jerusalem, 53:1-18 for the vision of the Lote Tree). The full seven-heavens sequence comes from hadith, primarily Sahih al-Bukhari. The encoding follows the Bukhari sequence (most widely attested). Ibn Ishaq's Sirat has a slightly different prophet-ordering in the heavens — noted in alternative_encodings. Each heaven is encoded as a separate node because each represents a distinct cosmological level with a specific prophet-guardian, not a mere waypoint.",
+  "geographic_cultural_note": "7th century CE Arabian Peninsula. The Mi'raj is the Islamic analogue of Jewish merkavah (throne-chariot) and hekhalot (heavenly palace) literature. Direct textual and conceptual connections to 1 Enoch (heavenly journey, angelic guides), 2 Enoch (seven heavens), and 3 Baruch (heavenly ascent). Shares the seven-heavens framework with late Jewish apocalypticism but adds the Islamic prophetic succession (Adam through Abraham) as the organizing principle. Independent of Neoplatonic, Gnostic, Vedic, and East Asian traditions.",
+
+  "nodes": [
+    {
+      "id": "allah_throne",
+      "name": "Allah / Al-'Arsh (The Throne of God)",
+      "aliases": ["Allah", "The Throne", "Al-'Arsh", "The Divine Presence"],
+      "functional_role": "source",
+      "level": 0,
+      "source_reference": "Quran 53:13-18: 'He saw him another time, at the Lote Tree of the Boundary, near which is the Garden of Refuge... The sight did not swerve.' Bukhari: 'Then I was taken up to the Frequented House... then I was taken to Sidrat al-Muntaha, and there the Lord revealed what He revealed.'",
+      "notes": "The ultimate divine source — Allah on the Throne (al-'Arsh). In the Mi'raj narrative, Muhammad approaches but does not fully reach the Throne — the encounter occurs at the boundary (Sidrat al-Muntaha). The Throne is the apex of the seven-heavens hierarchy, beyond which no created being can pass. Encoded as 'source' because all levels of the heavenly hierarchy proceed from and are sustained by the divine sovereignty."
+    },
+    {
+      "id": "sidrat_muntaha",
+      "name": "Sidrat al-Muntaha (The Lote Tree of the Boundary)",
+      "aliases": ["Sidrat al-Muntaha", "Lote Tree", "Tree of the Boundary", "The Furthest Limit"],
+      "functional_role": "intermediary",
+      "level": 1,
+      "source_reference": "Quran 53:14: 'Near the Lote Tree of the Boundary (sidrat al-muntaha).' Bukhari: 'Then I was carried to Sidrat al-Muntaha. Its fruits were like the jars of Hajar and its leaves were like the ears of elephants.' Muslim: 'four rivers originate at Sidrat al-Muntaha — two hidden rivers and two visible rivers (the Nile and the Euphrates).'",
+      "notes": "The liminal threshold between the divine presence and the created heavens. Gabriel cannot pass beyond this point — only Muhammad proceeds further. The Lote Tree marks the absolute boundary of created knowledge. Encoded as 'intermediary' rather than a new 'boundary' role, because it functionally mediates between the divine source and the seven heavens below, analogous to how other intermediaries mediate between cosmic levels. The boundary function is captured in the notes and name, not in a distinct functional_role."
+    },
+    {
+      "id": "seventh_heaven",
+      "name": "7th Heaven — Abraham (al-Bayt al-Ma'mur)",
+      "aliases": ["7th Heaven", "Abraham's Heaven", "Bayt al-Ma'mur", "Frequented House"],
+      "functional_role": "intermediary",
+      "level": 2,
+      "source_reference": "Bukhari: 'Then he ascended to the seventh heaven. Gabriel said: Open. It was said: Who is it? Gabriel. It was said: Who is with you? Muhammad. There was Abraham (Ibrahim), resting his back against the Frequented House (Bayt al-Ma'mur).'",
+      "notes": "The highest of the seven heavens, guarded by Abraham (Ibrahim). The Bayt al-Ma'mur is the celestial counterpart of the Ka'ba — 70,000 angels enter it daily. Abraham's position at the apex reflects his status as the father of monotheism in Islamic theology (hanif — the original monotheist before Judaism and Christianity). This is the resting place of the elect."
+    },
+    {
+      "id": "sixth_heaven",
+      "name": "6th Heaven — Moses (Musa)",
+      "aliases": ["6th Heaven", "Moses' Heaven", "Musa's Heaven"],
+      "functional_role": "intermediary",
+      "level": 3,
+      "source_reference": "Bukhari: 'Then he ascended to the sixth heaven. Gabriel said: Open. It was said: Who is it? Gabriel. It was said: Who is with you? Muhammad. There was Moses (Musa), who greeted me and said: Welcome, good brother and good prophet.'",
+      "notes": "Moses occupies the 6th heaven — the prophet of the Torah and the Law. In the Mi'raj narrative, Moses plays a crucial role after the ascent: he advises Muhammad to return to God and request a reduction in the number of daily prayers (from 50 to 5). This dialogic interaction between Muhammad and Moses is unique — no other tradition in the corpus has a negotiation embedded in the cosmic hierarchy."
+    },
+    {
+      "id": "fifth_heaven",
+      "name": "5th Heaven — Aaron (Harun)",
+      "aliases": ["5th Heaven", "Aaron's Heaven", "Harun's Heaven"],
+      "functional_role": "intermediary",
+      "level": 4,
+      "source_reference": "Bukhari: 'Then he ascended to the fifth heaven. There was Aaron (Harun), who greeted me and said: Welcome, good brother and good prophet.'",
+      "notes": "Aaron (Harun), brother of Moses, occupies the 5th heaven. His position reflects the priestly function in the Abrahamic hierarchy — Aaron is the first High Priest. His placement immediately below Moses mirrors the Torah narrative where Aaron serves as Moses' spokesman and ritual deputy."
+    },
+    {
+      "id": "fourth_heaven",
+      "name": "4th Heaven — Idris / Enoch",
+      "aliases": ["4th Heaven", "Idris' Heaven", "Enoch's Heaven"],
+      "functional_role": "intermediary",
+      "level": 5,
+      "source_reference": "Bukhari: 'Then he ascended to the fourth heaven. There was Idris.' Quran 19:56-57: 'Mention in the Book, Idris. He was a man of truth, a prophet. We raised him to a high station.'",
+      "notes": "Idris is identified by most scholars with the biblical Enoch (Genesis 5:24: 'God took him'). His placement in the 4th (middle) heaven corresponds to the Enochic tradition of heavenly ascent — Enoch was 'raised to a high station' (Quran 19:57). This is a direct link to the 1 Enoch tradition (also being encoded in this WP). The identification Idris = Enoch is standard in Islamic exegesis (tafsir) though not universal."
+    },
+    {
+      "id": "third_heaven",
+      "name": "3rd Heaven — Joseph (Yusuf)",
+      "aliases": ["3rd Heaven", "Joseph's Heaven", "Yusuf's Heaven"],
+      "functional_role": "intermediary",
+      "level": 6,
+      "source_reference": "Bukhari: 'Then he ascended to the third heaven. There was Joseph (Yusuf), who had been given half of all beauty.'",
+      "notes": "Joseph (Yusuf), famed for his beauty and his trials. His placement in the 3rd heaven may reflect his role as an intermediary figure — sold into slavery (descent) then elevated to vizier (ascent). In Islamic tradition, Joseph is given 'half of all beauty' (shattr al-husn), making him the archetype of divine beauty manifest in creation."
+    },
+    {
+      "id": "second_heaven",
+      "name": "2nd Heaven — Jesus and John the Baptist (Isa and Yahya)",
+      "aliases": ["2nd Heaven", "Jesus' Heaven", "Isa's Heaven", "Yahya's Heaven"],
+      "functional_role": "intermediary",
+      "level": 7,
+      "source_reference": "Bukhari: 'Then he ascended to the second heaven. There were Jesus son of Mary (Isa ibn Maryam) and John son of Zechariah (Yahya ibn Zakariyya), who were cousins.'",
+      "notes": "Jesus (Isa) and John the Baptist (Yahya) share the 2nd heaven as cousins. This is theologically significant: Islam does not place Jesus at the apex (as Christianity does) but in the lower heavens, as a prophet among prophets. The co-habitation of Jesus and John reflects their Quranic kinship (through Mary and Elizabeth/the house of Imran). Encoded as a single node because they occupy the same cosmological level."
+    },
+    {
+      "id": "first_heaven",
+      "name": "1st Heaven — Adam",
+      "aliases": ["1st Heaven", "Adam's Heaven", "Sama al-Dunya"],
+      "functional_role": "intermediary",
+      "level": 8,
+      "source_reference": "Bukhari: 'Then he ascended to the nearest heaven (sama al-dunya). Gabriel said: Open. It was said: Who is it? Gabriel. It was said: Who is with you? Muhammad... There was Adam. Gabriel said: This is your father, Adam. Greet him. So I greeted him and he said: Welcome, good son and good prophet.'",
+      "notes": "Adam occupies the 1st (lowest) heaven — the father of humanity, the first prophet, and the gatekeeper of the celestial hierarchy. His placement at the base of the heavenly system mirrors his role as the origin of the human species. In the Bukhari narrative, Adam is looking at the souls of his descendants — righteous souls to his right, damned souls to his left. This is the closest heaven to Earth."
+    },
+    {
+      "id": "earth_return",
+      "name": "Earth / Muhammad's Return (al-Ard)",
+      "aliases": ["Earth", "al-Ard", "The Return", "Jerusalem", "Mecca"],
+      "functional_role": "matter",
+      "level": 9,
+      "source_reference": "Quran 17:1: 'Glory to Him who made His servant travel by night from the Sacred Mosque to the Farthest Mosque.' Bukhari: Muhammad returns to Earth with the prescription of five daily prayers — the practical outcome of the cosmic journey.",
+      "notes": "The material world — Muhammad's point of departure and return. The Mi'raj is a round-trip: Earth → 7 heavens → Sidrat al-Muntaha → divine presence → Earth. The return carries a practical payload: the five daily prayers (salat), which are the ritual technology produced by the cosmic encounter. Parallels the Vedic Purusha Sukta's production of ritual elements from cosmic sacrifice. Encoded as 'matter' because it is the terminal material state of the cosmological hierarchy."
+    }
+  ],
+
+  "edges": [
+    {
+      "source": "allah_throne",
+      "target": "sidrat_muntaha",
+      "relationship": "emanation",
+      "notes": "The Lote Tree proceeds from the divine presence as the boundary of created knowledge. 'Emanation' because the boundary is sustained by and derives from the divine source."
+    },
+    {
+      "source": "sidrat_muntaha",
+      "target": "seventh_heaven",
+      "relationship": "emanation",
+      "notes": "The highest heaven proceeds from the boundary. The hierarchy is descending: Throne → Boundary → 7th heaven → ... → Earth."
+    },
+    {
+      "source": "seventh_heaven",
+      "target": "sixth_heaven",
+      "relationship": "emanation",
+      "notes": "Sequential descent through the heavens. Each heaven is a distinct cosmological level sustained by the level above it."
+    },
+    {
+      "source": "sixth_heaven",
+      "target": "fifth_heaven",
+      "relationship": "emanation",
+      "notes": "Moses' heaven → Aaron's heaven. The prophetic hierarchy mirrors the Torah narrative (Moses above Aaron)."
+    },
+    {
+      "source": "fifth_heaven",
+      "target": "fourth_heaven",
+      "relationship": "emanation",
+      "notes": "Aaron's heaven → Idris/Enoch's heaven. The middle heaven as the fulcrum of the hierarchy."
+    },
+    {
+      "source": "fourth_heaven",
+      "target": "third_heaven",
+      "relationship": "emanation",
+      "notes": "Idris' heaven → Joseph's heaven. Continuing the descent through the prophetic hierarchy."
+    },
+    {
+      "source": "third_heaven",
+      "target": "second_heaven",
+      "relationship": "emanation",
+      "notes": "Joseph's heaven → Jesus and John's heaven. The descent continues."
+    },
+    {
+      "source": "second_heaven",
+      "target": "first_heaven",
+      "relationship": "emanation",
+      "notes": "Jesus/John's heaven → Adam's heaven. Adam is the father of humanity, at the base of the celestial hierarchy."
+    },
+    {
+      "source": "first_heaven",
+      "target": "earth_return",
+      "relationship": "creation",
+      "notes": "Shift to 'creation' for the transition from the celestial hierarchy to the material world. The first heaven (Adam's domain) gives way to Earth — the created material realm. This parallels the emanation-to-creation transition in other traditions at the matter boundary."
+    }
+  ],
+
+  "topology": {
+    "node_count": 10,
+    "edge_count": 9,
+    "depth": 9,
+    "max_branching_factor": 1,
+    "shape": "linear_chain",
+    "distinctive_feature": "Deepest linear chain in the corpus (depth 9, surpassing Gospel of Mary at depth 8). The only tradition where every intermediary level is personified by a named prophetic figure. All emanation edges except the final transition to matter — the most emanation-heavy schema in the corpus (8/9 edges = emanation). Tests whether the deep sub-cluster can absorb a schema that exceeds the current maximum depth."
+  },
+
+  "alternative_encodings": {
+    "ibn_ishaq_ordering": {
+      "description": "Ibn Ishaq's Sirat has a slightly different prophet ordering: Adam (1st), Jesus/John (2nd), Joseph (3rd), Idris (4th), Aaron (5th), Moses (6th), Abraham (7th) — same as Bukhari. The main discrepancy in some versions is the placement of Idris (some put him in 2nd heaven). Encoding as alternative if the Bukhari primary differs from Ibn Ishaq.",
+      "priority": "LOW — the differences are minor and do not affect topology (still linear chain, same depth)",
+      "effect": "Changes node labels but not structure. GED would show only role-sequence changes."
+    },
+    "compressed_seven_heavens": {
+      "description": "Compress the seven heavens into a single node ('seven_heavens') with the prophet names as attributes, giving: Allah → Sidrat → Seven Heavens → Earth (4 nodes, depth 3). This would be a minimal encoding.",
+      "priority": "LOW — loses the distinctive depth which is the whole analytical point of encoding the Mi'raj",
+      "effect": "Would make the Mi'raj look like a compact chain (similar to Plotinus). Destroys the main finding."
+    },
+    "two_enoch_parallel": {
+      "description": "Encode the 2 Enoch (Slavonic Enoch) seven-heavens alongside the Mi'raj as a parallel test case. 2 Enoch has the same structural shape (linear chain through seven named heavens) but with different contents at each level.",
+      "priority": "MEDIUM — useful for testing whether two seven-heavens traditions from different religious contexts produce similar metrics",
+      "effect": "Would add a 23rd schema. Consider for WP 1.6 if the Mi'raj results are interesting."
+    }
+  },
+
+  "validation": {
+    "is_dag": true,
+    "single_root": true,
+    "root_node": "allah_throne",
+    "all_connected": true,
+    "node_count": 10,
+    "edge_count": 9,
+    "depth": 9,
+    "within_bounds": true,
+    "all_attributes_present": true,
+    "all_edges_labeled": true
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "tradition": "taoist_ddj",
+  "tradition_full": "Taoist (Daodejing Chapter 42 + Huainanzi Chapter 3)",
+  "source": "Daodejing (Tao Te Ching), Chapter 42. Primary scholarly edition: Henricks, R.G. (1989). Lao-Tzu: Te-Tao Ching (Mawangdui manuscript edition). Ballantine. Cross-referenced with Lau, D.C. (1963). Lao Tzu: Tao Te Ching. Penguin. Wang Bi commentary: Wagner, R.G. (2003). A Chinese Reading of the Daodejing. SUNY.",
+  "scholarly_anchors": [
+    "Henricks, R.G. (1989). Lao-Tzu: Te-Tao Ching. Ballantine. (Mawangdui text)",
+    "Lau, D.C. (1963). Lao Tzu: Tao Te Ching. Penguin.",
+    "Wagner, R.G. (2003). A Chinese Reading of the Daodejing: Wang Bi's Commentary. SUNY.",
+    "Major, J.S. et al. (2010). The Huainanzi. Columbia University Press.",
+    "Robinet, I. (1999). The diverse interpretations of the Laozi. In M. LaFargue & J. Pas (eds.), Lao-tzu and the Tao-te-ching.",
+    "Pregadio, F. (ed.) (2008). Encyclopedia of Taoism. Routledge."
+  ],
+  "encoding_version": "1.0",
+  "encoding_date": "2026-03-28",
+  "source_note": "No local digital copy of Daodejing or Huainanzi available. Encoding based on the primary cosmogonic verse (DDJ Ch. 42) which is a single verse: 'Dao gives birth to One. One gives birth to Two. Two gives birth to Three. Three gives birth to the ten thousand things.' The verse is four clauses; the structural hierarchy is explicit and unambiguous. The only major interpretive question is what 'the Three' refers to. See taoist_source_notes.md.",
+  "geographic_cultural_note": "Fully independent of all Mediterranean and Indian traditions. The Daodejing is dated c. 4th-3rd century BCE (Mawangdui manuscripts c. 200 BCE). No credible channel for Samkhya, Neoplatonic, Gnostic, Hermetic, or Kabbalistic influence on the cosmogonic verse. Independence argument is maximally strong alongside Samkhya.",
+
+  "nodes": [
+    {
+      "id": "dao",
+      "name": "Dao / Wu-ji (The Way / The Unconditioned)",
+      "aliases": ["Dao", "Tao", "Wu-ji", "The Way", "The Nameless", "The Unconditioned"],
+      "functional_role": "source",
+      "level": 0,
+      "source_reference": "DDJ Ch. 42: 'Dao gives birth to One (dao sheng yi).' DDJ Ch. 1: 'The Dao that can be told is not the eternal Dao.' DDJ Ch. 25: 'There was something undifferentiated and complete, before Heaven and Earth were born... One can call it the mother of all things under heaven.'",
+      "notes": "Dao is the transcendent, unnameable source of all reality. Unlike the Plotinian One (which is explicitly beyond being) or the Gnostic Invisible Spirit (which is a spiritual entity), Dao is a process-principle: the way things inherently are and move. The 'source' functional role is apt but approximate — Dao does not 'produce' by emanation overflow so much as it 'gives birth' (sheng) through spontaneous natural differentiation."
+    },
+    {
+      "id": "yi_one",
+      "name": "Yi / Tai-ji (The One / The Great Ultimate)",
+      "aliases": ["Yi", "The One", "Tai-ji", "The Primordial Unity"],
+      "functional_role": "first_emanation",
+      "level": 1,
+      "source_reference": "DDJ Ch. 42: 'Dao gives birth to One (dao sheng yi).' Huainanzi Ch. 3 'Tianwen': 'The Dao begins in the Obscure. The Obscure gives birth to the Universe. The Universe gives birth to Qi.' Multiple commentators identify yi (One) with the primordial undifferentiated Qi (cosmic breath-energy).",
+      "notes": "The first determination out of the Dao. Wang Bi's commentary: the One is 'the beginning of number.' He Shang Gong: the One is primordial Qi, the undifferentiated breath-energy from which all else differentiates. In Huainanzi's elaborated cosmogony, this corresponds to the initial state of 'great clarity' before the differentiation into yin and yang. The 'first_emanation' role is appropriate."
+    },
+    {
+      "id": "er_two",
+      "name": "Er / Yin-Yang (The Two / Heaven and Earth)",
+      "aliases": ["Er", "The Two", "Yin-Yang", "Heaven and Earth", "Qian-Kun"],
+      "functional_role": "intermediary",
+      "level": 2,
+      "source_reference": "DDJ Ch. 42: 'One gives birth to Two (yi sheng er).' Huainanzi Ch. 3: 'Qi that was clear and light floated upward to become Heaven; Qi that was heavy and turbid solidified downward to become Earth.' The Two = the primal polarity of yin and yang, or Heaven (tian) and Earth (di).",
+      "notes": "The primary differentiation of the One into opposites. This is the most unambiguous level of the Taoist cosmogony: the One splits into the polarity of yin/yang (or Heaven/Earth). Unlike the Gnostic fragmentation which involves crisis and loss, this differentiation is natural and positive — the tao's own tendency to produce complementary pairs."
+    },
+    {
+      "id": "san_three",
+      "name": "San / Qi Harmony (The Three)",
+      "aliases": ["San", "The Three", "Qi", "Harmony", "Yin-Yang-He", "Chong Qi"],
+      "functional_role": "intermediary",
+      "level": 3,
+      "source_reference": "DDJ Ch. 42: 'Two gives birth to Three (er sheng san).' He Shang Gong: the Three is yin, yang, and the harmonising breath between them (chong qi, 'rushing harmony'). Wang Bi: the Three is the fullness of all determinate relationships. Huainanzi: the Three corresponds to the differentiation into Heaven, Earth, and the In-Between (ren, humanity/mediation).",
+      "notes": "The most interpretively contested node in the Taoist schema. Major scholarly positions: (a) He Shang Gong: Three = Yin + Yang + Chong Qi (the harmonising breath that mediates between them); (b) Wang Bi: Three = the fullness of ontological determination (yin, yang, and their interaction); (c) Huainanzi: Three = Heaven, Earth, and Humanity as the cosmological triad. All three readings are variations on the same structural insight: the Two produces a mediating third principle before generating the world of multiplicity. We use He Shang Gong's chong-qi reading as the primary encoding. See encoding_decisions.md entry 22."
+    },
+    {
+      "id": "wan_wu",
+      "name": "Wan Wu (The Ten Thousand Things)",
+      "aliases": ["Wan Wu", "Ten Thousand Things", "The Myriad Things", "The World"],
+      "functional_role": "matter",
+      "level": 4,
+      "source_reference": "DDJ Ch. 42: 'Three gives birth to the ten thousand things (san sheng wan wu).' 'Wan wu' (ten thousand things) is the standard Daoist idiom for all of manifest reality — every particular thing that exists.",
+      "notes": "All manifest reality. The 'matter' functional role is approximate — in the Taoist worldview, the ten thousand things include not just material objects but all phenomena, all processes, all beings. The 'creation' edge reflects the qualitative shift from the undifferentiated principle-chain above into the multiplicity of the world."
+    }
+  ],
+
+  "edges": [
+    {
+      "source": "dao",
+      "target": "yi_one",
+      "relationship": "emanation",
+      "notes": "DDJ Ch. 42 uses 'sheng' (gives birth to / produces). This is more organic and process-oriented than Plotinian emanation but less violent than Gnostic fragmentation. 'Emanation' is the closest available term. No loss, no crisis, no return — pure spontaneous production. DISTINCTIVE FEATURE: This is the only emanation schema in the corpus with NO FRAGMENTATION and NO FALLEN NODE — the entire cascade is positive, natural differentiation."
+    },
+    {
+      "source": "yi_one",
+      "target": "er_two",
+      "relationship": "emanation",
+      "notes": "The One naturally differentiates into the Two (yin/yang). Spontaneous, non-coercive, intrinsic to the Dao's nature."
+    },
+    {
+      "source": "er_two",
+      "target": "san_three",
+      "relationship": "emanation",
+      "notes": "The Two produces the mediating third (chong qi / harmony). In He Shang Gong's reading, yin and yang generate the harmonising breath between them."
+    },
+    {
+      "source": "san_three",
+      "target": "wan_wu",
+      "relationship": "creation",
+      "notes": "'Three gives birth to the ten thousand things.' The shift from creation to 'creation' (vs. 'emanation') reflects the qualitative leap from the principle-chain (Dao-One-Two-Three) into the multiplicity of manifest phenomena."
+    }
+  ],
+
+  "topology": {
+    "node_count": 5,
+    "edge_count": 4,
+    "depth": 4,
+    "max_branching_factor": 1,
+    "shape": "linear_chain",
+    "distinctive_feature": "Purely emanative cascade — NO fragmentation, NO fallen node, NO demiurge, NO crisis event. All differentiation is natural and positive. Structurally the cleanest chain in the corpus. Fully geographically and culturally independent."
+  },
+
+  "alternative_encodings": {
+    "huainanzi_expansion": {
+      "description": "7-8 node Huainanzi encoding using the more elaborated Tianwen cosmogony: Dao → Obscure (hundun) → Great Clarity → Qi → Clear-Qi (Heaven) / Turbid-Qi (Earth) → Yin-Yang → Myriad Things. Branches at the qi-differentiation level.",
+      "priority": "HIGH — this is the elaborated tradition alternative",
+      "source": "Huainanzi Chapter 3 'Tianwen xun'; Major et al. (2010) translation.",
+      "effect": "Adds 2-3 nodes, introduces a branching point (Clear-Qi/Turbid-Qi), increases depth to 6. Would test whether the DDJ minimal and Huainanzi elaborated encodings produce the same family assignment."
+    },
+    "wang_bi_three": {
+      "description": "Replace He Shang Gong's 'chong qi' reading of the Three with Wang Bi's ontological reading (Three = fullness of determination). Functionally equivalent topology; changes only the node label/notes.",
+      "priority": "LOW"
+    }
+  },
+
+  "validation": {
+    "is_dag": true,
+    "single_root": true,
+    "root_node": "dao",
+    "all_connected": true,
+    "node_count": 5,
+    "edge_count": 4,
+    "depth": 4,
+    "within_bounds": true,
+    "all_attributes_present": true,
+    "all_edges_labeled": true
+  }
+}

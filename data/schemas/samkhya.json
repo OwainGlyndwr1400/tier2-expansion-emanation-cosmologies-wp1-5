@@ -1,0 +1,162 @@
+{
+  "tradition": "samkhya",
+  "tradition_full": "Samkhya (Classical Indian — Samkhya Karika)",
+  "source": "Samkhya Karika (Ishvarakrishna, c. 350 CE). Primary scholarly reconstruction: Larson, G.J. (1979, rev. 2005). Classical Samkhya: An Interpretation of its History and Meaning. Motilal Banarsidass. Karikas 3, 10-12, 17-24, 25-38 used for structural mapping.",
+  "scholarly_anchors": [
+    "Larson, G.J. (1979/2005). Classical Samkhya. Motilal Banarsidass.",
+    "Larson, G.J. & Bhattacharya, R.S. (eds.) (1987). Samkhya: A Dualist Tradition in Indian Philosophy. Encyclopedia of Indian Philosophies Vol. IV.",
+    "Burley, M. (2007). Classical Samkhya and Yoga. Routledge.",
+    "Timalsina, S. (2022). Change: Thinking through Samkhya. Religions 13(6):549."
+  ],
+  "encoding_version": "1.0",
+  "encoding_date": "2026-03-28",
+  "source_note": "No local digital copy of Samkhya Karika available. Encoding based on Larson (1979/2005) scholarly reconstruction and direct knowledge of the Karika's 25-tattva enumeration (karikas 3, 10-24). The structural hierarchy is unambiguous in the primary literature — all scholars agree on the basic 25-tattva sequence. See samkhya_source_notes.md.",
+  "geographic_cultural_note": "Fully independent of all Mediterranean traditions. Classical Samkhya shows no evidence of contact with Neoplatonic, Gnostic, Hermetic, or Kabbalistic sources. The Samkhya Karika predates the definitive form of most schemas in this corpus (c. 350 CE). Independence argument is maximally strong.",
+
+  "nodes": [
+    {
+      "id": "purusha",
+      "name": "Purusha (Pure Consciousness)",
+      "aliases": ["Purusha", "The Witness", "Kshetrajña", "The Knower of the Field", "Pure Spirit"],
+      "functional_role": "source",
+      "level": 0,
+      "source_reference": "Samkhya Karika §17-19: 'Purusha is witness, isolated, indifferent, a spectator, and inactive.' § 11: 'The distinction of the manifest is that it has a cause; the unmanifest is causeless.' Purusha is pure consciousness, without qualities, inactive, the transcendent source whose mere proximity activates Prakriti.",
+      "notes": "Purusha's relationship to Prakriti is the most distinctive encoding decision in the Samkhya corpus. Purusha does not 'emanate' Prakriti in the Plotinian sense — it does not overflow or produce by excess. Instead, Purusha's proximity 'activates' Prakriti the way a lamp illuminates a room without moving itself. Ishvarakrishna uses the analogy: 'as the proximity of a magnet sets iron in motion.' This is the WITNESS-ACTIVATION relationship. We use 'emanation' as the closest available edge type in the controlled vocabulary, flagged for sensitivity analysis. See encoding_decisions.md entry 20."
+    },
+    {
+      "id": "prakriti",
+      "name": "Prakriti (Primordial Nature)",
+      "aliases": ["Prakriti", "Pradhan", "Mula-Prakriti", "Avyakta", "The Unmanifest"],
+      "functional_role": "first_emanation",
+      "level": 1,
+      "source_reference": "Samkhya Karika §3: 'From the non-cognition of difference between the extremely subtle, the similar, the overpowered, the continuously arising, and the unmanifest (avyakta)...' §10: 'The manifest is caused, non-eternal, non-pervasive, mobile, multiple, supported by Prakriti, merged, composite, and dependent.'",
+      "notes": "Prakriti is the primordial material cause — undifferentiated matter-energy, the sum of all three gunas (sattva, rajas, tamas) in equilibrium. It is NOT created by Purusha — it is eternally existing, activated by Purusha's proximity. The 'first_emanation' role is therefore an approximation: Prakriti is more accurately the 'first active principle' than the 'first thing produced.' This ambiguity is documented in encoding_decisions.md entry 20."
+    },
+    {
+      "id": "mahat_buddhi",
+      "name": "Mahat / Buddhi (Cosmic Intellect)",
+      "aliases": ["Mahat", "Buddhi", "Great Principle", "Intellect", "Determination"],
+      "functional_role": "intellect",
+      "level": 2,
+      "source_reference": "Samkhya Karika §22: 'Determination is the distinctive function of Buddhi.' §23: 'Virtue, knowledge, non-attachment, and power are the sattva form of Buddhi; its opposite form (tamas) is unvirtue, ignorance, attachment, and weakness.' Karika §25: 'From the unmanifest Mahat is produced.'",
+      "notes": "The first manifest product of Prakriti's activation. Mahat (cosmic intellect) and Buddhi (individual intellect) are treated as aspects of the same tattva. The 'intellect' functional role is exact: this is the cosmic principle of determination and discrimination, structurally parallel to Plotinian Nous. Source: Karika §25."
+    },
+    {
+      "id": "ahamkara",
+      "name": "Ahamkara (Ego-Principle / Self-Sense)",
+      "aliases": ["Ahamkara", "Abhimana", "Ego", "Self-Sense", "I-Maker"],
+      "functional_role": "intermediary",
+      "level": 3,
+      "source_reference": "Samkhya Karika §24: 'The distinctive function of Ahamkara is self-conceit (abhimana).' §25: 'From Mahat, Ahamkara is produced.' §25: 'From Ahamkara, a twofold creation: the group of eleven, and the five tanmatras.'",
+      "notes": "The most critical structural node in Samkhya. Ahamkara produces TWO categories of products simultaneously: (1) the 11 sense-mind organs (Manas + 5 Jnanendriyas + 5 Karmendriyas) from its sattva aspect; (2) the 5 Tanmatras (subtle elements) from its tamas aspect. In the full 25-tattva system, this is the BRANCHING POINT of the emanation cascade. In the PRIMARY 7-NODE ENCODING, we follow Perplexity's linearisation (Ahamkara → Manas → Tanmatras) as a Granularity Rule coarsening. The branching alternative is the HIGH-PRIORITY sensitivity encoding. See encoding_decisions.md entry 21."
+    },
+    {
+      "id": "manas",
+      "name": "Manas (Mind / Sense-Motor Coordinator)",
+      "aliases": ["Manas", "Mind", "Inner Organ", "Sensory-Motor Mind"],
+      "functional_role": "soul",
+      "level": 4,
+      "source_reference": "Samkhya Karika §27: 'Manas is of the nature of both [sense organs and action organs] because of its capacity for both.' §27: 'The five sense organs, the five action organs, and Manas: these are the group of eleven.' Produced from the sattva aspect of Ahamkara.",
+      "notes": "The 'soul' functional role for Manas reflects its position as the animating coordinator of all sensory and motor activity — the interface between the internal organs (Buddhi, Ahamkara) and the external world (Tanmatras, Gross Elements). In the Samkhya system, Manas does not have its own ontological production — it receives and coordinates sense data. In the 7-node linearised encoding, Manas is placed on the chain between Ahamkara and Tanmatras as a bridge from psychic to physical reality. ENCODING DECISION: This linearisation is a deliberate simplification — in reality Manas and Tanmatras are co-produced from Ahamkara. See encoding_decisions.md entry 21."
+    },
+    {
+      "id": "tanmatras",
+      "name": "Tanmatras (Subtle Elements)",
+      "aliases": ["Tanmatras", "Subtle Elements", "Sukshma Bhutas", "Sound-Touch-Form-Taste-Smell"],
+      "functional_role": "intermediary",
+      "level": 5,
+      "source_reference": "Samkhya Karika §25: '...from Ahamkara, a twofold creation: the group of eleven, and the five tanmatras.' §38: 'Sound, touch, form, taste, and smell are the five tanmatras; these are the subtle elements (sukshma bhutas) from which the five gross elements are produced.'",
+      "notes": "The five subtle essences (sound, touch, form, taste, smell) — not yet physical, but the immediate causes of the gross elements. The 'intermediary' role is exact: they stand between the psychic realm (Manas) and the material realm (Mahabhutas). From the tamas aspect of Ahamkara."
+    },
+    {
+      "id": "bhutas",
+      "name": "Mahabhutas (Gross Elements / Matter)",
+      "aliases": ["Mahabhutas", "Gross Elements", "Pancha Bhutas", "Space-Air-Fire-Water-Earth"],
+      "functional_role": "matter",
+      "level": 6,
+      "source_reference": "Samkhya Karika §22: '...from the tanmatras, the five gross elements.' The five great elements (ether/space, air, fire, water, earth) are the terminal material products of the Samkhya emanation cascade.",
+      "notes": "The five gross elements are the final manifest products — pure matter. The 'matter' role is exact: they have no further production below them in the 25-tattva system (individual organisms are combinations of these elements, not new ontological levels). The 'creation' edge from Tanmatras to Bhutas reflects the qualitative change from subtle to gross — a more radical transformation than the psychic cascade above."
+    }
+  ],
+
+  "edges": [
+    {
+      "source": "purusha",
+      "target": "prakriti",
+      "relationship": "emanation",
+      "notes": "ENCODING DECISION: The actual Samkhya relationship is witness-activation, not emanation. Purusha's proximity activates Prakriti (as a magnet sets iron in motion, Karika §57). Using 'emanation' as the closest available term in the controlled vocabulary. This is flagged as a candidate for a new edge type in Phase 2. Sensitivity: encoding this as 'reflection' (Prakriti reflects Purusha's presence) is an alternative. See encoding_decisions.md entry 20."
+    },
+    {
+      "source": "prakriti",
+      "target": "mahat_buddhi",
+      "relationship": "emanation",
+      "notes": "Direct production: 'From the unmanifest, Mahat is produced' (Karika §25). The first transformation of the three gunas from equilibrium into a differentiated state."
+    },
+    {
+      "source": "mahat_buddhi",
+      "target": "ahamkara",
+      "relationship": "emanation",
+      "notes": "'From Mahat, Ahamkara is produced' (Karika §25). The cosmic intellect produces the ego-principle as its particularising activity."
+    },
+    {
+      "source": "ahamkara",
+      "target": "manas",
+      "relationship": "emanation",
+      "notes": "Linearisation edge. In reality, Manas and Tanmatras are co-produced from Ahamkara's two aspects (sattva → Manas/sense organs; tamas → Tanmatras). In the 7-node primary encoding we place Manas before Tanmatras as a psychic-before-physical linearisation. See encoding_decisions.md entry 21."
+    },
+    {
+      "source": "manas",
+      "target": "tanmatras",
+      "relationship": "emanation",
+      "notes": "Linearisation edge. Manas and Tanmatras are treated as sequential levels for the Granularity Rule coarsened encoding, with Manas representing the psychic realm and Tanmatras the subtle physical. The directional arrow reflects the logical ordering from mind to matter, not a strict causal sequence."
+    },
+    {
+      "source": "tanmatras",
+      "target": "bhutas",
+      "relationship": "creation",
+      "notes": "'From the tanmatras, the five gross elements' (Karika §22). This is the transition from subtle to gross — a qualitative change from non-perceivable subtle essences to the perceivable gross elements. 'Creation' is the correct edge type: this is a fundamental transformation, not an overflow."
+    }
+  ],
+
+  "topology": {
+    "node_count": 7,
+    "edge_count": 6,
+    "depth": 6,
+    "max_branching_factor": 1,
+    "shape": "linear_chain",
+    "distinctive_feature": "Witness-activation source relationship (Purusha-Prakriti duality unique in corpus); fully independent non-Mediterranean tradition"
+  },
+
+  "alternative_encodings": {
+    "ahamkara_branching": {
+      "description": "8-node branching tree encoding the actual Samkhya structure: Ahamkara produces BOTH Manas (and 10 sense-action organs) AND Tanmatras simultaneously from its two aspects. Creates a branching at level 3.",
+      "priority": "HIGH — this is the structurally accurate encoding",
+      "nodes_changed": "Ahamkara branches to both Manas (sattva aspect) and Tanmatras (tamas aspect) as co-equal productions.",
+      "effect": "Changes shape from linear_chain to branching_tree. max_branching=2. Two leaves: manas, bhutas. Depth becomes 4 (purusha→prakriti→mahat→ahamkara→tanmatras→bhutas but manas as side branch at depth 4).",
+      "scholarly_support": "All major Samkhya scholars (Larson, Burley) describe Ahamkara as having two simultaneous outputs. The chain encoding is a deliberate simplification."
+    },
+    "reflection_edge_purusha": {
+      "description": "Replace purusha→prakriti edge from 'emanation' to 'reflection': Prakriti reflects Purusha's presence, not a true emanation.",
+      "priority": "MEDIUM",
+      "scholarly_support": "Karika §57's magnet analogy supports a proximity-reflection model."
+    },
+    "full_25_tattva": {
+      "description": "20-node full expansion: all 25 tattvas encoded individually (Purusha, Prakriti, Mahat, Ahamkara, 11 Indriyas including Manas, 5 Tanmatras, 5 Mahabhutas). Maximum nodes = 20 (at the DAG contract upper limit).",
+      "priority": "LOW — mainly for stress-testing the pipeline",
+      "effect": "Largest and most branching DAG in the corpus. Would test whether the corpus's linear-chain finding holds when Samkhya is maximally elaborated."
+    }
+  },
+
+  "validation": {
+    "is_dag": true,
+    "single_root": true,
+    "root_node": "purusha",
+    "all_connected": true,
+    "node_count": 7,
+    "edge_count": 6,
+    "depth": 6,
+    "within_bounds": true,
+    "all_attributes_present": true,
+    "all_edges_labeled": true
+  }
+}

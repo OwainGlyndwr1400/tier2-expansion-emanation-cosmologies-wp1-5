@@ -1,0 +1,104 @@
+{
+  "tradition": "vedic_nasadiya",
+  "node_count": 5,
+  "edge_count": 4,
+  "depth": 4,
+  "diameter": 4,
+  "width": 1,
+  "leaf_count": 1,
+  "branching_node_count": 0,
+  "max_branching_factor": 1,
+  "mean_branching_factor": 1.0,
+  "root": "tad_ekam",
+  "leaves": [
+    "srishti"
+  ],
+  "branching_nodes": [],
+  "in_degree_sequence": [
+    0,
+    1,
+    1,
+    1,
+    1
+  ],
+  "out_degree_sequence": [
+    0,
+    1,
+    1,
+    1,
+    1
+  ],
+  "edge_type_counts": {
+    "creation": 2,
+    "emanation": 2
+  },
+  "functional_role_counts": {
+    "matter": 1,
+    "source": 1,
+    "first_emanation": 1,
+    "intermediary": 2
+  },
+  "depth_profile": {
+    "0": [
+      "tad_ekam"
+    ],
+    "1": [
+      "tapas"
+    ],
+    "2": [
+      "kama"
+    ],
+    "3": [
+      "bandhuh"
+    ],
+    "4": [
+      "srishti"
+    ]
+  },
+  "role_sequence_by_level": {
+    "0": [
+      "source"
+    ],
+    "1": [
+      "first_emanation"
+    ],
+    "2": [
+      "intermediary"
+    ],
+    "3": [
+      "intermediary"
+    ],
+    "4": [
+      "matter"
+    ]
+  },
+  "betweenness_centrality": {
+    "tad_ekam": 0.0,
+    "tapas": 0.25,
+    "kama": 0.3333,
+    "bandhuh": 0.25,
+    "srishti": 0.0
+  },
+  "closeness_centrality": {
+    "tad_ekam": 0.0,
+    "tapas": 0.25,
+    "kama": 0.3333,
+    "bandhuh": 0.375,
+    "srishti": 0.4
+  },
+  "topological_sort": [
+    "tad_ekam",
+    "tapas",
+    "kama",
+    "bandhuh",
+    "srishti"
+  ],
+  "wl_hash_structure": "b31ca6b0251bedeec7ccf9735f205c18",
+  "wl_hash_with_roles": "66a2c4dc258e5d86598279863b9c540f",
+  "is_linear_chain": true,
+  "has_fallen_node": false,
+  "has_process_nodes": false,
+  "has_fragmentation_edge": false,
+  "has_contraction_edge": false,
+  "has_reflection_edge": false
+}

@@ -1,0 +1,158 @@
+{
+  "tradition": "quranic_miraj",
+  "node_count": 10,
+  "edge_count": 9,
+  "depth": 9,
+  "diameter": 9,
+  "width": 1,
+  "leaf_count": 1,
+  "branching_node_count": 0,
+  "max_branching_factor": 1,
+  "mean_branching_factor": 1.0,
+  "root": "allah_throne",
+  "leaves": [
+    "earth_return"
+  ],
+  "branching_nodes": [],
+  "in_degree_sequence": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "out_degree_sequence": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "edge_type_counts": {
+    "creation": 1,
+    "emanation": 8
+  },
+  "functional_role_counts": {
+    "matter": 1,
+    "source": 1,
+    "intermediary": 8
+  },
+  "depth_profile": {
+    "0": [
+      "allah_throne"
+    ],
+    "1": [
+      "sidrat_muntaha"
+    ],
+    "2": [
+      "seventh_heaven"
+    ],
+    "3": [
+      "sixth_heaven"
+    ],
+    "4": [
+      "fifth_heaven"
+    ],
+    "5": [
+      "fourth_heaven"
+    ],
+    "6": [
+      "third_heaven"
+    ],
+    "7": [
+      "second_heaven"
+    ],
+    "8": [
+      "first_heaven"
+    ],
+    "9": [
+      "earth_return"
+    ]
+  },
+  "role_sequence_by_level": {
+    "0": [
+      "source"
+    ],
+    "1": [
+      "intermediary"
+    ],
+    "2": [
+      "intermediary"
+    ],
+    "3": [
+      "intermediary"
+    ],
+    "4": [
+      "intermediary"
+    ],
+    "5": [
+      "intermediary"
+    ],
+    "6": [
+      "intermediary"
+    ],
+    "7": [
+      "intermediary"
+    ],
+    "8": [
+      "intermediary"
+    ],
+    "9": [
+      "matter"
+    ]
+  },
+  "betweenness_centrality": {
+    "allah_throne": 0.0,
+    "sidrat_muntaha": 0.1111,
+    "seventh_heaven": 0.1944,
+    "sixth_heaven": 0.25,
+    "fifth_heaven": 0.2778,
+    "fourth_heaven": 0.2778,
+    "third_heaven": 0.25,
+    "second_heaven": 0.1944,
+    "first_heaven": 0.1111,
+    "earth_return": 0.0
+  },
+  "closeness_centrality": {
+    "allah_throne": 0.0,
+    "sidrat_muntaha": 0.1111,
+    "seventh_heaven": 0.1481,
+    "sixth_heaven": 0.1667,
+    "fifth_heaven": 0.1778,
+    "fourth_heaven": 0.1852,
+    "third_heaven": 0.1905,
+    "second_heaven": 0.1944,
+    "first_heaven": 0.1975,
+    "earth_return": 0.2
+  },
+  "topological_sort": [
+    "allah_throne",
+    "sidrat_muntaha",
+    "seventh_heaven",
+    "sixth_heaven",
+    "fifth_heaven",
+    "fourth_heaven",
+    "third_heaven",
+    "second_heaven",
+    "first_heaven",
+    "earth_return"
+  ],
+  "wl_hash_structure": "5426057ab5d37e40f39d9f2208c3ab01",
+  "wl_hash_with_roles": "8d8294d822eb70161f94b6956d70a461",
+  "is_linear_chain": true,
+  "has_fallen_node": false,
+  "has_process_nodes": false,
+  "has_fragmentation_edge": false,
+  "has_contraction_edge": false,
+  "has_reflection_edge": false
+}

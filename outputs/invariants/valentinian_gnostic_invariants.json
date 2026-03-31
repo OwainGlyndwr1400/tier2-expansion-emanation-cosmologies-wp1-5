@@ -1,0 +1,151 @@
+{
+  "tradition": "valentinian_gnostic",
+  "node_count": 9,
+  "edge_count": 8,
+  "depth": 7,
+  "diameter": 7,
+  "width": 2,
+  "leaf_count": 2,
+  "branching_node_count": 1,
+  "max_branching_factor": 2,
+  "mean_branching_factor": 1.1429,
+  "root": "invisible_spirit",
+  "leaves": [
+    "adamas",
+    "material_world"
+  ],
+  "branching_nodes": [
+    "autogenes"
+  ],
+  "in_degree_sequence": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "out_degree_sequence": [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2
+  ],
+  "edge_type_counts": {
+    "creation": 2,
+    "fragmentation": 2,
+    "emanation": 4
+  },
+  "functional_role_counts": {
+    "fallen": 1,
+    "demiurge": 1,
+    "matter": 1,
+    "source": 1,
+    "first_emanation": 1,
+    "intellect": 1,
+    "intermediary": 3
+  },
+  "depth_profile": {
+    "0": [
+      "invisible_spirit"
+    ],
+    "1": [
+      "barbelo"
+    ],
+    "2": [
+      "autogenes"
+    ],
+    "3": [
+      "four_luminaries",
+      "adamas"
+    ],
+    "4": [
+      "sophia"
+    ],
+    "5": [
+      "yaltabaoth"
+    ],
+    "6": [
+      "archons"
+    ],
+    "7": [
+      "material_world"
+    ]
+  },
+  "role_sequence_by_level": {
+    "0": [
+      "source"
+    ],
+    "1": [
+      "first_emanation"
+    ],
+    "2": [
+      "intellect"
+    ],
+    "3": [
+      "intermediary",
+      "intermediary"
+    ],
+    "4": [
+      "fallen"
+    ],
+    "5": [
+      "demiurge"
+    ],
+    "6": [
+      "intermediary"
+    ],
+    "7": [
+      "matter"
+    ]
+  },
+  "betweenness_centrality": {
+    "invisible_spirit": 0.0,
+    "barbelo": 0.125,
+    "autogenes": 0.2143,
+    "four_luminaries": 0.2143,
+    "adamas": 0.0,
+    "sophia": 0.2143,
+    "yaltabaoth": 0.1786,
+    "archons": 0.1071,
+    "material_world": 0.0
+  },
+  "closeness_centrality": {
+    "invisible_spirit": 0.0,
+    "barbelo": 0.125,
+    "autogenes": 0.1667,
+    "four_luminaries": 0.1875,
+    "adamas": 0.1875,
+    "sophia": 0.2,
+    "yaltabaoth": 0.2083,
+    "archons": 0.2143,
+    "material_world": 0.2188
+  },
+  "topological_sort": [
+    "invisible_spirit",
+    "barbelo",
+    "autogenes",
+    "four_luminaries",
+    "adamas",
+    "sophia",
+    "yaltabaoth",
+    "archons",
+    "material_world"
+  ],
+  "wl_hash_structure": "cd01ebe359d85d0abe3d8b77117909f0",
+  "wl_hash_with_roles": "ade1a79ab8b75a055d60f38f94e6980a",
+  "is_linear_chain": false,
+  "has_fallen_node": true,
+  "has_process_nodes": false,
+  "has_fragmentation_edge": true,
+  "has_contraction_edge": false,
+  "has_reflection_edge": false
+}

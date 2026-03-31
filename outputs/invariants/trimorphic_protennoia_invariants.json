@@ -1,0 +1,124 @@
+{
+  "tradition": "trimorphic_protennoia",
+  "node_count": 7,
+  "edge_count": 6,
+  "depth": 4,
+  "diameter": 4,
+  "width": 3,
+  "leaf_count": 3,
+  "branching_node_count": 1,
+  "max_branching_factor": 3,
+  "mean_branching_factor": 1.5,
+  "root": "invisible_spirit",
+  "leaves": [
+    "descent_voice",
+    "descent_speech",
+    "souls_rescued"
+  ],
+  "branching_nodes": [
+    "protennoia"
+  ],
+  "in_degree_sequence": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "out_degree_sequence": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    3
+  ],
+  "edge_type_counts": {
+    "contraction": 1,
+    "creation": 1,
+    "emanation": 4
+  },
+  "functional_role_counts": {
+    "process": 1,
+    "soul": 1,
+    "source": 1,
+    "first_emanation": 1,
+    "intermediary": 3
+  },
+  "depth_profile": {
+    "0": [
+      "invisible_spirit"
+    ],
+    "1": [
+      "protennoia"
+    ],
+    "2": [
+      "descent_voice",
+      "descent_speech",
+      "descent_logos"
+    ],
+    "3": [
+      "five_seals"
+    ],
+    "4": [
+      "souls_rescued"
+    ]
+  },
+  "role_sequence_by_level": {
+    "0": [
+      "source"
+    ],
+    "1": [
+      "first_emanation"
+    ],
+    "2": [
+      "intermediary",
+      "intermediary",
+      "intermediary"
+    ],
+    "3": [
+      "process"
+    ],
+    "4": [
+      "soul"
+    ]
+  },
+  "betweenness_centrality": {
+    "invisible_spirit": 0.0,
+    "protennoia": 0.1667,
+    "descent_voice": 0.0,
+    "descent_speech": 0.0,
+    "descent_logos": 0.1333,
+    "five_seals": 0.1,
+    "souls_rescued": 0.0
+  },
+  "closeness_centrality": {
+    "invisible_spirit": 0.0,
+    "protennoia": 0.1667,
+    "descent_voice": 0.2222,
+    "descent_speech": 0.2222,
+    "descent_logos": 0.2222,
+    "five_seals": 0.25,
+    "souls_rescued": 0.2667
+  },
+  "topological_sort": [
+    "invisible_spirit",
+    "protennoia",
+    "descent_voice",
+    "descent_speech",
+    "descent_logos",
+    "five_seals",
+    "souls_rescued"
+  ],
+  "wl_hash_structure": "70fceeaeddfc02cbaea963ab97701ce5",
+  "wl_hash_with_roles": "8a1cd01febc4c8394511cb949a688fa5",
+  "is_linear_chain": false,
+  "has_fallen_node": false,
+  "has_process_nodes": true,
+  "has_fragmentation_edge": false,
+  "has_contraction_edge": true,
+  "has_reflection_edge": false
+}

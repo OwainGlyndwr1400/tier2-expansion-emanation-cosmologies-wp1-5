@@ -1,0 +1,157 @@
+{
+  "tradition": "vedic_purusha",
+  "tradition_full": "Vedic (Rig Veda 10.90 — Purusha Sukta, Hymn of the Cosmic Person)",
+  "source": "Rig Veda 10.90. Primary scholarly edition: Jamison, S.W. & Brereton, J.P. (2014). The Rigveda: The Earliest Religious Poetry of India. 3 vols. Oxford University Press. Cross-referenced with Doniger O'Flaherty, W. (1981). The Rig Veda: An Anthology. Penguin.",
+  "scholarly_anchors": [
+    "Jamison, S.W. & Brereton, J.P. (2014). The Rigveda: The Earliest Religious Poetry of India. Oxford University Press.",
+    "Doniger O'Flaherty, W. (1981). The Rig Veda: An Anthology. Penguin.",
+    "Gonda, J. (1975). Vedic Literature: Samhitas and Brahmanas. Harrassowitz.",
+    "Witzel, M. (1997). The Development of the Vedic Canon and its Schools. In M. Witzel (ed.), Inside the Texts, Beyond the Texts. Harvard Oriental Series.",
+    "Proferes, T. (2007). Vedic Ideals of Sovereignty and the Poetics of Power. American Oriental Series 90. New Haven.",
+    "Lincoln, B. (1986). Myth, Cosmos, and Society: Indo-European Themes of Creation and Destruction. Harvard University Press."
+  ],
+  "encoding_version": "1.0",
+  "encoding_date": "2026-03-31",
+  "source_note": "Purusha Sukta (RV 10.90) is a 16-verse hymn describing the sacrifice (yajna) of the Cosmic Person (Purusha) to create the world. Unlike Nasadiya's agnostic process-cosmogony, this is a hierarchical, sacrificial cosmogony where the dismemberment of a primordial being produces social order (four varnas) and cosmic structure (celestial bodies, elements). The encoding captures the branching structure at the sacrifice level. This is the second schema from the Rig Veda — together with vedic_nasadiya, it tests whether a single tradition can contain both topology families.",
+  "geographic_cultural_note": "Same corpus as vedic_nasadiya (Rig Veda Book 10, c. 1200-900 BCE). Both are late Rigvedic speculative hymns but represent fundamentally different cosmological strategies: Nasadiya is process-agnostic, Purusha is sacrificial-hierarchical. No external influence from Mediterranean, Gnostic, or Kabbalistic traditions. Lincoln (1986) identifies the dismemberment myth type (*proto-Indo-European Manu/Yemo) across Indo-European cultures, suggesting deep structural antiquity.",
+
+  "nodes": [
+    {
+      "id": "purusha",
+      "name": "Purusha (The Cosmic Person)",
+      "aliases": ["Purusha", "Cosmic Person", "Thousand-headed One", "Sahasrashirsha"],
+      "functional_role": "source",
+      "level": 0,
+      "source_reference": "RV 10.90.1-2: 'The Man (purusha) has a thousand heads, a thousand eyes, a thousand feet. Having covered the earth on all sides, he extended ten fingers' breadth beyond. The Man alone is all this — what has been and what is to be.' Jamison & Brereton (2014) vol. 3.",
+      "notes": "Purusha is the primordial cosmic being whose body encompasses all of reality. Unlike the abstract Tad Ekam of Nasadiya, Purusha is anthropomorphic and concrete — a cosmic person with body parts that correspond to cosmic and social structures. The term 'purusha' is shared with Samkhya (already in corpus) but the concepts are entirely different: Samkhya's purusha is a passive witness-consciousness, while Rigvedic Purusha is a generative totality that is sacrificed. Encoded as 'source' because all reality derives from Purusha's body."
+    },
+    {
+      "id": "viraj",
+      "name": "Viraj (Female Creative Power)",
+      "aliases": ["Viraj", "Female Principle", "She Who Shines Forth"],
+      "functional_role": "first_emanation",
+      "level": 1,
+      "source_reference": "RV 10.90.5: 'From him Viraj was born, and from Viraj came the Man (purusha again).' This is a reciprocal emanation: Purusha produces Viraj, and Viraj re-produces Purusha in a form suitable for sacrifice.",
+      "notes": "Viraj is the female creative principle born from Purusha — a co-creator who in turn gives rise to the sacrificial form of Purusha. This reciprocal production (Purusha → Viraj → Purusha-for-sacrifice) is unique in the corpus. Encoded as 'first_emanation' because Viraj is the first distinct entity to emerge from the source. The reciprocal loop is noted but not encoded as a cycle (which would violate the DAG rule) — the second Purusha is functionally the sacrifice event, not a return to the source."
+    },
+    {
+      "id": "yajna",
+      "name": "Yajna (The Cosmic Sacrifice / Dismemberment)",
+      "aliases": ["Yajna", "Sacrifice", "Cosmic Sacrifice", "Dismemberment of Purusha"],
+      "functional_role": "process",
+      "level": 2,
+      "source_reference": "RV 10.90.6-7: 'When the gods spread the sacrifice with the Man as the offering... From that sacrifice in which everything was offered, the melted fat (ghee) was collected.' Verse 8: 'From that sacrifice in which everything was offered, the verses and chants were born.'",
+      "notes": "The sacrifice is the pivotal cosmogonic event — the voluntary dismemberment of Purusha by the gods. This is a 'process' node (not an entity) that transforms the undifferentiated source into differentiated reality. Unlike Gnostic fragmentation (which is catastrophic) or Lurianic shevirat ha-kelim (which is traumatic), the Vedic sacrifice is positive, ritually ordered, and generative. The 'process' role is appropriate — yajna is an action, not a being. The branching occurs downstream of this node."
+    },
+    {
+      "id": "four_varnas",
+      "name": "Chatur Varna (The Four Social Orders)",
+      "aliases": ["Four Varnas", "Brahmin-Kshatriya-Vaishya-Shudra", "Social Order"],
+      "functional_role": "matter",
+      "level": 3,
+      "source_reference": "RV 10.90.12: 'His mouth became the Brahmin; his two arms were made the Rajanya (Kshatriya); his thighs the Vaishya; from his feet the Shudra was born.'",
+      "notes": "The four social orders emerge from specific body parts of the sacrificed Purusha. This is the sociological branch of the sacrifice — the creation of human social hierarchy. Encoded as a single node (not four separate nodes) because they are produced by a single act (dismemberment) at a single cosmological level. The body-part correspondence (mouth=priest, arms=warrior, thighs=producer, feet=servant) encodes a hierarchical social cosmology. Functional_role 'matter' because these are the manifest social structures of the world."
+    },
+    {
+      "id": "cosmic_elements",
+      "name": "Cosmic Elements (Moon, Sun, Indra, Agni, Vayu, Sky, Earth)",
+      "aliases": ["Cosmic Elements", "Celestial Bodies", "Moon-Sun-Indra-Agni-Vayu"],
+      "functional_role": "matter",
+      "level": 3,
+      "source_reference": "RV 10.90.13-14: 'The Moon was born from his mind; from his eye the Sun was born. From his mouth Indra and Agni; from his breath Vayu (Wind) was born. From his navel the midspace arose; from his head the sky evolved. From his two feet came the earth, and the quarters (directions) from his ear.'",
+      "notes": "The cosmic elements emerge from different body parts of the sacrificed Purusha in parallel with the four varnas. This is the cosmological branch — the creation of the physical universe. Moon from mind, Sun from eye, Indra/Agni from mouth, Wind from breath, midspace from navel, sky from head, earth from feet, directions from ears. Encoded as a single node (not 7+ separate nodes) because they all emerge at the same cosmological level from the same sacrificial act. The body-part correspondences encode a microcosm-macrocosm mapping."
+    },
+    {
+      "id": "ritual_elements",
+      "name": "Ritual Elements (Verses, Chants, Metres, Sacrificial Formulae)",
+      "aliases": ["Ritual Elements", "Rc", "Saman", "Chandas", "Yajus"],
+      "functional_role": "matter",
+      "level": 3,
+      "source_reference": "RV 10.90.8-9: 'From that sacrifice in which everything was offered, the verses (rc) and chants (saman) were born. The metres (chandas) were born from it. The sacrificial formula (yajus) was born from it.'",
+      "notes": "The ritual technologies of the Vedic tradition — verses, chants, metres, and sacrificial formulae — are themselves products of the cosmic sacrifice. This is the liturgical branch: the sacrifice produces the very tools by which future sacrifices are performed, creating a self-referential loop. Encoded as a single node at the same level as varnas and cosmic elements because they emerge from the same sacrificial event. This three-way branching (social, cosmic, ritual) is the distinctive structural feature of the Purusha Sukta."
+    },
+    {
+      "id": "animals",
+      "name": "Animals (Cattle, Horses, Goats)",
+      "aliases": ["Domestic Animals", "Pashavah", "Cattle-Horses-Goats"],
+      "functional_role": "matter",
+      "level": 3,
+      "source_reference": "RV 10.90.10: 'From it horses were born, and all animals with two rows of teeth. Cattle were born from it, and from it goats and sheep were born.'",
+      "notes": "Domestic animals emerge from the sacrifice as a fourth category of manifest reality alongside social order, cosmic structure, and ritual technology. Encoded at the same branching level. The emphasis on domestic animals (horses, cattle, goats) rather than wild animals reflects the pastoral Vedic worldview."
+    }
+  ],
+
+  "edges": [
+    {
+      "source": "purusha",
+      "target": "viraj",
+      "relationship": "emanation",
+      "notes": "Purusha spontaneously produces Viraj — 'from him Viraj was born.' This is generative emanation, not sacrifice (that comes later)."
+    },
+    {
+      "source": "viraj",
+      "target": "yajna",
+      "relationship": "fragmentation",
+      "notes": "The sacrifice (yajna) is a deliberate dismemberment — 'fragmentation' is the closest available edge type. Unlike Gnostic fragmentation (catastrophic) or Lurianic shevirah (traumatic), Vedic fragmentation is voluntary, ritually ordered, and cosmically generative. This is the first POSITIVE fragmentation in the corpus."
+    },
+    {
+      "source": "yajna",
+      "target": "four_varnas",
+      "relationship": "creation",
+      "notes": "The four social orders are created by the sacrificial dismemberment of Purusha's body. 'Creation' rather than 'emanation' because the varnas are produced by an active process (sacrifice), not spontaneous overflow."
+    },
+    {
+      "source": "yajna",
+      "target": "cosmic_elements",
+      "relationship": "creation",
+      "notes": "Cosmic elements (Moon, Sun, Wind, Sky, Earth, etc.) are created from specific body parts. Parallel branch to the varnas — same sacrificial act, different products."
+    },
+    {
+      "source": "yajna",
+      "target": "ritual_elements",
+      "relationship": "creation",
+      "notes": "Ritual technologies (verses, chants, metres, formulae) are produced by the sacrifice. Self-referential: the sacrifice creates the tools for future sacrifice."
+    },
+    {
+      "source": "yajna",
+      "target": "animals",
+      "relationship": "creation",
+      "notes": "Domestic animals emerge from the sacrifice as a fourth category of manifest reality."
+    }
+  ],
+
+  "topology": {
+    "node_count": 7,
+    "edge_count": 6,
+    "depth": 3,
+    "max_branching_factor": 4,
+    "shape": "branching_tree",
+    "distinctive_feature": "First intra-tradition bifurcation in the corpus: vedic_nasadiya is a linear chain (5n, d4), vedic_purusha is a branching tree (7n, d3, Br=4). Same Vedic corpus, different cosmological structure. Also the first POSITIVE fragmentation edge in the corpus — dismemberment as generative rather than catastrophic. Four-way branching at sacrifice level: social, cosmic, ritual, and biological."
+  },
+
+  "alternative_encodings": {
+    "expanded_cosmic_elements": {
+      "description": "Expand cosmic_elements into separate nodes for Moon, Sun, Indra/Agni, Wind, Sky, Earth, Directions. Would give 13+ nodes with branching factor 7+ at the yajna level.",
+      "priority": "LOW — analytically less useful because it inflates node count without adding structural insight (all emerge at the same cosmological level from the same act)",
+      "effect": "Would make this the largest schema in the corpus. Overly granular for cross-tradition comparison."
+    },
+    "three_branch_no_animals": {
+      "description": "Merge animals into cosmic_elements (both are natural/physical products of sacrifice, vs. social and ritual products). Would give Br=3 instead of Br=4.",
+      "priority": "MEDIUM — textually defensible since verses 10 (animals) and 13-14 (cosmic elements) are thematically close",
+      "effect": "Reduces branching factor to 3, same as Hermetic and Manichaean. Would make the schema look less distinctive."
+    }
+  },
+
+  "validation": {
+    "is_dag": true,
+    "single_root": true,
+    "root_node": "purusha",
+    "all_connected": true,
+    "node_count": 7,
+    "edge_count": 6,
+    "depth": 3,
+    "within_bounds": true,
+    "all_attributes_present": true,
+    "all_edges_labeled": true
+  }
+}

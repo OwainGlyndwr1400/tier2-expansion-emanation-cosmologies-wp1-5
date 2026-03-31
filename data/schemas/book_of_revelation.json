@@ -1,0 +1,143 @@
+{
+  "tradition": "book_of_revelation",
+  "tradition_full": "Christian Apocalyptic (Book of Revelation / Apocalypse of John)",
+  "source": "Revelation (Apocalypse of John), Chapters 1-5, 7, 21-22. Primary scholarly editions: Aune, D.E. (1997). Revelation 1-5. Word Biblical Commentary 52A. Word Books. Koester, C.R. (2014). Revelation. Anchor Yale Bible 38A. Yale University Press.",
+  "scholarly_anchors": [
+    "Aune, D.E. (1997). Revelation 1-5. Word Biblical Commentary 52A. Dallas: Word Books.",
+    "Aune, D.E. (1998). Revelation 6-16. Word Biblical Commentary 52B. Nashville: Nelson.",
+    "Koester, C.R. (2014). Revelation. Anchor Yale Bible 38A. New Haven: Yale University Press.",
+    "Collins, A.Y. (1984). Crisis and Catharsis: The Power of the Apocalypse. Westminster Press.",
+    "Bauckham, R. (1993). The Theology of the Book of Revelation. Cambridge University Press.",
+    "Boxall, I. (2006). The Revelation of Saint John. Black's New Testament Commentaries. Continuum."
+  ],
+  "encoding_version": "1.0",
+  "encoding_date": "2026-03-31",
+  "source_note": "Revelation (c. 90-96 CE) is a Jewish-Christian apocalypse describing a heavenly throne room, a cosmic drama of judgment, and a New Creation. The encoding captures the COSMIC HIERARCHY (the ontological structure of reality as revealed to John), NOT the narrative sequence of seals/trumpets/bowls which are eschatological events, not cosmological levels. The throne-room vision (Rev 4-5) provides the clearest hierarchical cosmology. The Seven Spirits (Rev 1:4, 4:5) are encoded as a single intermediary node — they function as the divine sevenfold spirit of God, not as seven separate entities.",
+  "geographic_cultural_note": "Late 1st century CE, Asia Minor (traditionally Patmos). Deeply rooted in Jewish apocalyptic tradition (Daniel, 1 Enoch, Ezekiel) with Christian christological overlay. Shares the Jewish cosmic hierarchy with 1 Enoch (also in this WP) but adds the christological Lamb figure. No direct contact with Neoplatonic, Gnostic (in the technical Sethian/Valentinian sense), or Eastern traditions — though later Christian Neoplatonism (Pseudo-Dionysius) would synthesise these streams.",
+
+  "nodes": [
+    {
+      "id": "god_enthroned",
+      "name": "God Enthroned (He Who Sits on the Throne)",
+      "aliases": ["God", "He Who Is", "The One on the Throne", "Alpha and Omega", "Lord God Almighty"],
+      "functional_role": "source",
+      "level": 0,
+      "source_reference": "Rev 4:2-3: 'At once I was in the Spirit, and there before me was a throne in heaven with someone sitting on it. And the one who sat there had the appearance of jasper and ruby.' Rev 4:8: 'Holy, holy, holy is the Lord God Almighty, who was, and is, and is to come.'",
+      "notes": "The supreme divine source — unnamed except by title and attribute. The throne-room vision (Rev 4) establishes God as the apex of the cosmic hierarchy. Unlike the Gnostic 'Invisible Spirit' (unknowable, transcendent), the Revelation God is visible (jasper/ruby appearance), actively ruling, and liturgically worshipped. Functionally equivalent to 'source' in all other traditions."
+    },
+    {
+      "id": "lamb_christ",
+      "name": "The Lamb / Christ (The One Worthy to Open the Scroll)",
+      "aliases": ["The Lamb", "Christ", "The Slain Lamb", "Lion of Judah", "Root of David"],
+      "functional_role": "first_emanation",
+      "level": 1,
+      "source_reference": "Rev 5:6-7: 'Then I saw a Lamb, looking as if it had been slain, standing at the center of the throne... He went and took the scroll from the right hand of him who sat on the throne.' Rev 5:12: 'Worthy is the Lamb, who was slain, to receive power and wealth and wisdom and strength and honour and glory and praise.'",
+      "notes": "The Lamb/Christ is the first and highest being after God — the mediator between the divine source and the created order. The Lamb stands 'at the centre of the throne' (Rev 5:6), shares the throne (Rev 22:1,3), and is the only being worthy to open the sealed scroll. Encoded as 'first_emanation' because Christ proceeds from God and mediates all subsequent cosmic action. The slain-yet-standing paradox is distinctive: the first emanation is marked by sacrificial death, paralleling the Vedic Purusha sacrifice but at the mediator level rather than the source level."
+    },
+    {
+      "id": "seven_spirits",
+      "name": "The Seven Spirits of God (Sevenfold Spirit)",
+      "aliases": ["Seven Spirits", "Sevenfold Spirit", "Seven Torches", "Seven Eyes of the Lamb"],
+      "functional_role": "intermediary",
+      "level": 2,
+      "source_reference": "Rev 1:4: 'Grace and peace to you from him who is, and who was, and who is to come, and from the seven spirits before his throne.' Rev 4:5: 'Before the throne, seven lamps were blazing. These are the seven spirits of God.' Rev 5:6: 'the seven eyes [of the Lamb], which are the seven spirits of God sent out into all the earth.'",
+      "notes": "The Seven Spirits are a sevenfold divine presence — variously identified by scholars as (a) the Holy Spirit in sevenfold fullness (Bauckham 1993), (b) the seven archangels of Jewish tradition (cf. Tobit 12:15), or (c) the seven planetary spirits. They are 'before the throne' (subordinate to God) and 'sent out into all the earth' (mediating between heaven and creation). Encoded as a single intermediary node because they function as one cosmic level regardless of their internal multiplicity."
+    },
+    {
+      "id": "living_creatures_elders",
+      "name": "Four Living Creatures and Twenty-Four Elders (Heavenly Court)",
+      "aliases": ["Four Living Creatures", "Twenty-Four Elders", "Heavenly Court", "Zoa", "Presbuteroi"],
+      "functional_role": "intermediary",
+      "level": 3,
+      "source_reference": "Rev 4:4: 'Surrounding the throne were twenty-four other thrones, and seated on them were twenty-four elders.' Rev 4:6-8: 'In the centre, around the throne, were four living creatures... The first living creature was like a lion, the second like an ox, the third had a face like a man, the fourth was like a flying eagle.'",
+      "notes": "The heavenly court — the four living creatures (zoa, from Ezekiel's vision) and the twenty-four elders form the next tier of the cosmic hierarchy. The living creatures are cosmic mediators (they lead worship, they are 'around the throne'), not created beings in the mundane sense. The elders may represent the twelve patriarchs + twelve apostles (Collins 1984) or angelic rulers. Encoded as a single node because they occupy the same cosmological level and function together as the divine court."
+    },
+    {
+      "id": "sealed_multitude",
+      "name": "The 144,000 / Sealed Multitude (The Redeemed)",
+      "aliases": ["144,000", "Sealed Multitude", "The Redeemed", "Great Multitude", "Servants of God"],
+      "functional_role": "intermediary",
+      "level": 4,
+      "source_reference": "Rev 7:4: 'Then I heard the number of those who were sealed: 144,000 from all the tribes of Israel.' Rev 7:9: 'After this I looked, and there before me was a great multitude that no one could count, from every nation, tribe, people and language, standing before the throne.'",
+      "notes": "The 144,000 (symbolic completeness: 12x12x1000) represent the elect — those sealed by God, standing between the heavenly court and the material world. They are not yet in the New Jerusalem but are marked for it. Functionally they mediate between the cosmic hierarchy above and the created/fallen world below. The 'great multitude' of Rev 7:9 may be the same group (universalised) or a distinct larger group — scholars disagree. Encoded as 'intermediary' because they are a transitional cosmic level, not yet the final state."
+    },
+    {
+      "id": "new_jerusalem",
+      "name": "New Jerusalem / New Creation (The Final State)",
+      "aliases": ["New Jerusalem", "New Heaven and New Earth", "New Creation", "Holy City"],
+      "functional_role": "matter",
+      "level": 5,
+      "source_reference": "Rev 21:1-2: 'Then I saw a new heaven and a new earth, for the first heaven and the first earth had passed away... I saw the Holy City, the new Jerusalem, coming down out of heaven from God, prepared as a bride.' Rev 22:1-5: 'Then the angel showed me the river of the water of life... flowing from the throne of God and of the Lamb.'",
+      "notes": "The final actualised state of creation — not matter in the Gnostic/Neoplatonic sense (debased, distant from source) but perfected material reality where God dwells directly with creation ('God himself will be with them,' Rev 21:3). This inverts the typical emanation pattern: matter is not the lowest degradation but the highest realisation. The New Jerusalem descends FROM heaven TO earth — the cosmic hierarchy resolves downward into renewed materiality. Encoded as 'matter' because it is the terminal material state, but with the caveat that Revelation's matter is redemptive, not degraded."
+    }
+  ],
+
+  "edges": [
+    {
+      "source": "god_enthroned",
+      "target": "lamb_christ",
+      "relationship": "emanation",
+      "notes": "The Lamb proceeds from God and shares the throne (Rev 22:1,3). 'Emanation' captures the procession of Christ from God — theologically parallel to the Nicene 'begotten, not made.' No fragmentation or crisis at this level."
+    },
+    {
+      "source": "lamb_christ",
+      "target": "seven_spirits",
+      "relationship": "emanation",
+      "notes": "The Seven Spirits are 'the seven eyes of the Lamb, sent out into all the earth' (Rev 5:6) — they proceed from the Lamb as extensions of divine presence. Emanation is appropriate: the Spirits flow outward from Christ without loss or crisis."
+    },
+    {
+      "source": "seven_spirits",
+      "target": "living_creatures_elders",
+      "relationship": "emanation",
+      "notes": "The heavenly court exists 'around the throne' under the divine presence of the Seven Spirits. The hierarchy is spatial-liturgical: God → Lamb → Spirits → Court. Emanation captures the ordered procession."
+    },
+    {
+      "source": "living_creatures_elders",
+      "target": "sealed_multitude",
+      "relationship": "creation",
+      "notes": "Shift to 'creation' because the 144,000 are created beings who are sealed/elected, not divine beings who emanate. The heavenly court mediates between the divine hierarchy and the redeemed community."
+    },
+    {
+      "source": "sealed_multitude",
+      "target": "new_jerusalem",
+      "relationship": "creation",
+      "notes": "The redeemed multitude inhabits the New Jerusalem — the final created state. 'Creation' because the New Jerusalem is explicitly 'made new' (Rev 21:5). The descent of the New Jerusalem from heaven to earth completes the cosmic hierarchy."
+    }
+  ],
+
+  "topology": {
+    "node_count": 6,
+    "edge_count": 5,
+    "depth": 5,
+    "max_branching_factor": 1,
+    "shape": "linear_chain",
+    "distinctive_feature": "Only tradition in the corpus where the terminal 'matter' node is REDEMPTIVE rather than degraded. The New Jerusalem is perfected materiality, not fallen matter. Edge pattern is emanation-heavy (3 emanation, 2 creation) with the transition at the heavenly court / sealed multitude boundary — divine hierarchy above, created order below. Closes the gap of Christian apocalyptic cosmology in the corpus."
+  },
+
+  "alternative_encodings": {
+    "branching_seven_churches": {
+      "description": "Encode the Seven Churches (Rev 2-3) as parallel branches from Christ, giving a branching tree with Br=7. Low scholarly support for treating the churches as cosmological levels — they are historical communities receiving letters, not tiers of reality.",
+      "priority": "LOW — narratological, not cosmological",
+      "effect": "Would shift Revelation from linear chain to branching tree. Not recommended: the churches are addressees, not ontological levels."
+    },
+    "expanded_with_dragon": {
+      "description": "Add the Dragon/Satan (Rev 12) and the Beast (Rev 13) as fallen intermediary nodes, creating a branching point where the cosmic hierarchy splits into a redeemed path and a fallen path.",
+      "priority": "MEDIUM — textually present but eschatological rather than cosmological",
+      "source": "Rev 12:7-9 (war in heaven), Rev 13:1-2 (beast from sea).",
+      "effect": "Would add 2 nodes, introduce a 'fallen' functional role and 'fragmentation' edge. Would make Revelation structurally similar to Sethian Gnostic (fallen intermediary causing cosmic damage). Interesting for future work but mixes cosmological and eschatological registers."
+    }
+  },
+
+  "validation": {
+    "is_dag": true,
+    "single_root": true,
+    "root_node": "god_enthroned",
+    "all_connected": true,
+    "node_count": 6,
+    "edge_count": 5,
+    "depth": 5,
+    "within_bounds": true,
+    "all_attributes_present": true,
+    "all_edges_labeled": true
+  }
+}

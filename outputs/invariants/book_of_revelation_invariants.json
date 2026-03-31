@@ -1,0 +1,115 @@
+{
+  "tradition": "book_of_revelation",
+  "node_count": 6,
+  "edge_count": 5,
+  "depth": 5,
+  "diameter": 5,
+  "width": 1,
+  "leaf_count": 1,
+  "branching_node_count": 0,
+  "max_branching_factor": 1,
+  "mean_branching_factor": 1.0,
+  "root": "god_enthroned",
+  "leaves": [
+    "new_jerusalem"
+  ],
+  "branching_nodes": [],
+  "in_degree_sequence": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "out_degree_sequence": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "edge_type_counts": {
+    "creation": 2,
+    "emanation": 3
+  },
+  "functional_role_counts": {
+    "matter": 1,
+    "source": 1,
+    "first_emanation": 1,
+    "intermediary": 3
+  },
+  "depth_profile": {
+    "0": [
+      "god_enthroned"
+    ],
+    "1": [
+      "lamb_christ"
+    ],
+    "2": [
+      "seven_spirits"
+    ],
+    "3": [
+      "living_creatures_elders"
+    ],
+    "4": [
+      "sealed_multitude"
+    ],
+    "5": [
+      "new_jerusalem"
+    ]
+  },
+  "role_sequence_by_level": {
+    "0": [
+      "source"
+    ],
+    "1": [
+      "first_emanation"
+    ],
+    "2": [
+      "intermediary"
+    ],
+    "3": [
+      "intermediary"
+    ],
+    "4": [
+      "intermediary"
+    ],
+    "5": [
+      "matter"
+    ]
+  },
+  "betweenness_centrality": {
+    "god_enthroned": 0.0,
+    "lamb_christ": 0.2,
+    "seven_spirits": 0.3,
+    "living_creatures_elders": 0.3,
+    "sealed_multitude": 0.2,
+    "new_jerusalem": 0.0
+  },
+  "closeness_centrality": {
+    "god_enthroned": 0.0,
+    "lamb_christ": 0.2,
+    "seven_spirits": 0.2667,
+    "living_creatures_elders": 0.3,
+    "sealed_multitude": 0.32,
+    "new_jerusalem": 0.3333
+  },
+  "topological_sort": [
+    "god_enthroned",
+    "lamb_christ",
+    "seven_spirits",
+    "living_creatures_elders",
+    "sealed_multitude",
+    "new_jerusalem"
+  ],
+  "wl_hash_structure": "00cebda468b19313e4e9c98aee07c4df",
+  "wl_hash_with_roles": "d750e967c1f58ed2e3f633d213c37067",
+  "is_linear_chain": true,
+  "has_fallen_node": false,
+  "has_process_nodes": false,
+  "has_fragmentation_edge": false,
+  "has_contraction_edge": false,
+  "has_reflection_edge": false
+}

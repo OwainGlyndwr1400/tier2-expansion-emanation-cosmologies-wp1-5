@@ -1,0 +1,309 @@
+{
+  "primary": {
+    "intra_chain": 3.5048,
+    "intra_branch": 8.0,
+    "inter_family": 7.6762,
+    "separation_ratio": 2.1902,
+    "n_chains": 15,
+    "n_branches": 7
+  },
+  "primary_families": {
+    "linear_chain": [
+      "book_of_revelation",
+      "bundahishn_zoroastrian",
+      "chaldean",
+      "derveni_orphic",
+      "enochian_watchers",
+      "gospel_of_mary",
+      "ishraq_illuminationist",
+      "lurianic_kabbalistic",
+      "plotinian_neoplatonic",
+      "proclan_neoplatonic",
+      "quranic_miraj",
+      "samkhya",
+      "sethian_gnostic",
+      "taoist_ddj",
+      "vedic_nasadiya"
+    ],
+    "branching_tree": [
+      "genesis_creationist",
+      "hermetic",
+      "manichaean",
+      "popol_vuh_maya",
+      "trimorphic_protennoia",
+      "valentinian_gnostic",
+      "vedic_purusha"
+    ]
+  },
+  "alt1_ishraq_branching": {
+    "intra_chain": 3.6264,
+    "intra_branch": 7.5,
+    "inter_family": 7.1964,
+    "separation_ratio": 1.9845,
+    "n_chains": 14,
+    "n_branches": 8
+  },
+  "alt1_families": {
+    "linear_chain": [
+      "book_of_revelation",
+      "bundahishn_zoroastrian",
+      "chaldean",
+      "derveni_orphic",
+      "enochian_watchers",
+      "gospel_of_mary",
+      "lurianic_kabbalistic",
+      "plotinian_neoplatonic",
+      "proclan_neoplatonic",
+      "quranic_miraj",
+      "samkhya",
+      "sethian_gnostic",
+      "taoist_ddj",
+      "vedic_nasadiya"
+    ],
+    "branching_tree": [
+      "genesis_creationist",
+      "hermetic",
+      "ishraq_illuminationist",
+      "manichaean",
+      "popol_vuh_maya",
+      "trimorphic_protennoia",
+      "valentinian_gnostic",
+      "vedic_purusha"
+    ]
+  },
+  "alt1_ishraq_samkhya_ged": 2.0,
+  "alt2_zurvanite": {
+    "intra_chain": 3.6484,
+    "intra_branch": 7.7143,
+    "inter_family": 7.2321,
+    "separation_ratio": 1.9823,
+    "n_chains": 14,
+    "n_branches": 8
+  },
+  "alt2_families": {
+    "linear_chain": [
+      "book_of_revelation",
+      "chaldean",
+      "derveni_orphic",
+      "enochian_watchers",
+      "gospel_of_mary",
+      "ishraq_illuminationist",
+      "lurianic_kabbalistic",
+      "plotinian_neoplatonic",
+      "proclan_neoplatonic",
+      "quranic_miraj",
+      "samkhya",
+      "sethian_gnostic",
+      "taoist_ddj",
+      "vedic_nasadiya"
+    ],
+    "branching_tree": [
+      "bundahishn_zoroastrian",
+      "genesis_creationist",
+      "hermetic",
+      "manichaean",
+      "popol_vuh_maya",
+      "trimorphic_protennoia",
+      "valentinian_gnostic",
+      "vedic_purusha"
+    ]
+  },
+  "alt2_bundahishn_ishraq_ged": 2.0,
+  "alt3_popol_vuh_no_xibalba": {
+    "intra_chain": 3.5048,
+    "intra_branch": 7.3333,
+    "inter_family": 7.2857,
+    "separation_ratio": 2.0788,
+    "n_chains": 15,
+    "n_branches": 7
+  },
+  "alt3_popol_vuh_classification": "branching_tree",
+  "alt3_popol_vuh_node_count": 8,
+  "alt3_popol_vuh_max_branching": 4,
+  "alt4_gospel_direction_sensitive": {
+    "classification": "linear_chain",
+    "ged_values_changed": 0,
+    "ged_values_total": 21,
+    "direction_agnostic_validated": true
+  },
+  "subclustering": {
+    "small_cluster": [
+      "derveni_orphic",
+      "plotinian_neoplatonic",
+      "taoist_ddj",
+      "vedic_nasadiya",
+      "book_of_revelation",
+      "bundahishn_zoroastrian",
+      "chaldean",
+      "enochian_watchers"
+    ],
+    "large_cluster": [
+      "ishraq_illuminationist",
+      "lurianic_kabbalistic",
+      "samkhya",
+      "proclan_neoplatonic",
+      "sethian_gnostic",
+      "gospel_of_mary",
+      "quranic_miraj"
+    ],
+    "intra_small": 1.1429,
+    "intra_large": 2.6667,
+    "inter_cluster": 5.0,
+    "sub_separation_ratio": 4.375,
+    "mean_silhouette": 0.601,
+    "silhouettes": {
+      "derveni_orphic": 0.8095,
+      "plotinian_neoplatonic": 0.8095,
+      "taoist_ddj": 0.8095,
+      "vedic_nasadiya": 0.8095,
+      "book_of_revelation": 0.7143,
+      "bundahishn_zoroastrian": 0.7143,
+      "chaldean": 0.7143,
+      "enochian_watchers": 0.7143,
+      "ishraq_illuminationist": 0.2222,
+      "lurianic_kabbalistic": 0.2222,
+      "samkhya": 0.2222,
+      "proclan_neoplatonic": 0.6,
+      "sethian_gnostic": 0.6,
+      "gospel_of_mary": 0.5714,
+      "quranic_miraj": 0.4815
+    }
+  },
+  "wp15_weighted_ged_sensitivity": {
+    "primary": {
+      "pairs": {
+        "book_of_revelation vs bundahishn_zoroastrian": 2.0,
+        "book_of_revelation vs chaldean": 3.5,
+        "book_of_revelation vs enochian_watchers": 3.0,
+        "bundahishn_zoroastrian vs chaldean": 4.5,
+        "bundahishn_zoroastrian vs enochian_watchers": 4.0,
+        "chaldean vs enochian_watchers": 4.5,
+        "derveni_orphic vs plotinian_neoplatonic": 5.0,
+        "derveni_orphic vs taoist_ddj": 3.0,
+        "derveni_orphic vs vedic_nasadiya": 3.0,
+        "ishraq_illuminationist vs lurianic_kabbalistic": 7.5,
+        "ishraq_illuminationist vs samkhya": 1.0,
+        "lurianic_kabbalistic vs samkhya": 7.0,
+        "plotinian_neoplatonic vs taoist_ddj": 2.0,
+        "plotinian_neoplatonic vs vedic_nasadiya": 2.5,
+        "proclan_neoplatonic vs sethian_gnostic": 5.5,
+        "taoist_ddj vs vedic_nasadiya": 0.5
+      },
+      "all_isomorphisms_resolved": true
+    },
+    "uniform": {
+      "pairs": {
+        "book_of_revelation vs bundahishn_zoroastrian": 3.0,
+        "book_of_revelation vs chaldean": 4.0,
+        "book_of_revelation vs enochian_watchers": 3.0,
+        "bundahishn_zoroastrian vs chaldean": 6.0,
+        "bundahishn_zoroastrian vs enochian_watchers": 4.0,
+        "chaldean vs enochian_watchers": 5.0,
+        "derveni_orphic vs plotinian_neoplatonic": 5.0,
+        "derveni_orphic vs taoist_ddj": 3.0,
+        "derveni_orphic vs vedic_nasadiya": 3.0,
+        "ishraq_illuminationist vs lurianic_kabbalistic": 7.0,
+        "ishraq_illuminationist vs samkhya": 1.0,
+        "lurianic_kabbalistic vs samkhya": 7.0,
+        "plotinian_neoplatonic vs taoist_ddj": 2.0,
+        "plotinian_neoplatonic vs vedic_nasadiya": 3.0,
+        "proclan_neoplatonic vs sethian_gnostic": 6.0,
+        "taoist_ddj vs vedic_nasadiya": 1.0
+      },
+      "all_isomorphisms_resolved": true
+    },
+    "steep": {
+      "pairs": {
+        "book_of_revelation vs bundahishn_zoroastrian": 1.6,
+        "book_of_revelation vs chaldean": 3.3,
+        "book_of_revelation vs enochian_watchers": 3.3,
+        "bundahishn_zoroastrian vs chaldean": 3.9,
+        "bundahishn_zoroastrian vs enochian_watchers": 4.3,
+        "chaldean vs enochian_watchers": 4.3,
+        "derveni_orphic vs plotinian_neoplatonic": 5.0,
+        "derveni_orphic vs taoist_ddj": 3.0,
+        "derveni_orphic vs vedic_nasadiya": 3.0,
+        "ishraq_illuminationist vs lurianic_kabbalistic": 8.0,
+        "ishraq_illuminationist vs samkhya": 1.0,
+        "lurianic_kabbalistic vs samkhya": 7.3,
+        "plotinian_neoplatonic vs taoist_ddj": 2.0,
+        "plotinian_neoplatonic vs vedic_nasadiya": 2.3,
+        "proclan_neoplatonic vs sethian_gnostic": 5.3,
+        "taoist_ddj vs vedic_nasadiya": 0.3
+      },
+      "all_isomorphisms_resolved": true
+    },
+    "compressed": {
+      "pairs": {
+        "book_of_revelation vs bundahishn_zoroastrian": 2.6,
+        "book_of_revelation vs chaldean": 3.8,
+        "book_of_revelation vs enochian_watchers": 3.0,
+        "bundahishn_zoroastrian vs chaldean": 5.4,
+        "bundahishn_zoroastrian vs enochian_watchers": 4.0,
+        "chaldean vs enochian_watchers": 4.8,
+        "derveni_orphic vs plotinian_neoplatonic": 5.0,
+        "derveni_orphic vs taoist_ddj": 3.0,
+        "derveni_orphic vs vedic_nasadiya": 3.0,
+        "ishraq_illuminationist vs lurianic_kabbalistic": 7.2,
+        "ishraq_illuminationist vs samkhya": 1.0,
+        "lurianic_kabbalistic vs samkhya": 7.0,
+        "plotinian_neoplatonic vs taoist_ddj": 2.0,
+        "plotinian_neoplatonic vs vedic_nasadiya": 2.8,
+        "proclan_neoplatonic vs sethian_gnostic": 5.8,
+        "taoist_ddj vs vedic_nasadiya": 0.8
+      },
+      "all_isomorphisms_resolved": true
+    }
+  },
+  "wp15_direction_branching_trees": {
+    "genesis_creationist": {
+      "structural_ged_vs_reversed": 10.0,
+      "role_ged_vs_reversed": 12.0,
+      "direction_matters": true,
+      "nodes": 8,
+      "max_branching": 6
+    },
+    "hermetic": {
+      "structural_ged_vs_reversed": 4.0,
+      "role_ged_vs_reversed": 10.0,
+      "direction_matters": true,
+      "nodes": 8,
+      "max_branching": 3
+    },
+    "manichaean": {
+      "structural_ged_vs_reversed": 4.0,
+      "role_ged_vs_reversed": 10.0,
+      "direction_matters": true,
+      "nodes": 11,
+      "max_branching": 3
+    },
+    "popol_vuh_maya": {
+      "structural_ged_vs_reversed": 10.0,
+      "role_ged_vs_reversed": 18.0,
+      "direction_matters": true,
+      "nodes": 11,
+      "max_branching": 4
+    },
+    "trimorphic_protennoia": {
+      "structural_ged_vs_reversed": 4.0,
+      "role_ged_vs_reversed": 8.0,
+      "direction_matters": true,
+      "nodes": 7,
+      "max_branching": 3
+    },
+    "valentinian_gnostic": {
+      "structural_ged_vs_reversed": 2.0,
+      "role_ged_vs_reversed": 10.0,
+      "direction_matters": true,
+      "nodes": 9,
+      "max_branching": 2
+    },
+    "vedic_purusha": {
+      "structural_ged_vs_reversed": 6.0,
+      "role_ged_vs_reversed": 10.0,
+      "direction_matters": true,
+      "nodes": 7,
+      "max_branching": 4
+    }
+  }
+}

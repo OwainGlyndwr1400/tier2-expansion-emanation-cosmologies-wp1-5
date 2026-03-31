@@ -1,0 +1,188 @@
+{
+  "tradition": "valentinian_gnostic",
+  "primary_source": "Apocryphon of John (II,1), trans. Frederik Wisse, in The Nag Hammadi Library in English (HarperCollins, 1990)",
+  "treatises_used": ["Apocryphon of John (long version, NHC II,1)"],
+  "scholarly_anchors": [
+    "Karen L. King, The Secret Revelation of John (Harvard University Press, 2006)",
+    "Bentley Layton, The Gnostic Scriptures (Doubleday, 1987)",
+    "Michael A. Williams, Rethinking Gnosticism (Princeton University Press, 1996)"
+  ],
+  "encoding_date": "2026-03-28",
+  "encoder": "Erydir-Ceisiwr",
+  "version": "1.0",
+  "encoding_notes": "This is technically a Sethian Gnostic text, but classified as 'Valentinian Gnostic' in the WP 1.1 sources_manifest for the Tradition 1 slot. The Apocryphon of John predates Valentinus but shares structural features with Valentinian systems. Encoding follows King (2006) and the text's own structural hierarchy. Sophia is encoded as an aeon within the Luminaries tier who falls, not as a separate emanation from the source.",
+
+  "nodes": [
+    {
+      "id": "invisible_spirit",
+      "name": "The Invisible Spirit (The Monad)",
+      "aliases": ["The Father of Everything", "The One", "The First Principle", "God"],
+      "tradition": "valentinian_gnostic",
+      "functional_role": "source",
+      "level": 0,
+      "description": "Absolutely transcendent source. Beyond being, thought, naming. Monarchy with nothing above it. Described through extended negative theology. Exists in pure light, immeasurable, incorruptible.",
+      "source_reference": "AJ II 2,26-4,26 (PDF pp. 122-123)"
+    },
+    {
+      "id": "barbelo",
+      "name": "Barbelo (First Thought)",
+      "aliases": ["Forethought", "The Mother-Father", "The First Man", "The Perfect Power", "The Image of the Invisible Spirit"],
+      "tradition": "valentinian_gnostic",
+      "functional_role": "first_emanation",
+      "level": 1,
+      "description": "First emanation from the Invisible Spirit. Arises as 'his thought performed a deed and she came forth.' Called the forethought of the All, the Mother-Father, the first man. She is androgynous, thrice-male, thrice-powerful. Receives the pentad of aeons (Foreknowledge, Indestructibility, Eternal Life, Truth) as attributes.",
+      "source_reference": "AJ II 4,26-5,11 (PDF pp. 123-124)"
+    },
+    {
+      "id": "autogenes",
+      "name": "Autogenes (The Self-Generated / Christ)",
+      "aliases": ["Christ", "The Only-Begotten", "The Spark of Light", "The Divine Autogenes"],
+      "tradition": "valentinian_gnostic",
+      "functional_role": "intellect",
+      "level": 2,
+      "description": "Begotten by the Invisible Spirit looking at Barbelo. The only-begotten child of the Mother-Father. Anointed with goodness, placed over everything. Given Mind (Nous) as fellow worker. Creates everything through the Word. Identified with Christ.",
+      "source_reference": "AJ II 6,10-7,30 (PDF pp. 124-125)"
+    },
+    {
+      "id": "four_luminaries",
+      "name": "Four Luminaries (Light-Aeons)",
+      "aliases": ["Armozel, Oriel, Daveithai, Eleleth", "The Four Lights", "The Twelve Aeons"],
+      "tradition": "valentinian_gnostic",
+      "functional_role": "intermediary",
+      "level": 3,
+      "sub_count": 4,
+      "description": "Four light-aeons appearing from Autogenes/Christ. Each has three attendant aeons (12 total). They are the structural pillars of the Pleroma. Armozel (grace, truth, form), Oriel (conception, perception, memory), Daveithai (understanding, love, idea), Eleleth (perfection, peace, wisdom). Sophia is an aeon associated with the fourth light Eleleth.",
+      "source_reference": "AJ II 7,30-8,28 (PDF p. 125)"
+    },
+    {
+      "id": "adamas",
+      "name": "Adamas (The Perfect Man / Pigeradamas)",
+      "aliases": ["Pigeradamas", "The First Revelation", "The Perfect Man"],
+      "tradition": "valentinian_gnostic",
+      "functional_role": "intermediary",
+      "level": 3,
+      "description": "The perfect Man, appearing through the Autogenes' will. Placed in the first aeon with Armozel. His son Seth is placed with Oriel, the seed of Seth with Daveithai. The divine model for humanity.",
+      "source_reference": "AJ II 8,28-9,14 (PDF pp. 125-126)"
+    },
+    {
+      "id": "sophia",
+      "name": "Sophia (Wisdom / Sophia of the Epinoia)",
+      "aliases": ["Sophia of the Epinoia", "Wisdom"],
+      "tradition": "valentinian_gnostic",
+      "functional_role": "fallen",
+      "level": 4,
+      "description": "An aeon associated with Eleleth (fourth luminary) who conceives a thought WITHOUT the consent of the Spirit and WITHOUT her consort. Her unauthorized act produces an imperfect offspring — the lion-faced serpent Yaltabaoth. This is the central fragmentation event of the Gnostic cosmos. She repents and is placed in the ninth heaven above her son.",
+      "source_reference": "AJ II 9,25-10,19 (PDF p. 126)",
+      "encoding_note": "Sophia is structurally part of the Four Luminaries tier (she is an aeon of Eleleth) but encoded as a separate node because her fall is a distinct cosmological event that produces the Demiurge. Her level is 4 (below the Luminaries) because the fall is a descent."
+    },
+    {
+      "id": "yaltabaoth",
+      "name": "Yaltabaoth (The Chief Archon / Demiurge)",
+      "aliases": ["Saklas", "Samael", "The First Archon", "The Lion-Faced Serpent"],
+      "tradition": "valentinian_gnostic",
+      "functional_role": "demiurge",
+      "level": 5,
+      "description": "Sophia's imperfect offspring. Takes great power from his mother. Removes himself from the Pleroma. Creates his own aeons and authorities. Ignorant of the higher realm, declares 'I am God and there is no other God beside me.' Creates 12 authorities, 7 kings, and 365 angels. Impious, arrogant, and ignorant.",
+      "source_reference": "AJ II 10,19-12,25 (PDF pp. 126-127)"
+    },
+    {
+      "id": "archons",
+      "name": "Archons (Rulers / Authorities)",
+      "aliases": ["The Twelve Authorities", "The Seven Kings", "The 365 Angels"],
+      "tradition": "valentinian_gnostic",
+      "functional_role": "intermediary",
+      "level": 6,
+      "sub_count": 12,
+      "description": "Created by Yaltabaoth. Twelve named authorities, seven kings over the seven heavens, five over the abyss. They are given animal faces. The archons collectively govern the material cosmos and keep souls trapped through ignorance. Total cosmic bureaucracy: 365 angels.",
+      "source_reference": "AJ II 10,26-12,25 (PDF pp. 126-127)"
+    },
+    {
+      "id": "material_world",
+      "name": "Material World / Material Humanity",
+      "aliases": ["The Created Cosmos", "The Tomb", "The Bond of Forgetfulness"],
+      "tradition": "valentinian_gnostic",
+      "functional_role": "matter",
+      "level": 7,
+      "description": "The material world created by the archons. Material humanity is fashioned in the image of the divine Adamas (whose reflection appeared in the waters) but is inert until Yaltabaoth breathes his mother's stolen light-power into it. The body is called 'the tomb' and 'the bond of forgetfulness.'",
+      "source_reference": "AJ II 13-20 (PDF pp. 128-133)"
+    }
+  ],
+
+  "edges": [
+    {
+      "source": "invisible_spirit",
+      "target": "barbelo",
+      "relationship": "emanation",
+      "description": "The Invisible Spirit's thought performs a deed and Barbelo comes forth as the first power. Natural emanation from the source's self-contemplation."
+    },
+    {
+      "source": "barbelo",
+      "target": "autogenes",
+      "relationship": "emanation",
+      "description": "The Invisible Spirit looks at Barbelo and conceives a spark of light — the only-begotten child Autogenes/Christ. Barbelo is the womb; the Spirit is the begetter."
+    },
+    {
+      "source": "autogenes",
+      "target": "four_luminaries",
+      "relationship": "emanation",
+      "description": "From the light of Christ and through the gift of the Spirit, the Four Luminaries appear from Autogenes. Each luminary has three attendant aeons."
+    },
+    {
+      "source": "autogenes",
+      "target": "adamas",
+      "relationship": "emanation",
+      "description": "Through the will and revelation of Autogenes and the Invisible Spirit, the perfect Man (Pigeradamas) appears. He is placed in the first aeon with Armozel."
+    },
+    {
+      "source": "four_luminaries",
+      "target": "sophia",
+      "relationship": "fragmentation",
+      "description": "Sophia, an aeon of the fourth luminary Eleleth, conceives WITHOUT consent of the Spirit and WITHOUT her consort. Her unauthorized act produces an imperfect offspring. This is not emanation but fragmentation — a break in the ordained order."
+    },
+    {
+      "source": "sophia",
+      "target": "yaltabaoth",
+      "relationship": "fragmentation",
+      "description": "Sophia's unauthorized conception produces Yaltabaoth — imperfect, lion-faced, dissimilar to its mother. She casts it away, but it takes power from her and creates its own realm."
+    },
+    {
+      "source": "yaltabaoth",
+      "target": "archons",
+      "relationship": "creation",
+      "description": "Yaltabaoth creates twelve authorities, seven kings, and 365 angels. He shares his fire with them but withholds the stolen light-power. Deliberate creation by an ignorant demiurge."
+    },
+    {
+      "source": "archons",
+      "target": "material_world",
+      "relationship": "creation",
+      "description": "The archons create the material cosmos and fashion the material human body in the image of the divine Adamas. The body remains inert until animated by the stolen light-power."
+    }
+  ],
+
+  "alternative_encodings": {
+    "sophia_within_luminaries": {
+      "description": "7-node encoding: Sophia is not a separate node but remains part of the Four Luminaries tier. The fragmentation edge goes directly from Four Luminaries to Yaltabaoth.",
+      "scholarly_support": "Some scholars treat Sophia's fall as an event within the Pleroma, not as a separate ontological level. This reduces node count but loses the structural significance of the fall as a level-crossing event.",
+      "encoding_note": "Not adopted because the text devotes extensive narrative to Sophia's act as a distinct cosmological event. Per schema_spec.md criterion 2 (functional cosmological stage): the fall is a distinct stage."
+    },
+    "expanded_archons": {
+      "description": "10-node encoding: Separates Archons into '12 Authorities' (level 6), '7 Heavenly Kings' (level 7), and '365 Angels' (level 8), with Material World at level 9.",
+      "scholarly_support": "The text does distinguish these groups. However, per Granularity Rule: they function as one collective governing tier, not as sequential emanations.",
+      "encoding_note": "Not adopted. Would over-specify the lower levels without adding structural insight for cross-traditional comparison."
+    }
+  },
+
+  "validation": {
+    "is_dag": true,
+    "single_root": true,
+    "root_node": "invisible_spirit",
+    "all_connected": true,
+    "node_count": 9,
+    "edge_count": 8,
+    "depth": 7,
+    "max_branching_factor": 2,
+    "within_bounds": true,
+    "all_attributes_present": true,
+    "all_edges_labeled": true
+  }
+}

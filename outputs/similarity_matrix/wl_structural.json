@@ -1,0 +1,695 @@
+{
+  "book_of_revelation vs bundahishn_zoroastrian": {
+    "wl_structural_similarity": 1.0
+  },
+  "book_of_revelation vs chaldean": {
+    "wl_structural_similarity": 1.0
+  },
+  "book_of_revelation vs derveni_orphic": {
+    "wl_structural_similarity": 0.921635
+  },
+  "book_of_revelation vs enochian_watchers": {
+    "wl_structural_similarity": 1.0
+  },
+  "book_of_revelation vs genesis_creationist": {
+    "wl_structural_similarity": 0.126179
+  },
+  "book_of_revelation vs gospel_of_mary": {
+    "wl_structural_similarity": 0.921635
+  },
+  "book_of_revelation vs hermetic": {
+    "wl_structural_similarity": 0.487417
+  },
+  "book_of_revelation vs ishraq_illuminationist": {
+    "wl_structural_similarity": 0.966667
+  },
+  "book_of_revelation vs lurianic_kabbalistic": {
+    "wl_structural_similarity": 0.966667
+  },
+  "book_of_revelation vs manichaean": {
+    "wl_structural_similarity": 0.755483
+  },
+  "book_of_revelation vs plotinian_neoplatonic": {
+    "wl_structural_similarity": 0.921635
+  },
+  "book_of_revelation vs popol_vuh_maya": {
+    "wl_structural_similarity": 0.497494
+  },
+  "book_of_revelation vs proclan_neoplatonic": {
+    "wl_structural_similarity": 0.947523
+  },
+  "book_of_revelation vs quranic_miraj": {
+    "wl_structural_similarity": 0.895979
+  },
+  "book_of_revelation vs samkhya": {
+    "wl_structural_similarity": 0.966667
+  },
+  "book_of_revelation vs sethian_gnostic": {
+    "wl_structural_similarity": 0.947523
+  },
+  "book_of_revelation vs taoist_ddj": {
+    "wl_structural_similarity": 0.921635
+  },
+  "book_of_revelation vs trimorphic_protennoia": {
+    "wl_structural_similarity": 0.43788
+  },
+  "book_of_revelation vs valentinian_gnostic": {
+    "wl_structural_similarity": 0.777542
+  },
+  "book_of_revelation vs vedic_nasadiya": {
+    "wl_structural_similarity": 0.921635
+  },
+  "book_of_revelation vs vedic_purusha": {
+    "wl_structural_similarity": 0.240192
+  },
+  "bundahishn_zoroastrian vs chaldean": {
+    "wl_structural_similarity": 1.0
+  },
+  "bundahishn_zoroastrian vs derveni_orphic": {
+    "wl_structural_similarity": 0.921635
+  },
+  "bundahishn_zoroastrian vs enochian_watchers": {
+    "wl_structural_similarity": 1.0
+  },
+  "bundahishn_zoroastrian vs genesis_creationist": {
+    "wl_structural_similarity": 0.126179
+  },
+  "bundahishn_zoroastrian vs gospel_of_mary": {
+    "wl_structural_similarity": 0.921635
+  },
+  "bundahishn_zoroastrian vs hermetic": {
+    "wl_structural_similarity": 0.487417
+  },
+  "bundahishn_zoroastrian vs ishraq_illuminationist": {
+    "wl_structural_similarity": 0.966667
+  },
+  "bundahishn_zoroastrian vs lurianic_kabbalistic": {
+    "wl_structural_similarity": 0.966667
+  },
+  "bundahishn_zoroastrian vs manichaean": {
+    "wl_structural_similarity": 0.755483
+  },
+  "bundahishn_zoroastrian vs plotinian_neoplatonic": {
+    "wl_structural_similarity": 0.921635
+  },
+  "bundahishn_zoroastrian vs popol_vuh_maya": {
+    "wl_structural_similarity": 0.497494
+  },
+  "bundahishn_zoroastrian vs proclan_neoplatonic": {
+    "wl_structural_similarity": 0.947523
+  },
+  "bundahishn_zoroastrian vs quranic_miraj": {
+    "wl_structural_similarity": 0.895979
+  },
+  "bundahishn_zoroastrian vs samkhya": {
+    "wl_structural_similarity": 0.966667
+  },
+  "bundahishn_zoroastrian vs sethian_gnostic": {
+    "wl_structural_similarity": 0.947523
+  },
+  "bundahishn_zoroastrian vs taoist_ddj": {
+    "wl_structural_similarity": 0.921635
+  },
+  "bundahishn_zoroastrian vs trimorphic_protennoia": {
+    "wl_structural_similarity": 0.43788
+  },
+  "bundahishn_zoroastrian vs valentinian_gnostic": {
+    "wl_structural_similarity": 0.777542
+  },
+  "bundahishn_zoroastrian vs vedic_nasadiya": {
+    "wl_structural_similarity": 0.921635
+  },
+  "bundahishn_zoroastrian vs vedic_purusha": {
+    "wl_structural_similarity": 0.240192
+  },
+  "chaldean vs derveni_orphic": {
+    "wl_structural_similarity": 0.921635
+  },
+  "chaldean vs enochian_watchers": {
+    "wl_structural_similarity": 1.0
+  },
+  "chaldean vs genesis_creationist": {
+    "wl_structural_similarity": 0.126179
+  },
+  "chaldean vs gospel_of_mary": {
+    "wl_structural_similarity": 0.921635
+  },
+  "chaldean vs hermetic": {
+    "wl_structural_similarity": 0.487417
+  },
+  "chaldean vs ishraq_illuminationist": {
+    "wl_structural_similarity": 0.966667
+  },
+  "chaldean vs lurianic_kabbalistic": {
+    "wl_structural_similarity": 0.966667
+  },
+  "chaldean vs manichaean": {
+    "wl_structural_similarity": 0.755483
+  },
+  "chaldean vs plotinian_neoplatonic": {
+    "wl_structural_similarity": 0.921635
+  },
+  "chaldean vs popol_vuh_maya": {
+    "wl_structural_similarity": 0.497494
+  },
+  "chaldean vs proclan_neoplatonic": {
+    "wl_structural_similarity": 0.947523
+  },
+  "chaldean vs quranic_miraj": {
+    "wl_structural_similarity": 0.895979
+  },
+  "chaldean vs samkhya": {
+    "wl_structural_similarity": 0.966667
+  },
+  "chaldean vs sethian_gnostic": {
+    "wl_structural_similarity": 0.947523
+  },
+  "chaldean vs taoist_ddj": {
+    "wl_structural_similarity": 0.921635
+  },
+  "chaldean vs trimorphic_protennoia": {
+    "wl_structural_similarity": 0.43788
+  },
+  "chaldean vs valentinian_gnostic": {
+    "wl_structural_similarity": 0.777542
+  },
+  "chaldean vs vedic_nasadiya": {
+    "wl_structural_similarity": 0.921635
+  },
+  "chaldean vs vedic_purusha": {
+    "wl_structural_similarity": 0.240192
+  },
+  "derveni_orphic vs enochian_watchers": {
+    "wl_structural_similarity": 0.921635
+  },
+  "derveni_orphic vs genesis_creationist": {
+    "wl_structural_similarity": 0.139104
+  },
+  "derveni_orphic vs gospel_of_mary": {
+    "wl_structural_similarity": 0.823529
+  },
+  "derveni_orphic vs hermetic": {
+    "wl_structural_similarity": 0.50664
+  },
+  "derveni_orphic vs ishraq_illuminationist": {
+    "wl_structural_similarity": 0.889297
+  },
+  "derveni_orphic vs lurianic_kabbalistic": {
+    "wl_structural_similarity": 0.889297
+  },
+  "derveni_orphic vs manichaean": {
+    "wl_structural_similarity": 0.766241
+  },
+  "derveni_orphic vs plotinian_neoplatonic": {
+    "wl_structural_similarity": 1.0
+  },
+  "derveni_orphic vs popol_vuh_maya": {
+    "wl_structural_similarity": 0.511891
+  },
+  "derveni_orphic vs proclan_neoplatonic": {
+    "wl_structural_similarity": 0.857493
+  },
+  "derveni_orphic vs quranic_miraj": {
+    "wl_structural_similarity": 0.79253
+  },
+  "derveni_orphic vs samkhya": {
+    "wl_structural_similarity": 0.889297
+  },
+  "derveni_orphic vs sethian_gnostic": {
+    "wl_structural_similarity": 0.857493
+  },
+  "derveni_orphic vs taoist_ddj": {
+    "wl_structural_similarity": 1.0
+  },
+  "derveni_orphic vs trimorphic_protennoia": {
+    "wl_structural_similarity": 0.45515
+  },
+  "derveni_orphic vs valentinian_gnostic": {
+    "wl_structural_similarity": 0.778924
+  },
+  "derveni_orphic vs vedic_nasadiya": {
+    "wl_structural_similarity": 1.0
+  },
+  "derveni_orphic vs vedic_purusha": {
+    "wl_structural_similarity": 0.252439
+  },
+  "enochian_watchers vs genesis_creationist": {
+    "wl_structural_similarity": 0.126179
+  },
+  "enochian_watchers vs gospel_of_mary": {
+    "wl_structural_similarity": 0.921635
+  },
+  "enochian_watchers vs hermetic": {
+    "wl_structural_similarity": 0.487417
+  },
+  "enochian_watchers vs ishraq_illuminationist": {
+    "wl_structural_similarity": 0.966667
+  },
+  "enochian_watchers vs lurianic_kabbalistic": {
+    "wl_structural_similarity": 0.966667
+  },
+  "enochian_watchers vs manichaean": {
+    "wl_structural_similarity": 0.755483
+  },
+  "enochian_watchers vs plotinian_neoplatonic": {
+    "wl_structural_similarity": 0.921635
+  },
+  "enochian_watchers vs popol_vuh_maya": {
+    "wl_structural_similarity": 0.497494
+  },
+  "enochian_watchers vs proclan_neoplatonic": {
+    "wl_structural_similarity": 0.947523
+  },
+  "enochian_watchers vs quranic_miraj": {
+    "wl_structural_similarity": 0.895979
+  },
+  "enochian_watchers vs samkhya": {
+    "wl_structural_similarity": 0.966667
+  },
+  "enochian_watchers vs sethian_gnostic": {
+    "wl_structural_similarity": 0.947523
+  },
+  "enochian_watchers vs taoist_ddj": {
+    "wl_structural_similarity": 0.921635
+  },
+  "enochian_watchers vs trimorphic_protennoia": {
+    "wl_structural_similarity": 0.43788
+  },
+  "enochian_watchers vs valentinian_gnostic": {
+    "wl_structural_similarity": 0.777542
+  },
+  "enochian_watchers vs vedic_nasadiya": {
+    "wl_structural_similarity": 0.921635
+  },
+  "enochian_watchers vs vedic_purusha": {
+    "wl_structural_similarity": 0.240192
+  },
+  "genesis_creationist vs gospel_of_mary": {
+    "wl_structural_similarity": 0.097373
+  },
+  "genesis_creationist vs hermetic": {
+    "wl_structural_similarity": 0.219649
+  },
+  "genesis_creationist vs ishraq_illuminationist": {
+    "wl_structural_similarity": 0.114708
+  },
+  "genesis_creationist vs lurianic_kabbalistic": {
+    "wl_structural_similarity": 0.114708
+  },
+  "genesis_creationist vs manichaean": {
+    "wl_structural_similarity": 0.196954
+  },
+  "genesis_creationist vs plotinian_neoplatonic": {
+    "wl_structural_similarity": 0.139104
+  },
+  "genesis_creationist vs popol_vuh_maya": {
+    "wl_structural_similarity": 0.293979
+  },
+  "genesis_creationist vs proclan_neoplatonic": {
+    "wl_structural_similarity": 0.105444
+  },
+  "genesis_creationist vs quranic_miraj": {
+    "wl_structural_similarity": 0.090685
+  },
+  "genesis_creationist vs samkhya": {
+    "wl_structural_similarity": 0.114708
+  },
+  "genesis_creationist vs sethian_gnostic": {
+    "wl_structural_similarity": 0.105444
+  },
+  "genesis_creationist vs taoist_ddj": {
+    "wl_structural_similarity": 0.139104
+  },
+  "genesis_creationist vs trimorphic_protennoia": {
+    "wl_structural_similarity": 0.251142
+  },
+  "genesis_creationist vs valentinian_gnostic": {
+    "wl_structural_similarity": 0.174503
+  },
+  "genesis_creationist vs vedic_nasadiya": {
+    "wl_structural_similarity": 0.139104
+  },
+  "genesis_creationist vs vedic_purusha": {
+    "wl_structural_similarity": 0.238783
+  },
+  "gospel_of_mary vs hermetic": {
+    "wl_structural_similarity": 0.4222
+  },
+  "gospel_of_mary vs ishraq_illuminationist": {
+    "wl_structural_similarity": 0.970143
+  },
+  "gospel_of_mary vs lurianic_kabbalistic": {
+    "wl_structural_similarity": 0.970143
+  },
+  "gospel_of_mary vs manichaean": {
+    "wl_structural_similarity": 0.682954
+  },
+  "gospel_of_mary vs plotinian_neoplatonic": {
+    "wl_structural_similarity": 0.823529
+  },
+  "gospel_of_mary vs popol_vuh_maya": {
+    "wl_structural_similarity": 0.438763
+  },
+  "gospel_of_mary vs proclan_neoplatonic": {
+    "wl_structural_similarity": 0.994692
+  },
+  "gospel_of_mary vs quranic_miraj": {
+    "wl_structural_similarity": 0.997054
+  },
+  "gospel_of_mary vs samkhya": {
+    "wl_structural_similarity": 0.970143
+  },
+  "gospel_of_mary vs sethian_gnostic": {
+    "wl_structural_similarity": 0.994692
+  },
+  "gospel_of_mary vs taoist_ddj": {
+    "wl_structural_similarity": 0.823529
+  },
+  "gospel_of_mary vs trimorphic_protennoia": {
+    "wl_structural_similarity": 0.379291
+  },
+  "gospel_of_mary vs valentinian_gnostic": {
+    "wl_structural_similarity": 0.71743
+  },
+  "gospel_of_mary vs vedic_nasadiya": {
+    "wl_structural_similarity": 0.823529
+  },
+  "gospel_of_mary vs vedic_purusha": {
+    "wl_structural_similarity": 0.203893
+  },
+  "hermetic vs ishraq_illuminationist": {
+    "wl_structural_similarity": 0.464207
+  },
+  "hermetic vs lurianic_kabbalistic": {
+    "wl_structural_similarity": 0.464207
+  },
+  "hermetic vs manichaean": {
+    "wl_structural_similarity": 0.789076
+  },
+  "hermetic vs plotinian_neoplatonic": {
+    "wl_structural_similarity": 0.50664
+  },
+  "hermetic vs popol_vuh_maya": {
+    "wl_structural_similarity": 0.472377
+  },
+  "hermetic vs proclan_neoplatonic": {
+    "wl_structural_similarity": 0.443129
+  },
+  "hermetic vs quranic_miraj": {
+    "wl_structural_similarity": 0.403687
+  },
+  "hermetic vs samkhya": {
+    "wl_structural_similarity": 0.464207
+  },
+  "hermetic vs sethian_gnostic": {
+    "wl_structural_similarity": 0.443129
+  },
+  "hermetic vs taoist_ddj": {
+    "wl_structural_similarity": 0.50664
+  },
+  "hermetic vs trimorphic_protennoia": {
+    "wl_structural_similarity": 0.544466
+  },
+  "hermetic vs valentinian_gnostic": {
+    "wl_structural_similarity": 0.514929
+  },
+  "hermetic vs vedic_nasadiya": {
+    "wl_structural_similarity": 0.50664
+  },
+  "hermetic vs vedic_purusha": {
+    "wl_structural_similarity": 0.278747
+  },
+  "ishraq_illuminationist vs lurianic_kabbalistic": {
+    "wl_structural_similarity": 1.0
+  },
+  "ishraq_illuminationist vs manichaean": {
+    "wl_structural_similarity": 0.73259
+  },
+  "ishraq_illuminationist vs plotinian_neoplatonic": {
+    "wl_structural_similarity": 0.889297
+  },
+  "ishraq_illuminationist vs popol_vuh_maya": {
+    "wl_structural_similarity": 0.477393
+  },
+  "ishraq_illuminationist vs proclan_neoplatonic": {
+    "wl_structural_similarity": 0.989949
+  },
+  "ishraq_illuminationist vs quranic_miraj": {
+    "wl_structural_similarity": 0.948683
+  },
+  "ishraq_illuminationist vs samkhya": {
+    "wl_structural_similarity": 1.0
+  },
+  "ishraq_illuminationist vs sethian_gnostic": {
+    "wl_structural_similarity": 0.989949
+  },
+  "ishraq_illuminationist vs taoist_ddj": {
+    "wl_structural_similarity": 0.889297
+  },
+  "ishraq_illuminationist vs trimorphic_protennoia": {
+    "wl_structural_similarity": 0.417029
+  },
+  "ishraq_illuminationist vs valentinian_gnostic": {
+    "wl_structural_similarity": 0.760639
+  },
+  "ishraq_illuminationist vs vedic_nasadiya": {
+    "wl_structural_similarity": 0.889297
+  },
+  "ishraq_illuminationist vs vedic_purusha": {
+    "wl_structural_similarity": 0.226848
+  },
+  "lurianic_kabbalistic vs manichaean": {
+    "wl_structural_similarity": 0.73259
+  },
+  "lurianic_kabbalistic vs plotinian_neoplatonic": {
+    "wl_structural_similarity": 0.889297
+  },
+  "lurianic_kabbalistic vs popol_vuh_maya": {
+    "wl_structural_similarity": 0.477393
+  },
+  "lurianic_kabbalistic vs proclan_neoplatonic": {
+    "wl_structural_similarity": 0.989949
+  },
+  "lurianic_kabbalistic vs quranic_miraj": {
+    "wl_structural_similarity": 0.948683
+  },
+  "lurianic_kabbalistic vs samkhya": {
+    "wl_structural_similarity": 1.0
+  },
+  "lurianic_kabbalistic vs sethian_gnostic": {
+    "wl_structural_similarity": 0.989949
+  },
+  "lurianic_kabbalistic vs taoist_ddj": {
+    "wl_structural_similarity": 0.889297
+  },
+  "lurianic_kabbalistic vs trimorphic_protennoia": {
+    "wl_structural_similarity": 0.417029
+  },
+  "lurianic_kabbalistic vs valentinian_gnostic": {
+    "wl_structural_similarity": 0.760639
+  },
+  "lurianic_kabbalistic vs vedic_nasadiya": {
+    "wl_structural_similarity": 0.889297
+  },
+  "lurianic_kabbalistic vs vedic_purusha": {
+    "wl_structural_similarity": 0.226848
+  },
+  "manichaean vs plotinian_neoplatonic": {
+    "wl_structural_similarity": 0.766241
+  },
+  "manichaean vs popol_vuh_maya": {
+    "wl_structural_similarity": 0.559113
+  },
+  "manichaean vs proclan_neoplatonic": {
+    "wl_structural_similarity": 0.709039
+  },
+  "manichaean vs quranic_miraj": {
+    "wl_structural_similarity": 0.658798
+  },
+  "manichaean vs samkhya": {
+    "wl_structural_similarity": 0.73259
+  },
+  "manichaean vs sethian_gnostic": {
+    "wl_structural_similarity": 0.709039
+  },
+  "manichaean vs taoist_ddj": {
+    "wl_structural_similarity": 0.766241
+  },
+  "manichaean vs trimorphic_protennoia": {
+    "wl_structural_similarity": 0.601475
+  },
+  "manichaean vs valentinian_gnostic": {
+    "wl_structural_similarity": 0.731372
+  },
+  "manichaean vs vedic_nasadiya": {
+    "wl_structural_similarity": 0.766241
+  },
+  "manichaean vs vedic_purusha": {
+    "wl_structural_similarity": 0.285939
+  },
+  "plotinian_neoplatonic vs popol_vuh_maya": {
+    "wl_structural_similarity": 0.511891
+  },
+  "plotinian_neoplatonic vs proclan_neoplatonic": {
+    "wl_structural_similarity": 0.857493
+  },
+  "plotinian_neoplatonic vs quranic_miraj": {
+    "wl_structural_similarity": 0.79253
+  },
+  "plotinian_neoplatonic vs samkhya": {
+    "wl_structural_similarity": 0.889297
+  },
+  "plotinian_neoplatonic vs sethian_gnostic": {
+    "wl_structural_similarity": 0.857493
+  },
+  "plotinian_neoplatonic vs taoist_ddj": {
+    "wl_structural_similarity": 1.0
+  },
+  "plotinian_neoplatonic vs trimorphic_protennoia": {
+    "wl_structural_similarity": 0.45515
+  },
+  "plotinian_neoplatonic vs valentinian_gnostic": {
+    "wl_structural_similarity": 0.778924
+  },
+  "plotinian_neoplatonic vs vedic_nasadiya": {
+    "wl_structural_similarity": 1.0
+  },
+  "plotinian_neoplatonic vs vedic_purusha": {
+    "wl_structural_similarity": 0.252439
+  },
+  "popol_vuh_maya vs proclan_neoplatonic": {
+    "wl_structural_similarity": 0.458382
+  },
+  "popol_vuh_maya vs quranic_miraj": {
+    "wl_structural_similarity": 0.421113
+  },
+  "popol_vuh_maya vs samkhya": {
+    "wl_structural_similarity": 0.477393
+  },
+  "popol_vuh_maya vs sethian_gnostic": {
+    "wl_structural_similarity": 0.458382
+  },
+  "popol_vuh_maya vs taoist_ddj": {
+    "wl_structural_similarity": 0.511891
+  },
+  "popol_vuh_maya vs trimorphic_protennoia": {
+    "wl_structural_similarity": 0.471521
+  },
+  "popol_vuh_maya vs valentinian_gnostic": {
+    "wl_structural_similarity": 0.560612
+  },
+  "popol_vuh_maya vs vedic_nasadiya": {
+    "wl_structural_similarity": 0.511891
+  },
+  "popol_vuh_maya vs vedic_purusha": {
+    "wl_structural_similarity": 0.446594
+  },
+  "proclan_neoplatonic vs quranic_miraj": {
+    "wl_structural_similarity": 0.98387
+  },
+  "proclan_neoplatonic vs samkhya": {
+    "wl_structural_similarity": 0.989949
+  },
+  "proclan_neoplatonic vs sethian_gnostic": {
+    "wl_structural_similarity": 1.0
+  },
+  "proclan_neoplatonic vs taoist_ddj": {
+    "wl_structural_similarity": 0.857493
+  },
+  "proclan_neoplatonic vs trimorphic_protennoia": {
+    "wl_structural_similarity": 0.398093
+  },
+  "proclan_neoplatonic vs valentinian_gnostic": {
+    "wl_structural_similarity": 0.741042
+  },
+  "proclan_neoplatonic vs vedic_nasadiya": {
+    "wl_structural_similarity": 0.857493
+  },
+  "proclan_neoplatonic vs vedic_purusha": {
+    "wl_structural_similarity": 0.215133
+  },
+  "quranic_miraj vs samkhya": {
+    "wl_structural_similarity": 0.948683
+  },
+  "quranic_miraj vs sethian_gnostic": {
+    "wl_structural_similarity": 0.98387
+  },
+  "quranic_miraj vs taoist_ddj": {
+    "wl_structural_similarity": 0.79253
+  },
+  "quranic_miraj vs trimorphic_protennoia": {
+    "wl_structural_similarity": 0.362659
+  },
+  "quranic_miraj vs valentinian_gnostic": {
+    "wl_structural_similarity": 0.694879
+  },
+  "quranic_miraj vs vedic_nasadiya": {
+    "wl_structural_similarity": 0.79253
+  },
+  "quranic_miraj vs vedic_purusha": {
+    "wl_structural_similarity": 0.194108
+  },
+  "samkhya vs sethian_gnostic": {
+    "wl_structural_similarity": 0.989949
+  },
+  "samkhya vs taoist_ddj": {
+    "wl_structural_similarity": 0.889297
+  },
+  "samkhya vs trimorphic_protennoia": {
+    "wl_structural_similarity": 0.417029
+  },
+  "samkhya vs valentinian_gnostic": {
+    "wl_structural_similarity": 0.760639
+  },
+  "samkhya vs vedic_nasadiya": {
+    "wl_structural_similarity": 0.889297
+  },
+  "samkhya vs vedic_purusha": {
+    "wl_structural_similarity": 0.226848
+  },
+  "sethian_gnostic vs taoist_ddj": {
+    "wl_structural_similarity": 0.857493
+  },
+  "sethian_gnostic vs trimorphic_protennoia": {
+    "wl_structural_similarity": 0.398093
+  },
+  "sethian_gnostic vs valentinian_gnostic": {
+    "wl_structural_similarity": 0.741042
+  },
+  "sethian_gnostic vs vedic_nasadiya": {
+    "wl_structural_similarity": 0.857493
+  },
+  "sethian_gnostic vs vedic_purusha": {
+    "wl_structural_similarity": 0.215133
+  },
+  "taoist_ddj vs trimorphic_protennoia": {
+    "wl_structural_similarity": 0.45515
+  },
+  "taoist_ddj vs valentinian_gnostic": {
+    "wl_structural_similarity": 0.778924
+  },
+  "taoist_ddj vs vedic_nasadiya": {
+    "wl_structural_similarity": 1.0
+  },
+  "taoist_ddj vs vedic_purusha": {
+    "wl_structural_similarity": 0.252439
+  },
+  "trimorphic_protennoia vs valentinian_gnostic": {
+    "wl_structural_similarity": 0.475812
+  },
+  "trimorphic_protennoia vs vedic_nasadiya": {
+    "wl_structural_similarity": 0.45515
+  },
+  "trimorphic_protennoia vs vedic_purusha": {
+    "wl_structural_similarity": 0.300501
+  },
+  "valentinian_gnostic vs vedic_nasadiya": {
+    "wl_structural_similarity": 0.778924
+  },
+  "valentinian_gnostic vs vedic_purusha": {
+    "wl_structural_similarity": 0.284199
+  },
+  "vedic_nasadiya vs vedic_purusha": {
+    "wl_structural_similarity": 0.252439
+  }
+}

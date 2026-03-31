@@ -1,0 +1,153 @@
+{
+  "tradition": "gospel_of_mary",
+  "primary_source": "Gospel of Mary (BG 8502,1; P.Oxy. 3525; P.Ryl. 463)",
+  "treatises_used": ["Gospel of Mary (Berlin Gnostic Codex 8502,1)", "P.Oxyrhynchus 3525 (Greek fragment)", "P.Rylands 463 (Greek fragment)"],
+  "scholarly_anchors": [
+    "King, K. L. (2003). The Gospel of Mary of Magdala: Jesus and the First Woman Apostle. Polebridge Press.",
+    "Pasquier, A. (1983). L'Evangile selon Marie (BG 1). Laval University Press.",
+    "Tuckett, C. M. (2007). The Gospel of Mary. Oxford University Press."
+  ],
+  "encoding_date": "2026-03-30",
+  "encoder": "Claude (Kairoz) + Erydir-Ceisiwr",
+  "version": "1.0",
+  "encoding_notes": "The Gospel of Mary describes the soul's ascent through seven hostile Powers (psychological gatekeepers), making it structurally unique as the only bottom-up cosmology in the corpus. However, for DAG protocol consistency (direction-agnostic approach), we encode the hierarchy top-down: Silence/Rest as source, descending through the Powers to Material World. The topology is identical whether read top-down or bottom-up — a deep linear chain (depth 8). This is the deepest linear chain in the corpus alongside Sethian (depth 7) and Proclean (depth 7). Critically, this tradition has no Sophia fall, no Demiurge, no Aeons, and no Pleroma — it is entirely psychological/experiential, not cosmogonic.",
+
+  "nodes": [
+    {
+      "id": "silence_rest",
+      "name": "Silence / Rest (Anapausis)",
+      "aliases": ["the Good", "Rest", "Silence", "Anapausis"],
+      "tradition": "gospel_of_mary",
+      "functional_role": "source",
+      "level": 0,
+      "description": "The ultimate state — Silence and Rest beyond all the Powers. The soul's destination after overcoming all seven gatekeepers. In the direction-agnostic encoding, this is the source/apex of the hierarchy.",
+      "source_reference": "Gospel of Mary BG 17.7-18.15 (King 2003, pp. 15-17)"
+    },
+    {
+      "id": "wrathful_wisdom",
+      "name": "Power 7: Wrathful Wisdom",
+      "aliases": ["the seventh power", "Wisdom of Wrath"],
+      "tradition": "gospel_of_mary",
+      "functional_role": "intermediary",
+      "level": 1,
+      "description": "The seventh and final Power — Wrathful Wisdom. It has seven forms: Darkness, Desire, Ignorance, Zeal for Death, Kingdom of Flesh, Foolish Wisdom, and Wisdom of the Wrathful.",
+      "source_reference": "Gospel of Mary BG 16.1-17.7 (King 2003, pp. 14-15)"
+    },
+    {
+      "id": "foolish_wisdom",
+      "name": "Power 6: Foolish Wisdom",
+      "aliases": ["the sixth power"],
+      "tradition": "gospel_of_mary",
+      "functional_role": "intermediary",
+      "level": 2,
+      "description": "The sixth Power. A form of wisdom that is foolish — knowledge without gnosis, understanding without liberation.",
+      "source_reference": "Gospel of Mary BG 15.10-16.1 (King 2003, p. 14)"
+    },
+    {
+      "id": "kingdom_flesh",
+      "name": "Power 5: Kingdom of Flesh",
+      "aliases": ["the fifth power", "enslavement to flesh"],
+      "tradition": "gospel_of_mary",
+      "functional_role": "intermediary",
+      "level": 3,
+      "description": "The fifth Power — the dominion of bodily existence. Not the body itself but the soul's identification with and subjection to bodily existence.",
+      "source_reference": "Gospel of Mary BG 15.5-15.10 (King 2003, p. 14)"
+    },
+    {
+      "id": "zeal_death",
+      "name": "Power 4: Zeal for Death",
+      "aliases": ["the fourth power", "deadly jealousy"],
+      "tradition": "gospel_of_mary",
+      "functional_role": "intermediary",
+      "level": 4,
+      "description": "The fourth Power — the compulsive drive toward death and destruction. The soul's attachment to mortality and fear.",
+      "source_reference": "Gospel of Mary BG 15.1-15.5 (King 2003, p. 14)",
+      "encoding_note": "Lacuna in text — some reconstruction from P.Oxy. 3525"
+    },
+    {
+      "id": "ignorance",
+      "name": "Power 3: Ignorance",
+      "aliases": ["the third power", "Agnoia"],
+      "tradition": "gospel_of_mary",
+      "functional_role": "intermediary",
+      "level": 5,
+      "description": "The third Power — Ignorance. Not mere lack of knowledge but active not-knowing, the soul's forgetting of its true nature. The inverse of Gnosis.",
+      "source_reference": "Gospel of Mary BG 14.10-15.1 (King 2003, pp. 13-14)"
+    },
+    {
+      "id": "desire",
+      "name": "Power 2: Desire (Epithumia)",
+      "aliases": ["the second power", "Epithumia", "Craving"],
+      "tradition": "gospel_of_mary",
+      "functional_role": "intermediary",
+      "level": 6,
+      "description": "The second Power — Desire/Craving. The soul's attachment to material existence and sensory experience.",
+      "source_reference": "Gospel of Mary BG 14.1-14.10 (King 2003, p. 13)"
+    },
+    {
+      "id": "darkness",
+      "name": "Power 1: Darkness (Skotos)",
+      "aliases": ["the first power", "Skotos"],
+      "tradition": "gospel_of_mary",
+      "functional_role": "intermediary",
+      "level": 7,
+      "description": "The first Power — Darkness. The most material, the densest veil over the soul. The starting point of the ascent, the lowest gatekeeper.",
+      "source_reference": "Gospel of Mary BG 13.1-14.1 (King 2003, p. 13)"
+    },
+    {
+      "id": "material_body",
+      "name": "Material World / Body",
+      "aliases": ["matter", "the body", "the world of generation"],
+      "tradition": "gospel_of_mary",
+      "functional_role": "matter",
+      "level": 8,
+      "description": "The material world and embodied existence — the starting point of the soul's journey in the text's narrative (ascending), and the terminal node in the DAG encoding (descending from source).",
+      "source_reference": "Gospel of Mary BG 7.1-9.24 (King 2003, pp. 7-10)"
+    }
+  ],
+
+  "edges": [
+    {"source": "silence_rest", "target": "wrathful_wisdom", "relationship": "emanation", "description": "Hierarchy descends from Silence/Rest through the Powers"},
+    {"source": "wrathful_wisdom", "target": "foolish_wisdom", "relationship": "emanation", "description": "Wrathful Wisdom -> Foolish Wisdom (increasing density)"},
+    {"source": "foolish_wisdom", "target": "kingdom_flesh", "relationship": "emanation", "description": "Foolish Wisdom -> Kingdom of Flesh"},
+    {"source": "kingdom_flesh", "target": "zeal_death", "relationship": "emanation", "description": "Kingdom of Flesh -> Zeal for Death"},
+    {"source": "zeal_death", "target": "ignorance", "relationship": "emanation", "description": "Zeal for Death -> Ignorance"},
+    {"source": "ignorance", "target": "desire", "relationship": "emanation", "description": "Ignorance -> Desire"},
+    {"source": "desire", "target": "darkness", "relationship": "emanation", "description": "Desire -> Darkness"},
+    {"source": "darkness", "target": "material_body", "relationship": "emanation", "description": "Darkness -> Material World / Body (densest manifestation)"}
+  ],
+
+  "alternative_encodings": {
+    "direction_sensitive_ascending": {
+      "description": "Reverse the DAG to encode the text's actual direction of travel: Material World as root, ascending through the Powers to Silence/Rest as terminal node. All edges become contraction. Topologically identical (linear chain, depth 8) but semantically inverted.",
+      "scholarly_support": "King (2003) emphasises the ascent direction as theologically primary — the text is fundamentally about liberation through upward movement, not downward emanation.",
+      "nodes_added": [],
+      "edges_modified": [
+        {"source": "material_body", "target": "darkness", "relationship": "contraction", "description": "Soul rises from matter through Darkness"},
+        {"source": "darkness", "target": "desire", "relationship": "contraction", "description": "Soul overcomes Darkness, encounters Desire"},
+        {"source": "desire", "target": "ignorance", "relationship": "contraction", "description": "Soul overcomes Desire, encounters Ignorance"},
+        {"source": "ignorance", "target": "zeal_death", "relationship": "contraction", "description": "Soul overcomes Ignorance, encounters Zeal for Death"},
+        {"source": "zeal_death", "target": "kingdom_flesh", "relationship": "contraction", "description": "Soul overcomes Zeal, encounters Kingdom of Flesh"},
+        {"source": "kingdom_flesh", "target": "foolish_wisdom", "relationship": "contraction", "description": "Soul overcomes Flesh, encounters Foolish Wisdom"},
+        {"source": "foolish_wisdom", "target": "wrathful_wisdom", "relationship": "contraction", "description": "Soul overcomes Foolish Wisdom, encounters Wrathful Wisdom"},
+        {"source": "wrathful_wisdom", "target": "silence_rest", "relationship": "contraction", "description": "Soul overcomes final Power, arrives at Silence/Rest"}
+      ],
+      "encoding_note": "HIGH — topologically identical, will be run as supplementary direction-sensitive analysis"
+    }
+  },
+
+  "validation": {
+    "is_dag": true,
+    "single_root": true,
+    "root_node": "silence_rest",
+    "all_connected": true,
+    "node_count": 9,
+    "edge_count": 8,
+    "depth": 8,
+    "max_branching_factor": 1,
+    "within_bounds": true,
+    "all_attributes_present": true,
+    "all_edges_labeled": true,
+    "shape": "linear_chain"
+  }
+}

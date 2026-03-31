@@ -1,0 +1,123 @@
+{
+  "tradition": "genesis_creationist",
+  "node_count": 8,
+  "edge_count": 7,
+  "depth": 2,
+  "diameter": 2,
+  "width": 6,
+  "leaf_count": 6,
+  "branching_node_count": 1,
+  "max_branching_factor": 6,
+  "mean_branching_factor": 3.5,
+  "root": "elohim",
+  "leaves": [
+    "light_darkness",
+    "firmament_waters",
+    "earth_vegetation",
+    "luminaries",
+    "creatures",
+    "humanity"
+  ],
+  "branching_nodes": [
+    "primordial_state"
+  ],
+  "in_degree_sequence": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "out_degree_sequence": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    6
+  ],
+  "edge_type_counts": {
+    "creation": 7
+  },
+  "functional_role_counts": {
+    "matter": 2,
+    "source": 1,
+    "first_emanation": 1,
+    "intermediary": 4
+  },
+  "depth_profile": {
+    "0": [
+      "elohim"
+    ],
+    "1": [
+      "primordial_state"
+    ],
+    "2": [
+      "light_darkness",
+      "firmament_waters",
+      "earth_vegetation",
+      "luminaries",
+      "creatures",
+      "humanity"
+    ]
+  },
+  "role_sequence_by_level": {
+    "0": [
+      "source"
+    ],
+    "1": [
+      "first_emanation"
+    ],
+    "2": [
+      "intermediary",
+      "intermediary",
+      "intermediary",
+      "intermediary",
+      "matter",
+      "matter"
+    ]
+  },
+  "betweenness_centrality": {
+    "elohim": 0.0,
+    "primordial_state": 0.1429,
+    "light_darkness": 0.0,
+    "firmament_waters": 0.0,
+    "earth_vegetation": 0.0,
+    "luminaries": 0.0,
+    "creatures": 0.0,
+    "humanity": 0.0
+  },
+  "closeness_centrality": {
+    "elohim": 0.0,
+    "primordial_state": 0.1429,
+    "light_darkness": 0.1905,
+    "firmament_waters": 0.1905,
+    "earth_vegetation": 0.1905,
+    "luminaries": 0.1905,
+    "creatures": 0.1905,
+    "humanity": 0.1905
+  },
+  "topological_sort": [
+    "elohim",
+    "primordial_state",
+    "light_darkness",
+    "firmament_waters",
+    "earth_vegetation",
+    "luminaries",
+    "creatures",
+    "humanity"
+  ],
+  "wl_hash_structure": "f951ce00b307f5e99ead703331cf4812",
+  "wl_hash_with_roles": "0543e341e80e08c2443dc43b60d8c0bd",
+  "is_linear_chain": false,
+  "has_fallen_node": false,
+  "has_process_nodes": false,
+  "has_fragmentation_edge": false,
+  "has_contraction_edge": false,
+  "has_reflection_edge": false
+}

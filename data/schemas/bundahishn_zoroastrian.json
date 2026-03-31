@@ -1,0 +1,206 @@
+{
+  "tradition": "bundahishn_zoroastrian",
+  "primary_source": "Greater Bundahishn (Zand-Akasih), trans. B.T. Anklesaria (Bombay, 1956). Chapter 1: Creation of Ohrmazd and the material world.",
+  "treatises_used": ["Greater Bundahishn, Chapter 1 (Creation)", "Greater Bundahishn, Chapter 2 (Formation of Luminaries)"],
+  "scholarly_anchors": [
+    "Anklesaria, B.T. (1956). Zand-Akasih: Iranian or Greater Bundahishn. Bombay.",
+    "Zaehner, R.C. (1955). Zurvan: A Zoroastrian Dilemma. Oxford University Press.",
+    "Boyce, M. (1975-1991). A History of Zoroastrianism, 3 vols. Brill.",
+    "Skjaervo, P.O. (2011). The Spirit of Zoroastrianism. Yale University Press.",
+    "de Jong, A. (1997). Traditions of the Magi: Zoroastrianism in Greek and Latin Literature. Brill."
+  ],
+  "encoding_date": "2026-03-29",
+  "encoder": "Erydir-Ceisiwr",
+  "version": "1.0",
+  "encoding_notes": "Encoding follows the orthodox Mazdean cosmogony of the Greater Bundahishn (Anklesaria 1956). The Ohrmazd-only hierarchy is encoded; Ahriman's counter-creation is documented in alternative_encodings. Independence: HIGH -- Zoroastrianism is an autochthonous Iranian tradition with no direct derivation from Neoplatonism or Gnosticism, although post-Sassanian Zoroastrian texts show mutual influence with late-antique philosophy. The Greater Bundahishn is a Pahlavi text (9th c. CE redaction of older Avestan and Middle Persian material). STRUCTURAL NOTE: This tradition is the key test for WP 1.3's pre-figuration hypothesis -- whether Suhrawardi's Ishraqi architecture was latent in pre-Islamic Iranian cosmology. The Amesha Spentas are encoded as one collective node per Granularity Rule (co-equal, no internal hierarchy attested). The menog (spiritual prototype) state is excluded from the primary encoding as a temporal phase rather than a distinct ontological tier; see alternative_encodings for inclusion. The gumecishn (mixed/corrupted world) is likewise excluded -- it results from Ahriman's assault, not from Ohrmazd's emanation chain.",
+
+  "nodes": [
+    {
+      "id": "ohrmazd",
+      "name": "Ohrmazd (Ahura Mazda)",
+      "aliases": ["Ahura Mazda", "Spenta Mainyu (Holy Spirit)", "The Creator", "Lord Wisdom"],
+      "tradition": "bundahishn_zoroastrian",
+      "functional_role": "source",
+      "level": 0,
+      "description": "The uncreated, self-existent source of all good creation. Omniscient, all-good, dwells in Endless Light (Asar Rosnih). Identified with Spenta Mainyu in the Greater Bundahishn (they are not distinct hypostases as in some Gathic readings). Possesses supreme intelligence and sovereignty. Creates first in the menog (spiritual) state, then materialises in the getik (physical) state.",
+      "source_reference": "GBd 1.1-1.6"
+    },
+    {
+      "id": "amesha_spentas",
+      "name": "Amesha Spentas (Bounteous Immortals)",
+      "aliases": ["Holy Immortals", "Amahraspands (Pahlavi)", "The Six (plus Ohrmazd as seventh)"],
+      "tradition": "bundahishn_zoroastrian",
+      "functional_role": "first_emanation",
+      "sub_count": 6,
+      "level": 1,
+      "description": "Six co-equal divine beings emanated from Ohrmazd's own essence as his first spiritual creations. They are simultaneously divine aspects of Ohrmazd AND the protectors/governors of the seven physical creations. Ohrmazd himself is reckoned as the seventh, forming a heptad. No internal hierarchy among them is attested in the Bundahishn. They remained 3,000 years in the menog state before materialisation. The six: Wahman/Vohu Manah (Good Mind, governs animals), Ardwahisht/Asha Vahishta (Best Truth, governs fire), Shahrewar/Khshathra Vairya (Desirable Dominion, governs metals/sky), Spandarmad/Spenta Armaiti (Holy Devotion, governs earth), Hordad/Haurvatat (Wholeness, governs water), Amurdad/Ameretat (Immortality, governs plants).",
+      "source_reference": "GBd 1.24-25",
+      "encoding_note": "Encoded as one collective node per Granularity Rule. All six are co-equal divine attributes of Ohrmazd, each governing one domain. No internal hierarchy. Parallels the Victorial Lights in the Ishraqi schema and the Four Luminaries in the Sethian/Valentinian schemas."
+    },
+    {
+      "id": "fravashis",
+      "name": "Fravashis (Guardian Spirits / Pre-Existent Souls)",
+      "aliases": ["Fravahr (Pahlavi)", "Faravahar", "Pre-existent souls"],
+      "tradition": "bundahishn_zoroastrian",
+      "functional_role": "soul",
+      "level": 2,
+      "description": "The pre-existent guardian spirits of all human beings (and possibly all living things). Created by Ohrmazd at the outset, before material creation. Ohrmazd consults them before materialising the world: he shows them the coming cosmic war with Ahriman and they CHOOSE to incarnate and fight rather than remain in perpetual spiritual protection. This is a consent-based cosmology -- the fravashis are not forced into matter but volunteer for embodiment. They are menog beings who will later inhabit getik forms. Structurally comparable to the Accidental Lights (substrate-dependent luminosities) in Suhrawardi's Ishraqi system.",
+      "source_reference": "GBd 1.8-1.10"
+    },
+    {
+      "id": "yazatas",
+      "name": "Yazatas (Celestial Beings)",
+      "aliases": ["Yazadan (Pahlavi)", "Worthy of Worship", "Celestial Governors"],
+      "tradition": "bundahishn_zoroastrian",
+      "functional_role": "intermediary",
+      "level": 3,
+      "description": "An extensive class of celestial beings created by Ohrmazd as cosmic administrators. Subordinate to the Amesha Spentas (who are aspects of Ohrmazd himself), the yazatas are created servants governing specific cosmic functions. Prominent members include: Mithra (contracts, light -- second in dignity only to Ohrmazd), Anahita (waters), Tishtar/Sirius (rain, chieftain of the East), Sraosha (obedience, guardian of the Chinvat bridge), Rashnu (righteous judgment), Atar (fire personified), Verethraghna (victory). The Bundahishn Ch. 2 establishes a celestial sub-hierarchy: fixed stars (12 zodiacal constellations), four Chieftain Stars (Tishtar, Sataves, Vanand, Haftoring), 28 lunar stations, Moon, Sun -- functioning as a military defense grid against Ahriman's planetary demons.",
+      "source_reference": "GBd Ch. 2 (Formation of Luminaries); various",
+      "encoding_note": "Encoded as one collective node. The yazatas are a large class with internal sub-hierarchy (chieftain stars, etc.) but function as a single ontological tier of cosmic governors between the divine order (Amesha Spentas) and physical creation."
+    },
+    {
+      "id": "getik_creations",
+      "name": "Getik Creations (The Seven Physical Creations)",
+      "aliases": ["Material World", "Physical Creation", "The Seven Creations"],
+      "tradition": "bundahishn_zoroastrian",
+      "functional_role": "intermediary",
+      "sub_count": 7,
+      "level": 4,
+      "description": "The seven physical creations fashioned by Ohrmazd in six Gahambar periods totalling 365 days. Created in sequence: Sky (40 days, governed by Shahrewar), Water (55 days, governed by Hordad), Earth (70 days, governed by Spandarmad), Plants (25 days, governed by Amurdad), Beneficial Animals including the Primeval Ox/Gaw-i Ew-dad (75 days, governed by Wahman), Man/Gayomard the Primordial Man (70 days, governed by Ohrmazd himself), Fire (pervades all, governed by Ardwahisht). Fire is the animating principle -- the other six are static until Fire gives them life. Each physical creation is governed by its corresponding Amesha Spenta.",
+      "source_reference": "GBd 1.A (Ch. 1-2)",
+      "encoding_note": "Encoded as one collective node. The seven creations are co-equal, parallel instantiations -- sequential in time of creation but co-equal in ontological status. The 'intermediary' role is used because these are Ohrmazd's pure, uncorrupted creations, which serve as the substrate for life. Terminal matter (corrupted state) is documented in alternative_encodings."
+    },
+    {
+      "id": "material_world",
+      "name": "Material World (Living Creation / Inhabited World)",
+      "aliases": ["Geti (Living World)", "The Created Cosmos", "Inhabited Earth"],
+      "tradition": "bundahishn_zoroastrian",
+      "functional_role": "matter",
+      "level": 5,
+      "description": "The fully instantiated material world inhabited by fravashi-embodied beings -- Gayomard's descendants (humanity), animals, plants -- living within the physical creations. This is the terminal level of Ohrmazd's emanation chain: the meeting point of spiritual (menog) archetypes with physical (getik) substrates. In the orthodox Mazdean view, matter is ontologically GOOD -- it is Ohrmazd's creation, not a fall or corruption. The corruption (gumecishn) that follows Ahriman's assault is documented in alternative_encodings as a structural addendum. This is where the cosmic drama plays out: the 9,000-year battle between Ohrmazd's creation and Ahriman's counter-creation.",
+      "source_reference": "GBd 1.14-1.27"
+    }
+  ],
+
+  "edges": [
+    {
+      "source": "ohrmazd",
+      "target": "amesha_spentas",
+      "relationship": "emanation",
+      "description": "The Amesha Spentas are emanated from Ohrmazd's own essence as his first spiritual creations. They are divine aspects of Ohrmazd -- not fabricated but overflowed from his nature. This is genuine emanation: the source produces without diminishing."
+    },
+    {
+      "source": "amesha_spentas",
+      "target": "fravashis",
+      "relationship": "creation",
+      "description": "The fravashis are created by Ohrmazd (through the Amesha Spentas' governance) as the pre-existent guardian spirits of all living beings. This is deliberate creation, not emanation -- they are crafted for a purpose (embodiment and cosmic warfare). The creation act occurs through the Amesha Spentas' domain governance."
+    },
+    {
+      "source": "fravashis",
+      "target": "yazatas",
+      "relationship": "creation",
+      "description": "The yazatas are created by Ohrmazd as celestial administrators. They are subordinate to the Amesha Spentas and serve as cosmic governors of specific functions (light, waters, contracts, judgment). The edge from fravashis to yazatas represents their sequential ontological position in the hierarchy rather than direct production -- the yazatas are created alongside the fravashis as part of the spiritual creation but govern the celestial domain rather than incarnating."
+    },
+    {
+      "source": "yazatas",
+      "target": "getik_creations",
+      "relationship": "creation",
+      "description": "The seven physical creations are fashioned by Ohrmazd under the governance of the yazatas (celestial administrators) and Amesha Spentas. Each creation takes a specific number of days and is placed under the protection of a specific Amesha Spenta. This is direct fashioning -- deliberate, sequential physical creation."
+    },
+    {
+      "source": "getik_creations",
+      "target": "material_world",
+      "relationship": "creation",
+      "description": "The seven physical creations become the substrate of the inhabited material world. The fravashis incarnate within the getik forms, populating the world with conscious beings. This is the transition from cosmic architecture to living cosmos."
+    }
+  ],
+
+  "alternative_encodings": {
+    "zurvanite_branching": {
+      "description": "HIGHEST PRIORITY ALTERNATIVE. Zurvanite reading (Zaehner 1955; attested in Sassanian period). Adds Zurvan (Infinite Time) at Level 0 as the absolute source. Ohrmazd and Ahriman are twins born from Zurvan's sacrifice and doubt respectively. This converts the schema from a linear chain to a BRANCHING TREE -- structurally analogous to Valentinian Gnosticism (Bythos bifurcating) and Manichaean cosmology.",
+      "scholarly_support": "Zaehner, R.C. (1955). Zurvan: A Zoroastrian Dilemma. OUP. Identifies three strands of Zurvanism: materialist, fatalist, and aesthetic. Also attested in Eznik of Kolb, De Deo 2.8; Theodore bar Konai, Liber Scholiorum XI. The Greater Bundahishn itself is orthodox Mazdean (no Zurvan at apex), but traces of Zurvanite influence are detectable in its temporal framework.",
+      "nodes_added": [
+        {
+          "id": "zurvan",
+          "name": "Zurvan (Infinite Time)",
+          "functional_role": "source",
+          "level": 0,
+          "description": "Zurvan existed alone. Desiring offspring, he sacrificed for 1,000 years. Near the end, he doubted. From the sacrifice: Ohrmazd. From the doubt: Ahriman. Ahriman ripped the womb to emerge first. Zurvan, bound by his vow to the firstborn, gave Ahriman kingship for 9,000 years, after which Ohrmazd rules forever."
+        },
+        {
+          "id": "ahriman",
+          "name": "Ahriman (Angra Mainyu)",
+          "functional_role": "demiurge",
+          "level": 1,
+          "description": "Born from Zurvan's doubt. Co-twin of Ohrmazd but not co-equal (ignorant, not omniscient). Creates a counter-hierarchy mirroring Ohrmazd's: six arch-daevas opposing the six Amesha Spentas, noxious creatures, planetary demons."
+        }
+      ],
+      "edges_modified": [
+        {
+          "source": "zurvan",
+          "target": "ohrmazd",
+          "relationship": "emanation",
+          "description": "Ohrmazd born from Zurvan's sacrifice -- the light branch."
+        },
+        {
+          "source": "zurvan",
+          "target": "ahriman",
+          "relationship": "fragmentation",
+          "description": "Ahriman born from Zurvan's doubt -- the dark branch. Fragmentation rather than emanation because the doubt is a rupture in the sacrificial intent."
+        }
+      ],
+      "encoding_note": "Under this encoding, Zurvan is Level 0, Ohrmazd is Level 1a, Ahriman is Level 1b. The schema becomes a branching tree. This tests whether the same tradition clusters differently under different theological readings -- a key sensitivity question for WP 1.3."
+    },
+    "with_menog_state": {
+      "description": "7-node encoding including the menog (spiritual prototype) state as a distinct intermediary level between the Yazatas and the Getik creations. All creatures exist 3,000 years in menog form before materialisation.",
+      "scholarly_support": "The Bundahishn treats the menog-to-getik transition as a major cosmological event spanning 3,000 years. Comparable to the Celestial Barzakhs in Suhrawardi's Ishraqi system -- an intermediary substrate between the governing lights and elemental matter.",
+      "nodes_added": [
+        {
+          "id": "menog_prototypes",
+          "name": "Menog Prototypes (Spiritual Templates)",
+          "functional_role": "intermediary",
+          "level": 4,
+          "description": "All creatures exist first in menog (spiritual) form for 3,000 years -- 'unthinking, unmoving, intangible.' This is not a separate class of beings but a STATE that all creations pass through before materialisation. Including this level increases node count to 7 and depth to 6, making it structurally closer to the Ishraqi schema.",
+          "source_reference": "GBd 1.8"
+        }
+      ],
+      "encoding_note": "MEDIUM priority. Including menog increases Bundahishn-Ishraq structural similarity (both 7 nodes, depth 6) but risks encoding a temporal phase as an ontological tier."
+    },
+    "with_gumecishn": {
+      "description": "7-node encoding adding the gumecishn (mixed/corrupted world) as the terminal matter node. After Ahriman's assault, the pure getik creations become a battleground of commingled good and evil.",
+      "scholarly_support": "GBd 1.14-1.27 describes Ahriman's sequential assault on each of the seven creations: Sky (shatters it), Water (makes it turbid), Earth (pierces it), Plants (withers them), Primeval Ox (kills it), Gayomard (afflicts him), Fire (mingles smoke with it).",
+      "nodes_added": [
+        {
+          "id": "gumecishn",
+          "name": "Gumecishn (Mixed/Corrupted Creation)",
+          "functional_role": "matter",
+          "level": 6,
+          "description": "The mixed world after Ahriman's assault -- where good and evil are commingled. This state lasts 6,000 years until the Frashegird (renovation). The matter here is not neutral substance but actively contaminated creation."
+        }
+      ],
+      "edges_modified": [
+        {
+          "source": "material_world",
+          "target": "gumecishn",
+          "relationship": "fragmentation",
+          "description": "Ahriman's assault fragments and corrupts the pure getik creations. This is not emanation but corruption -- a structural rupture analogous to Sophia's fall in Gnostic traditions."
+        }
+      ],
+      "encoding_note": "LOW priority. The gumecishn is produced by Ahriman's assault, not by Ohrmazd's emanation chain. Including it introduces a non-emanationist production mode (corruption) into the Ohrmazd-only schema."
+    }
+  },
+
+  "validation": {
+    "is_dag": true,
+    "single_root": true,
+    "root_node": "ohrmazd",
+    "all_connected": true,
+    "node_count": 6,
+    "edge_count": 5,
+    "depth": 5,
+    "max_branching_factor": 1,
+    "within_bounds": true,
+    "all_attributes_present": true,
+    "all_edges_labeled": true
+  }
+}

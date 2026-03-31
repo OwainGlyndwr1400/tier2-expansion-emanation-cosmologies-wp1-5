@@ -1,0 +1,169 @@
+{
+  "tradition": "genesis_creationist",
+  "tradition_full": "Genesis Creationist Hierarchy (Genesis 1:1-2:3, Hebrew Bible)",
+  "source": "Genesis 1:1-2:3 (Hebrew Bible / Old Testament). Primary text: Masoretic Text (MT). Scholarly reference: Wenham, G.J. (1987). Genesis 1-15 (Word Biblical Commentary Vol. 1). Waco: Word Books. Cross-reference: Speiser, E.A. (1964). Genesis (Anchor Bible). Doubleday.",
+  "scholarly_anchors": [
+    "Wenham, G.J. (1987). Genesis 1-15. Word Biblical Commentary.",
+    "Speiser, E.A. (1964). Genesis. Anchor Bible. Doubleday.",
+    "Smith, M.S. (2010). The Priestly Vision of Genesis 1. Fortress Press.",
+    "Anderson, B.W. (1994). From Creation to New Creation. Fortress Press."
+  ],
+  "encoding_version": "1.0",
+  "encoding_date": "2026-03-28",
+  "encoding_purpose": "NEGATIVE CONTROL. Genesis is encoded not as an emanation cosmology but as a creationist cosmology, serving as a structural negative control for the main WP 1.1 corpus. Its expected structural signature — wide, shallow, all-creation edges, no intermediary divine principles, no fallen nodes — should be maximally distinct from the deep linear chains of the emanation corpus. If the negative control DAG is structurally distant from all 6 emanation schemas, this strengthens the claim that the emanation schemas' structural similarity is not trivially true of all religious cosmological hierarchies.",
+  "source_note": "Genesis 1 is a well-known text. No local digital copy required; the structural hierarchy is unambiguous from standard translations. The six-day creation sequence is the primary structural evidence. See genesis_source_notes.md.",
+
+  "nodes": [
+    {
+      "id": "elohim",
+      "name": "Elohim / God (Creator)",
+      "aliases": ["Elohim", "God", "YHWH", "The Creator"],
+      "functional_role": "source",
+      "level": 0,
+      "source_reference": "Genesis 1:1: 'In the beginning God (Elohim) created the heavens and the earth.' The entire creation act originates from Elohim's direct command. Unlike emanation traditions, Elohim does not produce a series of hypostases — Elohim acts directly on matter.",
+      "notes": "The 'source' functional role is unambiguous. KEY STRUCTURAL DIFFERENCE from emanation schemas: Elohim does not emit intermediary divine principles (no Nous, no Sophia, no Logos as ontological level). Elohim creates by command (fiat) — 'Let there be X' — acting directly on the formless void."
+    },
+    {
+      "id": "primordial_state",
+      "name": "Primordial Formless Void (Tohu wa-bohu)",
+      "aliases": ["Tohu wa-bohu", "Formless Void", "The Deep", "Tehom", "Chaos"],
+      "functional_role": "first_emanation",
+      "level": 1,
+      "source_reference": "Genesis 1:2: 'The earth was formless and empty (tohu wa-bohu), and darkness was over the surface of the deep (tehom).' The primordial state pre-exists or co-exists with the first creation act; it is the 'raw material' upon which God operates.",
+      "notes": "ENCODING DECISION: The primordial void is encoded as the single Level 1 node — the 'first product' of creation — from which all specific creations proceed. This is a simplification: in Genesis, the primordial state is described as already existing in verse 1:2, and it is NOT created in the same way as the six days of creation. However, structurally it serves as an intermediate between God and the created order. The key structural feature is what comes BELOW this node: six parallel creations, not a sequential chain. See encoding_decisions.md entry 23."
+    },
+    {
+      "id": "light_darkness",
+      "name": "Light / Darkness (Day 1)",
+      "aliases": ["Light", "Darkness", "Day and Night", "Or", "Choshech"],
+      "functional_role": "intermediary",
+      "level": 2,
+      "source_reference": "Genesis 1:3-5: 'And God said, Let there be light (or), and there was light... God separated the light from the darkness.' Day 1 creation."
+    },
+    {
+      "id": "firmament_waters",
+      "name": "Firmament / Waters (Day 2)",
+      "aliases": ["Firmament", "Raqia", "Expanse", "Heaven", "Upper Waters / Lower Waters"],
+      "functional_role": "intermediary",
+      "level": 2,
+      "source_reference": "Genesis 1:6-8: 'And God said, Let there be an expanse (raqia) between the waters to separate water from water... And God called the expanse Heaven.' Day 2 creation."
+    },
+    {
+      "id": "earth_vegetation",
+      "name": "Earth / Dry Land / Vegetation (Day 3)",
+      "aliases": ["Dry Land", "Earth", "Eretz", "Vegetation", "Plants", "Seed-bearing plants"],
+      "functional_role": "intermediary",
+      "level": 2,
+      "source_reference": "Genesis 1:9-13: 'And God said, Let the water under the sky be gathered to one place, and let dry ground appear... Then God said, Let the land produce vegetation.' Day 3 creation."
+    },
+    {
+      "id": "luminaries",
+      "name": "Sun, Moon, and Stars (Day 4)",
+      "aliases": ["Sun", "Moon", "Stars", "Luminaries", "Greater Light", "Lesser Light", "Meorot"],
+      "functional_role": "intermediary",
+      "level": 2,
+      "source_reference": "Genesis 1:14-19: 'And God said, Let there be lights in the expanse of the sky to separate the day from the night.' Day 4 creation. Significantly, the luminaries are created AFTER the light (Day 1) — they govern and organise the already-existing light/dark cycle."
+    },
+    {
+      "id": "creatures",
+      "name": "Living Creatures — Sea, Air, Land (Days 5-6)",
+      "aliases": ["Sea creatures", "Birds", "Land animals", "Livestock", "Wild animals", "Creatures", "Nephesh chayah"],
+      "functional_role": "matter",
+      "level": 2,
+      "source_reference": "Genesis 1:20-25: 'And God said, Let the water teem with living creatures, and let birds fly above the earth... And God made the wild animals according to their kinds.' Days 5-6 creation.",
+      "notes": "Sea creatures, birds, and land animals are collapsed into a single 'creatures' node per the Granularity Rule. They occupy the same structural level and share the same functional role (created animate matter). No separate ontological principle is interposed between God's command and their existence."
+    },
+    {
+      "id": "humanity",
+      "name": "Humanity (Day 6, created in the Image of God)",
+      "aliases": ["Adam", "Humanity", "Man and Woman", "Tselem Elohim", "Image of God"],
+      "functional_role": "matter",
+      "level": 2,
+      "source_reference": "Genesis 1:26-27: 'Then God said, Let us make mankind in our image (tselem), in our likeness... So God created mankind in his own image, in the image of God he created them; male and female he created them.' The apex of the Day 6 creation.",
+      "notes": "Humanity is encoded as a separate node from other creatures due to the explicit 'image of God' statement — this distinguishes humanity's mode of creation. However, structurally humanity remains at the SAME LEVEL as other creatures (all at Level 2, all directly created from the primordial state by divine command). No intermediary divine principle mediates between God and humanity — this is the sharpest structural contrast with Gnostic systems where humanity arises at Level 7 through a chain of increasingly degraded emanations."
+    }
+  ],
+
+  "edges": [
+    {
+      "source": "elohim",
+      "target": "primordial_state",
+      "relationship": "creation",
+      "notes": "Genesis 1:1: 'God created (bara) the heavens and the earth.' The 'bara' (create ex nihilo) is the most distinctive Hebrew creation verb. ALL edges in this schema are 'creation' — there are no 'emanation' edges, no 'fragmentation' edges, no 'contraction' edges. This is the most structurally distinctive feature of the Genesis negative control."
+    },
+    {
+      "source": "primordial_state",
+      "target": "light_darkness",
+      "relationship": "creation",
+      "notes": "God's fiat ('Let there be light') acts on the formless void. Day 1."
+    },
+    {
+      "source": "primordial_state",
+      "target": "firmament_waters",
+      "relationship": "creation",
+      "notes": "Day 2. Four parallel creation edges from primordial_state: this is the branching structure absent from all emanation schemas."
+    },
+    {
+      "source": "primordial_state",
+      "target": "earth_vegetation",
+      "relationship": "creation",
+      "notes": "Day 3."
+    },
+    {
+      "source": "primordial_state",
+      "target": "luminaries",
+      "relationship": "creation",
+      "notes": "Day 4."
+    },
+    {
+      "source": "primordial_state",
+      "target": "creatures",
+      "relationship": "creation",
+      "notes": "Days 5-6."
+    },
+    {
+      "source": "primordial_state",
+      "target": "humanity",
+      "relationship": "creation",
+      "notes": "Day 6. Six parallel creation edges from primordial_state gives max_branching=6 — the highest in the entire corpus."
+    }
+  ],
+
+  "topology": {
+    "node_count": 8,
+    "edge_count": 7,
+    "depth": 2,
+    "max_branching_factor": 6,
+    "shape": "wide_shallow_tree",
+    "distinctive_feature": "NEGATIVE CONTROL. Depth=2 (minimum in corpus), max_branching=6 (maximum in corpus). All edges are 'creation'. No emanation, no fragmentation, no fallen node, no demiurge, no process nodes. Structurally opposite to the deep linear chains of the emanation corpus."
+  },
+
+  "expected_contrast_with_corpus": {
+    "expected_ged_vs_chains": "LARGE (8-12+): transforming a depth-2 wide tree into a depth-6 linear chain requires many insertions and rewiring operations",
+    "expected_ged_vs_hermetic": "MODERATE: Hermetic (width=3, depth=3) is the most tree-like emanation schema; Genesis (width=6, depth=2) is still significantly more extreme",
+    "expected_wl_similarity": "LOW: no shared role patterns at shared levels; no fallen, demiurge, process, intellect, or soul nodes",
+    "expected_family_assignment": "OWN FAMILY: creationist hierarchy, distinct from both linear_chain and branching_tree emanation families",
+    "if_confirmed": "If Genesis is structurally distant from all 6 emanation schemas while they remain similar to each other, this defeats reviewer objections 3, 4, and 6 from the Pressure Test Scouting Report."
+  },
+
+  "alternative_encodings": {
+    "sequential_days": {
+      "description": "6-node chain treating each day's creation as sequential steps: God → Formless → Light → Land → Luminaries → Creatures → Humanity. Depth=6, chain shape. Tests whether a 'narrative sequence' reading makes Genesis look like an emanation schema.",
+      "priority": "MEDIUM — important for establishing robustness of negative control",
+      "note": "If the sequential encoding clusters WITH the emanation schemas, it would show the negative-control finding depends on the reading. Expected: the sequential encoding is a chain but lacks the key features (no intermediary divine principles, all creation edges) that define emanation schemas. The role-labeled similarity should still be low."
+    }
+  },
+
+  "validation": {
+    "is_dag": true,
+    "single_root": true,
+    "root_node": "elohim",
+    "all_connected": true,
+    "node_count": 8,
+    "edge_count": 7,
+    "depth": 2,
+    "within_bounds": true,
+    "all_attributes_present": true,
+    "all_edges_labeled": true
+  }
+}

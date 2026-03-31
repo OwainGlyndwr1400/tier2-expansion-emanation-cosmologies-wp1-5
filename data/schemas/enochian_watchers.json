@@ -1,0 +1,143 @@
+{
+  "tradition": "enochian_watchers",
+  "tradition_full": "Jewish Apocalyptic (1 Enoch — Book of the Watchers, Chapters 1-36)",
+  "source": "1 Enoch, Book of the Watchers (chapters 1-36). Primary scholarly edition: Nickelsburg, G.W.E. (2001). 1 Enoch 1: A Commentary on the Book of 1 Enoch, Chapters 1-36; 81-108. Hermeneia. Fortress Press.",
+  "scholarly_anchors": [
+    "Nickelsburg, G.W.E. (2001). 1 Enoch 1: A Commentary on the Book of 1 Enoch, Chapters 1-36; 81-108. Hermeneia. Minneapolis: Fortress Press.",
+    "Charles, R.H. (1912). The Book of Enoch or 1 Enoch. Clarendon Press.",
+    "VanderKam, J.C. (2004). An Introduction to Early Judaism. Eerdmans.",
+    "Collins, J.J. (1998). The Apocalyptic Imagination: An Introduction to Jewish Apocalyptic Literature. 2nd ed. Eerdmans.",
+    "Reed, A.Y. (2005). Fallen Angels and the History of Judaism and Christianity: The Reception of Enochic Literature. Cambridge University Press.",
+    "Milik, J.T. (1976). The Books of Enoch: Aramaic Fragments of Qumran Cave 4. Clarendon Press."
+  ],
+  "encoding_version": "1.0",
+  "encoding_date": "2026-03-31",
+  "source_note": "The Book of the Watchers (1 En 1-36) is the oldest section of 1 Enoch (c. 3rd century BCE, Aramaic fragments at Qumran). It describes a cosmic geography: God's throne on a holy mountain, intermediary angelic orders, the fall of the Watchers (angels who descended to mate with human women and teach forbidden knowledge), and the material world. The encoding follows the cosmological hierarchy of the heavenly journey in chapters 14-36, not the narrative sequence. The Watchers' fall is the pivotal structural event — it introduces a 'fallen' intermediary into the cosmic hierarchy, paralleling the Gnostic Sophia/Yaldabaoth pattern.",
+  "geographic_cultural_note": "3rd century BCE, Jewish Second Temple period (possibly northern Palestine/Galilee). Predates all Gnostic traditions in the corpus by 200+ years. The Watcher myth is a major source for later Gnostic fallen-angel narratives (Reed 2005). Direct intertextual connections with: Genesis 6:1-4 (Nephilim), Jubilees, Testament of the Twelve Patriarchs. The Mi'raj tradition (also in this WP) explicitly places Idris/Enoch in the 4th heaven — a direct cross-tradition reference. No contact with Vedic, Chinese, or Mesoamerican traditions.",
+
+  "nodes": [
+    {
+      "id": "lord_of_spirits",
+      "name": "The Lord of Spirits / The Great Holy One (God)",
+      "aliases": ["Lord of Spirits", "Great Holy One", "Head of Days", "God"],
+      "functional_role": "source",
+      "level": 0,
+      "source_reference": "1 En 14:20-22: 'And the Great Glory sat upon [the throne] — his raiment was brighter than the sun and whiter than any snow... No angel was able to come in or see the face of the Glorious and Honoured One.' 1 En 1:3: 'The Great Holy One will come forth from his dwelling.'",
+      "notes": "The supreme divine source — seated on the cosmic throne, unapproachable by angels. The title 'Lord of Spirits' (used extensively in the Parables of Enoch, 1 En 37-71) and 'Great Holy One' (Book of the Watchers) refer to the same divine apex. The throne-room vision of 1 En 14 is the literary ancestor of Ezekiel's merkavah vision and Revelation's throne-room (Rev 4) — one of the oldest throne-theophany texts in the Jewish tradition."
+    },
+    {
+      "id": "holy_mountain",
+      "name": "The Holy Mountain / Throne of God (Cosmic Summit)",
+      "aliases": ["Holy Mountain", "Throne Mountain", "Mountain of God", "Cosmic Summit"],
+      "functional_role": "first_emanation",
+      "level": 1,
+      "source_reference": "1 En 18:6-8: 'I went to where things were chaotic. And I saw there something terrible: I saw neither a heaven above nor a firmly founded earth, but a chaotic and terrible place.' 1 En 24:3-25:3: 'The seventh mountain was in the midst of these, and in its height it resembled the seat of a throne, and fragrant trees encircled the throne.'",
+      "notes": "The cosmic mountain — the physical locus of God's throne. Enoch's journey takes him to the ends of the earth and up to this mountain, which is the structural centre of the cosmic geography. The 'seven mountains' described in chapters 18 and 24 converge on this summit. Encoded as 'first_emanation' because it is the first differentiated cosmic structure proceeding from God — the bridge between the divine presence and the created order. In the Enochic cosmic geography, the mountain IS the axis mundi."
+    },
+    {
+      "id": "angelic_orders",
+      "name": "Angelic Orders (Archangels — Michael, Gabriel, Raphael, Uriel)",
+      "aliases": ["Archangels", "Holy Angels", "Angels of the Presence", "Michael-Gabriel-Raphael-Uriel"],
+      "functional_role": "intermediary",
+      "level": 2,
+      "source_reference": "1 En 9:1: 'Then Michael, Uriel, Raphael, and Gabriel looked down from the holy places of heaven and saw much blood being shed upon the earth.' 1 En 20:1-8: Uriel (over the world and Tartarus), Raphael (over the spirits of men), Raguel (vengeance on the world of lights), Michael (over the best part of mankind, over chaos), Sariel (over spirits who sin), Gabriel (over paradise, serpents, cherubim).",
+      "notes": "The four (or seven) archangels form the primary intermediary level between God and the created world. They observe, report, intercede, and execute divine judgments. Their function is explicitly mediatory — they 'looked down from heaven' (1 En 9:1) and petition God on behalf of humanity. Chapter 20 assigns each archangel a specific cosmic domain, making them functional governors of different aspects of reality. Encoded as a single node because they occupy the same cosmological level."
+    },
+    {
+      "id": "gate_of_heaven",
+      "name": "The Gate of Heaven (Boundary between Celestial and Terrestrial)",
+      "aliases": ["Gate of Heaven", "Heavenly Gate", "Portal", "Boundary"],
+      "functional_role": "intermediary",
+      "level": 3,
+      "source_reference": "1 En 33:2-3: 'I came to the ends of the earth and saw there great beasts... I went to the gates of heaven and saw there the luminaries of heaven.' 1 En 34-36: Description of the gates through which stars, winds, and cosmic phenomena pass between the heavenly and terrestrial realms.",
+      "notes": "The Gate of Heaven is the structural boundary between the celestial hierarchy (God/mountain/angels) and the terrestrial realm. In chapters 33-36, Enoch describes gates at the cardinal directions through which cosmic phenomena (stars, winds, weather) pass. This is the node where the cosmic geography transitions from the divine-angelic realm to the material world. Encoded as 'intermediary' (not a new 'boundary' role) because it mediates passage between realms, analogous to Sidrat al-Muntaha in the Mi'raj."
+    },
+    {
+      "id": "watchers_fallen",
+      "name": "The Watchers / Fallen Angels (Azazel, Shemihaza)",
+      "aliases": ["Watchers", "Fallen Angels", "Azazel", "Shemihaza", "Sons of Heaven", "Grigori"],
+      "functional_role": "fallen",
+      "level": 4,
+      "source_reference": "1 En 6:1-2: 'In those days, when the children of men had multiplied, beautiful and comely daughters were born to them. And the angels, the children of the heaven, saw and lusted after them, and said to one another: Come, let us choose wives from among the children of men.' 1 En 8:1: 'Azazel taught men to make swords, knives, shields, breastplates... and the beautifying of the eyelids.' 1 En 10:4-6: 'The Lord said to Raphael: Bind Azazel hand and foot, and cast him into the darkness.'",
+      "notes": "The Watchers are the fallen intermediaries — angels who descended from heaven to mate with human women and teach forbidden knowledge (metallurgy, cosmetics, astrology, sorcery). Their fall is the central crisis event of the Book of the Watchers. Two leaders: Shemihaza (who led the descent for sexual union) and Azazel (who taught forbidden technologies). The Watcher myth is the literary ancestor of the Gnostic fallen-archon pattern — Reed (2005) traces the genealogy from Watchers → Gnostic Sophia/Yaldabaoth. Encoded as 'fallen' because they are intermediaries who have transgressed their cosmic position, directly paralleling the Sethian Gnostic 'fallen' node."
+    },
+    {
+      "id": "material_world",
+      "name": "The Material World / Earth (Corrupted by Watcher Knowledge)",
+      "aliases": ["Earth", "Material World", "The World Below", "Corrupted Earth"],
+      "functional_role": "matter",
+      "level": 5,
+      "source_reference": "1 En 7:1-5: 'They [the women] became pregnant, and bore great giants... who turned against the people in order to devour them.' 1 En 8:1-3: 'Azazel taught men to make swords... and there arose much godlessness and they committed fornication and were led astray and became corrupt.' 1 En 9:1: 'much blood being shed upon the earth.'",
+      "notes": "The material world is corrupted by the Watchers' transgression — their forbidden teachings produce violence (weapons), vanity (cosmetics), and occult knowledge (astrology/sorcery). The Nephilim (giant offspring) devour humanity. This is matter-as-corruption, paralleling the Gnostic view of the material world as product of a fallen intermediary's error. Unlike the Taoist or Plotinian terminal nodes (neutral/natural matter), Enochian matter is explicitly damaged and awaiting divine judgment. The 'creation' edge from Watchers to material_world reflects that the Watchers' teachings actively shaped the corrupted material condition."
+    }
+  ],
+
+  "edges": [
+    {
+      "source": "lord_of_spirits",
+      "target": "holy_mountain",
+      "relationship": "emanation",
+      "notes": "The holy mountain proceeds from God as the cosmic centre — God's throne sits upon it. 'Emanation' because the mountain is the primary expression of divine sovereignty in cosmic geography."
+    },
+    {
+      "source": "holy_mountain",
+      "target": "angelic_orders",
+      "relationship": "emanation",
+      "notes": "The archangels dwell in the 'holy places of heaven' (1 En 9:1) — they proceed from the divine mountain as emissaries and governors. Emanation captures the ordered procession from sacred centre to functional intermediaries."
+    },
+    {
+      "source": "angelic_orders",
+      "target": "gate_of_heaven",
+      "relationship": "creation",
+      "notes": "Shift to 'creation' because the Gate is a structural boundary, not a personal being. The angelic orders govern the cosmic gates through which phenomena pass. The angels create/maintain the boundary infrastructure."
+    },
+    {
+      "source": "gate_of_heaven",
+      "target": "watchers_fallen",
+      "relationship": "fragmentation",
+      "notes": "'Fragmentation' because the Watchers' descent IS the cosmic rupture — they cross the gate from the celestial to the terrestrial in transgression. This is the crisis event that corrupts the hierarchy. Parallels the Sethian fragmentation (Sophia's fall) and Lurianic shevirah (vessel-breaking). The Enochic version is the oldest in the corpus."
+    },
+    {
+      "source": "watchers_fallen",
+      "target": "material_world",
+      "relationship": "creation",
+      "notes": "The Watchers' forbidden teachings actively create the corrupted material condition — weapons, cosmetics, astrology, sorcery. 'Creation' rather than 'fragmentation' because the Watchers deliberately produce these things (they are teaching, not breaking). The material world as we know it is shaped by the Watchers' transgressive creativity."
+    }
+  ],
+
+  "topology": {
+    "node_count": 6,
+    "edge_count": 5,
+    "depth": 5,
+    "max_branching_factor": 1,
+    "shape": "linear_chain",
+    "distinctive_feature": "Oldest fallen-intermediary cosmology in the corpus (c. 3rd century BCE). The Watcher myth is the literary ancestor of Gnostic fallen-archon patterns (Reed 2005). Edge pattern includes fragmentation at the fall-boundary, paralleling Sethian and Lurianic traditions. Tests whether the Enochian 'fallen' structure clusters with Sethian/Valentinian or with the compact sub-cluster (N=6 puts it at the compact/deep boundary). Cross-tradition link: Idris/Enoch is placed in the 4th heaven in the Mi'raj (also encoded in this WP)."
+  },
+
+  "alternative_encodings": {
+    "two_enoch_seven_heavens": {
+      "description": "Encode 2 Enoch (Slavonic Enoch) instead, which describes a clear seven-level heaven system (1st heaven: clouds/stars, 2nd: darkness/prisoners, 3rd: paradise, 4th: luminaries, 5th: Watchers who grieve, 6th: archangels, 7th: God). Would give 8-9 nodes, depth 7-8, linear chain.",
+      "priority": "MEDIUM — distinct text, would be a separate schema if added (not a replacement)",
+      "source": "2 Enoch (Slavonic Apocalypse of Enoch). Andersen, F.I. (1983) in Charlesworth, OTP vol. 1.",
+      "effect": "Would give a direct structural parallel to the Mi'raj (seven named levels). Consider for WP 1.6 as a paired test case."
+    },
+    "expanded_with_luminaries": {
+      "description": "Add a separate node for the Book of the Luminaries section (1 En 72-82) which describes the celestial mechanics (gates for sun, moon, stars, winds). Would add 1-2 nodes between angelic_orders and gate_of_heaven.",
+      "priority": "LOW — the Luminaries is a separate composition that was later attached to the Enoch corpus; mixing it with the Watchers section conflates distinct literary units",
+      "effect": "Adds 1-2 nodes, increases depth to 6-7. Not recommended for WP 1.5 — the Book of the Watchers is self-contained."
+    }
+  },
+
+  "validation": {
+    "is_dag": true,
+    "single_root": true,
+    "root_node": "lord_of_spirits",
+    "all_connected": true,
+    "node_count": 6,
+    "edge_count": 5,
+    "depth": 5,
+    "within_bounds": true,
+    "all_attributes_present": true,
+    "all_edges_labeled": true
+  }
+}

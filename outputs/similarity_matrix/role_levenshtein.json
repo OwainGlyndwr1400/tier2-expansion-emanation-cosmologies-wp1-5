@@ -1,0 +1,1850 @@
+{
+  "book_of_revelation vs bundahishn_zoroastrian": {
+    "role_seq_edit_distance": 1,
+    "normalized_role_seq_distance": 0.1667,
+    "seq_lengths": [
+      6,
+      6
+    ]
+  },
+  "book_of_revelation vs chaldean": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.5,
+    "seq_lengths": [
+      6,
+      6
+    ]
+  },
+  "book_of_revelation vs derveni_orphic": {
+    "role_seq_edit_distance": 2,
+    "normalized_role_seq_distance": 0.3333,
+    "seq_lengths": [
+      6,
+      5
+    ]
+  },
+  "book_of_revelation vs enochian_watchers": {
+    "role_seq_edit_distance": 1,
+    "normalized_role_seq_distance": 0.1667,
+    "seq_lengths": [
+      6,
+      6
+    ]
+  },
+  "book_of_revelation vs genesis_creationist": {
+    "role_seq_edit_distance": 4,
+    "normalized_role_seq_distance": 0.6667,
+    "seq_lengths": [
+      6,
+      3
+    ]
+  },
+  "book_of_revelation vs gospel_of_mary": {
+    "role_seq_edit_distance": 4,
+    "normalized_role_seq_distance": 0.4444,
+    "seq_lengths": [
+      6,
+      9
+    ]
+  },
+  "book_of_revelation vs hermetic": {
+    "role_seq_edit_distance": 4,
+    "normalized_role_seq_distance": 0.6667,
+    "seq_lengths": [
+      6,
+      4
+    ]
+  },
+  "book_of_revelation vs ishraq_illuminationist": {
+    "role_seq_edit_distance": 2,
+    "normalized_role_seq_distance": 0.2857,
+    "seq_lengths": [
+      6,
+      7
+    ]
+  },
+  "book_of_revelation vs lurianic_kabbalistic": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.4286,
+    "seq_lengths": [
+      6,
+      7
+    ]
+  },
+  "book_of_revelation vs manichaean": {
+    "role_seq_edit_distance": 2,
+    "normalized_role_seq_distance": 0.3333,
+    "seq_lengths": [
+      6,
+      6
+    ]
+  },
+  "book_of_revelation vs plotinian_neoplatonic": {
+    "role_seq_edit_distance": 2,
+    "normalized_role_seq_distance": 0.3333,
+    "seq_lengths": [
+      6,
+      5
+    ]
+  },
+  "book_of_revelation vs popol_vuh_maya": {
+    "role_seq_edit_distance": 5,
+    "normalized_role_seq_distance": 0.8333,
+    "seq_lengths": [
+      6,
+      6
+    ]
+  },
+  "book_of_revelation vs proclan_neoplatonic": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.375,
+    "seq_lengths": [
+      6,
+      8
+    ]
+  },
+  "book_of_revelation vs quranic_miraj": {
+    "role_seq_edit_distance": 5,
+    "normalized_role_seq_distance": 0.5,
+    "seq_lengths": [
+      6,
+      10
+    ]
+  },
+  "book_of_revelation vs samkhya": {
+    "role_seq_edit_distance": 2,
+    "normalized_role_seq_distance": 0.2857,
+    "seq_lengths": [
+      6,
+      7
+    ]
+  },
+  "book_of_revelation vs sethian_gnostic": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.375,
+    "seq_lengths": [
+      6,
+      8
+    ]
+  },
+  "book_of_revelation vs taoist_ddj": {
+    "role_seq_edit_distance": 1,
+    "normalized_role_seq_distance": 0.1667,
+    "seq_lengths": [
+      6,
+      5
+    ]
+  },
+  "book_of_revelation vs trimorphic_protennoia": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.5,
+    "seq_lengths": [
+      6,
+      5
+    ]
+  },
+  "book_of_revelation vs valentinian_gnostic": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.375,
+    "seq_lengths": [
+      6,
+      8
+    ]
+  },
+  "book_of_revelation vs vedic_nasadiya": {
+    "role_seq_edit_distance": 1,
+    "normalized_role_seq_distance": 0.1667,
+    "seq_lengths": [
+      6,
+      5
+    ]
+  },
+  "book_of_revelation vs vedic_purusha": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.5,
+    "seq_lengths": [
+      6,
+      4
+    ]
+  },
+  "bundahishn_zoroastrian vs chaldean": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.5,
+    "seq_lengths": [
+      6,
+      6
+    ]
+  },
+  "bundahishn_zoroastrian vs derveni_orphic": {
+    "role_seq_edit_distance": 2,
+    "normalized_role_seq_distance": 0.3333,
+    "seq_lengths": [
+      6,
+      5
+    ]
+  },
+  "bundahishn_zoroastrian vs enochian_watchers": {
+    "role_seq_edit_distance": 2,
+    "normalized_role_seq_distance": 0.3333,
+    "seq_lengths": [
+      6,
+      6
+    ]
+  },
+  "bundahishn_zoroastrian vs genesis_creationist": {
+    "role_seq_edit_distance": 4,
+    "normalized_role_seq_distance": 0.6667,
+    "seq_lengths": [
+      6,
+      3
+    ]
+  },
+  "bundahishn_zoroastrian vs gospel_of_mary": {
+    "role_seq_edit_distance": 5,
+    "normalized_role_seq_distance": 0.5556,
+    "seq_lengths": [
+      6,
+      9
+    ]
+  },
+  "bundahishn_zoroastrian vs hermetic": {
+    "role_seq_edit_distance": 4,
+    "normalized_role_seq_distance": 0.6667,
+    "seq_lengths": [
+      6,
+      4
+    ]
+  },
+  "bundahishn_zoroastrian vs ishraq_illuminationist": {
+    "role_seq_edit_distance": 2,
+    "normalized_role_seq_distance": 0.2857,
+    "seq_lengths": [
+      6,
+      7
+    ]
+  },
+  "bundahishn_zoroastrian vs lurianic_kabbalistic": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.4286,
+    "seq_lengths": [
+      6,
+      7
+    ]
+  },
+  "bundahishn_zoroastrian vs manichaean": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.5,
+    "seq_lengths": [
+      6,
+      6
+    ]
+  },
+  "bundahishn_zoroastrian vs plotinian_neoplatonic": {
+    "role_seq_edit_distance": 1,
+    "normalized_role_seq_distance": 0.1667,
+    "seq_lengths": [
+      6,
+      5
+    ]
+  },
+  "bundahishn_zoroastrian vs popol_vuh_maya": {
+    "role_seq_edit_distance": 5,
+    "normalized_role_seq_distance": 0.8333,
+    "seq_lengths": [
+      6,
+      6
+    ]
+  },
+  "bundahishn_zoroastrian vs proclan_neoplatonic": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.375,
+    "seq_lengths": [
+      6,
+      8
+    ]
+  },
+  "bundahishn_zoroastrian vs quranic_miraj": {
+    "role_seq_edit_distance": 6,
+    "normalized_role_seq_distance": 0.6,
+    "seq_lengths": [
+      6,
+      10
+    ]
+  },
+  "bundahishn_zoroastrian vs samkhya": {
+    "role_seq_edit_distance": 2,
+    "normalized_role_seq_distance": 0.2857,
+    "seq_lengths": [
+      6,
+      7
+    ]
+  },
+  "bundahishn_zoroastrian vs sethian_gnostic": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.375,
+    "seq_lengths": [
+      6,
+      8
+    ]
+  },
+  "bundahishn_zoroastrian vs taoist_ddj": {
+    "role_seq_edit_distance": 1,
+    "normalized_role_seq_distance": 0.1667,
+    "seq_lengths": [
+      6,
+      5
+    ]
+  },
+  "bundahishn_zoroastrian vs trimorphic_protennoia": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.5,
+    "seq_lengths": [
+      6,
+      5
+    ]
+  },
+  "bundahishn_zoroastrian vs valentinian_gnostic": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.375,
+    "seq_lengths": [
+      6,
+      8
+    ]
+  },
+  "bundahishn_zoroastrian vs vedic_nasadiya": {
+    "role_seq_edit_distance": 1,
+    "normalized_role_seq_distance": 0.1667,
+    "seq_lengths": [
+      6,
+      5
+    ]
+  },
+  "bundahishn_zoroastrian vs vedic_purusha": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.5,
+    "seq_lengths": [
+      6,
+      4
+    ]
+  },
+  "chaldean vs derveni_orphic": {
+    "role_seq_edit_distance": 2,
+    "normalized_role_seq_distance": 0.3333,
+    "seq_lengths": [
+      6,
+      5
+    ]
+  },
+  "chaldean vs enochian_watchers": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.5,
+    "seq_lengths": [
+      6,
+      6
+    ]
+  },
+  "chaldean vs genesis_creationist": {
+    "role_seq_edit_distance": 5,
+    "normalized_role_seq_distance": 0.8333,
+    "seq_lengths": [
+      6,
+      3
+    ]
+  },
+  "chaldean vs gospel_of_mary": {
+    "role_seq_edit_distance": 6,
+    "normalized_role_seq_distance": 0.6667,
+    "seq_lengths": [
+      6,
+      9
+    ]
+  },
+  "chaldean vs hermetic": {
+    "role_seq_edit_distance": 4,
+    "normalized_role_seq_distance": 0.6667,
+    "seq_lengths": [
+      6,
+      4
+    ]
+  },
+  "chaldean vs ishraq_illuminationist": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.4286,
+    "seq_lengths": [
+      6,
+      7
+    ]
+  },
+  "chaldean vs lurianic_kabbalistic": {
+    "role_seq_edit_distance": 4,
+    "normalized_role_seq_distance": 0.5714,
+    "seq_lengths": [
+      6,
+      7
+    ]
+  },
+  "chaldean vs manichaean": {
+    "role_seq_edit_distance": 4,
+    "normalized_role_seq_distance": 0.6667,
+    "seq_lengths": [
+      6,
+      6
+    ]
+  },
+  "chaldean vs plotinian_neoplatonic": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.5,
+    "seq_lengths": [
+      6,
+      5
+    ]
+  },
+  "chaldean vs popol_vuh_maya": {
+    "role_seq_edit_distance": 5,
+    "normalized_role_seq_distance": 0.8333,
+    "seq_lengths": [
+      6,
+      6
+    ]
+  },
+  "chaldean vs proclan_neoplatonic": {
+    "role_seq_edit_distance": 4,
+    "normalized_role_seq_distance": 0.5,
+    "seq_lengths": [
+      6,
+      8
+    ]
+  },
+  "chaldean vs quranic_miraj": {
+    "role_seq_edit_distance": 7,
+    "normalized_role_seq_distance": 0.7,
+    "seq_lengths": [
+      6,
+      10
+    ]
+  },
+  "chaldean vs samkhya": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.4286,
+    "seq_lengths": [
+      6,
+      7
+    ]
+  },
+  "chaldean vs sethian_gnostic": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.375,
+    "seq_lengths": [
+      6,
+      8
+    ]
+  },
+  "chaldean vs taoist_ddj": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.5,
+    "seq_lengths": [
+      6,
+      5
+    ]
+  },
+  "chaldean vs trimorphic_protennoia": {
+    "role_seq_edit_distance": 4,
+    "normalized_role_seq_distance": 0.6667,
+    "seq_lengths": [
+      6,
+      5
+    ]
+  },
+  "chaldean vs valentinian_gnostic": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.375,
+    "seq_lengths": [
+      6,
+      8
+    ]
+  },
+  "chaldean vs vedic_nasadiya": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.5,
+    "seq_lengths": [
+      6,
+      5
+    ]
+  },
+  "chaldean vs vedic_purusha": {
+    "role_seq_edit_distance": 4,
+    "normalized_role_seq_distance": 0.6667,
+    "seq_lengths": [
+      6,
+      4
+    ]
+  },
+  "derveni_orphic vs enochian_watchers": {
+    "role_seq_edit_distance": 2,
+    "normalized_role_seq_distance": 0.3333,
+    "seq_lengths": [
+      5,
+      6
+    ]
+  },
+  "derveni_orphic vs genesis_creationist": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.6,
+    "seq_lengths": [
+      5,
+      3
+    ]
+  },
+  "derveni_orphic vs gospel_of_mary": {
+    "role_seq_edit_distance": 6,
+    "normalized_role_seq_distance": 0.6667,
+    "seq_lengths": [
+      5,
+      9
+    ]
+  },
+  "derveni_orphic vs hermetic": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.6,
+    "seq_lengths": [
+      5,
+      4
+    ]
+  },
+  "derveni_orphic vs ishraq_illuminationist": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.4286,
+    "seq_lengths": [
+      5,
+      7
+    ]
+  },
+  "derveni_orphic vs lurianic_kabbalistic": {
+    "role_seq_edit_distance": 4,
+    "normalized_role_seq_distance": 0.5714,
+    "seq_lengths": [
+      5,
+      7
+    ]
+  },
+  "derveni_orphic vs manichaean": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.5,
+    "seq_lengths": [
+      5,
+      6
+    ]
+  },
+  "derveni_orphic vs plotinian_neoplatonic": {
+    "role_seq_edit_distance": 2,
+    "normalized_role_seq_distance": 0.4,
+    "seq_lengths": [
+      5,
+      5
+    ]
+  },
+  "derveni_orphic vs popol_vuh_maya": {
+    "role_seq_edit_distance": 5,
+    "normalized_role_seq_distance": 0.8333,
+    "seq_lengths": [
+      5,
+      6
+    ]
+  },
+  "derveni_orphic vs proclan_neoplatonic": {
+    "role_seq_edit_distance": 4,
+    "normalized_role_seq_distance": 0.5,
+    "seq_lengths": [
+      5,
+      8
+    ]
+  },
+  "derveni_orphic vs quranic_miraj": {
+    "role_seq_edit_distance": 7,
+    "normalized_role_seq_distance": 0.7,
+    "seq_lengths": [
+      5,
+      10
+    ]
+  },
+  "derveni_orphic vs samkhya": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.4286,
+    "seq_lengths": [
+      5,
+      7
+    ]
+  },
+  "derveni_orphic vs sethian_gnostic": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.375,
+    "seq_lengths": [
+      5,
+      8
+    ]
+  },
+  "derveni_orphic vs taoist_ddj": {
+    "role_seq_edit_distance": 1,
+    "normalized_role_seq_distance": 0.2,
+    "seq_lengths": [
+      5,
+      5
+    ]
+  },
+  "derveni_orphic vs trimorphic_protennoia": {
+    "role_seq_edit_distance": 2,
+    "normalized_role_seq_distance": 0.4,
+    "seq_lengths": [
+      5,
+      5
+    ]
+  },
+  "derveni_orphic vs valentinian_gnostic": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.375,
+    "seq_lengths": [
+      5,
+      8
+    ]
+  },
+  "derveni_orphic vs vedic_nasadiya": {
+    "role_seq_edit_distance": 1,
+    "normalized_role_seq_distance": 0.2,
+    "seq_lengths": [
+      5,
+      5
+    ]
+  },
+  "derveni_orphic vs vedic_purusha": {
+    "role_seq_edit_distance": 2,
+    "normalized_role_seq_distance": 0.4,
+    "seq_lengths": [
+      5,
+      4
+    ]
+  },
+  "enochian_watchers vs genesis_creationist": {
+    "role_seq_edit_distance": 4,
+    "normalized_role_seq_distance": 0.6667,
+    "seq_lengths": [
+      6,
+      3
+    ]
+  },
+  "enochian_watchers vs gospel_of_mary": {
+    "role_seq_edit_distance": 5,
+    "normalized_role_seq_distance": 0.5556,
+    "seq_lengths": [
+      6,
+      9
+    ]
+  },
+  "enochian_watchers vs hermetic": {
+    "role_seq_edit_distance": 4,
+    "normalized_role_seq_distance": 0.6667,
+    "seq_lengths": [
+      6,
+      4
+    ]
+  },
+  "enochian_watchers vs ishraq_illuminationist": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.4286,
+    "seq_lengths": [
+      6,
+      7
+    ]
+  },
+  "enochian_watchers vs lurianic_kabbalistic": {
+    "role_seq_edit_distance": 4,
+    "normalized_role_seq_distance": 0.5714,
+    "seq_lengths": [
+      6,
+      7
+    ]
+  },
+  "enochian_watchers vs manichaean": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.5,
+    "seq_lengths": [
+      6,
+      6
+    ]
+  },
+  "enochian_watchers vs plotinian_neoplatonic": {
+    "role_seq_edit_distance": 2,
+    "normalized_role_seq_distance": 0.3333,
+    "seq_lengths": [
+      6,
+      5
+    ]
+  },
+  "enochian_watchers vs popol_vuh_maya": {
+    "role_seq_edit_distance": 5,
+    "normalized_role_seq_distance": 0.8333,
+    "seq_lengths": [
+      6,
+      6
+    ]
+  },
+  "enochian_watchers vs proclan_neoplatonic": {
+    "role_seq_edit_distance": 4,
+    "normalized_role_seq_distance": 0.5,
+    "seq_lengths": [
+      6,
+      8
+    ]
+  },
+  "enochian_watchers vs quranic_miraj": {
+    "role_seq_edit_distance": 6,
+    "normalized_role_seq_distance": 0.6,
+    "seq_lengths": [
+      6,
+      10
+    ]
+  },
+  "enochian_watchers vs samkhya": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.4286,
+    "seq_lengths": [
+      6,
+      7
+    ]
+  },
+  "enochian_watchers vs sethian_gnostic": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.375,
+    "seq_lengths": [
+      6,
+      8
+    ]
+  },
+  "enochian_watchers vs taoist_ddj": {
+    "role_seq_edit_distance": 1,
+    "normalized_role_seq_distance": 0.1667,
+    "seq_lengths": [
+      6,
+      5
+    ]
+  },
+  "enochian_watchers vs trimorphic_protennoia": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.5,
+    "seq_lengths": [
+      6,
+      5
+    ]
+  },
+  "enochian_watchers vs valentinian_gnostic": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.375,
+    "seq_lengths": [
+      6,
+      8
+    ]
+  },
+  "enochian_watchers vs vedic_nasadiya": {
+    "role_seq_edit_distance": 1,
+    "normalized_role_seq_distance": 0.1667,
+    "seq_lengths": [
+      6,
+      5
+    ]
+  },
+  "enochian_watchers vs vedic_purusha": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.5,
+    "seq_lengths": [
+      6,
+      4
+    ]
+  },
+  "genesis_creationist vs gospel_of_mary": {
+    "role_seq_edit_distance": 8,
+    "normalized_role_seq_distance": 0.8889,
+    "seq_lengths": [
+      3,
+      9
+    ]
+  },
+  "genesis_creationist vs hermetic": {
+    "role_seq_edit_distance": 2,
+    "normalized_role_seq_distance": 0.5,
+    "seq_lengths": [
+      3,
+      4
+    ]
+  },
+  "genesis_creationist vs ishraq_illuminationist": {
+    "role_seq_edit_distance": 5,
+    "normalized_role_seq_distance": 0.7143,
+    "seq_lengths": [
+      3,
+      7
+    ]
+  },
+  "genesis_creationist vs lurianic_kabbalistic": {
+    "role_seq_edit_distance": 5,
+    "normalized_role_seq_distance": 0.7143,
+    "seq_lengths": [
+      3,
+      7
+    ]
+  },
+  "genesis_creationist vs manichaean": {
+    "role_seq_edit_distance": 5,
+    "normalized_role_seq_distance": 0.8333,
+    "seq_lengths": [
+      3,
+      6
+    ]
+  },
+  "genesis_creationist vs plotinian_neoplatonic": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.6,
+    "seq_lengths": [
+      3,
+      5
+    ]
+  },
+  "genesis_creationist vs popol_vuh_maya": {
+    "role_seq_edit_distance": 5,
+    "normalized_role_seq_distance": 0.8333,
+    "seq_lengths": [
+      3,
+      6
+    ]
+  },
+  "genesis_creationist vs proclan_neoplatonic": {
+    "role_seq_edit_distance": 6,
+    "normalized_role_seq_distance": 0.75,
+    "seq_lengths": [
+      3,
+      8
+    ]
+  },
+  "genesis_creationist vs quranic_miraj": {
+    "role_seq_edit_distance": 9,
+    "normalized_role_seq_distance": 0.9,
+    "seq_lengths": [
+      3,
+      10
+    ]
+  },
+  "genesis_creationist vs samkhya": {
+    "role_seq_edit_distance": 5,
+    "normalized_role_seq_distance": 0.7143,
+    "seq_lengths": [
+      3,
+      7
+    ]
+  },
+  "genesis_creationist vs sethian_gnostic": {
+    "role_seq_edit_distance": 6,
+    "normalized_role_seq_distance": 0.75,
+    "seq_lengths": [
+      3,
+      8
+    ]
+  },
+  "genesis_creationist vs taoist_ddj": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.6,
+    "seq_lengths": [
+      3,
+      5
+    ]
+  },
+  "genesis_creationist vs trimorphic_protennoia": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.6,
+    "seq_lengths": [
+      3,
+      5
+    ]
+  },
+  "genesis_creationist vs valentinian_gnostic": {
+    "role_seq_edit_distance": 6,
+    "normalized_role_seq_distance": 0.75,
+    "seq_lengths": [
+      3,
+      8
+    ]
+  },
+  "genesis_creationist vs vedic_nasadiya": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.6,
+    "seq_lengths": [
+      3,
+      5
+    ]
+  },
+  "genesis_creationist vs vedic_purusha": {
+    "role_seq_edit_distance": 2,
+    "normalized_role_seq_distance": 0.5,
+    "seq_lengths": [
+      3,
+      4
+    ]
+  },
+  "gospel_of_mary vs hermetic": {
+    "role_seq_edit_distance": 7,
+    "normalized_role_seq_distance": 0.7778,
+    "seq_lengths": [
+      9,
+      4
+    ]
+  },
+  "gospel_of_mary vs ishraq_illuminationist": {
+    "role_seq_edit_distance": 5,
+    "normalized_role_seq_distance": 0.5556,
+    "seq_lengths": [
+      9,
+      7
+    ]
+  },
+  "gospel_of_mary vs lurianic_kabbalistic": {
+    "role_seq_edit_distance": 6,
+    "normalized_role_seq_distance": 0.6667,
+    "seq_lengths": [
+      9,
+      7
+    ]
+  },
+  "gospel_of_mary vs manichaean": {
+    "role_seq_edit_distance": 5,
+    "normalized_role_seq_distance": 0.5556,
+    "seq_lengths": [
+      9,
+      6
+    ]
+  },
+  "gospel_of_mary vs plotinian_neoplatonic": {
+    "role_seq_edit_distance": 6,
+    "normalized_role_seq_distance": 0.6667,
+    "seq_lengths": [
+      9,
+      5
+    ]
+  },
+  "gospel_of_mary vs popol_vuh_maya": {
+    "role_seq_edit_distance": 7,
+    "normalized_role_seq_distance": 0.7778,
+    "seq_lengths": [
+      9,
+      6
+    ]
+  },
+  "gospel_of_mary vs proclan_neoplatonic": {
+    "role_seq_edit_distance": 5,
+    "normalized_role_seq_distance": 0.5556,
+    "seq_lengths": [
+      9,
+      8
+    ]
+  },
+  "gospel_of_mary vs quranic_miraj": {
+    "role_seq_edit_distance": 1,
+    "normalized_role_seq_distance": 0.1,
+    "seq_lengths": [
+      9,
+      10
+    ]
+  },
+  "gospel_of_mary vs samkhya": {
+    "role_seq_edit_distance": 5,
+    "normalized_role_seq_distance": 0.5556,
+    "seq_lengths": [
+      9,
+      7
+    ]
+  },
+  "gospel_of_mary vs sethian_gnostic": {
+    "role_seq_edit_distance": 5,
+    "normalized_role_seq_distance": 0.5556,
+    "seq_lengths": [
+      9,
+      8
+    ]
+  },
+  "gospel_of_mary vs taoist_ddj": {
+    "role_seq_edit_distance": 5,
+    "normalized_role_seq_distance": 0.5556,
+    "seq_lengths": [
+      9,
+      5
+    ]
+  },
+  "gospel_of_mary vs trimorphic_protennoia": {
+    "role_seq_edit_distance": 7,
+    "normalized_role_seq_distance": 0.7778,
+    "seq_lengths": [
+      9,
+      5
+    ]
+  },
+  "gospel_of_mary vs valentinian_gnostic": {
+    "role_seq_edit_distance": 5,
+    "normalized_role_seq_distance": 0.5556,
+    "seq_lengths": [
+      9,
+      8
+    ]
+  },
+  "gospel_of_mary vs vedic_nasadiya": {
+    "role_seq_edit_distance": 5,
+    "normalized_role_seq_distance": 0.5556,
+    "seq_lengths": [
+      9,
+      5
+    ]
+  },
+  "gospel_of_mary vs vedic_purusha": {
+    "role_seq_edit_distance": 7,
+    "normalized_role_seq_distance": 0.7778,
+    "seq_lengths": [
+      9,
+      4
+    ]
+  },
+  "hermetic vs ishraq_illuminationist": {
+    "role_seq_edit_distance": 5,
+    "normalized_role_seq_distance": 0.7143,
+    "seq_lengths": [
+      4,
+      7
+    ]
+  },
+  "hermetic vs lurianic_kabbalistic": {
+    "role_seq_edit_distance": 5,
+    "normalized_role_seq_distance": 0.7143,
+    "seq_lengths": [
+      4,
+      7
+    ]
+  },
+  "hermetic vs manichaean": {
+    "role_seq_edit_distance": 4,
+    "normalized_role_seq_distance": 0.6667,
+    "seq_lengths": [
+      4,
+      6
+    ]
+  },
+  "hermetic vs plotinian_neoplatonic": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.6,
+    "seq_lengths": [
+      4,
+      5
+    ]
+  },
+  "hermetic vs popol_vuh_maya": {
+    "role_seq_edit_distance": 5,
+    "normalized_role_seq_distance": 0.8333,
+    "seq_lengths": [
+      4,
+      6
+    ]
+  },
+  "hermetic vs proclan_neoplatonic": {
+    "role_seq_edit_distance": 6,
+    "normalized_role_seq_distance": 0.75,
+    "seq_lengths": [
+      4,
+      8
+    ]
+  },
+  "hermetic vs quranic_miraj": {
+    "role_seq_edit_distance": 8,
+    "normalized_role_seq_distance": 0.8,
+    "seq_lengths": [
+      4,
+      10
+    ]
+  },
+  "hermetic vs samkhya": {
+    "role_seq_edit_distance": 5,
+    "normalized_role_seq_distance": 0.7143,
+    "seq_lengths": [
+      4,
+      7
+    ]
+  },
+  "hermetic vs sethian_gnostic": {
+    "role_seq_edit_distance": 6,
+    "normalized_role_seq_distance": 0.75,
+    "seq_lengths": [
+      4,
+      8
+    ]
+  },
+  "hermetic vs taoist_ddj": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.6,
+    "seq_lengths": [
+      4,
+      5
+    ]
+  },
+  "hermetic vs trimorphic_protennoia": {
+    "role_seq_edit_distance": 4,
+    "normalized_role_seq_distance": 0.8,
+    "seq_lengths": [
+      4,
+      5
+    ]
+  },
+  "hermetic vs valentinian_gnostic": {
+    "role_seq_edit_distance": 6,
+    "normalized_role_seq_distance": 0.75,
+    "seq_lengths": [
+      4,
+      8
+    ]
+  },
+  "hermetic vs vedic_nasadiya": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.6,
+    "seq_lengths": [
+      4,
+      5
+    ]
+  },
+  "hermetic vs vedic_purusha": {
+    "role_seq_edit_distance": 2,
+    "normalized_role_seq_distance": 0.5,
+    "seq_lengths": [
+      4,
+      4
+    ]
+  },
+  "ishraq_illuminationist vs lurianic_kabbalistic": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.4286,
+    "seq_lengths": [
+      7,
+      7
+    ]
+  },
+  "ishraq_illuminationist vs manichaean": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.4286,
+    "seq_lengths": [
+      7,
+      6
+    ]
+  },
+  "ishraq_illuminationist vs plotinian_neoplatonic": {
+    "role_seq_edit_distance": 2,
+    "normalized_role_seq_distance": 0.2857,
+    "seq_lengths": [
+      7,
+      5
+    ]
+  },
+  "ishraq_illuminationist vs popol_vuh_maya": {
+    "role_seq_edit_distance": 5,
+    "normalized_role_seq_distance": 0.7143,
+    "seq_lengths": [
+      7,
+      6
+    ]
+  },
+  "ishraq_illuminationist vs proclan_neoplatonic": {
+    "role_seq_edit_distance": 1,
+    "normalized_role_seq_distance": 0.125,
+    "seq_lengths": [
+      7,
+      8
+    ]
+  },
+  "ishraq_illuminationist vs quranic_miraj": {
+    "role_seq_edit_distance": 6,
+    "normalized_role_seq_distance": 0.6,
+    "seq_lengths": [
+      7,
+      10
+    ]
+  },
+  "ishraq_illuminationist vs samkhya": {
+    "role_seq_edit_distance": 0,
+    "normalized_role_seq_distance": 0.0,
+    "seq_lengths": [
+      7,
+      7
+    ]
+  },
+  "ishraq_illuminationist vs sethian_gnostic": {
+    "role_seq_edit_distance": 2,
+    "normalized_role_seq_distance": 0.25,
+    "seq_lengths": [
+      7,
+      8
+    ]
+  },
+  "ishraq_illuminationist vs taoist_ddj": {
+    "role_seq_edit_distance": 2,
+    "normalized_role_seq_distance": 0.2857,
+    "seq_lengths": [
+      7,
+      5
+    ]
+  },
+  "ishraq_illuminationist vs trimorphic_protennoia": {
+    "role_seq_edit_distance": 4,
+    "normalized_role_seq_distance": 0.5714,
+    "seq_lengths": [
+      7,
+      5
+    ]
+  },
+  "ishraq_illuminationist vs valentinian_gnostic": {
+    "role_seq_edit_distance": 2,
+    "normalized_role_seq_distance": 0.25,
+    "seq_lengths": [
+      7,
+      8
+    ]
+  },
+  "ishraq_illuminationist vs vedic_nasadiya": {
+    "role_seq_edit_distance": 2,
+    "normalized_role_seq_distance": 0.2857,
+    "seq_lengths": [
+      7,
+      5
+    ]
+  },
+  "ishraq_illuminationist vs vedic_purusha": {
+    "role_seq_edit_distance": 4,
+    "normalized_role_seq_distance": 0.5714,
+    "seq_lengths": [
+      7,
+      4
+    ]
+  },
+  "lurianic_kabbalistic vs manichaean": {
+    "role_seq_edit_distance": 4,
+    "normalized_role_seq_distance": 0.5714,
+    "seq_lengths": [
+      7,
+      6
+    ]
+  },
+  "lurianic_kabbalistic vs plotinian_neoplatonic": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.4286,
+    "seq_lengths": [
+      7,
+      5
+    ]
+  },
+  "lurianic_kabbalistic vs popol_vuh_maya": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.4286,
+    "seq_lengths": [
+      7,
+      6
+    ]
+  },
+  "lurianic_kabbalistic vs proclan_neoplatonic": {
+    "role_seq_edit_distance": 4,
+    "normalized_role_seq_distance": 0.5,
+    "seq_lengths": [
+      7,
+      8
+    ]
+  },
+  "lurianic_kabbalistic vs quranic_miraj": {
+    "role_seq_edit_distance": 7,
+    "normalized_role_seq_distance": 0.7,
+    "seq_lengths": [
+      7,
+      10
+    ]
+  },
+  "lurianic_kabbalistic vs samkhya": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.4286,
+    "seq_lengths": [
+      7,
+      7
+    ]
+  },
+  "lurianic_kabbalistic vs sethian_gnostic": {
+    "role_seq_edit_distance": 4,
+    "normalized_role_seq_distance": 0.5,
+    "seq_lengths": [
+      7,
+      8
+    ]
+  },
+  "lurianic_kabbalistic vs taoist_ddj": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.4286,
+    "seq_lengths": [
+      7,
+      5
+    ]
+  },
+  "lurianic_kabbalistic vs trimorphic_protennoia": {
+    "role_seq_edit_distance": 4,
+    "normalized_role_seq_distance": 0.5714,
+    "seq_lengths": [
+      7,
+      5
+    ]
+  },
+  "lurianic_kabbalistic vs valentinian_gnostic": {
+    "role_seq_edit_distance": 4,
+    "normalized_role_seq_distance": 0.5,
+    "seq_lengths": [
+      7,
+      8
+    ]
+  },
+  "lurianic_kabbalistic vs vedic_nasadiya": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.4286,
+    "seq_lengths": [
+      7,
+      5
+    ]
+  },
+  "lurianic_kabbalistic vs vedic_purusha": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.4286,
+    "seq_lengths": [
+      7,
+      4
+    ]
+  },
+  "manichaean vs plotinian_neoplatonic": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.5,
+    "seq_lengths": [
+      6,
+      5
+    ]
+  },
+  "manichaean vs popol_vuh_maya": {
+    "role_seq_edit_distance": 5,
+    "normalized_role_seq_distance": 0.8333,
+    "seq_lengths": [
+      6,
+      6
+    ]
+  },
+  "manichaean vs proclan_neoplatonic": {
+    "role_seq_edit_distance": 4,
+    "normalized_role_seq_distance": 0.5,
+    "seq_lengths": [
+      6,
+      8
+    ]
+  },
+  "manichaean vs quranic_miraj": {
+    "role_seq_edit_distance": 6,
+    "normalized_role_seq_distance": 0.6,
+    "seq_lengths": [
+      6,
+      10
+    ]
+  },
+  "manichaean vs samkhya": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.4286,
+    "seq_lengths": [
+      6,
+      7
+    ]
+  },
+  "manichaean vs sethian_gnostic": {
+    "role_seq_edit_distance": 4,
+    "normalized_role_seq_distance": 0.5,
+    "seq_lengths": [
+      6,
+      8
+    ]
+  },
+  "manichaean vs taoist_ddj": {
+    "role_seq_edit_distance": 2,
+    "normalized_role_seq_distance": 0.3333,
+    "seq_lengths": [
+      6,
+      5
+    ]
+  },
+  "manichaean vs trimorphic_protennoia": {
+    "role_seq_edit_distance": 4,
+    "normalized_role_seq_distance": 0.6667,
+    "seq_lengths": [
+      6,
+      5
+    ]
+  },
+  "manichaean vs valentinian_gnostic": {
+    "role_seq_edit_distance": 4,
+    "normalized_role_seq_distance": 0.5,
+    "seq_lengths": [
+      6,
+      8
+    ]
+  },
+  "manichaean vs vedic_nasadiya": {
+    "role_seq_edit_distance": 2,
+    "normalized_role_seq_distance": 0.3333,
+    "seq_lengths": [
+      6,
+      5
+    ]
+  },
+  "manichaean vs vedic_purusha": {
+    "role_seq_edit_distance": 4,
+    "normalized_role_seq_distance": 0.6667,
+    "seq_lengths": [
+      6,
+      4
+    ]
+  },
+  "plotinian_neoplatonic vs popol_vuh_maya": {
+    "role_seq_edit_distance": 5,
+    "normalized_role_seq_distance": 0.8333,
+    "seq_lengths": [
+      5,
+      6
+    ]
+  },
+  "plotinian_neoplatonic vs proclan_neoplatonic": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.375,
+    "seq_lengths": [
+      5,
+      8
+    ]
+  },
+  "plotinian_neoplatonic vs quranic_miraj": {
+    "role_seq_edit_distance": 7,
+    "normalized_role_seq_distance": 0.7,
+    "seq_lengths": [
+      5,
+      10
+    ]
+  },
+  "plotinian_neoplatonic vs samkhya": {
+    "role_seq_edit_distance": 2,
+    "normalized_role_seq_distance": 0.2857,
+    "seq_lengths": [
+      5,
+      7
+    ]
+  },
+  "plotinian_neoplatonic vs sethian_gnostic": {
+    "role_seq_edit_distance": 4,
+    "normalized_role_seq_distance": 0.5,
+    "seq_lengths": [
+      5,
+      8
+    ]
+  },
+  "plotinian_neoplatonic vs taoist_ddj": {
+    "role_seq_edit_distance": 1,
+    "normalized_role_seq_distance": 0.2,
+    "seq_lengths": [
+      5,
+      5
+    ]
+  },
+  "plotinian_neoplatonic vs trimorphic_protennoia": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.6,
+    "seq_lengths": [
+      5,
+      5
+    ]
+  },
+  "plotinian_neoplatonic vs valentinian_gnostic": {
+    "role_seq_edit_distance": 4,
+    "normalized_role_seq_distance": 0.5,
+    "seq_lengths": [
+      5,
+      8
+    ]
+  },
+  "plotinian_neoplatonic vs vedic_nasadiya": {
+    "role_seq_edit_distance": 1,
+    "normalized_role_seq_distance": 0.2,
+    "seq_lengths": [
+      5,
+      5
+    ]
+  },
+  "plotinian_neoplatonic vs vedic_purusha": {
+    "role_seq_edit_distance": 2,
+    "normalized_role_seq_distance": 0.4,
+    "seq_lengths": [
+      5,
+      4
+    ]
+  },
+  "popol_vuh_maya vs proclan_neoplatonic": {
+    "role_seq_edit_distance": 6,
+    "normalized_role_seq_distance": 0.75,
+    "seq_lengths": [
+      6,
+      8
+    ]
+  },
+  "popol_vuh_maya vs quranic_miraj": {
+    "role_seq_edit_distance": 8,
+    "normalized_role_seq_distance": 0.8,
+    "seq_lengths": [
+      6,
+      10
+    ]
+  },
+  "popol_vuh_maya vs samkhya": {
+    "role_seq_edit_distance": 5,
+    "normalized_role_seq_distance": 0.7143,
+    "seq_lengths": [
+      6,
+      7
+    ]
+  },
+  "popol_vuh_maya vs sethian_gnostic": {
+    "role_seq_edit_distance": 6,
+    "normalized_role_seq_distance": 0.75,
+    "seq_lengths": [
+      6,
+      8
+    ]
+  },
+  "popol_vuh_maya vs taoist_ddj": {
+    "role_seq_edit_distance": 5,
+    "normalized_role_seq_distance": 0.8333,
+    "seq_lengths": [
+      6,
+      5
+    ]
+  },
+  "popol_vuh_maya vs trimorphic_protennoia": {
+    "role_seq_edit_distance": 4,
+    "normalized_role_seq_distance": 0.6667,
+    "seq_lengths": [
+      6,
+      5
+    ]
+  },
+  "popol_vuh_maya vs valentinian_gnostic": {
+    "role_seq_edit_distance": 6,
+    "normalized_role_seq_distance": 0.75,
+    "seq_lengths": [
+      6,
+      8
+    ]
+  },
+  "popol_vuh_maya vs vedic_nasadiya": {
+    "role_seq_edit_distance": 5,
+    "normalized_role_seq_distance": 0.8333,
+    "seq_lengths": [
+      6,
+      5
+    ]
+  },
+  "popol_vuh_maya vs vedic_purusha": {
+    "role_seq_edit_distance": 4,
+    "normalized_role_seq_distance": 0.6667,
+    "seq_lengths": [
+      6,
+      4
+    ]
+  },
+  "proclan_neoplatonic vs quranic_miraj": {
+    "role_seq_edit_distance": 6,
+    "normalized_role_seq_distance": 0.6,
+    "seq_lengths": [
+      8,
+      10
+    ]
+  },
+  "proclan_neoplatonic vs samkhya": {
+    "role_seq_edit_distance": 1,
+    "normalized_role_seq_distance": 0.125,
+    "seq_lengths": [
+      8,
+      7
+    ]
+  },
+  "proclan_neoplatonic vs sethian_gnostic": {
+    "role_seq_edit_distance": 2,
+    "normalized_role_seq_distance": 0.25,
+    "seq_lengths": [
+      8,
+      8
+    ]
+  },
+  "proclan_neoplatonic vs taoist_ddj": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.375,
+    "seq_lengths": [
+      8,
+      5
+    ]
+  },
+  "proclan_neoplatonic vs trimorphic_protennoia": {
+    "role_seq_edit_distance": 4,
+    "normalized_role_seq_distance": 0.5,
+    "seq_lengths": [
+      8,
+      5
+    ]
+  },
+  "proclan_neoplatonic vs valentinian_gnostic": {
+    "role_seq_edit_distance": 2,
+    "normalized_role_seq_distance": 0.25,
+    "seq_lengths": [
+      8,
+      8
+    ]
+  },
+  "proclan_neoplatonic vs vedic_nasadiya": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.375,
+    "seq_lengths": [
+      8,
+      5
+    ]
+  },
+  "proclan_neoplatonic vs vedic_purusha": {
+    "role_seq_edit_distance": 5,
+    "normalized_role_seq_distance": 0.625,
+    "seq_lengths": [
+      8,
+      4
+    ]
+  },
+  "quranic_miraj vs samkhya": {
+    "role_seq_edit_distance": 6,
+    "normalized_role_seq_distance": 0.6,
+    "seq_lengths": [
+      10,
+      7
+    ]
+  },
+  "quranic_miraj vs sethian_gnostic": {
+    "role_seq_edit_distance": 6,
+    "normalized_role_seq_distance": 0.6,
+    "seq_lengths": [
+      10,
+      8
+    ]
+  },
+  "quranic_miraj vs taoist_ddj": {
+    "role_seq_edit_distance": 6,
+    "normalized_role_seq_distance": 0.6,
+    "seq_lengths": [
+      10,
+      5
+    ]
+  },
+  "quranic_miraj vs trimorphic_protennoia": {
+    "role_seq_edit_distance": 8,
+    "normalized_role_seq_distance": 0.8,
+    "seq_lengths": [
+      10,
+      5
+    ]
+  },
+  "quranic_miraj vs valentinian_gnostic": {
+    "role_seq_edit_distance": 6,
+    "normalized_role_seq_distance": 0.6,
+    "seq_lengths": [
+      10,
+      8
+    ]
+  },
+  "quranic_miraj vs vedic_nasadiya": {
+    "role_seq_edit_distance": 6,
+    "normalized_role_seq_distance": 0.6,
+    "seq_lengths": [
+      10,
+      5
+    ]
+  },
+  "quranic_miraj vs vedic_purusha": {
+    "role_seq_edit_distance": 8,
+    "normalized_role_seq_distance": 0.8,
+    "seq_lengths": [
+      10,
+      4
+    ]
+  },
+  "samkhya vs sethian_gnostic": {
+    "role_seq_edit_distance": 2,
+    "normalized_role_seq_distance": 0.25,
+    "seq_lengths": [
+      7,
+      8
+    ]
+  },
+  "samkhya vs taoist_ddj": {
+    "role_seq_edit_distance": 2,
+    "normalized_role_seq_distance": 0.2857,
+    "seq_lengths": [
+      7,
+      5
+    ]
+  },
+  "samkhya vs trimorphic_protennoia": {
+    "role_seq_edit_distance": 4,
+    "normalized_role_seq_distance": 0.5714,
+    "seq_lengths": [
+      7,
+      5
+    ]
+  },
+  "samkhya vs valentinian_gnostic": {
+    "role_seq_edit_distance": 2,
+    "normalized_role_seq_distance": 0.25,
+    "seq_lengths": [
+      7,
+      8
+    ]
+  },
+  "samkhya vs vedic_nasadiya": {
+    "role_seq_edit_distance": 2,
+    "normalized_role_seq_distance": 0.2857,
+    "seq_lengths": [
+      7,
+      5
+    ]
+  },
+  "samkhya vs vedic_purusha": {
+    "role_seq_edit_distance": 4,
+    "normalized_role_seq_distance": 0.5714,
+    "seq_lengths": [
+      7,
+      4
+    ]
+  },
+  "sethian_gnostic vs taoist_ddj": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.375,
+    "seq_lengths": [
+      8,
+      5
+    ]
+  },
+  "sethian_gnostic vs trimorphic_protennoia": {
+    "role_seq_edit_distance": 5,
+    "normalized_role_seq_distance": 0.625,
+    "seq_lengths": [
+      8,
+      5
+    ]
+  },
+  "sethian_gnostic vs valentinian_gnostic": {
+    "role_seq_edit_distance": 0,
+    "normalized_role_seq_distance": 0.0,
+    "seq_lengths": [
+      8,
+      8
+    ]
+  },
+  "sethian_gnostic vs vedic_nasadiya": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.375,
+    "seq_lengths": [
+      8,
+      5
+    ]
+  },
+  "sethian_gnostic vs vedic_purusha": {
+    "role_seq_edit_distance": 5,
+    "normalized_role_seq_distance": 0.625,
+    "seq_lengths": [
+      8,
+      4
+    ]
+  },
+  "taoist_ddj vs trimorphic_protennoia": {
+    "role_seq_edit_distance": 2,
+    "normalized_role_seq_distance": 0.4,
+    "seq_lengths": [
+      5,
+      5
+    ]
+  },
+  "taoist_ddj vs valentinian_gnostic": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.375,
+    "seq_lengths": [
+      5,
+      8
+    ]
+  },
+  "taoist_ddj vs vedic_nasadiya": {
+    "role_seq_edit_distance": 0,
+    "normalized_role_seq_distance": 0.0,
+    "seq_lengths": [
+      5,
+      5
+    ]
+  },
+  "taoist_ddj vs vedic_purusha": {
+    "role_seq_edit_distance": 2,
+    "normalized_role_seq_distance": 0.4,
+    "seq_lengths": [
+      5,
+      4
+    ]
+  },
+  "trimorphic_protennoia vs valentinian_gnostic": {
+    "role_seq_edit_distance": 5,
+    "normalized_role_seq_distance": 0.625,
+    "seq_lengths": [
+      5,
+      8
+    ]
+  },
+  "trimorphic_protennoia vs vedic_nasadiya": {
+    "role_seq_edit_distance": 2,
+    "normalized_role_seq_distance": 0.4,
+    "seq_lengths": [
+      5,
+      5
+    ]
+  },
+  "trimorphic_protennoia vs vedic_purusha": {
+    "role_seq_edit_distance": 2,
+    "normalized_role_seq_distance": 0.4,
+    "seq_lengths": [
+      5,
+      4
+    ]
+  },
+  "valentinian_gnostic vs vedic_nasadiya": {
+    "role_seq_edit_distance": 3,
+    "normalized_role_seq_distance": 0.375,
+    "seq_lengths": [
+      8,
+      5
+    ]
+  },
+  "valentinian_gnostic vs vedic_purusha": {
+    "role_seq_edit_distance": 5,
+    "normalized_role_seq_distance": 0.625,
+    "seq_lengths": [
+      8,
+      4
+    ]
+  },
+  "vedic_nasadiya vs vedic_purusha": {
+    "role_seq_edit_distance": 2,
+    "normalized_role_seq_distance": 0.4,
+    "seq_lengths": [
+      5,
+      4
+    ]
+  }
+}

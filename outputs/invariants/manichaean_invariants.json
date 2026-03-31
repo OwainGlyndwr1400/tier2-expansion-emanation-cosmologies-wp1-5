@@ -1,0 +1,156 @@
+{
+  "tradition": "manichaean",
+  "node_count": 11,
+  "edge_count": 10,
+  "depth": 5,
+  "diameter": 8,
+  "width": 3,
+  "leaf_count": 3,
+  "branching_node_count": 1,
+  "max_branching_factor": 3,
+  "mean_branching_factor": 1.25,
+  "root": "father_of_greatness",
+  "leaves": [
+    "five_light_elements",
+    "jesus_splendour",
+    "material_cosmos"
+  ],
+  "branching_nodes": [
+    "father_of_greatness"
+  ],
+  "in_degree_sequence": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "out_degree_sequence": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    3
+  ],
+  "edge_type_counts": {
+    "creation": 1,
+    "emanation": 9
+  },
+  "functional_role_counts": {
+    "demiurge": 1,
+    "soul": 1,
+    "matter": 1,
+    "source": 1,
+    "first_emanation": 1,
+    "intermediary": 6
+  },
+  "depth_profile": {
+    "0": [
+      "father_of_greatness"
+    ],
+    "1": [
+      "mother_of_life",
+      "friend_of_lights",
+      "third_messenger"
+    ],
+    "2": [
+      "first_man",
+      "great_builder",
+      "jesus_splendour"
+    ],
+    "3": [
+      "five_light_elements",
+      "living_spirit"
+    ],
+    "4": [
+      "five_sons_living_spirit"
+    ],
+    "5": [
+      "material_cosmos"
+    ]
+  },
+  "role_sequence_by_level": {
+    "0": [
+      "source"
+    ],
+    "1": [
+      "first_emanation",
+      "intermediary",
+      "intermediary"
+    ],
+    "2": [
+      "intermediary",
+      "intermediary",
+      "intermediary"
+    ],
+    "3": [
+      "demiurge",
+      "soul"
+    ],
+    "4": [
+      "intermediary"
+    ],
+    "5": [
+      "matter"
+    ]
+  },
+  "betweenness_centrality": {
+    "father_of_greatness": 0.0,
+    "mother_of_life": 0.0222,
+    "first_man": 0.0222,
+    "five_light_elements": 0.0,
+    "friend_of_lights": 0.0444,
+    "great_builder": 0.0667,
+    "living_spirit": 0.0667,
+    "five_sons_living_spirit": 0.0444,
+    "third_messenger": 0.0111,
+    "jesus_splendour": 0.0,
+    "material_cosmos": 0.0
+  },
+  "closeness_centrality": {
+    "father_of_greatness": 0.0,
+    "mother_of_life": 0.1,
+    "first_man": 0.1333,
+    "five_light_elements": 0.15,
+    "friend_of_lights": 0.1,
+    "great_builder": 0.1333,
+    "living_spirit": 0.15,
+    "five_sons_living_spirit": 0.16,
+    "third_messenger": 0.1,
+    "jesus_splendour": 0.1333,
+    "material_cosmos": 0.1667
+  },
+  "topological_sort": [
+    "father_of_greatness",
+    "mother_of_life",
+    "friend_of_lights",
+    "third_messenger",
+    "first_man",
+    "great_builder",
+    "jesus_splendour",
+    "five_light_elements",
+    "living_spirit",
+    "five_sons_living_spirit",
+    "material_cosmos"
+  ],
+  "wl_hash_structure": "9cd8a095338a415a86d5ab29e9b47f0a",
+  "wl_hash_with_roles": "115ccc4f4ae69c1ab1aaf5c48b4b2309",
+  "is_linear_chain": false,
+  "has_fallen_node": false,
+  "has_process_nodes": false,
+  "has_fragmentation_edge": false,
+  "has_contraction_edge": false,
+  "has_reflection_edge": false
+}

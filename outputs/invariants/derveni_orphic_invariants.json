@@ -1,0 +1,106 @@
+{
+  "tradition": "derveni_orphic",
+  "node_count": 5,
+  "edge_count": 4,
+  "depth": 4,
+  "diameter": 4,
+  "width": 1,
+  "leaf_count": 1,
+  "branching_node_count": 0,
+  "max_branching_factor": 1,
+  "mean_branching_factor": 1.0,
+  "root": "night",
+  "leaves": [
+    "reconstituted_cosmos"
+  ],
+  "branching_nodes": [],
+  "in_degree_sequence": [
+    0,
+    1,
+    1,
+    1,
+    1
+  ],
+  "out_degree_sequence": [
+    0,
+    1,
+    1,
+    1,
+    1
+  ],
+  "edge_type_counts": {
+    "creation": 1,
+    "succession": 2,
+    "emanation": 1
+  },
+  "functional_role_counts": {
+    "demiurge": 1,
+    "matter": 1,
+    "source": 1,
+    "first_emanation": 1,
+    "intermediary": 1
+  },
+  "depth_profile": {
+    "0": [
+      "night"
+    ],
+    "1": [
+      "ouranos"
+    ],
+    "2": [
+      "kronos"
+    ],
+    "3": [
+      "zeus"
+    ],
+    "4": [
+      "reconstituted_cosmos"
+    ]
+  },
+  "role_sequence_by_level": {
+    "0": [
+      "source"
+    ],
+    "1": [
+      "first_emanation"
+    ],
+    "2": [
+      "intermediary"
+    ],
+    "3": [
+      "demiurge"
+    ],
+    "4": [
+      "matter"
+    ]
+  },
+  "betweenness_centrality": {
+    "night": 0.0,
+    "ouranos": 0.25,
+    "kronos": 0.3333,
+    "zeus": 0.25,
+    "reconstituted_cosmos": 0.0
+  },
+  "closeness_centrality": {
+    "night": 0.0,
+    "ouranos": 0.25,
+    "kronos": 0.3333,
+    "zeus": 0.375,
+    "reconstituted_cosmos": 0.4
+  },
+  "topological_sort": [
+    "night",
+    "ouranos",
+    "kronos",
+    "zeus",
+    "reconstituted_cosmos"
+  ],
+  "wl_hash_structure": "b31ca6b0251bedeec7ccf9735f205c18",
+  "wl_hash_with_roles": "36782126043a720789119f20c143de1c",
+  "is_linear_chain": true,
+  "has_fallen_node": false,
+  "has_process_nodes": false,
+  "has_fragmentation_edge": false,
+  "has_contraction_edge": false,
+  "has_reflection_edge": false
+}

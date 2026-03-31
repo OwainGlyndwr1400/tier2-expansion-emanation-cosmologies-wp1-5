@@ -1,0 +1,141 @@
+{
+  "tradition": "sethian_gnostic",
+  "node_count": 8,
+  "edge_count": 7,
+  "depth": 7,
+  "diameter": 7,
+  "width": 1,
+  "leaf_count": 1,
+  "branching_node_count": 0,
+  "max_branching_factor": 1,
+  "mean_branching_factor": 1.0,
+  "root": "invisible_spirit",
+  "leaves": [
+    "material_world"
+  ],
+  "branching_nodes": [],
+  "in_degree_sequence": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "out_degree_sequence": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "edge_type_counts": {
+    "creation": 2,
+    "fragmentation": 2,
+    "emanation": 3
+  },
+  "functional_role_counts": {
+    "fallen": 1,
+    "demiurge": 1,
+    "matter": 1,
+    "source": 1,
+    "first_emanation": 1,
+    "intellect": 1,
+    "intermediary": 2
+  },
+  "depth_profile": {
+    "0": [
+      "invisible_spirit"
+    ],
+    "1": [
+      "protennoia"
+    ],
+    "2": [
+      "autogenes"
+    ],
+    "3": [
+      "four_luminaries"
+    ],
+    "4": [
+      "sophia_epinoia"
+    ],
+    "5": [
+      "yaltabaoth"
+    ],
+    "6": [
+      "archons"
+    ],
+    "7": [
+      "material_world"
+    ]
+  },
+  "role_sequence_by_level": {
+    "0": [
+      "source"
+    ],
+    "1": [
+      "first_emanation"
+    ],
+    "2": [
+      "intellect"
+    ],
+    "3": [
+      "intermediary"
+    ],
+    "4": [
+      "fallen"
+    ],
+    "5": [
+      "demiurge"
+    ],
+    "6": [
+      "intermediary"
+    ],
+    "7": [
+      "matter"
+    ]
+  },
+  "betweenness_centrality": {
+    "invisible_spirit": 0.0,
+    "protennoia": 0.1429,
+    "autogenes": 0.2381,
+    "four_luminaries": 0.2857,
+    "sophia_epinoia": 0.2857,
+    "yaltabaoth": 0.2381,
+    "archons": 0.1429,
+    "material_world": 0.0
+  },
+  "closeness_centrality": {
+    "invisible_spirit": 0.0,
+    "protennoia": 0.1429,
+    "autogenes": 0.1905,
+    "four_luminaries": 0.2143,
+    "sophia_epinoia": 0.2286,
+    "yaltabaoth": 0.2381,
+    "archons": 0.2449,
+    "material_world": 0.25
+  },
+  "topological_sort": [
+    "invisible_spirit",
+    "protennoia",
+    "autogenes",
+    "four_luminaries",
+    "sophia_epinoia",
+    "yaltabaoth",
+    "archons",
+    "material_world"
+  ],
+  "wl_hash_structure": "62762f9ffff1c9cdd256736af0c9c06f",
+  "wl_hash_with_roles": "563b601d6e5f20d678d8c5de78672a13",
+  "is_linear_chain": true,
+  "has_fallen_node": true,
+  "has_process_nodes": false,
+  "has_fragmentation_edge": true,
+  "has_contraction_edge": false,
+  "has_reflection_edge": false
+}

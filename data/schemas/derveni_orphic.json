@@ -1,0 +1,176 @@
+{
+  "tradition": "derveni_orphic",
+  "primary_source": "Derveni Papyrus (4th c. BCE), columns VIII-XXVI. Critical edition: Kouremenos, T., Parassoglou, G.M. & Tsantsanoglou, K. (2006). The Derveni Papyrus. Florence: Leo S. Olschki.",
+  "treatises_used": [
+    "Derveni Papyrus, cols. VIII-XXVI (theogonic cosmology embedded in allegorical commentary)",
+    "Supplementary: Betegh, G. (2004). The Derveni Papyrus: Cosmology, Theology and Interpretation. Cambridge University Press."
+  ],
+  "scholarly_anchors": [
+    "Kouremenos, T., Parassoglou, G.M. & Tsantsanoglou, K. (2006). The Derveni Papyrus. Florence: Leo S. Olschki.",
+    "Betegh, G. (2004). The Derveni Papyrus: Cosmology, Theology and Interpretation. Cambridge University Press.",
+    "Bernabe, A. (2004). Poetae Epici Graeci II: Orphicorum et Orphicis similium testimonia et fragmenta. Teubner.",
+    "Most, G.W. (1997). 'The Fire Next Time: Cosmology, Allegoresis, and Salvation in the Derveni Papyrus', Journal of Hellenic Studies 117: 117-135.",
+    "Jourdan, F. (2003). Le Papyrus de Derveni. Paris: Les Belles Lettres.",
+    "West, M.L. (1983). The Orphic Poems. Oxford: Clarendon Press."
+  ],
+  "encoding_date": "2026-03-29",
+  "encoder": "Erydir-Ceisiwr",
+  "version": "1.0",
+  "encoding_notes": "BOUNDARY TEST SCHEMA. This is the first theogonic (as opposed to emanationist) tradition in the corpus. The Derveni Papyrus preserves a 4th c. BCE commentary on an older Orphic theogonic poem. The cosmological sequence is reconstructed from cols. VIII-XXVI. Independence: HIGH -- the Derveni theogony predates all other traditions in the corpus by centuries (4th c. BCE vs. 2nd-3rd c. CE for the earliest emanation traditions). It is a pre-Socratic Greek cosmology with no derivation from Neoplatonism, Gnosticism, or Iranian religion. STRUCTURAL NOTE: Orphic cosmogony is theogonic (genealogical succession between divine rulers) rather than strictly emanationist (hierarchical overflow from a transcendent source). The DAG contract's edge-type vocabulary is extended with 'succession' for this schema -- defined as: the subsequent entity displaces or supersedes the prior entity in cosmological governance, typically through generational conflict. This distinction (emanation vs. succession) is well-documented in comparative religion scholarship (Bremmer 2008, West 1983). The key structural feature of the Derveni theogony is Zeus's swallowing: Zeus ingests the generative principle (aidoion) of the prior cosmos and re-emits all things from within himself. This is structurally closer to emanation-and-reabsorption than to simple genealogical succession. The Derveni commentator himself reads Zeus allegorically as Nous/Air -- an emanation interpretation already present in the 4th c. BCE.",
+
+  "nodes": [
+    {
+      "id": "night",
+      "name": "Night (Nyx)",
+      "aliases": ["Nux", "Night", "The Prophesying One"],
+      "tradition": "derveni_orphic",
+      "functional_role": "source",
+      "level": 0,
+      "description": "The primordial principle in the Derveni theogony. Night is the first to prophesy and the first to rule (col. X). She is not generated from any prior entity -- she is the self-existent origin of the theogonic sequence. Night's prophetic function is structurally significant: she gives oracles to Zeus (col. XI), providing the knowledge by which he reconstitutes the cosmos. In some readings, Night is prior to the cosmic egg; in the Derveni sequence, she is the apex.",
+      "source_reference": "Derveni Papyrus col. X (Kouremenos et al. 2006)"
+    },
+    {
+      "id": "ouranos",
+      "name": "Ouranos (Sky)",
+      "aliases": ["Uranus", "Heaven", "The First-Born King"],
+      "tradition": "derveni_orphic",
+      "functional_role": "first_emanation",
+      "level": 1,
+      "description": "Born from Night; the first king of the gods in the Derveni succession. Ouranos rules the cosmos as its first sovereign. He is called 'first-born' (protogonos in some reconstructions, though this is debated). His kingship ends when Kronos displaces him through castration -- the severed generative organ (aidoion) becomes a key cosmological object in the Derveni narrative. The edge from Night to Ouranos is typed 'emanation' rather than 'succession' because Ouranos does not displace Night -- he is generated from her and rules alongside/after her prophetic establishment of order.",
+      "source_reference": "Derveni Papyrus cols. XIII-XIV (Kouremenos et al. 2006)"
+    },
+    {
+      "id": "kronos",
+      "name": "Kronos (Time)",
+      "aliases": ["Cronus", "The Castrator", "Second King"],
+      "tradition": "derveni_orphic",
+      "functional_role": "intermediary",
+      "level": 2,
+      "description": "Seizes kingship from Ouranos through castration -- the defining act of the theogonic succession. Kronos' rule represents the second age of the cosmos. The Derveni commentator interprets the castration allegorically (col. XIII): the separation of generative power from the prior cosmic order. This act of violent displacement is the paradigmatic 'succession' event in Orphic theogony -- structurally distinct from emanation (which is non-violent, non-diminishing overflow). Kronos is in turn overthrown by Zeus.",
+      "source_reference": "Derveni Papyrus col. XIII (Kouremenos et al. 2006)"
+    },
+    {
+      "id": "zeus",
+      "name": "Zeus (The Reconstituter)",
+      "aliases": ["Zeus Basileus", "King Zeus", "Nous (in Derveni allegorical reading)", "Air"],
+      "tradition": "derveni_orphic",
+      "functional_role": "demiurge",
+      "level": 3,
+      "description": "Overthrows Kronos; receives oracles from Night (col. XI); and performs the critical cosmological act: he swallows the aidoion (generative organ of Ouranos/the prior cosmos) and thereby contains ALL prior beings within himself. He then re-emits (re-generates) the entire cosmos from within. The Derveni commentator reads Zeus as Nous or Air (col. XVI-XVII) -- a cosmic intelligence that reconstitutes reality through ingestion and re-emanation. This swallowing-and-reconstitution is structurally closer to the RHC fold operation (F = i/2) than to simple genealogical succession: Zeus absorbs the prior cosmic order and outputs a reconstituted one. He is both the successor-king and the demiurgic re-creator. This dual role (succession + creation) makes Zeus the structural pivot of the Derveni schema.",
+      "source_reference": "Derveni Papyrus cols. XV-XIX (Kouremenos et al. 2006); Betegh 2004 ch. 5-7"
+    },
+    {
+      "id": "reconstituted_cosmos",
+      "name": "Reconstituted Cosmos (Zeus's Re-Emission)",
+      "aliases": ["The New World Order", "Re-emanated All", "Heaven, Sea, Earth, Rivers, Gods"],
+      "tradition": "derveni_orphic",
+      "functional_role": "matter",
+      "level": 4,
+      "description": "The cosmos as reconstituted by Zeus after swallowing and re-emitting all prior beings. The Derveni commentator describes Zeus re-emitting heaven, sea, earth, rivers, and the gods themselves (col. XVII-XIX). This is NOT creation from nothing but RE-creation from absorbed substance -- Zeus outputs a reconstituted cosmos that contains all prior beings in new form. The material world is the product of divine reconstitution, not of fall or corruption. This is the terminal node: the physical cosmos as organized by Zeus/Nous.",
+      "source_reference": "Derveni Papyrus cols. XVII-XIX (Kouremenos et al. 2006)"
+    }
+  ],
+
+  "edges": [
+    {
+      "source": "night",
+      "target": "ouranos",
+      "relationship": "emanation",
+      "description": "Night generates Ouranos as the first cosmic ruler. This is typed 'emanation' rather than 'succession' because Ouranos does not displace Night -- he emerges from her and receives her prophetic oracles. Night remains the oracular authority even after Ouranos rules."
+    },
+    {
+      "source": "ouranos",
+      "target": "kronos",
+      "relationship": "succession",
+      "description": "Kronos displaces Ouranos through castration, seizing kingship. This is the paradigmatic succession event: the later entity overthrows and replaces the earlier. 'Succession' is defined as: the subsequent entity displaces or supersedes the prior entity in cosmological governance, typically through generational conflict. This edge type is unique to the Derveni schema and represents a genuine structural difference from emanation (non-diminishing overflow) and creation (deliberate fabrication)."
+    },
+    {
+      "source": "kronos",
+      "target": "zeus",
+      "relationship": "succession",
+      "description": "Zeus overthrows Kronos, seizing kingship. Second succession event. Zeus then performs the cosmological swallowing that distinguishes the Derveni theogony from simple genealogical succession."
+    },
+    {
+      "source": "zeus",
+      "target": "reconstituted_cosmos",
+      "relationship": "creation",
+      "description": "Zeus re-emits the cosmos from within himself after swallowing the aidoion and all prior beings. This is typed 'creation' rather than 'emanation' because it is a deliberate, singular act of cosmic reconstitution. The Derveni commentator interprets it as Nous/Air organizing all matter (col. XVI-XVII). Structurally comparable to the demiurgic creation edge in other schemas."
+    }
+  ],
+
+  "alternative_encodings": {
+    "rhapsodic_expanded": {
+      "description": "Expanded encoding using the Orphic Rhapsodies (Bernabe 2004) instead of the Derveni Papyrus. Adds Chronos (Unaging Time) at the apex, Cosmic Egg, Phanes/Protogonos, and Dionysus/Zagreus + Humanity at the bottom. 8-10 nodes, depth 7-8.",
+      "scholarly_support": "The Rhapsodies provide a longer, more elaborate theogonic sequence. However, the Rhapsodies are reconstructed from late-antique quotations (Damascius, Proclus, Athenagoras) rather than a single physical text. Textual stability is lower than the Derveni Papyrus.",
+      "nodes_added": [
+        {
+          "id": "chronos",
+          "name": "Chronos (Unaging Time)",
+          "functional_role": "source",
+          "level": -1,
+          "description": "The Rhapsodic first principle. Co-present with Ananke (Necessity) and Aither."
+        },
+        {
+          "id": "cosmic_egg",
+          "name": "Cosmic Egg",
+          "functional_role": "intermediary",
+          "level": 0,
+          "description": "Generated by Chronos/Ananke coiling around proto-matter."
+        },
+        {
+          "id": "phanes",
+          "name": "Phanes/Protogonos (First-Born)",
+          "functional_role": "first_emanation",
+          "level": 1,
+          "description": "Hatches from the Egg; golden-winged, bisexual, radiant first god. Functions exactly like a Neoplatonic first emanation."
+        },
+        {
+          "id": "dionysus",
+          "name": "Dionysus/Zagreus",
+          "functional_role": "fallen",
+          "level": 7,
+          "description": "Son of Zeus and Persephone; receives sceptre; dismembered by Titans."
+        },
+        {
+          "id": "humanity",
+          "name": "Humanity (from Titan Ashes)",
+          "functional_role": "matter",
+          "level": 8,
+          "description": "Arises from Titan ashes mixed with Dionysian divinity."
+        }
+      ],
+      "encoding_note": "DEFERRED TO WP 1.4. The Rhapsodies are too reconstructive for a methodology paper that needs to convince DH reviewers of encoding rigour. The Derveni Papyrus is a single physical text with a defensible reconstruction."
+    },
+    "all_emanation_edges": {
+      "description": "Alternative encoding mapping all edges to 'emanation' without the 'succession' edge type. Treats theogonic succession as a variant of emanation (the later entity proceeds from the earlier). This preserves compatibility with the WP 1.1 edge-type vocabulary at the cost of obscuring the structural difference between overflow and displacement.",
+      "scholarly_support": "The Derveni commentator's own allegorical reading (Zeus = Nous/Air) supports treating the theogonic sequence as emanation in disguise. However, this reading is the commentator's philosophical overlay on the original poem, not the poem's own structure.",
+      "edges_modified": [
+        {
+          "source": "ouranos",
+          "target": "kronos",
+          "relationship": "emanation"
+        },
+        {
+          "source": "kronos",
+          "target": "zeus",
+          "relationship": "emanation"
+        }
+      ],
+      "encoding_note": "LOW priority sensitivity alternative. Tests whether edge-type distinction affects topology-family classification. Under GED computation, edge labels are typically not weighted, so this may not change quantitative results."
+    }
+  },
+
+  "validation": {
+    "is_dag": true,
+    "single_root": true,
+    "root_node": "night",
+    "all_connected": true,
+    "node_count": 5,
+    "edge_count": 4,
+    "depth": 4,
+    "max_branching_factor": 1,
+    "within_bounds": true,
+    "all_attributes_present": true,
+    "all_edges_labeled": true
+  }
+}

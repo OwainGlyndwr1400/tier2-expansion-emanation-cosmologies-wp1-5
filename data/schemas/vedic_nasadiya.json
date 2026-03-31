@@ -1,0 +1,128 @@
+{
+  "tradition": "vedic_nasadiya",
+  "tradition_full": "Vedic (Rig Veda 10.129 — Nasadiya Sukta, Hymn of Creation)",
+  "source": "Rig Veda 10.129. Primary scholarly edition: Jamison, S.W. & Brereton, J.P. (2014). The Rigveda: The Earliest Religious Poetry of India. 3 vols. Oxford University Press. Cross-referenced with Doniger O'Flaherty, W. (1981). The Rig Veda: An Anthology. Penguin.",
+  "scholarly_anchors": [
+    "Jamison, S.W. & Brereton, J.P. (2014). The Rigveda: The Earliest Religious Poetry of India. Oxford University Press.",
+    "Doniger O'Flaherty, W. (1981). The Rig Veda: An Anthology. Penguin.",
+    "Gonda, J. (1975). Vedic Literature: Samhitas and Brahmanas. Harrassowitz (Grundriss der Indo-Arischen Philologie).",
+    "Witzel, M. (1999). Substrate Languages in Old Indo-Aryan. Electronic Journal of Vedic Studies 5(1).",
+    "Brereton, J.P. (1999). Edifying Puzzlement: Rgveda 10.129 and the Uses of Enigma. Journal of the American Oriental Society 119(2): 248-260.",
+    "Brown, W.N. (1942). The Creation Myth of the Rig Veda. Journal of the American Oriental Society 62(2): 85-98."
+  ],
+  "encoding_version": "1.0",
+  "encoding_date": "2026-03-31",
+  "source_note": "Nasadiya Sukta (RV 10.129) is a seven-verse cosmogonic hymn. The text describes an originary state that is neither being nor non-being, from which creation emerges through heat (tapas) and desire (kama). The hymn is uniquely agnostic — verse 7 questions whether even the gods or the supreme overseer knows how creation occurred. The encoding follows the cosmogonic sequence of the hymn verses, not a theological hierarchy. Distinct from Samkhya (already in corpus) which is a later systematic philosophy; Nasadiya is pre-systematic Vedic speculation.",
+  "geographic_cultural_note": "Rig Veda dated c. 1200-900 BCE (late Rigvedic period). Oldest surviving cosmological text in the corpus. The Nasadiya Sukta is part of the speculative hymns (Book 10), which are the latest stratum of the Rig Veda but still predate all other traditions in this corpus by centuries. Independent of all Mediterranean, Gnostic, Hermetic, and Kabbalistic traditions. Predates Samkhya systematisation by 500-800 years. No credible channel for influence from or to any other tradition in the corpus at the time of composition.",
+
+  "nodes": [
+    {
+      "id": "tad_ekam",
+      "name": "Tad Ekam / Non-Being-Non-Existence (That One)",
+      "aliases": ["Tad Ekam", "That One", "The Undifferentiated", "Neither Sat nor Asat"],
+      "functional_role": "source",
+      "level": 0,
+      "source_reference": "RV 10.129.1-2: 'There was neither non-existence (asat) nor existence (sat) then... That One (tad ekam) breathed, windless, by its own impulse (svadha). Other than that there was nothing beyond.' Jamison & Brereton (2014) vol. 3.",
+      "notes": "The primordial undifferentiated state — explicitly neither being nor non-being (na asat asit no sat asit). This is more radical than Plotinian 'beyond being' or Taoist 'Dao' — it negates both poles of the ontological distinction. 'That One' (tad ekam) is a demonstrative reference, not a name — the hymn refuses to name the source. Encoded as 'source' because it is the functional origin of the cosmogonic sequence, even though the text resists giving it ontological determination."
+    },
+    {
+      "id": "tapas",
+      "name": "Tapas (Creative Heat / Cosmic Ferment)",
+      "aliases": ["Tapas", "Heat", "Creative Ferment", "Cosmic Warmth"],
+      "functional_role": "first_emanation",
+      "level": 1,
+      "source_reference": "RV 10.129.3: 'In the beginning desire (kama) came upon That — the first seed of mind. Poets seeking in their heart with wisdom found the bond of existence in non-existence.' RV 10.129.3 (alternate reading): 'Darkness was hidden by darkness in the beginning; featureless, this all was water. That which, coming into being, was covered by the void — That One arose through the power of heat (tapas).'",
+      "notes": "Tapas is the activating principle — the creative heat or ferment that transforms the inert undifferentiated state into a generative one. In Vedic thought, tapas is both cosmogonic (creating the world) and ascetic (the heat of meditation). It is the first differentiation from the source but is itself a process rather than an entity. Encoded as 'first_emanation' because it is the first distinguishable principle to emerge from Tad Ekam. The edge type is 'emanation' because tapas arises spontaneously from the source's own impulse (svadha), without external cause."
+    },
+    {
+      "id": "kama",
+      "name": "Kama (Desire / First Seed of Mind)",
+      "aliases": ["Kama", "Desire", "First Seed of Mind", "Retasah Prathamam"],
+      "functional_role": "intermediary",
+      "level": 2,
+      "source_reference": "RV 10.129.4: 'Desire (kama) in the beginning came upon That — that was the first seed (retasah prathamam) of mind (manasah). Poets seeking in their heart with wisdom found the bond of existence in non-existence.'",
+      "notes": "Kama here is not erotic desire but cosmogonic desire — the intentional impulse that directs the creative heat toward differentiation. It is called 'the first seed of mind' (manaso retah prathamam), making it the bridge between undifferentiated energy (tapas) and structured reality. This parallels the Taoist Three (chong qi / mediating harmony) and the Neoplatonic Nous (Intellect arising from the One), but with a distinctively Vedic emphasis on desire as the generative principle rather than intellect or reflection. Encoded as 'intermediary' because it mediates between the creative process and the manifest world."
+    },
+    {
+      "id": "bandhuh",
+      "name": "Bandhu (The Bond / Cord of Being in Non-Being)",
+      "aliases": ["Bandhu", "The Bond", "The Cord", "Connection of Sat in Asat"],
+      "functional_role": "intermediary",
+      "level": 3,
+      "source_reference": "RV 10.129.4b: 'Poets seeking in their heart with wisdom found the bond (bandhu) of existence (satah) in non-existence (asati).' RV 10.129.5: 'Their cord (rashmi) was extended across: was there below? was there above?'",
+      "notes": "Bandhu is the structural principle that links being and non-being — the 'cord stretched across' that establishes the cosmological division of above and below. This is the moment of cosmic ordering, where the undifferentiated becomes structured space. The term bandhu later becomes a key concept in Brahmana-period ritual thought (the 'hidden connection' between microcosm and macrocosm). Encoded as 'intermediary' because it establishes the framework within which manifest reality can exist, without yet being that reality."
+    },
+    {
+      "id": "srishti",
+      "name": "Srishti (Emission / The Manifest World)",
+      "aliases": ["Srishti", "Emission", "Creation", "The Manifest", "Seedplacing-Powers and Mighty-Forces"],
+      "functional_role": "matter",
+      "level": 4,
+      "source_reference": "RV 10.129.5-6: 'There were seed-placing powers (retodha) and mighty forces (mahimanah). Self-impulse (svadha) below, offering (prayati) above.' Verse 6: 'Who really knows? Who will here proclaim it? Whence was it produced? Whence this creation?'",
+      "notes": "The manifest world — the result of the cosmogonic process. The hymn describes 'seed-placing powers' and 'mighty forces' as the dual poles of manifest reality (generative below, receptive/offering above). The 'matter' functional role captures the endpoint of the cosmogonic sequence. Notably, the hymn immediately questions whether this account is correct (verses 6-7), making Nasadiya the only tradition in the corpus where the source text itself expresses uncertainty about its own cosmological claims."
+    }
+  ],
+
+  "edges": [
+    {
+      "source": "tad_ekam",
+      "target": "tapas",
+      "relationship": "emanation",
+      "notes": "Tapas arises from Tad Ekam through 'its own impulse' (svadha) — spontaneous, uncaused creative emergence. 'Emanation' is apt: no external agent, no violence, no crisis. The closest parallel is the Taoist Dao producing the One."
+    },
+    {
+      "source": "tapas",
+      "target": "kama",
+      "relationship": "emanation",
+      "notes": "Desire emerges from the creative heat as 'the first seed of mind' — the heat becomes directed and intentional. Still emanative: no fragmentation or external intervention."
+    },
+    {
+      "source": "kama",
+      "target": "bandhuh",
+      "relationship": "creation",
+      "notes": "The shift from 'emanation' to 'creation' marks the transition from undirected cosmogonic process (heat, desire) to structured ordering (the bond that links being and non-being). The poets 'found' (avindan) the bond through wisdom — this implies an act of discovery/ordering rather than spontaneous overflow."
+    },
+    {
+      "source": "bandhuh",
+      "target": "srishti",
+      "relationship": "creation",
+      "notes": "The bond/cord produces the manifest world with its seed-placing powers and mighty forces. 'Creation' rather than 'emanation' because this is a qualitative leap from structural principle to manifest multiplicity — paralleling the Taoist Three → Ten Thousand Things transition."
+    }
+  ],
+
+  "topology": {
+    "node_count": 5,
+    "edge_count": 4,
+    "depth": 4,
+    "max_branching_factor": 1,
+    "shape": "linear_chain",
+    "distinctive_feature": "Oldest text in corpus (c. 1200-900 BCE). Purely process-oriented cosmogony with no named deities, no demiurge, no fallen node. Uniquely agnostic — the source text questions its own account (verses 6-7). Edge pattern (emanation-emanation-creation-creation) mirrors the Taoist DDJ pattern, suggesting a structural parallel in pre-systematic cosmogonic thought across independent traditions."
+  },
+
+  "alternative_encodings": {
+    "six_node_with_observer": {
+      "description": "Add the Overseer/Adhyaksha of verse 7 ('He who surveys it from the highest heaven, he alone knows — or perhaps he does not know') as a 6th node at level 0 alongside Tad Ekam, or as a separate root. This would test whether the Vedic agnostic 'observer' creates a branching structure.",
+      "priority": "MEDIUM — interesting for the observer-cosmology question but textually ambiguous (the overseer may be identical with Tad Ekam)",
+      "source": "RV 10.129.7. Brereton (1999) argues the verse is deliberately unresolvable.",
+      "effect": "If encoded as parallel root, would violate single-root DAG rule. If encoded as child of Tad Ekam, adds one node but changes nothing structurally. Best left as note unless future work on observer-cosmologies warrants it."
+    },
+    "three_node_minimal": {
+      "description": "Collapse tapas and kama into a single 'creative impulse' node (since both arise in the same verse cluster). Would give: Tad Ekam → Creative Impulse → Bandhu → Srishti (4 nodes).",
+      "priority": "LOW — loses analytically useful distinction between heat-as-process and desire-as-intention",
+      "effect": "Would make Nasadiya the smallest schema in the corpus (tied with nothing — even Plotinus has 5). Not recommended."
+    }
+  },
+
+  "validation": {
+    "is_dag": true,
+    "single_root": true,
+    "root_node": "tad_ekam",
+    "all_connected": true,
+    "node_count": 5,
+    "edge_count": 4,
+    "depth": 4,
+    "within_bounds": true,
+    "all_attributes_present": true,
+    "all_edges_labeled": true
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "tradition": "chaldean",
+  "tradition_full": "Chaldean Oracles",
+  "source": "Chaldean Oracles Attributed to Zoroaster, ed. Sapere Aude (W. Wynn Westcott), public domain. File: Research/Chaldean Oracles_djvu.txt",
+  "cross_references": [
+    "Majercik, R. (1989). The Chaldean Oracles: Text, Translation, and Commentary. Brill.",
+    "Johnston, S.I. (1990). Hekate Soteira. Scholars Press.",
+    "Lewy, H. (1956). Chaldean Oracles and Theurgy. Cairo.",
+    "Shaw, G. (1995). Theurgy and the Soul. Penn State Press."
+  ],
+  "encoding_version": "1.0",
+  "encoding_date": "2026-03-28",
+  "nodes": [
+    {
+      "id": "father",
+      "name": "The Father (Pater)",
+      "aliases": ["Paternal Depth", "Paternal Mind", "First Mind", "The Monad", "Paternal Fire", "Inscrutable God"],
+      "functional_role": "source",
+      "level": 0,
+      "source_reference": "Oracles 1, 7, 9, 11, 12, 25",
+      "notes": "The absolute transcendent. 'Containing all things in the one summit of his own Hyparxis, He Himself subsists wholly beyond.' The First Mind 'abode in the Paternal Depth' — the Father's own intellect is NOT a separate structural level but the Father's immanent self-knowing. See encoding_decisions Entry 12."
+    },
+    {
+      "id": "hecate",
+      "name": "Hecate (World-Soul / Power)",
+      "aliases": ["Mater", "Potentia", "The Dyad", "World-Soul", "Cosmic Source", "The Power"],
+      "functional_role": "soul",
+      "level": 1,
+      "source_reference": "Oracles 18, 20, 26, 27; Johnston (1990)",
+      "notes": "The mediating principle of the Intelligible Triad: Father / Hecate-Power / Second Mind. 'The Dyad which glitters with intellectual sections, to govern all things.' The Soul 'is Mistress of Life, and filleth up the many recesses of the bosom of the World.' Hecate occupies the middle position — she receives from the Father and channels to the Second Mind. See encoding_decisions Entry 13."
+    },
+    {
+      "id": "second_mind",
+      "name": "Second Mind (Demiurgic Intelligence)",
+      "aliases": ["Demiurgic Mind", "Second Nous", "Creator-Mind", "Empyrean Mind"],
+      "functional_role": "intellect",
+      "level": 2,
+      "source_reference": "Oracles 13, 14, 22, 23",
+      "notes": "'The Second Mind conducts the Empyrean World.' (Oracle 14). 'The Father perfected all things, and delivered them over to the Second Mind, whom all Nations of Men call the First.' (Oracle 13). The Second Mind is the intelligible creator — it creates the Empyrean realm and governs the cosmic order. Distinct from Hypezokos (material demiurge) — key Chaldean structural feature."
+    },
+    {
+      "id": "iynges",
+      "name": "Iynges / Synoches / Teletarchs",
+      "aliases": ["Iynges", "Synoches", "Teletarchae", "Cosmagogi", "Amilicti", "Cosmic Administrators"],
+      "functional_role": "intermediary",
+      "sub_count": 9,
+      "level": 3,
+      "source_reference": "Introduction (lines 163-186); Majercik (1989) commentary",
+      "notes": "Three classes of cosmic administrators: Iynges (connective links), Synoches (binding powers), Teletarchs (perfective powers). Encoded as a single collective node per Granularity Rule — they do not constitute separate emanation stages but a single intermediary tier. The Cosmagogi and Amilicti (Ethereal World level) are included at this tier."
+    },
+    {
+      "id": "hypezokos",
+      "name": "Hypezokos (Flower of Fire)",
+      "aliases": ["Flower of Fire", "Demiurgos of the Material Universe", "Material Demiurge", "Hypezokos"],
+      "functional_role": "demiurge",
+      "level": 4,
+      "source_reference": "Introduction (lines 133-136, 374-375)",
+      "notes": "The actual builder of the material world: 'the fourth or Elementary World is governed by Hypezokos, or Flower of Fire.' Explicitly called 'Demiurgos of the Material Universe' in the scheme diagram. This is the SECOND demiurgic figure in the Chaldean system — the Second Mind creates the intelligible/empyrean cosmos; Hypezokos fabricates matter. This double-demiurge structure is a distinctive topological feature. See encoding_decisions Entry 14."
+    },
+    {
+      "id": "earth_matter",
+      "name": "Earth-Matter",
+      "aliases": ["The Earth", "Material World", "Elementary World", "Matter"],
+      "functional_role": "matter",
+      "level": 5,
+      "source_reference": "Introduction (lines 199-200, 489-496)",
+      "notes": "The material cosmos. 'Stoop not down to the darkly splendid World, For a precipice lieth beneath the Earth, a descent of seven steps.' The endpoint of emanative descent. Unlike Plotinus's Matter (purely negative privation), Chaldean matter retains a connection to fire through Hypezokos."
+    }
+  ],
+  "edges": [
+    {
+      "source": "father",
+      "target": "hecate",
+      "relationship": "emanation",
+      "notes": "Father generates the Power/World-Soul as the natural overflow of his own self-contemplation. 'When the Monad is extended, the Dyad is generated.' (Oracle 26)"
+    },
+    {
+      "source": "hecate",
+      "target": "second_mind",
+      "relationship": "emanation",
+      "notes": "Hecate/Power mediates the Father's generativity to the Second Mind. 'Power is with them, but Mind is from Him.' (Oracle 16) — Hecate channels paternal power to the demiurgic intellect."
+    },
+    {
+      "source": "second_mind",
+      "target": "iynges",
+      "relationship": "emanation",
+      "notes": "The Second Mind generates the cosmic administrative hierarchy — Iynges, Synoches, Teletarchs. These are the theurgic intermediaries through which the Father's 'unspeakable counsels' are enacted."
+    },
+    {
+      "source": "iynges",
+      "target": "hypezokos",
+      "relationship": "emanation",
+      "notes": "The cosmic administrators channel the empyrean fire down to Hypezokos, 'a Fiery Whirlwind drawing down the brilliance of the flashing flame, penetrating the abysses of the Universe.' (Oracle 24)"
+    },
+    {
+      "source": "hypezokos",
+      "target": "earth_matter",
+      "relationship": "creation",
+      "notes": "Hypezokos actively builds the material world. 'Exalted upon High and animating Light, Fire, Ether and Worlds.' (Oracle 38) This is deliberate material fabrication, typed `creation` not `emanation` because it involves active ordering of pre-existent elemental substrates."
+    }
+  ],
+  "topology": {
+    "node_count": 6,
+    "edge_count": 5,
+    "depth": 5,
+    "max_branching_factor": 1,
+    "shape": "linear_chain",
+    "distinctive_feature": "Double demiurge — Second Mind governs intelligible world; Hypezokos fabricates material world"
+  },
+  "alternative_encodings": {
+    "with_first_mind_separate": {
+      "description": "7-node encoding separating Father from First Mind",
+      "change": "Father (level 0) → First Mind (level 1) → Hecate (level 2) → Second Mind (level 3) → Iynges (level 4) → Hypezokos (level 5) → Earth-Matter (level 6)",
+      "rationale": "Oracle 12 describes the First Mind as 'energized before energy' within the Paternal Depth — could be read as a distinct emanation. Primary encoding treats it as the Father's immanent self-knowing.",
+      "effect": "Adds depth from 5 to 6; still linear chain."
+    },
+    "without_hecate": {
+      "description": "5-node encoding treating Hecate as Father's power, not a separate node",
+      "change": "Father (level 0) → Second Mind (level 1) → Iynges (level 2) → Hypezokos (level 3) → Earth-Matter (level 4)",
+      "rationale": "Some readings treat the Father-Hecate relationship as internal to the Father's nature, not a distinct structural level.",
+      "effect": "Reduces depth from 5 to 4. Structurally more similar to a simplified Plotinian chain."
+    }
+  },
+  "validation": {
+    "is_dag": true,
+    "single_root": true,
+    "all_connected": true,
+    "node_count": 6,
+    "within_bounds_4_20": true,
+    "all_required_attributes_present": true,
+    "all_edges_labeled": true,
+    "scholarly_verified": true
+  },
+  "encoding_notes": "The Chaldean system is fragmentary — these are oracle fragments attributed to Zoroaster, not a single systematic treatise. The schema is reconstructed from the Introduction's structural diagrams and the oracle fragments themselves, cross-referenced against Majercik (1989). Key scholarly consensus: the triadic structure (Father-Hecate-Mind) is the core; the double-demiurge (Second Mind + Hypezokos) is the most distinctive Chaldean feature."
+}

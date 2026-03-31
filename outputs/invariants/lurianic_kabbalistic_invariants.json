@@ -1,0 +1,130 @@
+{
+  "tradition": "lurianic_kabbalistic",
+  "node_count": 7,
+  "edge_count": 6,
+  "depth": 6,
+  "diameter": 6,
+  "width": 1,
+  "leaf_count": 1,
+  "branching_node_count": 0,
+  "max_branching_factor": 1,
+  "mean_branching_factor": 1.0,
+  "root": "ain_sof",
+  "leaves": [
+    "malkuth_material"
+  ],
+  "branching_nodes": [],
+  "in_degree_sequence": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "out_degree_sequence": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "edge_type_counts": {
+    "contraction": 1,
+    "creation": 2,
+    "fragmentation": 1,
+    "emanation": 2
+  },
+  "functional_role_counts": {
+    "process": 2,
+    "matter": 1,
+    "source": 1,
+    "first_emanation": 1,
+    "intellect": 1,
+    "intermediary": 1
+  },
+  "depth_profile": {
+    "0": [
+      "ain_sof"
+    ],
+    "1": [
+      "tzimtzum"
+    ],
+    "2": [
+      "adam_kadmon"
+    ],
+    "3": [
+      "sefirot"
+    ],
+    "4": [
+      "shevirat"
+    ],
+    "5": [
+      "lower_worlds"
+    ],
+    "6": [
+      "malkuth_material"
+    ]
+  },
+  "role_sequence_by_level": {
+    "0": [
+      "source"
+    ],
+    "1": [
+      "process"
+    ],
+    "2": [
+      "first_emanation"
+    ],
+    "3": [
+      "intellect"
+    ],
+    "4": [
+      "process"
+    ],
+    "5": [
+      "intermediary"
+    ],
+    "6": [
+      "matter"
+    ]
+  },
+  "betweenness_centrality": {
+    "ain_sof": 0.0,
+    "tzimtzum": 0.1667,
+    "adam_kadmon": 0.2667,
+    "sefirot": 0.3,
+    "shevirat": 0.2667,
+    "lower_worlds": 0.1667,
+    "malkuth_material": 0.0
+  },
+  "closeness_centrality": {
+    "ain_sof": 0.0,
+    "tzimtzum": 0.1667,
+    "adam_kadmon": 0.2222,
+    "sefirot": 0.25,
+    "shevirat": 0.2667,
+    "lower_worlds": 0.2778,
+    "malkuth_material": 0.2857
+  },
+  "topological_sort": [
+    "ain_sof",
+    "tzimtzum",
+    "adam_kadmon",
+    "sefirot",
+    "shevirat",
+    "lower_worlds",
+    "malkuth_material"
+  ],
+  "wl_hash_structure": "3a735cec9383f8b7cf157c22ba291dd4",
+  "wl_hash_with_roles": "16420d838edc44305dd36e349ce9e2dd",
+  "is_linear_chain": true,
+  "has_fallen_node": false,
+  "has_process_nodes": true,
+  "has_fragmentation_edge": true,
+  "has_contraction_edge": true,
+  "has_reflection_edge": false
+}

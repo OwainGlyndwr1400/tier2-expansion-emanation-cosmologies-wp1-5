@@ -1,0 +1,138 @@
+{
+  "tradition": "plotinian_neoplatonic",
+  "primary_source": "Plotinus, Enneads, trans. Stephen MacKenna, rev. B.S. Page (Faber, 1969)",
+  "treatises_used": ["V.1", "V.2", "III.8", "VI.9"],
+  "scholarly_anchors": [
+    "Lloyd P. Gerson, Plotinus (Routledge, 1994)",
+    "Dominic J. O'Meara, Plotinus: An Introduction to the Enneads (Oxford, 1993)",
+    "A.H. Armstrong, The Architecture of the Intelligible Universe in the Philosophy of Plotinus (Cambridge, 1940)"
+  ],
+  "encoding_date": "2026-03-28",
+  "encoder": "Erydir-Ceisiwr",
+  "version": "1.0",
+  "encoding_notes": "Primary encoding follows the standard three-hypostases interpretation (Gerson, O'Meara, Armstrong). Nature included as a distinct level per III.8. Matter included as terminus. See plotinus_encoding_rationale.md and encoding_decisions.md for disputed mappings.",
+
+  "nodes": [
+    {
+      "id": "one",
+      "name": "The One (to Hen)",
+      "aliases": ["The Good (to Agathon)", "The First Principle", "The Supreme", "God"],
+      "tradition": "plotinian_neoplatonic",
+      "functional_role": "source",
+      "level": 0,
+      "description": "Absolutely simple, beyond being and thought. Source of all by overflow of perfection. Not a being but Being's generator.",
+      "source_reference": "Enneads V.1.1-3, V.2.1, VI.9.2-6, III.8.9-10"
+    },
+    {
+      "id": "nous",
+      "name": "Nous (Intellect)",
+      "aliases": ["The Intellectual-Principle", "Divine Mind", "Being (to On)", "The Second Hypostasis"],
+      "tradition": "plotinian_neoplatonic",
+      "functional_role": "first_emanation",
+      "level": 1,
+      "description": "First emanation from the One. Arises by overflow, then turns back to contemplate its source. Thinking and Being are identical at this level. Contains all the Forms/Ideas.",
+      "source_reference": "Enneads V.1.4-7, V.1.8-9, III.8.7-9, VI.9.2"
+    },
+    {
+      "id": "psyche",
+      "name": "Psyche (Soul)",
+      "aliases": ["The Soul", "The All-Soul", "The Third Hypostasis", "World Soul"],
+      "tradition": "plotinian_neoplatonic",
+      "functional_role": "soul",
+      "level": 2,
+      "description": "Third hypostasis. Animating principle of the cosmos. Faces two ways: upward toward Nous (contemplation) and downward toward Nature (production). Makes, orders, and gives life to all things.",
+      "source_reference": "Enneads V.1.2-5, V.2.1, III.8.3-6, IV.3-5 (passim)"
+    },
+    {
+      "id": "nature",
+      "name": "Nature (Physis)",
+      "aliases": ["The Nature-Principle"],
+      "tradition": "plotinian_neoplatonic",
+      "functional_role": "intermediary",
+      "level": 3,
+      "description": "Soul's lowest productive activity, directed outward. Produces the physical world through unconscious contemplation. Not a full hypostasis but a distinct functional level between Soul and Matter.",
+      "source_reference": "Enneads III.8.1-4, V.2.1",
+      "encoding_note": "DISPUTED: Some scholars treat Nature as a function of Soul, not a separate level. See encoding_decisions.md entry 'Plotinus — Nature as separate node'. Alternative encoding without this node documented."
+    },
+    {
+      "id": "matter",
+      "name": "Matter (Hyle)",
+      "aliases": ["The Substratum", "The Receptacle", "Absolute Privation"],
+      "tradition": "plotinian_neoplatonic",
+      "functional_role": "matter",
+      "level": 4,
+      "description": "The endpoint of the emanation cascade. Maximum distance from the One. Near non-being, almost pure privation. The substrate upon which forms are impressed but which itself has no positive quality.",
+      "source_reference": "Enneads II.4 (passim), I.8.7, III.6.7, VI.9.1"
+    }
+  ],
+
+  "edges": [
+    {
+      "source": "one",
+      "target": "nous",
+      "relationship": "emanation",
+      "description": "Nous arises from the One's overflow of perfection. The One does not diminish itself. Nous then turns back to contemplate its source, and this contemplation constitutes its being as Intellect."
+    },
+    {
+      "source": "nous",
+      "target": "psyche",
+      "relationship": "emanation",
+      "description": "Soul emanates from Nous as its outward expression. Soul retains access to Nous through its upward-facing aspect but also produces downward."
+    },
+    {
+      "source": "psyche",
+      "target": "nature",
+      "relationship": "emanation",
+      "description": "Nature is Soul's lowest outgoing — its productive power directed toward the material realm. Soul does not diminish itself but its lowest phase becomes Nature."
+    },
+    {
+      "source": "nature",
+      "target": "matter",
+      "relationship": "reflection",
+      "description": "Matter receives the impress of forms through Nature but is itself formless. The relationship is more reflection/impression than active emanation — Nature's contemplation produces forms that are received by the indefinite substrate."
+    }
+  ],
+
+  "alternative_encodings": {
+    "without_nature": {
+      "description": "4-node encoding: One > Nous > Psyche > Matter. Treats Nature as a function of Soul, not a separate ontological level.",
+      "scholarly_support": "Some strict readings of the three-hypostases doctrine (e.g., early Armstrong) treat only the three named hypostases as genuine ontological levels.",
+      "nodes_removed": ["nature"],
+      "edges_modified": [
+        {
+          "source": "psyche",
+          "target": "matter",
+          "relationship": "emanation",
+          "description": "Soul produces the material world directly through its lowest activity."
+        }
+      ]
+    },
+    "with_world_soul": {
+      "description": "6-node encoding: One > Nous > Psyche > World Soul > Nature > Matter. Distinguishes individual Soul from the cosmic World Soul.",
+      "scholarly_support": "Armstrong (1940) and some later scholars distinguish the universal Soul from individual souls as separate ontological levels.",
+      "nodes_added": [
+        {
+          "id": "world_soul",
+          "name": "World Soul",
+          "functional_role": "soul",
+          "level": 3,
+          "description": "The cosmic animating principle distinct from individual souls. Governs the heavens and the ordered cosmos."
+        }
+      ],
+      "encoding_note": "This expansion pushes Nature to level 4 and Matter to level 5. Not adopted as primary because Plotinus himself is inconsistent about whether World Soul is a separate level."
+    }
+  },
+
+  "validation": {
+    "is_dag": true,
+    "single_root": true,
+    "root_node": "one",
+    "all_connected": true,
+    "node_count": 5,
+    "edge_count": 4,
+    "depth": 4,
+    "within_bounds": true,
+    "all_attributes_present": true,
+    "all_edges_labeled": true
+  }
+}

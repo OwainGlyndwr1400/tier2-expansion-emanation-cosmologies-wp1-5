@@ -1,0 +1,126 @@
+{
+  "tradition": "trimorphic_protennoia",
+  "primary_source": "Trimorphic Protennoia (NHC XIII,1)",
+  "treatises_used": ["Trimorphic Protennoia (Nag Hammadi Codex XIII,1)"],
+  "scholarly_anchors": [
+    "Layton, B. (1987). The Gnostic Scriptures. Doubleday.",
+    "Robinson, J. M., ed. (1988). The Nag Hammadi Library in English, 3rd ed. Harper & Row.",
+    "Turner, J. D. (1990). Trimorphic Protennoia. In Nag Hammadi Codices XI, XII, XIII. Brill."
+  ],
+  "encoding_date": "2026-03-30",
+  "encoder": "Claude (Kairoz) + Erydir-Ceisiwr",
+  "version": "1.0",
+  "encoding_notes": "Trimorphic Protennoia presents a unique cosmological pattern: a single divine figure (Protennoia/Barbelo/First Thought) descends three times in three forms — Voice, Speech, and Logos — each penetrating deeper into materiality. This is structurally distinct from all 14 existing schemas: it is neither serial emanation (Plotinus), nor error-driven branching (Valentinian), nor mission-driven branching (Manichaean), but parallel self-expression of the same divine identity in three simultaneous aspects. The Five Seals at the terminal descent represent the Gnostic baptismal rite of illumination.",
+
+  "nodes": [
+    {
+      "id": "invisible_spirit",
+      "name": "Invisible Spirit",
+      "aliases": ["the Father", "the Depth", "First Principle"],
+      "tradition": "trimorphic_protennoia",
+      "functional_role": "source",
+      "level": 0,
+      "description": "The utterly transcendent, unknowable source. Silent and invisible. Protennoia emerges from this source as its First Thought.",
+      "source_reference": "Trimorphic Protennoia 35.1-35.32 (Robinson 1988)"
+    },
+    {
+      "id": "protennoia",
+      "name": "Protennoia / Barbelo (First Thought)",
+      "aliases": ["Barbelo", "First Thought", "the Mother", "Ennoia"],
+      "tradition": "trimorphic_protennoia",
+      "functional_role": "first_emanation",
+      "level": 1,
+      "description": "The First Thought of the Invisible Spirit — Protennoia ('First Thought'). She is the same divine figure who descends three times in three forms.",
+      "source_reference": "Trimorphic Protennoia 35.32-36.27 (Robinson 1988)"
+    },
+    {
+      "id": "descent_voice",
+      "name": "First Descent: Voice (Phone)",
+      "aliases": ["the Voice", "Phone", "Sound"],
+      "tradition": "trimorphic_protennoia",
+      "functional_role": "intermediary",
+      "level": 2,
+      "description": "Protennoia's first descent into the lower realms as Voice — pure sound that penetrates Chaos. She reveals her existence to those trapped below but does not yet give form or liberation. The Voice awakens.",
+      "source_reference": "Trimorphic Protennoia 36.27-40.29 (Robinson 1988)"
+    },
+    {
+      "id": "descent_speech",
+      "name": "Second Descent: Speech (Phthongos)",
+      "aliases": ["Speech", "Phthongos", "Utterance"],
+      "tradition": "trimorphic_protennoia",
+      "functional_role": "intermediary",
+      "level": 2,
+      "description": "Protennoia's second descent as Speech — structured sound that gives form to the awakened. She clothes herself in the likeness of the powers below to move among them undetected. Speech gives form.",
+      "source_reference": "Trimorphic Protennoia 40.29-46.3 (Robinson 1988)"
+    },
+    {
+      "id": "descent_logos",
+      "name": "Third Descent: Logos / Christ",
+      "aliases": ["the Word", "Logos", "Christ", "the Son"],
+      "tradition": "trimorphic_protennoia",
+      "functional_role": "intermediary",
+      "level": 2,
+      "description": "Protennoia's third and final descent as Logos — the Word made flesh. She puts on the garment of Jesus, enters the material world, and liberates the souls through the Five Seals. Logos liberates.",
+      "source_reference": "Trimorphic Protennoia 46.3-50.12 (Robinson 1988)"
+    },
+    {
+      "id": "five_seals",
+      "name": "Five Seals (Baptismal Illumination)",
+      "aliases": ["baptism", "illumination", "the rite"],
+      "tradition": "trimorphic_protennoia",
+      "functional_role": "process",
+      "level": 3,
+      "description": "The Five Seals — the Gnostic baptismal rite administered by the Logos-descended Protennoia. Through this rite, souls are stripped of ignorance and clothed in light. The mechanism of rescue from materiality.",
+      "source_reference": "Trimorphic Protennoia 48.15-49.22 (Robinson 1988)"
+    },
+    {
+      "id": "souls_rescued",
+      "name": "Rescued Souls / Luminous Ones",
+      "aliases": ["the seed", "the elect", "children of light"],
+      "tradition": "trimorphic_protennoia",
+      "functional_role": "soul",
+      "level": 4,
+      "description": "The Gnostic elect — souls liberated from the material world through the Five Seals. They return to the light, completing the triple-descent rescue mission.",
+      "source_reference": "Trimorphic Protennoia 49.22-50.24 (Robinson 1988)"
+    }
+  ],
+
+  "edges": [
+    {"source": "invisible_spirit", "target": "protennoia", "relationship": "emanation", "description": "First Thought emanates from the Invisible Spirit"},
+    {"source": "protennoia", "target": "descent_voice", "relationship": "emanation", "description": "Protennoia descends as Voice — first form, awakening"},
+    {"source": "protennoia", "target": "descent_speech", "relationship": "emanation", "description": "Protennoia descends as Speech — second form, giving shape"},
+    {"source": "protennoia", "target": "descent_logos", "relationship": "emanation", "description": "Protennoia descends as Logos/Christ — third form, liberation"},
+    {"source": "descent_logos", "target": "five_seals", "relationship": "creation", "description": "Logos administers the Five Seals baptismal rite"},
+    {"source": "five_seals", "target": "souls_rescued", "relationship": "contraction", "description": "Souls contracted/gathered from material dispersal back to light"}
+  ],
+
+  "alternative_encodings": {
+    "material_world_node": {
+      "description": "Add an explicit Material World / Chaos node at the bottom that all three descents penetrate into, rather than having the rescue emerge only from Logos. This would add 1 node and 2 additional edges (Voice->Material, Speech->Material).",
+      "scholarly_support": "Turner (1990) emphasises that each descent penetrates deeper into the same material realm, suggesting a shared target node.",
+      "nodes_added": [
+        {"id": "material_world", "name": "Material World / Chaos", "functional_role": "matter", "level": 3}
+      ],
+      "edges_modified": [
+        {"source": "descent_voice", "target": "material_world", "relationship": "emanation"},
+        {"source": "descent_speech", "target": "material_world", "relationship": "emanation"}
+      ],
+      "encoding_note": "MEDIUM — defensible but adds complexity without changing family classification"
+    }
+  },
+
+  "validation": {
+    "is_dag": true,
+    "single_root": true,
+    "root_node": "invisible_spirit",
+    "all_connected": true,
+    "node_count": 7,
+    "edge_count": 6,
+    "depth": 4,
+    "max_branching_factor": 3,
+    "within_bounds": true,
+    "all_attributes_present": true,
+    "all_edges_labeled": true,
+    "shape": "branching_tree"
+  }
+}

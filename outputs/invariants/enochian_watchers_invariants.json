@@ -1,0 +1,117 @@
+{
+  "tradition": "enochian_watchers",
+  "node_count": 6,
+  "edge_count": 5,
+  "depth": 5,
+  "diameter": 5,
+  "width": 1,
+  "leaf_count": 1,
+  "branching_node_count": 0,
+  "max_branching_factor": 1,
+  "mean_branching_factor": 1.0,
+  "root": "lord_of_spirits",
+  "leaves": [
+    "material_world"
+  ],
+  "branching_nodes": [],
+  "in_degree_sequence": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "out_degree_sequence": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "edge_type_counts": {
+    "creation": 2,
+    "fragmentation": 1,
+    "emanation": 2
+  },
+  "functional_role_counts": {
+    "fallen": 1,
+    "matter": 1,
+    "source": 1,
+    "first_emanation": 1,
+    "intermediary": 2
+  },
+  "depth_profile": {
+    "0": [
+      "lord_of_spirits"
+    ],
+    "1": [
+      "holy_mountain"
+    ],
+    "2": [
+      "angelic_orders"
+    ],
+    "3": [
+      "gate_of_heaven"
+    ],
+    "4": [
+      "watchers_fallen"
+    ],
+    "5": [
+      "material_world"
+    ]
+  },
+  "role_sequence_by_level": {
+    "0": [
+      "source"
+    ],
+    "1": [
+      "first_emanation"
+    ],
+    "2": [
+      "intermediary"
+    ],
+    "3": [
+      "intermediary"
+    ],
+    "4": [
+      "fallen"
+    ],
+    "5": [
+      "matter"
+    ]
+  },
+  "betweenness_centrality": {
+    "lord_of_spirits": 0.0,
+    "holy_mountain": 0.2,
+    "angelic_orders": 0.3,
+    "gate_of_heaven": 0.3,
+    "watchers_fallen": 0.2,
+    "material_world": 0.0
+  },
+  "closeness_centrality": {
+    "lord_of_spirits": 0.0,
+    "holy_mountain": 0.2,
+    "angelic_orders": 0.2667,
+    "gate_of_heaven": 0.3,
+    "watchers_fallen": 0.32,
+    "material_world": 0.3333
+  },
+  "topological_sort": [
+    "lord_of_spirits",
+    "holy_mountain",
+    "angelic_orders",
+    "gate_of_heaven",
+    "watchers_fallen",
+    "material_world"
+  ],
+  "wl_hash_structure": "00cebda468b19313e4e9c98aee07c4df",
+  "wl_hash_with_roles": "507d89f01c8ae5ed6cd200f5f181e329",
+  "is_linear_chain": true,
+  "has_fallen_node": true,
+  "has_process_nodes": false,
+  "has_fragmentation_edge": true,
+  "has_contraction_edge": false,
+  "has_reflection_edge": false
+}

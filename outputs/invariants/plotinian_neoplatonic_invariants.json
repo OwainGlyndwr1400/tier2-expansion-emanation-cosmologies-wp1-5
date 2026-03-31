@@ -1,0 +1,105 @@
+{
+  "tradition": "plotinian_neoplatonic",
+  "node_count": 5,
+  "edge_count": 4,
+  "depth": 4,
+  "diameter": 4,
+  "width": 1,
+  "leaf_count": 1,
+  "branching_node_count": 0,
+  "max_branching_factor": 1,
+  "mean_branching_factor": 1.0,
+  "root": "one",
+  "leaves": [
+    "matter"
+  ],
+  "branching_nodes": [],
+  "in_degree_sequence": [
+    0,
+    1,
+    1,
+    1,
+    1
+  ],
+  "out_degree_sequence": [
+    0,
+    1,
+    1,
+    1,
+    1
+  ],
+  "edge_type_counts": {
+    "reflection": 1,
+    "emanation": 3
+  },
+  "functional_role_counts": {
+    "soul": 1,
+    "matter": 1,
+    "source": 1,
+    "first_emanation": 1,
+    "intermediary": 1
+  },
+  "depth_profile": {
+    "0": [
+      "one"
+    ],
+    "1": [
+      "nous"
+    ],
+    "2": [
+      "psyche"
+    ],
+    "3": [
+      "nature"
+    ],
+    "4": [
+      "matter"
+    ]
+  },
+  "role_sequence_by_level": {
+    "0": [
+      "source"
+    ],
+    "1": [
+      "first_emanation"
+    ],
+    "2": [
+      "soul"
+    ],
+    "3": [
+      "intermediary"
+    ],
+    "4": [
+      "matter"
+    ]
+  },
+  "betweenness_centrality": {
+    "one": 0.0,
+    "nous": 0.25,
+    "psyche": 0.3333,
+    "nature": 0.25,
+    "matter": 0.0
+  },
+  "closeness_centrality": {
+    "one": 0.0,
+    "nous": 0.25,
+    "psyche": 0.3333,
+    "nature": 0.375,
+    "matter": 0.4
+  },
+  "topological_sort": [
+    "one",
+    "nous",
+    "psyche",
+    "nature",
+    "matter"
+  ],
+  "wl_hash_structure": "b31ca6b0251bedeec7ccf9735f205c18",
+  "wl_hash_with_roles": "735bf4a38fb40661a979de94ea4751bc",
+  "is_linear_chain": true,
+  "has_fallen_node": false,
+  "has_process_nodes": false,
+  "has_fragmentation_edge": false,
+  "has_contraction_edge": false,
+  "has_reflection_edge": true
+}

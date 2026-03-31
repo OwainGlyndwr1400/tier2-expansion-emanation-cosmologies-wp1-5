@@ -1,0 +1,275 @@
+{
+  "tradition": "manichaean",
+  "primary_source": "Theodore bar Konai, Liber Scholiorum XI (c. 792 CE); Coptic Kephalaia (4th c.), partial trans. in Gardner & Lieu (2004); Allberry Psalm Book (1938).",
+  "treatises_used": [
+    "Theodore bar Konai, Liber Scholiorum XI (most complete single-source account of the Three Evocations)",
+    "Kephalaia (Coptic, ch. 21-22, 32, 34-35, 43, 46, 51, 53, 54, 65-66, 72, 74)",
+    "A Manichaean Psalm-Book, Part II, ed. C.R.C. Allberry (1938)"
+  ],
+  "scholarly_anchors": [
+    "Gardner, I. & Lieu, S.N.C. (2004). Manichaean Texts from the Roman Empire. Cambridge University Press.",
+    "BeDuhn, J. (2000). The Manichaean Body: In Discipline and Ritual. Johns Hopkins University Press.",
+    "Tardieu, M. (2008). Manichaeism. University of Illinois Press.",
+    "Van Lindt, P. (1992). The Names of Manichaean Mythological Figures: A Comparative Study on Terminology in the Coptic Sources. Harrassowitz.",
+    "Lieu, S.N.C. (1992). Manichaeism in the Later Roman Empire and Medieval China. Mohr Siebeck.",
+    "Encyclopaedia Iranica: 'Cosmogony iii' (Manichaean), 'Manicheism ii: Pantheon', 'Manicheism iii: Pandaemonium'"
+  ],
+  "encoding_date": "2026-03-29",
+  "encoder": "Erydir-Ceisiwr",
+  "version": "1.0",
+  "encoding_notes": "Encoding follows the Realm of Light hierarchy only (Option A from WP 1.3 handoff). The Realm of Darkness is treated as environmental context, not part of the emanation DAG -- analogous to how Genesis is treated as a control in WP 1.1. The single-root requirement is met by encoding only the Father of Greatness's emanation chain. Independence: HIGH -- Manichaeism is an original synthetic religion (3rd c. CE) drawing on Zoroastrian, Gnostic, Buddhist, and Christian elements but with a genuinely novel cosmological architecture. The Three Evocations structure has no direct parallel in any other tradition in the corpus. STRUCTURAL NOTE: The Three Evocations are three parallel branches from the Father of Greatness, NOT a linear chain. Each Evocation is dispatched as a separate rescue mission in response to the unfolding cosmic crisis. The First Man does not produce the Living Spirit; the Living Spirit does not produce the Third Messenger. This makes Manichaeism a branching tree -- predicted to cluster with the Valentinian/Hermetic branching family. The 'evocation' production mode is volitional and reactive (closer to Lurianic tikkun than Plotinian overflow); for edge-type compatibility, mapped to 'emanation' with qualifiers noting the volitional character.",
+
+  "nodes": [
+    {
+      "id": "father_of_greatness",
+      "name": "Father of Greatness (Abba d-Rabbuta)",
+      "aliases": ["Zurvan (Middle Persian)", "Pid i Wuzurgih", "The Great Father", "God of Truth"],
+      "tradition": "manichaean",
+      "functional_role": "source",
+      "level": 0,
+      "description": "The sole eternal deity of the Realm of Light. Not a creator-god in the demiurgic sense -- he 'evokes' (calls forth) entities for specific rescue missions rather than fabricating them. Possesses five intrinsic attributes (the Five Shekhinas): Mind/Nous, Reason/Knowledge, Thought, Imagination/Reflection, Understanding/Will. These are cognitive faculties, not separate beings, and serve as the archetype for all pentadic structures in the system. Dwells in the Kingdom of Light with his Twelve Aeons. Co-eternal with but entirely separate from the King of Darkness until the Dark realm's attack triggers the cosmic drama.",
+      "source_reference": "Kephalaia ch. 21-22; Theodore bar Konai, Liber Scholiorum XI; all sources"
+    },
+    {
+      "id": "mother_of_life",
+      "name": "Mother of Life (Imma d-Hayye)",
+      "aliases": ["Madr-ay Zindagan (Middle Persian)", "Mother of the Living"],
+      "tradition": "manichaean",
+      "functional_role": "first_emanation",
+      "level": 1,
+      "description": "First entity evoked by the Father of Greatness in the First Evocation. She is the immediate response to the Realm of Darkness's attack on the Light. Her role is to evoke and send forth the First Man as armed champion. She is a maternal-generative figure -- the cosmic mother who arms her son for battle. The First Evocation is the defensive/sacrificial phase of the cosmic drama.",
+      "source_reference": "Kephalaia; Theodore bar Konai XI"
+    },
+    {
+      "id": "first_man",
+      "name": "First Man (Nasha Qadmaya / Ohrmizd Bay)",
+      "aliases": ["Primal Man", "Ohrmizd Bay (Middle Persian)", "Gehmurd"],
+      "tradition": "manichaean",
+      "functional_role": "intermediary",
+      "level": 2,
+      "description": "Armed champion evoked by the Mother of Life, sent to fight the Realm of Darkness. He descends into the abyss wearing the Five Light Elements as his armour. He is defeated -- his five Light Elements are devoured by and mingled with Darkness. This is the cosmic catastrophe: Light is now trapped in Matter. The First Man lies unconscious in the abyss until rescued by the Living Spirit (Second Evocation). His defeat and rescue are the structural pivot of Manichaean cosmology.",
+      "source_reference": "Kephalaia ch. 51, 53; Theodore bar Konai XI"
+    },
+    {
+      "id": "five_light_elements",
+      "name": "Five Light Elements (Sons of the First Man)",
+      "aliases": ["The Living Self", "The Five Sons", "Armour of Light"],
+      "tradition": "manichaean",
+      "functional_role": "soul",
+      "sub_count": 5,
+      "level": 3,
+      "description": "The five sons/armour of the First Man, corresponding to the Father's Five Shekhinas: Ether/Clear Air (Nous), Wind (Reason), Light (Thought), Water (Reflection), Fire (Will). Sacrificed in the battle with Darkness -- devoured and commingled with the dark elements. They become the 'Living Self' (Coptic) or 'Living Soul' -- the totality of Light trapped in Matter. The entire remainder of the cosmic drama is a rescue operation to extract and purify these elements. The 'soul' functional role is used because these trapped elements ARE the light-substance in every living thing -- they are the soul of the cosmos.",
+      "source_reference": "Kephalaia ch. 72, 74; Theodore bar Konai XI",
+      "encoding_note": "Encoded as one collective node per Granularity Rule. All five are co-equal, share a common production mechanism (emanated/armed by First Man), and share a common fate (devoured by Darkness)."
+    },
+    {
+      "id": "friend_of_lights",
+      "name": "Friend of the Lights (Habiba d-Nahire)",
+      "aliases": ["Beloved of the Lights", "Narseh Yazd (Middle Persian)"],
+      "tradition": "manichaean",
+      "functional_role": "intermediary",
+      "level": 1,
+      "description": "First entity evoked by the Father of Greatness in the Second Evocation. The Second Evocation is the rescue/construction phase -- its purpose is to extract the First Man from the abyss and begin separating Light from Dark. The Friend of the Lights initiates a chain: he evokes the Great Builder, who evokes the Living Spirit. This is a separate branch from the First Evocation -- the Father dispatches a new mission chain, not a continuation of the first.",
+      "source_reference": "Kephalaia; Theodore bar Konai XI"
+    },
+    {
+      "id": "great_builder",
+      "name": "Great Builder (Ban Rabba)",
+      "aliases": ["Great Architect", "Ban (Syriac)", "Zao Xiang (Chinese, 'Creator of Forms')"],
+      "tradition": "manichaean",
+      "functional_role": "intermediary",
+      "level": 2,
+      "description": "Second in the Second Evocation chain. Evoked by the Friend of the Lights. He is the architect of the cosmic rescue structure -- he designs the framework within which the Living Spirit will construct the physical cosmos from defeated archon bodies. His role is architectural/planning rather than direct construction.",
+      "source_reference": "Kephalaia; Theodore bar Konai XI"
+    },
+    {
+      "id": "living_spirit",
+      "name": "Living Spirit (Ruha Hayya / Mihryazd)",
+      "aliases": ["Mihryazd (Middle Persian)", "The Demiurge of Light", "Cosmic Builder"],
+      "tradition": "manichaean",
+      "functional_role": "demiurge",
+      "level": 3,
+      "description": "The cosmic demiurge of the Manichaean system -- but unlike the Gnostic Demiurge, this is a GOOD demiurge acting on the Father's behalf. Evoked by the Great Builder. His missions: (1) Rescue the First Man from the abyss via the 'Call' (Karia) -- the Living Spirit descends and calls to the unconscious First Man; the Call is hypostatized as a divine entity (Call-God), and the First Man's response is the Answer-God. (2) Construct the physical cosmos from the bodies of defeated archons: skins of archons become ten heavens, bones become mountains, flesh/excrement become earth, archons themselves are crucified in the sky (zodiac/planets). This cosmic construction is the separation architecture -- a machine for extracting trapped Light from Dark matter.",
+      "source_reference": "Kephalaia ch. 32, 43, 54; Theodore bar Konai XI"
+    },
+    {
+      "id": "five_sons_living_spirit",
+      "name": "Five Sons of the Living Spirit",
+      "aliases": ["Ornament of Splendour", "Great King of Honour", "Adamas of Light", "King of Glory", "The Supporter/Atlas/Omophoros"],
+      "tradition": "manichaean",
+      "functional_role": "intermediary",
+      "sub_count": 5,
+      "level": 4,
+      "description": "Five entities emanated from the Living Spirit, each from a specific cognitive faculty (paralleling the Father's Five Shekhinas): Ornament of Splendour (from Intelligence -- holds luminous deities, above him is heaven), Great King of Honour (from Reason -- rules lower heavens), Adamas of Light (from Thought -- light warrior, guards ramparts), King of Glory (from Reflection -- guards seventh heaven, operates three cosmic wheels of fire/water/wind), The Supporter/Omophoros/Atlas (from Will -- bends on one knee, supports the eight worlds from below). Together they construct and maintain the physical cosmos as the separation machinery.",
+      "source_reference": "Kephalaia; Theodore bar Konai XI; Encyclopaedia Iranica, 'Manicheism ii'",
+      "encoding_note": "Encoded as one collective node per Granularity Rule. All five share the same production mechanism (emanated from Living Spirit's faculties) and serve the same structural function (cosmic construction/maintenance)."
+    },
+    {
+      "id": "third_messenger",
+      "name": "Third Messenger (Izgadda / Narisah Yazd)",
+      "aliases": ["Narisah Yazd (Middle Persian)", "Tertius Legatus"],
+      "tradition": "manichaean",
+      "functional_role": "intermediary",
+      "level": 1,
+      "description": "First entity evoked by the Father of Greatness in the Third Evocation. The Third Evocation is the purification/extraction phase -- its purpose is to actively extract the Light particles still trapped in matter after the Living Spirit's cosmic construction. The Third Messenger initiates the light-extraction process through cosmic seduction: he appears in male and female forms to the archons, causing them to release trapped light through desire. He also evokes Jesus the Splendour and the Maiden of Light as agents of awakening and purification.",
+      "source_reference": "Kephalaia ch. 34-35, 46; Theodore bar Konai XI"
+    },
+    {
+      "id": "jesus_splendour",
+      "name": "Jesus the Splendour (Isho Ziwa)",
+      "aliases": ["Luminous Jesus", "Jesus of Light", "The Luminous Intelligence"],
+      "tradition": "manichaean",
+      "functional_role": "intermediary",
+      "level": 2,
+      "description": "Evoked by the Third Messenger (or in some sources directly by the Father). NOT the historical Jesus but a cosmic salvific figure. His role is noetic awakening: he awakens Adam (the first human) from the sleep of ignorance, revealing to him the trapped Light within his body and teaching him gnosis. In some Kephalaia passages, he is identified with the Great Nous (Light-Mind) -- the noetic faculty that awakens individual souls. He is the Column of Glory's agent -- purified light ascends through the Column (the Milky Way) to the Moon and Sun ships for final purification. DISTINCT from Jesus Patibilis (the totality of Light suffering in matter) -- Jesus the Splendour is a person; Jesus Patibilis is a metaphor.",
+      "source_reference": "Kephalaia ch. 65-66; Psalm Book"
+    },
+    {
+      "id": "material_cosmos",
+      "name": "Material Cosmos (Separation Architecture)",
+      "aliases": ["The Physical World", "The Cosmic Machine", "Ten Heavens and Eight Earths"],
+      "tradition": "manichaean",
+      "functional_role": "matter",
+      "level": 5,
+      "description": "The physical cosmos constructed by the Living Spirit and his Five Sons from the bodies of defeated archons. This is NOT a fall or accident but a deliberate rescue architecture -- a cosmic machine for separating trapped Light from Dark matter. Structure: ten heavens (from archon skins), eight earths, mountains (from archon bones), seas (from archon flesh). The zodiac consists of crucified archons. The three cosmic wheels (fire, water, wind) operated by the King of Glory drive the purification process. Light extracted from matter ascends through the Column of Glory (Milky Way) to the Moon (which waxes as it fills with Light) and then to the Sun (which transmits purified Light back to the Realm of Light). The material cosmos will be dissolved at the eschaton once all recoverable Light has been extracted.",
+      "source_reference": "Kephalaia ch. 32, 43; Theodore bar Konai XI; Encyclopaedia Iranica, 'Cosmogony iii'"
+    }
+  ],
+
+  "edges": [
+    {
+      "source": "father_of_greatness",
+      "target": "mother_of_life",
+      "relationship": "emanation",
+      "description": "First Evocation, Step 1. The Father evokes the Mother of Life as his first response to the Dark realm's attack. Mapped to 'emanation' for edge-type compatibility; the Manichaean term is 'evocation' (qraya/xwandag) -- a volitional, reactive calling-forth rather than spontaneous overflow."
+    },
+    {
+      "source": "mother_of_life",
+      "target": "first_man",
+      "relationship": "emanation",
+      "description": "First Evocation, Step 2. The Mother of Life evokes and arms the First Man as champion. She sends him to fight the Realm of Darkness."
+    },
+    {
+      "source": "first_man",
+      "target": "five_light_elements",
+      "relationship": "emanation",
+      "description": "First Evocation, Step 3. The First Man emanates the Five Light Elements as his armour/sons. They are sacrificed in battle -- devoured by Darkness. This sacrifice is the cosmic catastrophe that traps Light in Matter."
+    },
+    {
+      "source": "father_of_greatness",
+      "target": "friend_of_lights",
+      "relationship": "emanation",
+      "description": "Second Evocation, Step 1. The Father evokes the Friend of the Lights as the first agent of the rescue mission. This is a NEW branch from the root -- the Second Evocation does not emanate from the First Evocation chain."
+    },
+    {
+      "source": "friend_of_lights",
+      "target": "great_builder",
+      "relationship": "emanation",
+      "description": "Second Evocation, Step 2. The Friend of the Lights evokes the Great Builder as the architect of the cosmic rescue structure."
+    },
+    {
+      "source": "great_builder",
+      "target": "living_spirit",
+      "relationship": "emanation",
+      "description": "Second Evocation, Step 3. The Great Builder evokes the Living Spirit as the active cosmic demiurge who will rescue the First Man and construct the physical cosmos."
+    },
+    {
+      "source": "living_spirit",
+      "target": "five_sons_living_spirit",
+      "relationship": "emanation",
+      "description": "The Living Spirit emanates his Five Sons from his five cognitive faculties. Each son takes a specific role in constructing and maintaining the physical cosmos."
+    },
+    {
+      "source": "father_of_greatness",
+      "target": "third_messenger",
+      "relationship": "emanation",
+      "description": "Third Evocation, Step 1. The Father evokes the Third Messenger as the first agent of the light-extraction/purification phase. This is a THIRD branch from the root -- separate from both the First and Second Evocation chains."
+    },
+    {
+      "source": "third_messenger",
+      "target": "jesus_splendour",
+      "relationship": "emanation",
+      "description": "Third Evocation, Step 2. The Third Messenger evokes Jesus the Splendour as the agent of noetic awakening and gnosis-transmission."
+    },
+    {
+      "source": "five_sons_living_spirit",
+      "target": "material_cosmos",
+      "relationship": "creation",
+      "description": "The Five Sons of the Living Spirit construct the physical cosmos from defeated archon bodies. This is deliberate creation -- a separation architecture designed to extract trapped Light from Dark matter. The material cosmos is a machine, not a fall."
+    }
+  ],
+
+  "alternative_encodings": {
+    "dual_root_with_darkness": {
+      "description": "Adds a virtual 'Cosmic Duality' root above both the Father of Greatness and the King of Darkness. Encodes both the Light hierarchy and the Dark counter-hierarchy as a branching tree from a single virtual root. This is the most structurally honest encoding but introduces a virtual node with no textual warrant.",
+      "scholarly_support": "Manichaeism posits two co-eternal, co-original realms. Neither derives from the other. The virtual root is a methodological device, not a theological claim. Cf. the Genesis control schema in WP 1.1, which encodes God's deliberate creation without theological commitment.",
+      "nodes_added": [
+        {
+          "id": "cosmic_duality",
+          "name": "Cosmic Duality (Virtual Root)",
+          "functional_role": "source",
+          "level": -1,
+          "description": "Virtual node representing the pre-cosmic co-existence of Light and Darkness. Has no textual warrant but satisfies the single-root DAG contract."
+        },
+        {
+          "id": "king_of_darkness",
+          "name": "King of Darkness (Malka d-Heshokha / Ahriman)",
+          "functional_role": "demiurge",
+          "level": 0,
+          "description": "Ruler of the five dark worlds. Co-eternal with the Father. His attack on the Realm of Light triggers the entire cosmic drama."
+        }
+      ],
+      "encoding_note": "LOW priority for primary analysis. Document as protocol extension case requiring a multi-root DAG."
+    },
+    "compact_9_node": {
+      "description": "9-node encoding collapsing the Second Evocation mid-chain. Friend of the Lights and Great Builder are merged into the Living Spirit's metadata (as the chain that produced him). Reduces Branch 2 from 4 nodes to 2 (Father → Living Spirit → Five Sons).",
+      "scholarly_support": "The Friend of the Lights and Great Builder are less well-attested than the principal figures. Some secondary sources skip directly from the Father to the Living Spirit for the Second Evocation.",
+      "nodes_removed": ["friend_of_lights", "great_builder"],
+      "edges_modified": [
+        {
+          "source": "father_of_greatness",
+          "target": "living_spirit",
+          "relationship": "emanation",
+          "description": "Father evokes the Living Spirit directly (collapsing the intermediate chain)."
+        }
+      ],
+      "encoding_note": "MEDIUM priority. Tests whether the intermediate evocation chain affects topology-family classification."
+    },
+    "with_maiden_and_column": {
+      "description": "13-node encoding adding the Maiden of Light and Column of Glory as separate nodes in the Third Evocation branch. The Maiden of Light seduces archons to release light; the Column of Glory (Milky Way) is the pathway for purified light to ascend to the Moon and Sun ships.",
+      "scholarly_support": "Both are well-attested in Theodore bar Konai and the Psalm Book as distinct figures with specific cosmic roles. The Column of Glory is arguably a cosmic structure rather than a person.",
+      "nodes_added": [
+        {
+          "id": "maiden_of_light",
+          "name": "Maiden of Light",
+          "functional_role": "intermediary",
+          "level": 2,
+          "description": "Cosmic lure -- appears to male archons to extract trapped light through desire."
+        },
+        {
+          "id": "column_of_glory",
+          "name": "Column of Glory (Perfect Man / Milky Way)",
+          "functional_role": "intermediary",
+          "level": 3,
+          "description": "The cosmic pathway: purified light ascends through this column to the Moon and Sun ships for final return to the Realm of Light. Identified with the Milky Way."
+        }
+      ],
+      "encoding_note": "MEDIUM priority. Expands the Third Evocation branch to match the structural depth of the First and Second Evocations."
+    }
+  },
+
+  "validation": {
+    "is_dag": true,
+    "single_root": true,
+    "root_node": "father_of_greatness",
+    "all_connected": true,
+    "node_count": 11,
+    "edge_count": 10,
+    "depth": 5,
+    "max_branching_factor": 3,
+    "within_bounds": true,
+    "all_attributes_present": true,
+    "all_edges_labeled": true,
+    "shape": "branching_tree"
+  }
+}

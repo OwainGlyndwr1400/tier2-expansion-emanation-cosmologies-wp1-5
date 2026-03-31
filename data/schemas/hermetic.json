@@ -1,0 +1,182 @@
+{
+  "tradition": "hermetic",
+  "primary_source": "Corpus Hermeticum I (Poimandres), trans. G.R.S. Mead (1906)",
+  "treatises_used": ["CH I (Poimandres)"],
+  "scholarly_anchors": [
+    "Brian P. Copenhaver, Hermetica (Cambridge University Press, 1992)",
+    "Garth Fowden, The Egyptian Hermes (Cambridge, 1986; Princeton, 1993)",
+    "Christian H. Bull, The Tradition of Hermes Trismegistus (Brill, 2018)"
+  ],
+  "encoding_date": "2026-03-28",
+  "encoder": "Erydir-Ceisiwr",
+  "version": "1.0",
+  "encoding_notes": "Primary encoding treats God/Light and Nous as a single source level (God-Mind), following Poimandres section 6 ('That Light is I, thy God, Mind'). Nature treated as pre-existing substrate transformed by Logos, not as emanated. Branching at level 1: God-Mind produces both the Demiurgic line (Logos/Demiurgos/Governors) and the Anthropic line (Primal Man). See poimandres_encoding_rationale.md.",
+
+  "nodes": [
+    {
+      "id": "god_mind",
+      "name": "God-Mind (The Supreme Light)",
+      "aliases": ["The Father", "Life-and-Light", "Poimandres", "Nous", "Mind of all-masterhood"],
+      "tradition": "hermetic",
+      "functional_role": "source",
+      "level": 0,
+      "description": "The Supreme God, identified as both Light and Mind. Male-female as Life and Light. Source of all emanations. Poimandres identifies himself with this principle: 'That Light is I, thy God, Mind.'",
+      "source_reference": "CH I.2-6"
+    },
+    {
+      "id": "logos",
+      "name": "Logos (The Holy Word)",
+      "aliases": ["The Word of God", "The Son of God", "The Holy Word"],
+      "tradition": "hermetic",
+      "functional_role": "first_emanation",
+      "level": 1,
+      "description": "The creative Word that proceeds from God-Mind and descends upon Nature. Called 'the Son of God.' Acts as the bridge between the intelligible and sensible realms. Leaps down to act upon the moist Nature, causing fire to rise and air to follow.",
+      "source_reference": "CH I.5-6, 10-11"
+    },
+    {
+      "id": "demiurgos",
+      "name": "Demiurgos (Formative Mind)",
+      "aliases": ["The Maker", "The Craftsman-Mind", "Second Mind"],
+      "tradition": "hermetic",
+      "functional_role": "demiurge",
+      "level": 1,
+      "description": "A second Mind produced by God-Mind, God of Fire and Air, who forms the Seven Governors. Unlike the Gnostic Demiurge, this is a positive creative agent acting in harmony with the Supreme.",
+      "source_reference": "CH I.9-11",
+      "encoding_note": "The Demiurgos is at the same level as Logos (both directly produced by God-Mind), creating a branching structure at level 1."
+    },
+    {
+      "id": "anthropos",
+      "name": "Anthropos (Primal Man)",
+      "aliases": ["Man", "The Image of God", "The Beautiful One"],
+      "tradition": "hermetic",
+      "functional_role": "intermediary",
+      "level": 1,
+      "description": "The Primal Man, produced directly by God the Father, 'co-equal to Himself' and bearing the Father's image. Given authority over all created things. Falls into Nature by choice when he sees his own reflection.",
+      "source_reference": "CH I.12-14",
+      "encoding_note": "Anthropos is a third direct emanation from God-Mind at level 1, parallel to Logos and Demiurgos. His fall into Nature is the key fragmentation event."
+    },
+    {
+      "id": "seven_governors",
+      "name": "Seven Governors",
+      "aliases": ["The Seven Rulers", "Planetary Powers", "The Administrators"],
+      "tradition": "hermetic",
+      "functional_role": "intermediary",
+      "level": 2,
+      "sub_count": 7,
+      "description": "Seven planetary powers created by the Demiurgos. They encompass the sensible world in circles and govern through Fate (Heimarmene). Each Governor contributes a quality to the creation of mortal humanity.",
+      "source_reference": "CH I.9, 11, 16"
+    },
+    {
+      "id": "nature",
+      "name": "Nature (Moist Nature / Physis)",
+      "aliases": ["Moist Darkness", "The Watery Substance", "The Receptacle"],
+      "tradition": "hermetic",
+      "functional_role": "intermediary",
+      "level": 2,
+      "description": "The dark, watery, turbulent substrate upon which the Logos acts. In Poimandres, Nature appears to pre-exist as primordial Darkness that is transformed by the descent of the Logos. She falls in love with Anthropos when she sees his reflection. The union of Anthropos and Nature produces mortal humanity.",
+      "source_reference": "CH I.4-5, 14-15",
+      "encoding_note": "DISPUTED: Nature's origin is ambiguous. She may be co-eternal with God (dualism), a shadow of the Light (monism), or a narrative device. Encoded as level 2 receiving the Logos, not as emanated from God."
+    },
+    {
+      "id": "sensible_cosmos",
+      "name": "Sensible Cosmos",
+      "aliases": ["The Visible World", "The Created World"],
+      "tradition": "hermetic",
+      "functional_role": "matter",
+      "level": 3,
+      "description": "The ordered physical universe: fire and air above (governed by the Seven), earth and water below (shaped by the Logos acting on Nature). Includes irrational animals produced by Nature after the Logos acts upon her.",
+      "source_reference": "CH I.8-11"
+    },
+    {
+      "id": "mortal_humanity",
+      "name": "Mortal Humanity",
+      "aliases": ["The Seven Human Births", "Twofold Man"],
+      "tradition": "hermetic",
+      "functional_role": "matter",
+      "level": 3,
+      "description": "The endpoint of the Anthropic descent line. Arises from the union of Anthropos (who falls into Nature) and Nature (who embraces him). Humanity is twofold: mortal because of body, immortal because of the essential Man within.",
+      "source_reference": "CH I.15-17"
+    }
+  ],
+
+  "edges": [
+    {
+      "source": "god_mind",
+      "target": "logos",
+      "relationship": "emanation",
+      "description": "God-Mind produces the Logos (Holy Word) as 'the Son of God.' The Logos proceeds from the Light and descends to act upon Nature."
+    },
+    {
+      "source": "god_mind",
+      "target": "demiurgos",
+      "relationship": "creation",
+      "description": "God-Mind (being Life and Light, male-female) gives birth to a second Mind — the Formative Mind / Demiurgos — who is God of Fire and Air."
+    },
+    {
+      "source": "god_mind",
+      "target": "anthropos",
+      "relationship": "emanation",
+      "description": "God the Father produces Man (Anthropos) 'co-equal to Himself,' bearing the Father's image. Anthropos is given authority over all created things."
+    },
+    {
+      "source": "demiurgos",
+      "target": "seven_governors",
+      "relationship": "creation",
+      "description": "The Demiurgos forms the Seven Governors who encompass the sensible world in circles. Their governance is called Fate."
+    },
+    {
+      "source": "logos",
+      "target": "nature",
+      "relationship": "reflection",
+      "description": "The Logos descends upon Moist Nature, causing the elements to separate (fire rises, earth-water remains). The Logos acts upon Nature rather than producing her — she pre-exists as Darkness."
+    },
+    {
+      "source": "seven_governors",
+      "target": "sensible_cosmos",
+      "relationship": "creation",
+      "description": "The Seven Governors set the sensible cosmos in motion through their circular orbits. Nature, now organized by the Logos, produces living creatures beneath the planetary spheres."
+    },
+    {
+      "source": "anthropos",
+      "target": "mortal_humanity",
+      "relationship": "fragmentation",
+      "description": "Anthropos, seeing his reflection in Nature's waters, falls in love with it and descends through the Harmony into Nature. Nature embraces him. Their union produces mortal humanity — twofold, mortal and immortal."
+    }
+  ],
+
+  "alternative_encodings": {
+    "god_and_nous_separate": {
+      "description": "9-node encoding: God (Light/Father) as source at level 0, then Nous (Poimandres) as first_emanation at level 1. Logos, Demiurgos, and Anthropos move to level 2.",
+      "scholarly_support": "Copenhaver (1992) and Bull (2018) note the ambiguity. Some scholars read the Light as prior to Nous, with Nous as the Light's self-aware aspect. This would add one level of depth.",
+      "nodes_added": [
+        {
+          "id": "nous_separate",
+          "name": "Nous (Divine Mind)",
+          "functional_role": "first_emanation",
+          "level": 1,
+          "description": "The self-aware aspect of the Supreme Light. Produces Logos, Demiurgos, and Anthropos."
+        }
+      ],
+      "encoding_note": "Not adopted as primary because Poimandres explicitly identifies Light = Nous = God in CH I.6. Separating them contradicts the text's own identification."
+    },
+    "nature_as_emanation": {
+      "description": "Nature encoded as emanated from God rather than pre-existing. Edge type becomes 'emanation' from god_mind to nature instead of 'reflection' from logos to nature.",
+      "scholarly_support": "Fowden (1986) argues for a broadly monist reading where everything, including the primordial darkness, is ultimately from the One source.",
+      "encoding_note": "Not adopted as primary because the Poimandres text presents Darkness/Nature as appearing independently in the vision (CH I.4), before the Light acts upon it."
+    }
+  },
+
+  "validation": {
+    "is_dag": true,
+    "single_root": true,
+    "root_node": "god_mind",
+    "all_connected": true,
+    "node_count": 8,
+    "edge_count": 7,
+    "depth": 3,
+    "max_branching_factor": 3,
+    "within_bounds": true,
+    "all_attributes_present": true,
+    "all_edges_labeled": true
+  }
+}

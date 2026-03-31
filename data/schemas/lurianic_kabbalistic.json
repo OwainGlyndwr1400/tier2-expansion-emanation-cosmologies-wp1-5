@@ -1,0 +1,156 @@
+{
+  "tradition": "lurianic_kabbalistic",
+  "tradition_full": "Lurianic Kabbalah",
+  "source_texts": [
+    "Sepher Yetzirah, trans. W. Wynn Westcott (public domain). File: Research/Sepher Yetzirah_djvu.txt",
+    "Etz Chaim (Tree of Life) by Hayim Vital, documenting Isaac Luria's teachings — not available locally; reconstructed from scholarship.",
+    "Zohar selections.pdf — available but excludes Sefirot/emanation doctrine; used for context only."
+  ],
+  "scholarly_anchors": [
+    "Scholem, G. (1941). Major Trends in Jewish Mysticism. Schocken Books. (Lecture 7, pp. 244-286)",
+    "Scholem, G. (1974). Kabbalah. Keter Publishing. (Articles: Ein-Sof, Tzimtzum, Adam Kadmon, Sefirot, Shevirat ha-Kelim)",
+    "Fine, L. (2003). Physician of the Soul, Healer of the Cosmos. Stanford University Press.",
+    "Idel, M. (1988). Kabbalah: New Perspectives. Yale University Press."
+  ],
+  "encoding_version": "1.0",
+  "encoding_date": "2026-03-28",
+  "nodes": [
+    {
+      "id": "ain_sof",
+      "name": "Ain Sof (The Infinite)",
+      "aliases": ["Ein Sof", "Ain Suph", "Ain Soph Aur", "The Limitless", "The Boundless Light"],
+      "functional_role": "source",
+      "level": 0,
+      "source_reference": "Scholem (1974) article 'Ein-Sof'; Zohar I.15a (not directly in local PDF)",
+      "notes": "The absolute infinite. Prior to all emanation and contraction. 'Ain Sof' (literally 'without end') is not described in the Sepher Yetzirah, which begins with the Sephiroth already in operation. Ain Sof is the Zoharic and Lurianic addition — the pre-creative ground. It is not the source of emanation in the active sense; it is the condition from which Tzimtzum proceeds."
+    },
+    {
+      "id": "tzimtzum",
+      "name": "Tzimtzum (Primordial Contraction)",
+      "aliases": ["Tzimtzum", "Tsimtsum", "Contraction", "Withdrawal", "Primordial Withdrawal"],
+      "functional_role": "process",
+      "level": 1,
+      "source_reference": "Scholem (1941, pp. 260-264); Luria, Etz Chaim (via Vital)",
+      "notes": "The pivotal Lurianic innovation — absent from all prior Kabbalah, absent from Sepher Yetzirah. Ain Sof contracts/withdraws within itself to create a vacated space (Tehiru). This is not negative — it is the act that makes creation possible. A residue (Reshimu) of divine light remains in the void. UNIQUE TOPOLOGICAL FEATURE: The edge from Ain Sof to Tzimtzum is typed `contraction` — the only contraction edge in the entire WP 1.1 corpus. All other traditions model divine production as overflow or radiation outward; the Lurianic system models it as withdrawal. See encoding_decisions Entry 15."
+    },
+    {
+      "id": "adam_kadmon",
+      "name": "Adam Kadmon (Primordial Man)",
+      "aliases": ["Adam Qadmon", "Primordial Man", "Cosmic Man", "First Configuration"],
+      "functional_role": "first_emanation",
+      "level": 2,
+      "source_reference": "Scholem (1941, pp. 263-265); Fine (2003, pp. 124-128)",
+      "notes": "Following Tzimtzum, Ain Sof projects a thin ray of light (Kav) into the vacated space. The first organized configuration of this divine light is Adam Kadmon — the blueprint of all subsequent creation, corresponding macrocosmically to the human form. From Adam Kadmon's 'eyes, ears, nose, and mouth' stream further lights that attempt to form the Sefirot. Adam Kadmon is entirely spiritual — not the biblical Adam, but the primordial divine image."
+    },
+    {
+      "id": "sefirot",
+      "name": "Ten Sefirot / World of Atzilut",
+      "aliases": ["The Sefirot", "Sephiroth", "Tree of Life", "Atzilut", "World of Emanation", "Ten Divine Powers"],
+      "functional_role": "intellect",
+      "sub_count": 10,
+      "level": 3,
+      "source_reference": "Sepher Yetzirah I.2-12; Scholem (1974) article 'Sefirot'",
+      "notes": "The 10 Sephiroth: Kether (Crown), Chokmah (Wisdom), Binah (Understanding), Chesed (Mercy), Geburah (Judgment), Tiphereth (Beauty), Netzach (Victory), Hod (Splendor), Yesod (Foundation), Malkuth (Kingdom). The Sepher Yetzirah establishes '10 and not 9, 10 and not 11' as the absolute structural principle. In the Lurianic system, the Sefirot first appear in the World of Atzilut (Emanation) — the highest and most divine of the four worlds, directly adjacent to Ain Sof. INTERNAL TOPOLOGY: The 10 Sefirot have a complex branching/converging structure (Tree of Life). They are encoded here as a single node with sub_count:10. The alternative encoding with all 10 as separate nodes is documented below. See encoding_decisions Entry 16."
+    },
+    {
+      "id": "shevirat",
+      "name": "Shevirat HaKelim (Breaking of the Vessels)",
+      "aliases": ["Shevirat ha-Kelim", "Breaking of the Vessels", "Shattering", "Catastrophe"],
+      "functional_role": "process",
+      "level": 4,
+      "source_reference": "Scholem (1941, pp. 265-268); Fine (2003, pp. 125-132)",
+      "notes": "The defining Lurianic event. The vessels (Kelim) formed to contain the divine light of the Sefirot could not withstand the force of the light and shattered. The Sefirot of the World of Atzilut above Tiphereth survived intact; those below (from Chesed downward) shattered partially. Divine sparks (Nitzotzot) fell into the lower realm. STRUCTURAL PARALLEL: This is the Lurianic analog to Sophia's fall in Gnostic systems — a catastrophic event in the ordered emanation that produces the material world through disorganized fragments rather than planned creation. Edge from Sefirot to Shevirat typed `fragmentation`."
+    },
+    {
+      "id": "lower_worlds",
+      "name": "Lower Worlds (Beriah / Yetzirah / Assiah)",
+      "aliases": ["Three Lower Worlds", "World of Creation", "World of Formation", "World of Action", "Beriah", "Yetzirah", "Assiah"],
+      "functional_role": "intermediary",
+      "sub_count": 3,
+      "level": 5,
+      "source_reference": "Scholem (1974) article 'Olam'; Sepher Yetzirah (Yetziratic world implied)",
+      "notes": "Three worlds formed from the shards and sparks of the shattered vessels: Beriah (Creation), Yetzirah (Formation), Assiah (Action). Each world contains its own configuration of the 10 Sefirot at successively lower levels of divine intensity. The Sepher Yetzirah is assigned to the Yetziratic world. These worlds are not separate from Ain Sof but rather successive condensations of the divine light filtered through the catastrophic breaking."
+    },
+    {
+      "id": "malkuth_material",
+      "name": "Malkuth / Assiah Material (Material World)",
+      "aliases": ["Malkuth", "Kingdom", "The Earth", "Material World", "Klipot", "Shells", "The World of Action"],
+      "functional_role": "matter",
+      "level": 6,
+      "source_reference": "Scholem (1974) article 'Malkuth'; Sepher Yetzirah (the material world implied throughout)",
+      "notes": "The lowest Sefirah (Malkuth) at the lowest world (Assiah). The endpoint of the emanative descent. Also the realm in which the Klipot (Shells/Husks) encrust the divine sparks. Human existence is located here — at the boundary between the divine light (however filtered) and the Klipotic shells. The purpose of human life (Tikkun) is to liberate the sparks and return them upward."
+    }
+  ],
+  "edges": [
+    {
+      "source": "ain_sof",
+      "target": "tzimtzum",
+      "relationship": "contraction",
+      "notes": "The only `contraction` edge in the WP 1.1 corpus. Ain Sof withdraws within itself to create space for creation. A unique directional reversal — not outward radiation but inward withdrawal."
+    },
+    {
+      "source": "tzimtzum",
+      "target": "adam_kadmon",
+      "relationship": "emanation",
+      "notes": "A thin ray (Kav) of divine light enters the vacated space and organizes into the first cosmic figure, Adam Kadmon. Standard emanation after the Tzimtzum creates the receptive space."
+    },
+    {
+      "source": "adam_kadmon",
+      "target": "sefirot",
+      "relationship": "emanation",
+      "notes": "Lights streaming from Adam Kadmon's facial organs attempt to form the Sefirot. The upper three (Kether-Chokmah-Binah) in Atzilut form successfully."
+    },
+    {
+      "source": "sefirot",
+      "target": "shevirat",
+      "relationship": "fragmentation",
+      "notes": "The vessels fail to contain the divine light and shatter. Second `fragmentation` event in the corpus (after Sophia's fall in the Apocryphon). Unlike Sophia's fall (unauthorized act by a single aeon), the Shevirat is a structural failure — the vessels simply cannot hold the force of Ain Sof's light."
+    },
+    {
+      "source": "shevirat",
+      "target": "lower_worlds",
+      "relationship": "creation",
+      "notes": "The scattered sparks and shards coagulate into the three lower worlds. Creation from catastrophic dispersal — not planned emanation but the accidental byproduct of structural failure."
+    },
+    {
+      "source": "lower_worlds",
+      "target": "malkuth_material",
+      "relationship": "creation",
+      "notes": "The lowest world (Assiah) and lowest Sefirah (Malkuth) merge at the material boundary. The divine sparks are now deeply embedded in material shells (Klipot)."
+    }
+  ],
+  "topology": {
+    "node_count": 7,
+    "edge_count": 6,
+    "depth": 6,
+    "max_branching_factor": 1,
+    "shape": "linear_chain_with_process_nodes",
+    "distinctive_feature": "Double process-node structure (Tzimtzum + Shevirat) and unique `contraction` edge type"
+  },
+  "alternative_encodings": {
+    "sepher_yetzirah_only": {
+      "description": "4-node encoding using only Sepher Yetzirah (no Lurianic elements)",
+      "structure": "Spirit → Elements (Air/Water/Fire) → Directions/Cosmos → Material World",
+      "node_count": 4,
+      "notes": "The Sepher Yetzirah's own 10 Sefirot as Spirit + 3 elements + 6 directions, simplified to 4 structural levels. This is pre-Lurianic, pre-Zoharic Kabbalah."
+    },
+    "full_tree_of_life": {
+      "description": "13-node encoding with all 10 Sefirot as individual nodes",
+      "structure": "Ain Sof → Tzimtzum → Adam Kadmon → Kether → [Chokmah + Binah] → [Chesed + Geburah] → Tiphereth → [Netzach + Hod] → Yesod → Malkuth",
+      "node_count": 13,
+      "topology": "Branching DAG with convergence points (Tiphereth = 2 parents; Yesod = 2 parents)",
+      "notes": "This encoding captures the actual Tree of Life topology — the only tradition with convergence nodes (multiple parents). Requires 22+ edges for full path set. Would be the single most topologically complex schema in the corpus. See encoding_decisions Entry 17."
+    }
+  },
+  "validation": {
+    "is_dag": true,
+    "single_root": true,
+    "all_connected": true,
+    "node_count": 7,
+    "within_bounds_4_20": true,
+    "all_required_attributes_present": true,
+    "all_edges_labeled": true,
+    "scholarly_verified": true
+  },
+  "encoding_notes": "Two of the seven nodes are `process` type (Tzimtzum, Shevirat). This is the first tradition in the corpus to use process-type nodes — cosmological events rather than ontological levels. The `contraction` edge type appears for the first time. The structural parallel between Shevirat HaKelim (fragmentation cascade) and Sophia's fall (Apocryphon) is a significant cross-traditional finding for the paper. Source limitation: the Etz Chaim (primary Lurianic text) was not available locally; the encoding relies on Scholem's scholarly reconstruction cross-checked against the Sepher Yetzirah for structural principles."
+}
