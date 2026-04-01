@@ -112,4 +112,4 @@ WP_1.5_Tier2_Traditions/
 | 1.2 | 11 | [corpus-expansion-emanation](https://github.com/OwainGlyndwr1400/corpus-expansion-emanation) | [10.5281/zenodo.19305988](https://doi.org/10.5281/zenodo.19305988) |
 | 1.3 | 14 | [structural-attractors-emanation-cosmologies-wp1-3](https://github.com/OwainGlyndwr1400/structural-attractors-emanation-cosmologies-wp1-3) | [10.5281/zenodo.19324327](https://doi.org/10.5281/zenodo.19324327) |
 | 1.4 | 17 | [geographic-generality-emanation-cosmologies-wp1-4](https://github.com/OwainGlyndwr1400/geographic-generality-emanation-cosmologies-wp1-4) | [10.5281/zenodo.19340999](https://doi.org/10.5281/zenodo.19340999) |
-| **1.5** | **22** | **this repo** | **[DOI pending Zenodo upload]** |
+| **1.5** | **22** | **this repo** | [**10.5281/zenodo.19362550**](https://doi.org/10.5281/zenodo.19362550) |
