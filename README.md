@@ -1,115 +1,116 @@
-# WP 1.5 -- Tier 2 Expansion: Vedic, Apocalyptic, and Islamic Traditions in the Emanation Topology Corpus (22 Traditions)
+# Tier 2 Expansion — Vedic, Apocalyptic and Islamic Traditions
 
-**Awen Grid Empirical Programme -- Work Package 1.5**
-**Authors:** Erydir Ceisiwr + Lumos Aureon
-**Date:** 2026-04-01
+**One text, two families. The Rig Veda contains both a linear chain and a
+branching tree — which is the closest thing this series has to a controlled
+experiment.**
 
-## Summary
+Every result so far could be explained away by culture: perhaps Greek cosmologies
+are chains because Greeks think in chains. Work Package 1.5 removes that
+explanation. The **Nasadiya Sukta** and the **Purusha Sukta** sit in the *same
+scripture*, in the *same language*, from the *same culture*, in the *same
+period* — and they land in opposite topology families. Nasadiya is a linear chain
+of depth 4. Purusha is a branching tree with branching factor 4.
 
-WP 1.5 expands the emanation-topology corpus from 17 to 22 traditions, adding five schemas from Vedic, Christian apocalyptic, Islamic, and Jewish apocalyptic sources. Three new methodological analyses are introduced: edge-weighted GED sensitivity across four cost matrices, direction testing for branching trees, and sub-cluster stability tracking. The headline result is the first intra-tradition bifurcation in the corpus: the Rig Veda contains both a linear chain (Nasadiya Sukta) and a branching tree (Purusha Sukta), demonstrating that topology family assignment is determined by cosmological structure, not by tradition, culture, or geography.
+Culture, language and geography are held constant. The topology still splits.
+Whatever the graph is tracking, it is a property of the cosmological structure
+itself.
 
-## Key Findings
+Corpus: 22 traditions, adding five Vedic, Christian apocalyptic, Islamic and
+Jewish apocalyptic schemas.
 
-- **22 schemas**: 15 linear chains + 7 branching trees
-- **Two-family attractor confirmed** at 22 traditions (separation ratio 2.19x; asymmetric — see below)
-- **Intra-tradition bifurcation**: Vedic Nasadiya (linear chain, d4) and Vedic Purusha (branching tree, Br=4) from the same Rig Veda — first case in the corpus
-- **Islamic Mi'raj**: deepest linear chain in the corpus (depth 9, z=3.08, p=0.005)
-- **Direction asymmetry**: 7/7 branching trees are direction-sensitive (GED > 0 under edge reversal); linear chains are structurally invariant under reversal
-- **Cost-matrix robustness**: all structural isomorphisms resolved under all 4 cost matrices (Primary, Uniform, Steep, Compressed)
-- **New isomorphism**: Revelation–Bundahishn Zoroastrian (resolved by weighted GED = 2.0–3.0 across matrices)
-- **Sub-cluster silhouette**: 0.60 (strong; compact N≤6 = 8 members; deep N≥7 = 7 members)
-- **Family asymmetry**: intra-branch mean GED (8.00) > inter-family GED (7.68); separation ratio against branching-tree intra-GED = 0.96x. The two families are not symmetric clusters. The linear-chain family is a tight attractor; the branching-tree family is defined by structural criterion (branching factor > 1), not pairwise proximity.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19362550.svg)](https://doi.org/10.5281/zenodo.19362550)
+[![Python](https://img.shields.io/badge/Python-3.11+-3776ab)](https://www.python.org/)
+[![Licence](https://img.shields.io/badge/Licence-MIT-green)](#licence)
 
-## Corpus (22 Traditions)
+*Work Package 1.5 of the Awen Grid Empirical Programme.*
 
-### Linear Chain Family (15)
-| Tradition | Nodes | Depth | Source |
-|---|---|---|---|
-| Plotinian Neoplatonic | 5 | 4 | Enneads |
-| Taoist DDJ | 5 | 4 | Dao De Jing |
-| Derveni Orphic | 5 | 4 | Derveni Papyrus |
-| **Vedic Nasadiya (RV 10.129)** | **5** | **4** | **Rig Veda** |
-| Bundahishn Zoroastrian | 6 | 5 | Greater Bundahishn |
-| Chaldean | 6 | 5 | Chaldean Oracles |
-| **Book of Revelation** | **6** | **5** | **Rev 4--5** |
-| **1 Enoch Watchers** | **6** | **5** | **1 En 1--36** |
-| Ishraq Illuminationist | 7 | 6 | Hikmat al-Ishraq |
-| Lurianic Kabbalistic | 7 | 6 | Etz Chaim |
-| Samkhya | 7 | 6 | Samkhya Karika |
-| Proclean Neoplatonic | 8 | 7 | Elements of Theology |
-| Sethian Gnostic | 8 | 7 | Apocryphon of John |
-| Gospel of Mary | 9 | 8 | BG 8502,1 |
-| **Islamic Mi'raj** | **10** | **9** | **Sahih al-Bukhari** |
+---
 
-### Branching Tree Family (7)
-| Tradition | Nodes | Depth | Max Branch | Source |
-|---|---|---|---|---|
-| Trimorphic Protennoia | 7 | 4 | 3 | NHC XIII,1 |
-| Hermetic | 8 | 3 | 3 | Corpus Hermeticum |
-| Genesis Creationist | 8 | 2 | 6 | Genesis 1--2 |
-| **Vedic Purusha (RV 10.90)** | **7** | **3** | **4** | **Rig Veda** |
-| Valentinian Gnostic | 9 | 7 | 2 | Irenaeus/Ptolemy |
-| Manichaean | 11 | 5 | 3 | Kephalaia |
-| Popol Vuh (K'iche' Maya) | 11 | 6 | 4 | Popol Vuh |
-
-*New WP 1.5 schemas in **bold**.*
-
-## Pipeline
+## Run it
 
 ```bash
-# Run full 6-step pipeline
-python scripts/run_pipeline.py
+git clone https://github.com/OwainGlyndwr1400/tier2-expansion-emanation-cosmologies-wp1-5.git
+cd tier2-expansion-emanation-cosmologies-wp1-5
+pip install -r requirements.txt
 
-# Run sensitivity analysis (cost matrices + direction testing)
-python scripts/sensitivity_analysis.py
+python scripts/run_pipeline.py           # full 6-step pipeline
+python scripts/sensitivity_analysis.py   # 4 cost matrices + direction testing
 ```
 
-### Pipeline Steps
-1. `encode_schemas.py` -- Load + validate 22 schema JSONs against the seven-rule DAG contract
-2. `compute_invariants.py` -- 30+ topological metrics per schema
-3. `generate_controls.py` -- 22,000 random DAG trees (1,000 pooled + 1,000 per tradition)
-4. `statistical_comparison.py` -- 6 formal tests (z-scores, permutation, binomial, Mann-Whitney)
-5. `isomorphism_tests.py` -- VF2, GED (structural + role + weighted), WL similarity, subgraph
-6. `visualize.py` -- 6 publication-ready figures (300 DPI)
+Python 3.11+.
 
-## Directory Structure
+---
 
-```
-WP_1.5_Tier2_Traditions/
-  data/schemas/           22 tradition JSON files
-  scripts/                9 Python pipeline scripts (incl. sensitivity_analysis.py)
-  outputs/
-    figures/              6 publication-ready PNGs
-    invariants/           Per-tradition + aggregated metrics + statistical_results.json
-      controls/           22,000 null-model DAG trees
-    similarity_matrix/    Pairwise comparison matrices (structural, role, weighted GED; WL; subgraph)
-    sensitivity_results.json  Cost-matrix + direction sensitivity outputs
-  notes/                  Encoding rationale documents
-  README.md               This file
-  WP1.5_handoff.md        Task specification and encoding guidance
-```
+## Results
 
-## Dependencies
+- **22 schemas:** 15 linear chains, 7 branching trees.
+- **Intra-tradition bifurcation** — Vedic Nasadiya (linear chain, depth 4) and
+  Vedic Purusha (branching tree, Br = 4), both from the Rig Veda. First case in
+  the corpus.
+- **Islamic Mi'raj:** deepest linear chain in the corpus — depth 9,
+  z = 3.08, **p = 0.005**.
+- **Direction asymmetry:** all **7/7** branching trees are direction-sensitive
+  (GED > 0 under edge reversal), while linear chains are structurally invariant
+  under reversal. The two families do not merely differ in shape; they differ in
+  how they respond to reversal.
+- **Cost-matrix robustness:** every structural isomorphism resolves under all
+  **four** cost matrices tested (Primary, Uniform, Steep, Compressed). The
+  isomorphisms are not an artefact of one weighting choice.
+- **New isomorphism:** Revelation ↔ Bundahishn Zoroastrian, resolved by weighted
+  GED at 2.0–3.0 across matrices.
+- **Sub-cluster silhouette:** 0.60 — compact N ≤ 6 (8 members), deep N ≥ 7 (7 members).
 
-- Python 3.10+
-- networkx, numpy, scipy, matplotlib
+### The result that complicates the story
 
-## Methodological Innovations (WP 1.5)
+**The two families are not symmetric clusters.** Intra-branching-tree mean GED
+(8.00) is *greater* than inter-family GED (7.68), giving a separation ratio of
+**0.96x** measured against branching-tree intra-distance.
 
-1. **Edge-weighted GED sensitivity analysis**: Four cost matrices tested (Primary 0/0.5/1/1.5, Uniform, Steep, Compressed). All structural isomorphisms resolved under all four matrices.
+Stated plainly: the linear-chain family is a genuine tight attractor. The
+branching-tree family is not — it is a residual category, defined by a structural
+criterion (branching factor > 1) rather than by its members being close to one
+another. Two branching trees can be further apart than a branching tree and a
+chain.
 
-2. **Direction testing for branching trees**: For each of the 7 branching trees, all edges reversed and structural GED computed. All 7/7 produce non-zero GED (direction carries structural information). Linear chains are structurally invariant under reversal — direction matters for trees, not chains.
+That finding weakens the neat "two attractors" framing carried since WP 1.1, and
+it is reported here rather than buried, because it is what the data says.
 
-3. **Sub-cluster stability tracking**: Compact (N≤6) and deep (N≥7) sub-clusters re-evaluated at 22 schemas. Silhouette 0.63 → 0.60 (strong clustering maintained).
+---
 
-4. **Intra-tradition bifurcation test**: Both Vedic hymns encoded and classified independently. First demonstration that a single textual corpus contains both topology families.
+## Method additions
 
-## Previous Work Packages
+Three new analyses in this work package:
 
-| WP | Schemas | Repo | DOI |
-|---|---|---|---|
-| 1.1 | 9 | [emanation-topology](https://github.com/OwainGlyndwr1400/emanation-topology) | pending |
-| 1.2 | 11 | [corpus-expansion-emanation](https://github.com/OwainGlyndwr1400/corpus-expansion-emanation) | [10.5281/zenodo.19305988](https://doi.org/10.5281/zenodo.19305988) |
-| 1.3 | 14 | [structural-attractors-emanation-cosmologies-wp1-3](https://github.com/OwainGlyndwr1400/structural-attractors-emanation-cosmologies-wp1-3) | [10.5281/zenodo.19324327](https://doi.org/10.5281/zenodo.19324327) |
-| 1.4 | 17 | [geographic-generality-emanation-cosmologies-wp1-4](https://github.com/OwainGlyndwr1400/geographic-generality-emanation-cosmologies-wp1-4) | [10.5281/zenodo.19340999](https://doi.org/10.5281/zenodo.19340999) |
-| **1.5** | **22** | **this repo** | [**10.5281/zenodo.19362550**](https://doi.org/10.5281/zenodo.19362550) |
+1. **Edge-weighted GED sensitivity** across four cost matrices — tests whether
+   isomorphism results depend on the weighting scheme. They do not.
+2. **Direction testing for branching trees** — GED recomputed under full edge
+   reversal.
+3. **Sub-cluster stability tracking** — carries the compact/deep split forward
+   across corpus growth so it can be checked for drift.
+
+## The series
+
+| WP | Traditions | Repository | DOI | Headline |
+|---|---|---|---|---|
+| 1.1 | 9 | [emanation-topology](https://github.com/OwainGlyndwr1400/emanation-topology) | pending | Method established; 2 exact isomorphisms |
+| 1.2 | 11 | [corpus-expansion-emanation](https://github.com/OwainGlyndwr1400/corpus-expansion-emanation) | [zenodo.19305988](https://doi.org/10.5281/zenodo.19305988) | Proclus + Suhrawardi; isomorphisms rise to 5 |
+| 1.3 | 14 | [structural-attractors (wp1-3)](https://github.com/OwainGlyndwr1400/structural-attractors-emanation-cosmologies-wp1-3) | [zenodo.19324327](https://doi.org/10.5281/zenodo.19324327) | Zoroastrian, Manichaean, Orphic; separation peaks at 2.87x |
+| 1.4 | 17 | [geographic-generality (wp1-4)](https://github.com/OwainGlyndwr1400/geographic-generality-emanation-cosmologies-wp1-4) | [zenodo.19340999](https://doi.org/10.5281/zenodo.19340999) | Popol Vuh - zero Old World contact, same families |
+| **1.5** | **22** | **this repo** | **[zenodo.19362550](https://doi.org/10.5281/zenodo.19362550)** | **The Rig Veda splits across *both* families** |
+| 1.6 | 25 | [geographic-role-expansion (wp1-6)](https://github.com/OwainGlyndwr1400/geographic-role-expansion-emanation-cosmologies-wp1-6) | [zenodo.19368287](https://doi.org/10.5281/zenodo.19368287) | Five-way zero-contact convergence |
+
+## Citation
+
+> Ceisiwr, Erydir, and Lumos Aureon. *WP 1.5 — Tier 2 Expansion: Vedic,
+> Apocalyptic, and Islamic Traditions in the Emanation Topology Corpus
+> (22 Traditions).* Awen Grid Empirical Programme, 2026.
+> [10.5281/zenodo.19362550](https://doi.org/10.5281/zenodo.19362550)
+
+## Licence
+
+MIT — code and data freely reusable with attribution.
+
+## Author
+
+Erydir Ceisiwr — Independent Researcher, Awen Grid Programme, Swansea, Wales.
+ORCID [0009-0004-4577-5253](https://orcid.org/0009-0004-4577-5253)
